@@ -1,13 +1,6 @@
 import { Helmet } from 'react-helmet-async'
-import { ShieldCheck, Clock, BadgeEuro } from 'lucide-react'
 import DevisForm from '../components/devis/DevisForm'
 import ScrollReveal from '../components/ui/ScrollReveal'
-
-const TRUST_SIGNALS = [
-  { icon: ShieldCheck, label: 'Gratuit et sans engagement' },
-  { icon: Clock, label: 'Réponse en 2 minutes' },
-  { icon: BadgeEuro, label: 'Prix transparents' },
-]
 
 export default function Devis() {
   return (
@@ -33,19 +26,6 @@ export default function Devis() {
                 automatiquement les diagnostics obligatoires et vous proposons
                 un prix immédiat.
               </p>
-
-              {/* Trust signals */}
-              <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-                {TRUST_SIGNALS.map(({ icon: Icon, label }) => (
-                  <span
-                    key={label}
-                    className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1.5 text-xs font-medium text-text-secondary"
-                  >
-                    <Icon className="h-3.5 w-3.5 text-accent" />
-                    {label}
-                  </span>
-                ))}
-              </div>
             </div>
           </ScrollReveal>
 
