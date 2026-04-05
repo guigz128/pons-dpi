@@ -8,10 +8,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <Link to="/" className="inline-flex items-center gap-2 mb-4">
+            <Link to="/" className="inline-flex items-center gap-2 mb-1">
               <span className="text-xl font-bold text-white">Pons</span>
               <span className="text-xl font-bold text-accent">DPI</span>
             </Link>
+            <p className="text-xs tracking-wide text-stone-400 mb-3">
+              Diagnostics et Performance Immobilière
+            </p>
             <p className="text-sm leading-relaxed">
               Diagnostics immobiliers à Montpellier et environs. Réactivité, clarté, expertise.
             </p>

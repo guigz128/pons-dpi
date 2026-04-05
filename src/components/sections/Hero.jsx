@@ -17,8 +17,11 @@ export default function Hero() {
               Certifié COFRAC — 8 certifications
             </div>
 
+            <p className="text-sm font-medium text-accent tracking-wide uppercase mb-2">
+              Diagnostics et Performance Immobilière
+            </p>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-text leading-tight">
-              Diagnostics immobiliers à{' '}
+              Vos diagnostics immobiliers à{' '}
               <span className="text-accent">Montpellier</span>
             </h1>
 

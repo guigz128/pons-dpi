@@ -21,8 +21,15 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-xl font-bold text-text">Pons</span>
-            <span className="text-xl font-bold text-accent">DPI</span>
+            <div>
+              <div className="flex items-baseline gap-1.5">
+                <span className="text-xl font-bold text-text">Pons</span>
+                <span className="text-xl font-bold text-accent">DPI</span>
+              </div>
+              <p className="text-[10px] tracking-wide text-text-secondary -mt-1 hidden sm:block">
+                Diagnostics et Performance Immobilière
+              </p>
+            </div>
           </Link>
 
           {/* Desktop nav */}
