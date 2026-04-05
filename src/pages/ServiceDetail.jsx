@@ -14,7 +14,7 @@ export default function ServiceDetail() {
   if (!service) {
     return (
       <div className="py-20 text-center">
-        <h1 className="font-display text-2xl text-text">Service non trouvé</h1>
+        <h1 className="text-2xl font-bold text-text">Service non trouvé</h1>
         <Button to="/services" variant="outline" className="mt-4">
           <ArrowLeft className="h-4 w-4" />
           Retour aux services
@@ -64,11 +64,11 @@ export default function ServiceDetail() {
               Tous les diagnostics
             </Link>
 
-            <div className="flex items-center justify-center h-14 w-14 rounded-2xl bg-accent-light text-accent mb-6">
+            <div className="flex items-center justify-center h-14 w-14 rounded-[--radius-md] bg-accent-light text-accent mb-6">
               <Icon className="h-7 w-7" />
             </div>
 
-            <h1 className="font-display text-3xl sm:text-4xl text-text">
+            <h1 className="text-3xl sm:text-4xl font-bold text-text">
               {service.fullName || service.name}
             </h1>
 
@@ -91,7 +91,7 @@ export default function ServiceDetail() {
           <ScrollReveal>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               {service.condition && (
-                <div className="flex items-start gap-3 rounded-2xl border border-border bg-surface p-4">
+                <div className="flex items-start gap-3 rounded-[--radius-md] border border-border bg-surface p-4">
                   <FileCheck className="h-5 w-5 text-accent shrink-0 mt-0.5" />
                   <div>
                     <p className="text-sm font-semibold text-text">Obligation</p>
@@ -100,7 +100,7 @@ export default function ServiceDetail() {
                 </div>
               )}
               {service.validite && (
-                <div className="flex items-start gap-3 rounded-2xl border border-border bg-surface p-4">
+                <div className="flex items-start gap-3 rounded-[--radius-md] border border-border bg-surface p-4">
                   <Clock className="h-5 w-5 text-accent shrink-0 mt-0.5" />
                   <div>
                     <p className="text-sm font-semibold text-text">Validité</p>

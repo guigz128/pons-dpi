@@ -1,5 +1,4 @@
 import { FileText, CalendarCheck, ClipboardCheck, Send } from 'lucide-react'
-import Button from '../ui/Button'
 import ScrollReveal from '../ui/ScrollReveal'
 
 const STEPS = [
@@ -30,11 +29,13 @@ export default function Process() {
     <section id="process" className="py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
-          <div className="max-w-2xl mb-12">
-            <p className="text-xs font-semibold uppercase tracking-widest text-accent mb-3">Comment ça marche</p>
-            <h2 className="font-display text-3xl sm:text-4xl text-text">
-              Un processus simple et rapide, du devis à la remise des rapports.
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h2 className="text-2xl sm:text-3xl font-bold text-text">
+              Comment ça marche
             </h2>
+            <p className="mt-3 text-text-secondary">
+              Un processus simple et rapide, du devis à la remise des rapports.
+            </p>
           </div>
         </ScrollReveal>
 
@@ -43,15 +44,17 @@ export default function Process() {
             const Icon = step.icon
             return (
               <ScrollReveal key={i} delay={i * 0.1}>
-                <div>
-                  <div className="flex items-center gap-3 mb-4">
-                    <span className="flex items-center justify-center h-10 w-10 rounded-full bg-accent text-white text-sm font-bold">
+                <div className="text-center">
+                  <div className="relative mx-auto mb-4">
+                    <div className="flex items-center justify-center h-14 w-14 mx-auto rounded-full bg-accent-light text-accent">
+                      <Icon className="h-6 w-6" />
+                    </div>
+                    <span className="absolute -top-1 -right-1 flex items-center justify-center h-6 w-6 rounded-full bg-accent text-white text-xs font-bold">
                       {i + 1}
                     </span>
-                    <div className="h-px flex-1 bg-border" />
                   </div>
-                  <h3 className="font-semibold text-text mb-2">{step.title}</h3>
-                  <p className="text-sm text-text-secondary leading-relaxed">
+                  <h3 className="font-semibold text-text">{step.title}</h3>
+                  <p className="mt-2 text-sm text-text-secondary leading-relaxed">
                     {step.description}
                   </p>
                 </div>
@@ -59,14 +62,6 @@ export default function Process() {
             )
           })}
         </div>
-
-        <ScrollReveal>
-          <div className="mt-10 text-center">
-            <Button to="/devis" size="lg">
-              Commencer mon devis
-            </Button>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   )

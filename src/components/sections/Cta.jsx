@@ -4,37 +4,37 @@ import ScrollReveal from '../ui/ScrollReveal'
 
 export default function Cta() {
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-accent">
+    <section className="py-16 sm:py-20 lg:py-24 bg-stone-900">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
         <ScrollReveal>
-          <h2 className="font-display text-3xl sm:text-4xl text-white">
+          <h2 className="text-2xl sm:text-3xl font-bold text-white">
             Besoin d'un diagnostic immobilier ?
           </h2>
-          <p className="mt-4 text-white/70 leading-relaxed">
+          <p className="mt-4 text-stone-400 leading-relaxed">
             Obtenez votre devis en ligne en 2 minutes. Intervention sous 48h,
             rapports clairs et conformes.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Button to="/devis" size="lg" className="bg-white text-accent hover:bg-accent-light">
+            <Button to="/devis" size="lg">
               <FileText className="h-5 w-5" />
               Devis en ligne gratuit
             </Button>
-            <Button variant="outline" size="lg" href="tel:0651669161" className="border-white/30 text-white hover:bg-white/10">
+            <Button variant="outline" size="lg" href="tel:0651669161" className="border-stone-600 text-white hover:bg-stone-800">
               <Phone className="h-5 w-5" />
               06 51 66 91 61
             </Button>
-          </div>
-          <div className="mt-4">
-            <a
+            <Button
+              variant="ghost"
+              size="lg"
               href="https://wa.me/33651669161?text=Bonjour%2C%20je%20souhaite%20un%20devis%20pour%20mes%20diagnostics%20immobiliers."
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors"
+              className="text-white hover:bg-stone-800"
             >
-              <MessageCircle className="h-4 w-4 text-whatsapp" />
-              Ou contactez-moi sur WhatsApp
-            </a>
+              <MessageCircle className="h-5 w-5 text-whatsapp" />
+              WhatsApp
+            </Button>
           </div>
         </ScrollReveal>
       </div>

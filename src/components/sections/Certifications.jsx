@@ -17,12 +17,11 @@ const CERTIFICATIONS = [
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="py-16 sm:py-20 lg:py-24 bg-surface-warm">
+    <section id="certifications" className="py-16 sm:py-20 lg:py-24 bg-stone-50">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <p className="text-xs font-semibold uppercase tracking-widest text-accent mb-3">Qualifications</p>
-            <h2 className="font-display text-3xl sm:text-4xl text-text">
+            <h2 className="text-2xl sm:text-3xl font-bold text-text">
               Certifications COFRAC
             </h2>
             <p className="mt-3 text-text-secondary">
@@ -35,13 +34,13 @@ export default function Certifications() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {CERTIFICATIONS.map((cert, i) => (
             <ScrollReveal key={i} delay={i * 0.04}>
-              <div className={`flex items-start gap-3 rounded-2xl border p-5 transition-colors ${
+              <div className={`flex items-start gap-3 rounded-[--radius-md] border p-4 transition-colors ${
                 cert.highlight
-                  ? 'border-accent/30 bg-accent-light'
+                  ? 'border-accent/30 bg-accent-light/50'
                   : 'border-border bg-surface'
               }`}>
                 <div className={`flex items-center justify-center h-9 w-9 rounded-full shrink-0 ${
-                  cert.highlight ? 'bg-accent text-white' : 'bg-surface-warm text-accent'
+                  cert.highlight ? 'bg-accent text-white' : 'bg-stone-100 text-accent'
                 }`}>
                   <ShieldCheck className="h-4.5 w-4.5" />
                 </div>

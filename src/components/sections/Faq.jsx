@@ -8,8 +8,7 @@ export default function Faq() {
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center mb-10">
-            <p className="text-xs font-semibold uppercase tracking-widest text-accent mb-3">FAQ</p>
-            <h2 className="font-display text-3xl sm:text-4xl text-text">
+            <h2 className="text-2xl sm:text-3xl font-bold text-text">
               Questions fréquentes
             </h2>
             <p className="mt-3 text-text-secondary">

@@ -1,5 +1,5 @@
 const VARIANTS = {
-  default: 'bg-surface-warm text-text-secondary',
+  default: 'bg-stone-100 text-stone-700',
   accent: 'bg-accent-light text-accent',
   success: 'bg-green-50 text-success',
   warning: 'bg-amber-50 text-amber-700',

@@ -11,11 +11,11 @@ export default function MentionsLegales() {
 
       <section className="py-12 sm:py-16 lg:py-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <h1 className="font-display text-3xl text-text mb-8">Mentions légales</h1>
+          <h1 className="text-3xl font-bold text-text mb-8">Mentions légales</h1>
 
           <div className="space-y-8 text-sm text-text-secondary leading-relaxed">
             <div>
-              <h2 className="font-display text-lg text-text mb-3">Éditeur du site</h2>
+              <h2 className="text-lg font-semibold text-text mb-3">Éditeur du site</h2>
               <p>
                 <strong>Pons DPI — Diagnostics et Performance Immobilière</strong><br />
                 Guillaume Pons<br />
@@ -28,7 +28,7 @@ export default function MentionsLegales() {
             </div>
 
             <div>
-              <h2 className="font-display text-lg text-text mb-3">Hébergement</h2>
+              <h2 className="text-lg font-semibold text-text mb-3">Hébergement</h2>
               <p>
                 Ce site est hébergé par Vercel Inc.<br />
                 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis<br />
@@ -37,7 +37,7 @@ export default function MentionsLegales() {
             </div>
 
             <div>
-              <h2 className="font-display text-lg text-text mb-3">Certifications</h2>
+              <h2 className="text-lg font-semibold text-text mb-3">Certifications</h2>
               <p>
                 Guillaume Pons est titulaire de certifications délivrées par un organisme
                 certificateur accrédité COFRAC pour les domaines suivants : DPE (avec et sans mention),
@@ -47,7 +47,7 @@ export default function MentionsLegales() {
             </div>
 
             <div>
-              <h2 className="font-display text-lg text-text mb-3">Assurance responsabilité civile professionnelle</h2>
+              <h2 className="text-lg font-semibold text-text mb-3">Assurance responsabilité civile professionnelle</h2>
               <p>
                 Pons DPI est couvert par une assurance responsabilité civile professionnelle
                 conforme aux exigences réglementaires applicables aux diagnostiqueurs immobiliers.
@@ -56,7 +56,7 @@ export default function MentionsLegales() {
             </div>
 
             <div>
-              <h2 className="font-display text-lg text-text mb-3">Propriété intellectuelle</h2>
+              <h2 className="text-lg font-semibold text-text mb-3">Propriété intellectuelle</h2>
               <p>
                 L'ensemble du contenu de ce site (textes, images, logos, mises en page)
                 est la propriété exclusive de Pons DPI, sauf mention contraire.
@@ -65,7 +65,7 @@ export default function MentionsLegales() {
             </div>
 
             <div>
-              <h2 className="font-display text-lg text-text mb-3">Protection des données personnelles (RGPD)</h2>
+              <h2 className="text-lg font-semibold text-text mb-3">Protection des données personnelles (RGPD)</h2>
               <p>
                 Les données collectées via le formulaire de contact sont utilisées uniquement
                 pour répondre à votre demande. Elles ne sont ni cédées ni vendues à des tiers.
@@ -83,7 +83,7 @@ export default function MentionsLegales() {
             </div>
 
             <div>
-              <h2 className="font-display text-lg text-text mb-3">Crédits</h2>
+              <h2 className="text-lg font-semibold text-text mb-3">Crédits</h2>
               <p>
                 Site conçu et développé par Guillaume Pons.<br />
                 Icônes : Lucide Icons (licence MIT).

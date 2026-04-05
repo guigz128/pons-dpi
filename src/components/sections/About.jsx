@@ -38,15 +38,14 @@ export default function About() {
   return (
     <section id="about" className="py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Texte */}
           <ScrollReveal>
             <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-accent mb-3">À propos</p>
-              <h2 className="font-display text-3xl sm:text-4xl text-text">
+              <h2 className="text-2xl sm:text-3xl font-bold text-text">
                 Guillaume Pons, diagnostiqueur immobilier
               </h2>
-              <p className="mt-5 text-text-secondary leading-relaxed">
+              <p className="mt-4 text-text-secondary leading-relaxed">
                 Titulaire du Titre professionnel Diagnostiqueur Immobilier (RNCP 38469, niveau 5),
                 je suis certifié par un organisme accrédité COFRAC pour l'ensemble des diagnostics
                 immobiliers obligatoires.
@@ -65,18 +64,18 @@ export default function About() {
           </ScrollReveal>
 
           {/* Grille différenciateurs */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {DIFFERENCIATEURS.map((item, i) => {
               const Icon = item.icon
               return (
                 <ScrollReveal key={i} delay={i * 0.05}>
                   <div className="flex items-start gap-3">
-                    <div className="flex items-center justify-center h-10 w-10 rounded-full bg-accent-light text-accent shrink-0">
-                      <Icon className="h-5 w-5" />
+                    <div className="flex items-center justify-center h-9 w-9 rounded-[--radius-sm] bg-accent-light text-accent shrink-0">
+                      <Icon className="h-4.5 w-4.5" />
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-text">{item.title}</p>
-                      <p className="text-xs text-text-secondary mt-1 leading-relaxed">{item.description}</p>
+                      <p className="text-xs text-text-secondary mt-0.5 leading-relaxed">{item.description}</p>
                     </div>
                   </div>
                 </ScrollReveal>

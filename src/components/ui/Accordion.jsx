@@ -6,12 +6,12 @@ export default function Accordion({ items }) {
   const [openIndex, setOpenIndex] = useState(null)
 
   return (
-    <div className="divide-y divide-border rounded-2xl border border-border bg-surface">
+    <div className="divide-y divide-border rounded-[--radius-md] border border-border bg-surface">
       {items.map((item, i) => (
         <div key={i}>
           <button
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
-            className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left text-sm font-medium text-text hover:bg-surface-warm transition-colors first:rounded-t-2xl last:rounded-b-2xl"
+            className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left text-sm font-medium text-text hover:bg-stone-50 transition-colors"
             aria-expanded={openIndex === i}
           >
             <span>{item.question}</span>

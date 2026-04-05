@@ -3,14 +3,14 @@ import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-accent text-white/70">
+    <footer className="bg-stone-900 text-stone-300">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <Link to="/" className="inline-flex items-center gap-1.5 mb-4">
-              <span className="font-display text-xl text-white">Pons</span>
-              <span className="font-display text-xl text-accent-light">DPI</span>
+            <Link to="/" className="inline-flex items-center gap-2 mb-4">
+              <span className="text-xl font-bold text-white">Pons</span>
+              <span className="text-xl font-bold text-accent">DPI</span>
             </Link>
             <p className="text-sm leading-relaxed">
               Diagnostics immobiliers à Montpellier et environs. Réactivité, clarté, expertise.
@@ -82,9 +82,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <hr className="my-8 border-white/10" />
+        <hr className="my-8 border-stone-700" />
 
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-white/40">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-stone-500">
           <p>&copy; {new Date().getFullYear()} Pons DPI — Tous droits réservés</p>
           <p>Certifications COFRAC — RNCP 38469</p>
         </div>

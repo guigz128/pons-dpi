@@ -22,10 +22,10 @@ export default function MobileMenu({ open, onClose, links }) {
                 key={to}
                 to={to}
                 onClick={onClose}
-                className={`block px-3 py-2.5 text-base font-medium rounded-xl transition-colors ${
+                className={`block px-3 py-2.5 text-base font-medium rounded-[--radius-sm] transition-colors ${
                   location.pathname === to
                     ? 'text-accent bg-accent-light'
-                    : 'text-text-secondary hover:text-text hover:bg-surface-warm'
+                    : 'text-text-secondary hover:text-text hover:bg-stone-100'
                 }`}
               >
                 {label}
