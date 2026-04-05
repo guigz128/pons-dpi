@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ArrowLeft, ArrowRight } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Check } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import DevisStep1 from './DevisStep1'
 import DevisStep2 from './DevisStep2'
@@ -8,11 +8,10 @@ import DevisResult from './DevisResult'
 import { getDiagnosticsObligatoires } from './devisLogic'
 import Button from '../ui/Button'
 
-const STEP_LABELS = [
-  'Type de bien',
-  'Caractéristiques',
-  'Localisation',
-  'Résultat',
+const STEPS = [
+  { label: 'Votre bien', subtitle: 'Décrivez votre bien' },
+  { label: 'Caractéristiques', subtitle: 'Précisez les caractéristiques' },
+  { label: 'Localisation', subtitle: 'Dernières informations' },
 ]
 
 const INITIAL = {
@@ -45,7 +44,6 @@ export default function DevisForm() {
     if (step < 2) {
       setStep(step + 1)
     } else {
-      // Calculate diagnostics
       const diags = getDiagnosticsObligatoires({
         typeBien: data.typeBien,
         transaction: data.transaction,
@@ -68,27 +66,72 @@ export default function DevisForm() {
 
   return (
     <div className="mx-auto max-w-lg">
-      {/* Progress bar */}
+      {/* Stepper */}
       {step < 3 && (
-        <div className="mb-8">
-          <div className="flex justify-between mb-2">
-            {STEP_LABELS.slice(0, 3).map((label, i) => (
-              <span
-                key={i}
-                className={`text-xs font-medium ${
-                  i <= step ? 'text-accent' : 'text-text-secondary'
-                }`}
-              >
-                {label}
-              </span>
-            ))}
+        <div className="mb-10">
+          {/* Step indicators */}
+          <div className="flex items-center justify-between">
+            {STEPS.map((s, i) => {
+              const isCompleted = i < step
+              const isActive = i === step
+              const isUpcoming = i > step
+
+              return (
+                <div key={i} className="flex flex-1 items-center">
+                  {/* Step circle + label */}
+                  <div className="flex flex-col items-center flex-1">
+                    <div
+                      className={`flex h-9 w-9 items-center justify-center rounded-full text-sm font-semibold transition-all duration-300 ${
+                        isCompleted
+                          ? 'bg-accent text-white'
+                          : isActive
+                            ? 'bg-accent text-white ring-4 ring-accent/20'
+                            : 'bg-stone-100 text-text-secondary'
+                      }`}
+                    >
+                      {isCompleted ? (
+                        <Check className="h-4 w-4" />
+                      ) : (
+                        i + 1
+                      )}
+                    </div>
+                    <span
+                      className={`mt-2 text-xs font-medium text-center transition-colors ${
+                        isActive
+                          ? 'text-accent'
+                          : isCompleted
+                            ? 'text-text'
+                            : 'text-text-secondary'
+                      }`}
+                    >
+                      {s.label}
+                    </span>
+                  </div>
+
+                  {/* Connector line */}
+                  {i < STEPS.length - 1 && (
+                    <div className="h-px flex-1 mx-2 -mt-5">
+                      <div
+                        className={`h-full rounded-full transition-colors duration-300 ${
+                          i < step ? 'bg-accent' : 'bg-stone-200'
+                        }`}
+                      />
+                    </div>
+                  )}
+                </div>
+              )
+            })}
           </div>
-          <div className="h-1.5 bg-stone-200 rounded-full overflow-hidden">
-            <div
-              className="h-full bg-accent rounded-full transition-all duration-300"
-              style={{ width: `${((step + 1) / 3) * 100}%` }}
-            />
-          </div>
+
+          {/* Step subtitle */}
+          <motion.p
+            key={step}
+            initial={{ opacity: 0, y: 4 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mt-6 text-center text-sm text-text-secondary"
+          >
+            {STEPS[step].subtitle}
+          </motion.p>
         </div>
       )}
 

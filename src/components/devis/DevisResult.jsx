@@ -1,4 +1,5 @@
-import { Check, Phone, MessageCircle, ArrowLeft, Tag, Package } from 'lucide-react'
+import { Check, Phone, MessageCircle, ArrowLeft, Tag, Package, ShieldCheck, Clock } from 'lucide-react'
+import { motion } from 'framer-motion'
 import { pricing, calculateTotal } from './devisPricing'
 import Button from '../ui/Button'
 
@@ -8,12 +9,37 @@ export default function DevisResult({ diagnostics, onRestart }) {
 
   return (
     <div className="space-y-6">
-      <div>
+      {/* Celebration header */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.4, ease: 'easeOut' }}
+        className="text-center"
+      >
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ delay: 0.15, type: 'spring', stiffness: 200, damping: 15 }}
+          className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-success/10"
+        >
+          <Check className="h-7 w-7 text-success" />
+        </motion.div>
         <h3 className="text-lg font-bold text-text">Votre devis estimatif</h3>
         <p className="mt-1 text-sm text-text-secondary">
           {diagnostics.length} diagnostic{diagnostics.length > 1 ? 's' : ''} obligatoire{diagnostics.length > 1 ? 's' : ''} identifié{diagnostics.length > 1 ? 's' : ''} pour votre bien.
         </p>
-      </div>
+      </motion.div>
+
+      {/* Trust badge */}
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2 }}
+        className="flex items-center justify-center gap-2 rounded-full bg-success/5 border border-success/15 px-4 py-2"
+      >
+        <ShieldCheck className="h-4 w-4 text-success" />
+        <span className="text-xs font-medium text-success">Devis gratuit et sans engagement</span>
+      </motion.div>
 
       {/* Pack détecté */}
       {packName && (
@@ -29,7 +55,12 @@ export default function DevisResult({ diagnostics, onRestart }) {
       )}
 
       {/* Liste des diagnostics */}
-      <div className="rounded-[--radius-md] border border-border bg-surface divide-y divide-border">
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3 }}
+        className="rounded-[--radius-md] border border-border bg-surface divide-y divide-border"
+      >
         {packName ? (
           <>
             {/* Pack items */}
@@ -81,12 +112,17 @@ export default function DevisResult({ diagnostics, onRestart }) {
             )
           })
         )}
-      </div>
+      </motion.div>
 
       {/* Total */}
-      <div className="rounded-[--radius-md] bg-stone-50 border border-border p-4 space-y-2">
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4 }}
+        className="rounded-[--radius-md] border border-accent/20 overflow-hidden"
+      >
         {saving > 0 && (
-          <>
+          <div className="bg-stone-50 px-4 py-3 space-y-2 border-b border-accent/10">
             <div className="flex items-center justify-between text-sm text-text-secondary">
               <span>Prix unitaires cumulés</span>
               <span className="line-through">{subtotal} €</span>
@@ -98,19 +134,32 @@ export default function DevisResult({ diagnostics, onRestart }) {
               </span>
               <span>-{saving} €</span>
             </div>
-          </>
+          </div>
         )}
-        <div className="flex items-center justify-between pt-1">
-          <span className="text-base font-bold text-text">Total estimé</span>
-          <span className="text-2xl font-bold text-accent">{total} €</span>
+        <div className="bg-accent-light px-4 py-4">
+          <div className="flex items-center justify-between">
+            <span className="text-base font-bold text-text">Total estimé</span>
+            <span className="text-3xl font-bold text-accent">{total} €</span>
+          </div>
+          <p className="mt-1 text-xs text-text-secondary">
+            Prix TTC indicatif. Le tarif définitif sera confirmé après échange téléphonique ou WhatsApp.
+          </p>
         </div>
-        <p className="text-xs text-text-secondary pt-1">
-          Prix TTC indicatif. Le tarif définitif sera confirmé après échange téléphonique ou WhatsApp.
-        </p>
+      </motion.div>
+
+      {/* Garantie rapport */}
+      <div className="flex items-center justify-center gap-2 text-xs text-text-secondary">
+        <Clock className="h-3.5 w-3.5" />
+        <span>Garantie rapport sous 24h après intervention</span>
       </div>
 
       {/* CTA */}
-      <div className="flex flex-col sm:flex-row gap-3">
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5 }}
+        className="flex flex-col sm:flex-row gap-3"
+      >
         <Button
           href="tel:0651669161"
           size="lg"
@@ -134,7 +183,7 @@ export default function DevisResult({ diagnostics, onRestart }) {
           <MessageCircle className="h-5 w-5 text-whatsapp" />
           Confirmer par WhatsApp
         </Button>
-      </div>
+      </motion.div>
 
       <button
         type="button"

@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
-import { ArrowLeft, ArrowRight, Clock, FileCheck, Phone } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Clock, FileCheck, Phone, Search, Lightbulb, AlertCircle } from 'lucide-react'
 import { allServices } from '../content/services'
 import Badge from '../components/ui/Badge'
 import Button from '../components/ui/Button'
@@ -87,6 +87,46 @@ export default function ServiceDetail() {
               </p>
             </div>
           </ScrollReveal>
+
+          {service.whatWeCheck && (
+            <ScrollReveal>
+              <div className="mt-8 space-y-4">
+                <div className="rounded-[--radius-md] border border-border bg-surface p-5">
+                  <div className="flex items-center gap-2 mb-2">
+                    <div className="flex items-center justify-center h-8 w-8 rounded-full bg-accent-light text-accent">
+                      <Search className="h-4 w-4" />
+                    </div>
+                    <h3 className="text-sm font-semibold text-text">Ce qu'on vérifie</h3>
+                  </div>
+                  <p className="text-sm text-text-secondary leading-relaxed">{service.whatWeCheck}</p>
+                </div>
+
+                {service.whyItMatters && (
+                  <div className="rounded-[--radius-md] border border-border bg-surface p-5">
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="flex items-center justify-center h-8 w-8 rounded-full bg-accent-light text-accent">
+                        <Lightbulb className="h-4 w-4" />
+                      </div>
+                      <h3 className="text-sm font-semibold text-text">Ce que ça change pour vous</h3>
+                    </div>
+                    <p className="text-sm text-text-secondary leading-relaxed">{service.whyItMatters}</p>
+                  </div>
+                )}
+
+                {service.ifPositive && (
+                  <div className="rounded-[--radius-md] border border-amber-200 bg-amber-50 p-5">
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="flex items-center justify-center h-8 w-8 rounded-full bg-amber-100 text-amber-600">
+                        <AlertCircle className="h-4 w-4" />
+                      </div>
+                      <h3 className="text-sm font-semibold text-text">Que faire en cas de résultat positif</h3>
+                    </div>
+                    <p className="text-sm text-text-secondary leading-relaxed">{service.ifPositive}</p>
+                  </div>
+                )}
+              </div>
+            </ScrollReveal>
+          )}
 
           <ScrollReveal>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">

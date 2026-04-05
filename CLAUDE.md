@@ -446,10 +446,170 @@ VITE_WHATSAPP_URL=https://wa.me/33651669161?text=Bonjour%2C%20je%20souhaite%20un
 - [ ] Pages communes dédiées (Montpellier, Lattes, Castelnau…)
 - [ ] Schema.org Service pour chaque diagnostic
 
-### P2 — Conversion
+### P2 — Conversion & features
 - [ ] Témoignages clients (après premières missions)
 - [ ] Système d'avis Google intégré
 - [ ] Plaquette commerciale PDF téléchargeable
+- [ ] Réservation en ligne (Cal.com ou Calendly intégré)
+- [ ] Programme de parrainage (code promo + template WhatsApp)
+- [ ] DPE Checker gratuit (API ADEME, outil d'acquisition SEO)
+- [ ] Pack abonnement agences immo (offre B2B structurée)
+
+### P3 — Différenciation avancée
+- [ ] Tracker de mission (suivi RDV → Intervention → Rapport livré + notifs WhatsApp)
+- [ ] Rapport interactif web (page résumée avec codes couleur, en plus du PDF)
+- [ ] Carnet de santé du bien (page pérenne par propriété, alertes expiration diagnostics)
+
+---
+
+## Grille tarifaire recommandée
+
+> Prix basés sur l'analyse du marché Montpellier / Hérault 2026. Les prix ne sont pas réglementés — chaque diagnostiqueur fixe librement ses tarifs.
+
+### Prix unitaires
+
+| Diagnostic | Prix marché Montpellier | Prix recommandé Pons DPI | Notes |
+|-----------|------------------------|--------------------------|-------|
+| **DPE** | 120–190€ | **150€** | Volume élevé, ton pain quotidien |
+| **Amiante (vente)** | 90–140€ | **120€** | Rapide si négatif |
+| **Plomb (CREP)** | 100–220€ | **130€** | Peu de biens pré-1949 à Montpellier |
+| **Électricité** | 70–130€ | **100€** | Souvent couplé avec gaz |
+| **Gaz** | 90–140€ | **100€** | Idem |
+| **Termites** | 80–150€ | **100€** | Obligatoire dans le 34 |
+| **ERP** | 10–40€ | **20€** (ou inclus en pack) | Quasi gratuit, outil en ligne |
+| **Mesurage Carrez** | 70–150€ | **90€** | Rapide au télémètre |
+| **Surface Boutin** | 70–120€ | **80€** | Idem |
+| **Audit énergétique** | 500–1000€ | **700€** | Gros ticket, peu de concurrence |
+| **Amiante avant travaux** | 350–800€ | **à partir de 400€** | Mine d'or — grâce à la mention |
+| **Amiante avant démolition** | 500–1500€ | **à partir de 700€** | Missions complexes, bien payées |
+| **DPE tertiaire** | 250–500€ | **à partir de 300€** | Peu de diagnostiqueurs avec mention |
+
+### Packs recommandés
+
+| Pack | Contenu | Prix recommandé | Réduction |
+|------|---------|----------------|-----------|
+| **Pack vente appartement** | DPE + élec + gaz + ERP + amiante + Carrez | **290€** | ~15% vs unitaire |
+| **Pack vente maison** | DPE + élec + gaz + ERP + amiante + Carrez + termites | **380€** | ~15% vs unitaire |
+| **Pack location** | DPE + élec + gaz + ERP + Boutin | **200€** | ~10% vs unitaire |
+| **Pack avant travaux** | Amiante avant travaux + DPE | **à partir de 500€** | Sur devis selon surface |
+
+### Logique de réduction dans devisPricing.js
+
+```
+3+ diagnostics → -10%
+5+ diagnostics → -15%
+```
+
+### Stratégie de monétisation
+
+1. **Packs standards** (vente/location) → volume, flux régulier via agences et notaires
+2. **Missions avec mention** (amiante avant travaux/démolition, DPE tertiaire) → marge élevée, peu de concurrence
+3. **Audit énergétique** → gros ticket (700€), obligatoire pour les DPE F/G
+4. **Abonnement agences** (P2) → flux récurrent et prévisible
+
+---
+
+## Analyse concurrentielle — Montpellier
+
+### Les acteurs en place
+
+| Type | Exemples | Forces | Faiblesses |
+|------|----------|--------|------------|
+| **Gros réseaux nationaux** | Diagamter, AGENDA, AC Environnement, DIMO, Allodiagnostic, BC2E | SEO national, volume, notoriété | Impersonnel, diagnostiqueurs salariés qui tournent, sites génériques |
+| **Indépendants locaux** | Occi Expertise, A2D Expertises, QualiCE, Diag'Easy, N2A Expertises | Proximité, relationnel | Sites datés, peu de mentions, pas de devis en ligne |
+| **Plateformes de mise en relation** | AlloVoisins, StarOfService, Habitatpresto | Volume de leads | Tire les prix vers le bas, pas de fidélisation |
+
+### Avantages compétitifs Pons DPI
+
+1. **Site web supérieur** — profil UX/product design, devis interactif, réservation en ligne → 95% des concurrents ont des sites templates
+2. **Certifications avec mention** — DPE tertiaire + amiante avant travaux/démolition → segment moins concurrentiel, mieux payé
+3. **Garantie rapport 24h** — aucun concurrent local ne la propose
+4. **Approche conseil** — rapports clairs, contenu éducatif, accompagnement vs "je dépose mon PDF et je pars"
+5. **WhatsApp natif** — joignabilité immédiate, préféré par les agences et notaires
+6. **Outils digitaux** — tracker de mission, rapport interactif, carnet de santé du bien (à terme)
+
+### Positionnement prix
+
+- **Pas le moins cher** — on ne joue pas le low-cost
+- **Pas le plus cher** — on reste accessible aux particuliers
+- **Milieu-haut de gamme** justifié par : réactivité (24h), clarté des rapports, outils en ligne, certifications complètes avec mention
+- **Premium sur les missions mention** — peu de concurrence, prix libres
+
+---
+
+## Killer Features — Roadmap
+
+### P0 — Au lancement du site
+
+| Feature | Inspiré de | Description | Effort |
+|---------|-----------|-------------|--------|
+| **Simulateur de devis interactif** | Pretto, Meilleurtaux | 5-6 questions visuelles → liste des diagnostics obligatoires + prix exact + CTA réserver. Animations, barre de progression, résultat décomposé. | Déjà prévu — peaufiner l'UX |
+| **Réservation en ligne** | Doctolib | Le client choisit son créneau après le devis. Cal.com (gratuit, open source) ou Calendly en iframe. Confirmation + rappel WhatsApp auto. | Faible — intégration iframe |
+| **Garantie rapport 24h ou -50%** | Domino's Pizza | Promesse affichée sur le site. Rapport livré dans les 24h après intervention ou 50% de réduction. Différenciateur immédiat. | Zéro code — engagement commercial |
+| **Contenu éducatif par diagnostic** | Alan (assurance santé) | Chaque page service explique en langage simple : "Ce qu'on cherche", "Ce que ça change pour vous", "Que faire si positif". Visuels, pas de jargon. | Contenu uniquement |
+| **Programme de parrainage** | Boursorama, N26 | Parrain : -30€ sur prochain diagnostic. Filleul : -20€ sur premier pack. Code promo + template WhatsApp. | Faible — logique promo simple |
+
+### P1 — Premiers mois d'activité
+
+| Feature | Inspiré de | Description | Effort |
+|---------|-----------|-------------|--------|
+| **DPE Checker gratuit** | Ubersuggest, HubSpot freemium | Outil gratuit : entrer une adresse → estimation DPE probable (données ADEME publiques). Pas un vrai DPE, juste une estimation. Machine à trafic SEO → conversion "Pour un DPE officiel, réservez ici." | Moyen — API ADEME + mini-app |
+| **Pack abonnement agences immo** | Modèle SaaS B2B | Offre structurée pour les agences : "10 packs vente/mois = -20% + rapport 24h garanti + dashboard de suivi". Flux récurrent et prévisible. | Faible — offre commerciale, pas de code |
+
+### P2 — Avec du volume
+
+| Feature | Inspiré de | Description | Effort |
+|---------|-----------|-------------|--------|
+| **Tracker de mission** | Deliveroo, Amazon (suivi colis) | Page de suivi après réservation : RDV confirmé → Intervention en cours → Rapport en rédaction → Rapport livré. Notification WhatsApp à chaque étape. | Moyen — mini-backend ou no-code (Notion + Zapier) |
+| **Rapport interactif web** | Dashboards SaaS, Notion | En plus du PDF réglementaire : lien vers une page web résumée avec codes couleur (vert/orange/rouge), photos cliquables, points clés. Les agences montrent ça aux clients. | Élevé — dépend du logiciel de diagnostic |
+| **Carnet de santé du bien** | Carnet de santé médical | Chaque bien diagnostiqué a une page privée (URL + code). Centralise tous les diagnostics, dates de validité, alertes expiration. Le propriétaire revient chez toi dans 5 ans. | Élevé — mini-SaaS de suivi |
+
+---
+
+## Formation
+
+> Informations sur la formation suivie — pour référence interne uniquement, aucune mention de l'organisme sur le site.
+
+| Champ | Valeur |
+|-------|--------|
+| **Intitulé** | FOAD Diagnostiqueur Immobilier — Titre de niveau 5 |
+| **RNCP** | 38469 |
+| **Durée** | 322 heures (46 jours) |
+| **Dates** | 9 novembre 2026 → 2 février 2027 (session demandée : plus tôt si possible) |
+| **Format** | 12 jours présentiel + 32 jours distanciel + 2 jours e-learning |
+| **Lieu présentiel** | Saint-Jean-de-Védas (34) |
+| **Prix formation** | 7 795€ |
+| **Prix certifications COFRAC** | 2 880€ (organisme certificateur LCP, non inclus dans le devis formation) |
+| **Coût total** | 10 675€ |
+| **Financement prévu** | CPF + AIF France Travail |
+| **Prérequis** | Bac ou niveau Bac (Guillaume : Bac+5) |
+
+### Modules de formation (322h)
+
+| Module | Durée | Modalité |
+|--------|-------|----------|
+| DPE sans mention + avec mention | 77h (11 jours) | 35h distanciel + 42h présentiel |
+| Amiante sans mention + avec mention | 35h (5 jours) | Distanciel |
+| Gaz | 28h (4 jours) | Distanciel |
+| Électricité | 28h (4 jours) | Distanciel |
+| Plomb | 21h (3 jours) | Distanciel |
+| Termites | 21h (3 jours) | Distanciel |
+| Termes techniques du bâtiment | 21h (3 jours) | Distanciel |
+| Amiante SS4 opérateur de chantier | 14h (2 jours) | Présentiel |
+| Formation commerciale | 14h (2 jours) | Distanciel |
+| Loi Carrez / Boutin | 3,5h (½ journée) | Distanciel |
+| ERP | 3,5h (½ journée) | Distanciel |
+| Habilitation électrique BE | 7h (1 jour) | Distanciel |
+| Logiciel diagnostics immobiliers | 7h (1 jour) | Distanciel |
+| Révisions / terrain | 14h (2 jours) | Présentiel |
+| Révisions QCM | 14h (2 jours) | E-learning |
+| Préparation jury | 7h (1 jour) | Présentiel |
+| Jury RNCP 38469 | 7h (1 jour) | Présentiel |
+
+### Certifications obligatoires (8 examens COFRAC via LCP Certification)
+
+DPE sans mention, DPE avec mention, amiante sans mention, amiante avec mention, gaz, électricité, plomb, termites.
+Validité : 7 ans. Premier rattrapage offert par l'organisme de formation.
 
 ---
 
