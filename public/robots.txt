@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pons-dpi.fr/sitemap.xml
