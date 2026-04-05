@@ -11,7 +11,7 @@ function ServiceGroup({ title, description, services }) {
   return (
     <div className="mb-12">
       <ScrollReveal>
-        <h2 className="text-xl sm:text-2xl font-bold text-text">{title}</h2>
+        <h2 className="font-display text-xl sm:text-2xl text-text">{title}</h2>
         {description && (
           <p className="mt-2 text-text-secondary">{description}</p>
         )}
@@ -24,7 +24,7 @@ function ServiceGroup({ title, description, services }) {
             <ScrollReveal key={service.id} delay={i * 0.05}>
               <Link to={`/services/${service.slug}`}>
                 <Card className="h-full hover:shadow-md hover:border-accent/20 transition-all group">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-[--radius-sm] bg-accent-light text-accent mb-4">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-full bg-accent-light text-accent mb-4">
                     <Icon className="h-5 w-5" />
                   </div>
                   <h3 className="font-semibold text-text group-hover:text-accent transition-colors">
@@ -69,7 +69,7 @@ export default function ServicesPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="max-w-2xl mb-12">
-              <h1 className="text-3xl sm:text-4xl font-bold text-text">
+              <h1 className="font-display text-3xl sm:text-4xl text-text">
                 Nos diagnostics immobiliers
               </h1>
               <p className="mt-4 text-lg text-text-secondary">

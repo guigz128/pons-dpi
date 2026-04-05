@@ -40,11 +40,12 @@ const PREMIUM = [
 
 export default function Pricing() {
   return (
-    <section id="tarifs" className="py-16 sm:py-20 lg:py-24 bg-stone-50">
+    <section id="tarifs" className="py-16 sm:py-20 lg:py-24 bg-surface-warm">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-2xl sm:text-3xl font-bold text-text">
+            <p className="text-xs font-semibold uppercase tracking-widest text-accent mb-3">Tarifs</p>
+            <h2 className="font-display text-3xl sm:text-4xl text-text">
               Tarifs transparents
             </h2>
             <p className="mt-3 text-text-secondary">
@@ -61,7 +62,7 @@ export default function Pricing() {
               <Card
                 className={`h-full flex flex-col ${
                   pack.highlight
-                    ? 'border-accent shadow-md ring-1 ring-accent/10'
+                    ? 'border-accent shadow-lg ring-1 ring-accent/10'
                     : ''
                 }`}
               >
@@ -75,7 +76,7 @@ export default function Pricing() {
                 <p className="mt-1 text-sm text-text-secondary">{pack.description}</p>
 
                 <p className="mt-4">
-                  <span className="text-3xl font-bold text-accent">{pack.price}</span>
+                  <span className="font-display text-4xl text-accent">{pack.price}</span>
                   <span className="text-base text-text-secondary ml-1">€</span>
                 </p>
 
@@ -104,17 +105,17 @@ export default function Pricing() {
         {/* Services premium */}
         <ScrollReveal>
           <div className="mt-12">
-            <h3 className="text-lg font-semibold text-text mb-4 text-center">
+            <h3 className="font-display text-xl text-text mb-4 text-center">
               Services premium — Certification avec mention
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {PREMIUM.map((item) => (
                 <div
                   key={item.name}
-                  className="rounded-[--radius-md] border border-border bg-surface p-4"
+                  className="rounded-2xl border border-border bg-surface p-5"
                 >
                   <p className="text-sm font-semibold text-text">{item.name}</p>
-                  <p className="mt-1 text-lg font-bold text-accent">{item.price} €</p>
+                  <p className="mt-1 font-display text-xl text-accent">{item.price} €</p>
                   <p className="mt-1 text-xs text-text-secondary">{item.note}</p>
                 </div>
               ))}

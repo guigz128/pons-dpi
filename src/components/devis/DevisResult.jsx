@@ -17,7 +17,7 @@ export default function DevisResult({ diagnostics, onRestart }) {
 
       {/* Pack détecté */}
       {packName && (
-        <div className="flex items-center gap-3 rounded-[--radius-md] bg-accent-light border border-accent/20 px-4 py-3">
+        <div className="flex items-center gap-3 rounded-2xl bg-accent-light border border-accent/20 px-4 py-3">
           <Package className="h-5 w-5 text-accent shrink-0" />
           <div>
             <p className="text-sm font-semibold text-accent">{packName} — {packPrice} €</p>
@@ -29,7 +29,7 @@ export default function DevisResult({ diagnostics, onRestart }) {
       )}
 
       {/* Liste des diagnostics */}
-      <div className="rounded-[--radius-md] border border-border bg-surface divide-y divide-border">
+      <div className="rounded-2xl border border-border bg-surface divide-y divide-border">
         {packName ? (
           <>
             {/* Pack items */}
@@ -84,7 +84,7 @@ export default function DevisResult({ diagnostics, onRestart }) {
       </div>
 
       {/* Total */}
-      <div className="rounded-[--radius-md] bg-stone-50 border border-border p-4 space-y-2">
+      <div className="rounded-2xl bg-surface-warm border border-border p-4 space-y-2">
         {saving > 0 && (
           <>
             <div className="flex items-center justify-between text-sm text-text-secondary">

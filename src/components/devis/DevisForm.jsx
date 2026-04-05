@@ -83,7 +83,7 @@ export default function DevisForm() {
               </span>
             ))}
           </div>
-          <div className="h-1.5 bg-stone-200 rounded-full overflow-hidden">
+          <div className="h-1.5 bg-surface-warm rounded-full overflow-hidden">
             <div
               className="h-full bg-accent rounded-full transition-all duration-300"
               style={{ width: `${((step + 1) / 3) * 100}%` }}

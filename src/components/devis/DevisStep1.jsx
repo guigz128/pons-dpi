@@ -23,7 +23,7 @@ export default function DevisStep1({ data, onChange }) {
                 key={value}
                 type="button"
                 onClick={() => onChange({ typeBien: value })}
-                className={`flex items-center gap-3 rounded-[--radius-md] border p-4 text-left text-sm font-medium transition-colors ${
+                className={`flex items-center gap-3 rounded-2xl border p-4 text-left text-sm font-medium transition-colors ${
                   selected
                     ? 'border-accent bg-accent-light text-accent'
                     : 'border-border bg-surface text-text hover:border-stone-300'
@@ -48,7 +48,7 @@ export default function DevisStep1({ data, onChange }) {
                 key={value}
                 type="button"
                 onClick={() => onChange({ transaction: value })}
-                className={`rounded-[--radius-md] border p-3 text-sm font-medium transition-colors ${
+                className={`rounded-2xl border p-3 text-sm font-medium transition-colors ${
                   selected
                     ? 'border-accent bg-accent-light text-accent'
                     : 'border-border bg-surface text-text hover:border-stone-300'
