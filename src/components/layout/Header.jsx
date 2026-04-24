@@ -7,7 +7,7 @@ const NAV_LINKS = [
   { to: '/', label: 'Accueil' },
   { to: '/services', label: 'Services' },
   { to: '/devis', label: 'Devis en ligne' },
-  { to: '/blog/', label: 'Blog', external: true },
+  { to: 'https://pons-dpi.fr/blog/', label: 'Blog', external: true },
   { to: '/a-propos', label: 'À propos' },
   { to: '/contact', label: 'Contact' },
 ]
