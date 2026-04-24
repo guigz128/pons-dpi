@@ -17,20 +17,19 @@ export default function MobileMenu({ open, onClose, links }) {
           aria-label="Menu mobile"
         >
           <div className="px-4 py-4 space-y-1">
-            {links.map(({ to, label }) => (
-              <Link
-                key={to}
-                to={to}
-                onClick={onClose}
-                className={`block px-3 py-2.5 text-base font-medium rounded-[--radius-sm] transition-colors ${
-                  location.pathname === to
-                    ? 'text-accent bg-accent-light'
-                    : 'text-text-secondary hover:text-text hover:bg-stone-100'
-                }`}
-              >
-                {label}
-              </Link>
-            ))}
+            {links.map(({ to, label, external }) => {
+              const isActive = location.pathname === to
+              const className = `block px-3 py-2.5 text-base font-medium rounded-[--radius-sm] transition-colors ${
+                isActive
+                  ? 'text-accent bg-accent-light'
+                  : 'text-text-secondary hover:text-text hover:bg-stone-100'
+              }`
+              return external ? (
+                <a key={to} href={to} onClick={onClose} className={className}>{label}</a>
+              ) : (
+                <Link key={to} to={to} onClick={onClose} className={className}>{label}</Link>
+              )
+            })}
             <hr className="my-3 border-border" />
             <a
               href="tel:0651669161"

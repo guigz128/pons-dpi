@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { to: '/', label: 'Accueil' },
   { to: '/services', label: 'Services' },
   { to: '/devis', label: 'Devis en ligne' },
+  { to: '/blog/', label: 'Blog', external: true },
   { to: '/a-propos', label: 'À propos' },
   { to: '/contact', label: 'Contact' },
 ]
@@ -34,19 +35,19 @@ export default function Header() {
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-1" aria-label="Navigation principale">
-            {NAV_LINKS.map(({ to, label }) => (
-              <Link
-                key={to}
-                to={to}
-                className={`px-3 py-2 text-sm font-medium rounded-[--radius-sm] transition-colors ${
-                  location.pathname === to
-                    ? 'text-accent bg-accent-light'
-                    : 'text-text-secondary hover:text-text hover:bg-stone-100'
-                }`}
-              >
-                {label}
-              </Link>
-            ))}
+            {NAV_LINKS.map(({ to, label, external }) => {
+              const isActive = location.pathname === to
+              const className = `px-3 py-2 text-sm font-medium rounded-[--radius-sm] transition-colors ${
+                isActive
+                  ? 'text-accent bg-accent-light'
+                  : 'text-text-secondary hover:text-text hover:bg-stone-100'
+              }`
+              return external ? (
+                <a key={to} href={to} className={className}>{label}</a>
+              ) : (
+                <Link key={to} to={to} className={className}>{label}</Link>
+              )
+            })}
           </nav>
 
           {/* CTA phone + burger */}
