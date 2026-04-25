@@ -14,7 +14,7 @@ export default function AboutPage() {
           name="description"
           content="Guillaume Pons, diagnostiqueur immobilier certifié COFRAC à Montpellier. 8 certifications, DPE et amiante avec mention. Titre RNCP 38469."
         />
-        <link rel="canonical" href="https://pons-dpi.fr/a-propos" />
+        <link rel="canonical" href="https://www.pons-dpi.fr/a-propos" />
       </Helmet>
 
       <section className="py-12 sm:py-16 lg:py-20">

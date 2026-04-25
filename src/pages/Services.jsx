@@ -62,7 +62,7 @@ export default function ServicesPage() {
           name="description"
           content="DPE, amiante, plomb, électricité, gaz, termites, ERP, mesurage Carrez, audit énergétique. Tous les diagnostics immobiliers obligatoires à Montpellier."
         />
-        <link rel="canonical" href="https://pons-dpi.fr/services" />
+        <link rel="canonical" href="https://www.pons-dpi.fr/services" />
       </Helmet>
 
       <section className="py-12 sm:py-16 lg:py-20">

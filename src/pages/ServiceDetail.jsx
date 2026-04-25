@@ -33,7 +33,7 @@ export default function ServiceDetail() {
     provider: {
       '@type': 'LocalBusiness',
       name: 'Pons DPI',
-      url: 'https://pons-dpi.fr',
+      url: 'https://www.pons-dpi.fr/',
     },
     areaServed: {
       '@type': 'City',
@@ -49,7 +49,7 @@ export default function ServiceDetail() {
           name="description"
           content={`${service.fullName || service.name} à Montpellier. ${service.description} Devis en ligne, intervention sous 48h.`}
         />
-        <link rel="canonical" href={`https://pons-dpi.fr/services/${service.slug}`} />
+        <link rel="canonical" href={`https://www.pons-dpi.fr/services/${service.slug}`} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 

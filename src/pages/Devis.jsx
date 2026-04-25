@@ -11,7 +11,7 @@ export default function Devis() {
           name="description"
           content="Obtenez votre devis en ligne en 2 minutes. Diagnostics immobiliers obligatoires calculés automatiquement selon votre bien. Prix transparents."
         />
-        <link rel="canonical" href="https://pons-dpi.fr/devis" />
+        <link rel="canonical" href="https://www.pons-dpi.fr/devis" />
       </Helmet>
 
       <section className="py-12 sm:py-16 lg:py-20">

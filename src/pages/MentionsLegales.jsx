@@ -6,7 +6,7 @@ export default function MentionsLegales() {
       <Helmet>
         <title>Mentions légales | Pons DPI</title>
         <meta name="description" content="Mentions légales du site pons-dpi.fr — Pons DPI, diagnostics immobiliers à Montpellier." />
-        <link rel="canonical" href="https://pons-dpi.fr/mentions-legales" />
+        <link rel="canonical" href="https://www.pons-dpi.fr/mentions-legales" />
       </Helmet>
 
       <section className="py-12 sm:py-16 lg:py-20">

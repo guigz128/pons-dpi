@@ -43,7 +43,7 @@ export default function Contact() {
           name="description"
           content="Contactez Pons DPI pour vos diagnostics immobiliers à Montpellier. Téléphone, email, WhatsApp. Réponse rapide garantie."
         />
-        <link rel="canonical" href="https://pons-dpi.fr/contact" />
+        <link rel="canonical" href="https://www.pons-dpi.fr/contact" />
       </Helmet>
 
       <section className="py-12 sm:py-16 lg:py-20">

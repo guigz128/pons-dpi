@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://pons-dpi.fr/sitemap.xml
+Sitemap: https://www.pons-dpi.fr/sitemap.xml
+Sitemap: https://pons-dpi.fr/blog/sitemap-index.xml
