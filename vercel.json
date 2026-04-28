@@ -1,4 +1,12 @@
 {
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "pons-dpi.fr" }],
+      "destination": "https://www.pons-dpi.fr/$1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/((?!api/|blog).*)", "destination": "/index.html" }
   ]
