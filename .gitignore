@@ -4,3 +4,8 @@ dist
 .env.local
 .DS_Store
 *.log
+
+# Personal / local-only
+local-docs/
+photos piscine avril 26/
+scripts/convert-piscine.sh
