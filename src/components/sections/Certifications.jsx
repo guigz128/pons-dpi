@@ -3,11 +3,8 @@ import Badge from '../ui/Badge'
 import ScrollReveal from '../ui/ScrollReveal'
 
 const CERTIFICATIONS = [
-  { name: 'DPE sans mention', description: 'Logements individuels et collectifs' },
-  { name: 'DPE avec mention', description: 'Bâtiments tertiaires, publics, industriels', highlight: true },
-  { name: 'Amiante sans mention', description: 'Repérage vente, DTA, DAPP' },
-  { name: 'Amiante avec mention', description: 'Avant travaux, avant démolition, IGH, ERP', highlight: true },
-  { name: 'Amiante SS4', description: 'Opérateur de chantier — interventions sur matériaux amiantés' },
+  { name: 'DPE', description: 'Logements individuels et collectifs' },
+  { name: 'Amiante', description: 'Repérage pour vente — logements individuels et collectifs' },
   { name: 'Plomb', description: 'Constat de Risque d\'Exposition au Plomb (CREP)' },
   { name: 'Gaz', description: 'État de l\'installation intérieure de gaz' },
   { name: 'Électricité', description: 'État de l\'installation intérieure d\'électricité' },

@@ -6,6 +6,7 @@ const Home = lazy(() => import('./pages/Home'))
 const HomeTest = lazy(() => import('./pages/HomeTest'))
 const ServicesPage = lazy(() => import('./pages/Services'))
 const ServiceDetail = lazy(() => import('./pages/ServiceDetail'))
+const VilleDetail = lazy(() => import('./pages/VilleDetail'))
 const Devis = lazy(() => import('./pages/Devis'))
 const AboutPage = lazy(() => import('./pages/About'))
 const Contact = lazy(() => import('./pages/Contact'))
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/test-design" element={<HomeTest />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/services/:slug" element={<ServiceDetail />} />
+          <Route path="/diagnostic-immobilier/:ville" element={<VilleDetail />} />
           <Route path="/devis" element={<Devis />} />
           <Route path="/a-propos" element={<AboutPage />} />
           <Route path="/contact" element={<Contact />} />

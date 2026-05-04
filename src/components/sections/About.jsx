@@ -4,8 +4,8 @@ import ScrollReveal from '../ui/ScrollReveal'
 const DIFFERENCIATEURS = [
   {
     icon: ShieldCheck,
-    title: 'Certifié avec mention',
-    description: 'DPE et amiante avec mention : tertiaire, ERP, IGH. Un périmètre que peu de diagnostiqueurs couvrent.',
+    title: 'Certifié COFRAC',
+    description: 'Certifications délivrées par un organisme accrédité COFRAC pour l\'ensemble des diagnostics obligatoires.',
   },
   {
     icon: Eye,
@@ -24,8 +24,8 @@ const DIFFERENCIATEURS = [
   },
   {
     icon: Award,
-    title: '8 certifications COFRAC',
-    description: 'DPE, amiante, plomb, gaz, électricité, termites + habilitation électrique + SS4.',
+    title: 'Titre RNCP niveau 5',
+    description: 'Titre professionnel Diagnostiqueur Immobilier (RNCP 38469).',
   },
   {
     icon: MapPin,
@@ -49,11 +49,6 @@ export default function About() {
                 Titulaire du Titre professionnel Diagnostiqueur Immobilier (RNCP 38469, niveau 5),
                 je suis certifié par un organisme accrédité COFRAC pour l'ensemble des diagnostics
                 immobiliers obligatoires.
-              </p>
-              <p className="mt-3 text-text-secondary leading-relaxed">
-                Mes certifications avec mention (DPE et amiante) me permettent d'intervenir
-                également sur les bâtiments tertiaires, publics et industriels — un périmètre
-                que la majorité des diagnostiqueurs ne couvrent pas.
               </p>
               <p className="mt-3 text-text-secondary leading-relaxed">
                 Mon engagement : des rapports clairs, une transparence tarifaire totale,

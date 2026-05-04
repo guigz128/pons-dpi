@@ -12,7 +12,7 @@ export default function AboutPage() {
         <title>À propos — Guillaume Pons, diagnostiqueur immobilier | Pons DPI</title>
         <meta
           name="description"
-          content="Guillaume Pons, diagnostiqueur immobilier certifié COFRAC à Montpellier. 8 certifications, DPE et amiante avec mention. Titre RNCP 38469."
+          content="Guillaume Pons, diagnostiqueur immobilier certifié COFRAC à Montpellier. DPE, amiante, plomb, électricité, gaz, termites. Titre RNCP 38469."
         />
         <link rel="canonical" href="https://www.pons-dpi.fr/a-propos" />
       </Helmet>
@@ -31,10 +31,10 @@ export default function AboutPage() {
                 et du département de l'Hérault.
               </p>
               <p>
-                Ce qui me différencie : mes certifications avec mention en DPE et en amiante,
-                qui me permettent d'intervenir sur les bâtiments tertiaires, publics et industriels.
-                Avec 8 certifications COFRAC et une habilitation électrique BE, je couvre l'intégralité
-                des diagnostics obligatoires — pour les particuliers comme pour les professionnels.
+                Je suis certifié par un organisme accrédité COFRAC pour l'ensemble des diagnostics
+                immobiliers obligatoires : DPE, amiante, plomb, gaz, électricité et termites.
+                Avec une habilitation électrique BE complémentaire, je couvre l'intégralité
+                des diagnostics nécessaires à la vente et à la location d'un logement.
               </p>
               <p>
                 Mon approche est fondée sur trois piliers : la réactivité (intervention sous 48h),

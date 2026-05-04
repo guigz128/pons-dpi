@@ -31,13 +31,6 @@ const PACKS = [
   },
 ]
 
-const PREMIUM = [
-  { name: 'Audit énergétique', price: 'À partir de 700', note: 'DPE F ou G' },
-  { name: 'Amiante avant travaux', price: 'À partir de 400', note: 'Certification avec mention' },
-  { name: 'Amiante avant démolition', price: 'À partir de 700', note: 'Certification avec mention' },
-  { name: 'DPE tertiaire', price: 'À partir de 300', note: 'Bureaux, commerces, ERP' },
-]
-
 export default function Pricing() {
   return (
     <section id="tarifs" className="py-16 sm:py-20 lg:py-24 bg-stone-50">
@@ -100,27 +93,6 @@ export default function Pricing() {
             </ScrollReveal>
           ))}
         </div>
-
-        {/* Services premium */}
-        <ScrollReveal>
-          <div className="mt-12">
-            <h3 className="text-lg font-semibold text-text mb-4 text-center">
-              Services premium — Certification avec mention
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {PREMIUM.map((item) => (
-                <div
-                  key={item.name}
-                  className="rounded-md border border-border bg-surface p-4"
-                >
-                  <p className="text-sm font-semibold text-text">{item.name}</p>
-                  <p className="mt-1 text-lg font-bold text-accent">{item.price} €</p>
-                  <p className="mt-1 text-xs text-text-secondary">{item.note}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </ScrollReveal>
 
         {/* Note */}
         <ScrollReveal>

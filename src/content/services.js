@@ -7,13 +7,8 @@ import {
   Bug,
   AlertTriangle,
   Ruler,
-  BarChart3,
   Volume2,
   Pipette,
-  Building2,
-  HardHat,
-  Trash2,
-  FileText,
 } from 'lucide-react'
 
 export const servicesVente = [
@@ -169,24 +164,6 @@ export const servicesVente = [
     ifPositive: null,
   },
   {
-    id: 'audit',
-    slug: 'audit-energetique',
-    icon: BarChart3,
-    name: 'Audit énergétique',
-    fullName: 'Audit énergétique réglementaire',
-    condition: 'DPE F ou G (maison individuelle)',
-    validite: '5 ans',
-    description:
-      'Analyse approfondie des performances énergétiques, scénarios de travaux chiffrés, gains estimés.',
-    longDescription:
-      "L'audit énergétique réglementaire est obligatoire depuis avril 2023 pour la vente de maisons individuelles classées F ou G au DPE. Il propose au moins deux scénarios de travaux de rénovation énergétique, avec un chiffrage estimatif et les gains de performance attendus.",
-    whatWeCheck:
-      "J'analyse en profondeur les performances énergétiques de votre maison : enveloppe du bâtiment, systèmes de chauffage et de refroidissement, production d'eau chaude. Je modélise ensuite plusieurs scénarios de rénovation avec leurs coûts et leurs gains.",
-    whyItMatters:
-      "L'audit est obligatoire pour vendre une maison classée F ou G. Au-delà de l'obligation, c'est un vrai outil d'aide à la décision : il chiffre les travaux et montre le retour sur investissement.",
-    ifPositive: null,
-  },
-  {
     id: 'bruit',
     slug: 'diagnostic-bruit',
     icon: Volume2,
@@ -225,103 +202,4 @@ export const servicesVente = [
   },
 ]
 
-export const servicesAvantTravaux = [
-  {
-    id: 'amiante_avant_travaux',
-    slug: 'amiante-avant-travaux',
-    icon: HardHat,
-    name: 'Amiante avant travaux',
-    description:
-      "Repérage exhaustif de tous les matériaux amiantés susceptibles d'être impactés par les travaux — obligation du maître d'ouvrage.",
-    longDescription:
-      "Le repérage amiante avant travaux est une obligation du maître d'ouvrage. Il vise à identifier tous les matériaux et produits contenant de l'amiante susceptibles d'être affectés par les travaux prévus. Ce diagnostic est plus complet que le diagnostic amiante vente car il nécessite des investigations destructives.",
-    whatWeCheck:
-      "Je réalise un repérage exhaustif de tous les matériaux amiantés susceptibles d'être impactés par vos travaux. Contrairement au diagnostic vente, j'effectue des sondages destructifs pour accéder aux matériaux cachés (sous-couches, doublages, conduits).",
-    whyItMatters:
-      "C'est une obligation du maître d'ouvrage avant tout chantier. Sans ce diagnostic, les ouvriers risquent d'être exposés à des fibres d'amiante. Les sanctions sont lourdes en cas de manquement.",
-    ifPositive:
-      "Si de l'amiante est trouvée dans la zone de travaux, le chantier devra être adapté : retrait par une entreprise certifiée, plan de retrait, protection des travailleurs. Je vous accompagne dans la planification.",
-  },
-  {
-    id: 'amiante_avant_demolition',
-    slug: 'amiante-avant-demolition',
-    icon: Trash2,
-    name: 'Amiante avant démolition',
-    description:
-      "Repérage de l'ensemble des matériaux contenant de l'amiante avant démolition totale ou partielle.",
-    longDescription:
-      "Le repérage amiante avant démolition est obligatoire avant toute démolition totale ou partielle d'un bâtiment. Il porte sur l'intégralité des matériaux et produits du bâtiment, y compris ceux difficilement accessibles. Ce repérage est indispensable pour planifier le retrait de l'amiante en toute sécurité.",
-    whatWeCheck:
-      "Je repère l'intégralité des matériaux amiantés dans le bâtiment, y compris ceux difficilement accessibles. Le repérage est exhaustif car tout le bâtiment sera impacté par la démolition.",
-    whyItMatters:
-      "Obligatoire avant toute démolition totale ou partielle. Le repérage permet de planifier le retrait de l'amiante avant la démolition, pour protéger les travailleurs et l'environnement.",
-    ifPositive:
-      "Un plan de retrait sera élaboré par l'entreprise de désamiantage sur la base de mon rapport. Tous les matériaux amiantés doivent être retirés avant le début de la démolition.",
-  },
-  {
-    id: 'dta',
-    slug: 'dossier-technique-amiante',
-    icon: FileText,
-    name: 'DTA',
-    description:
-      "Constitution et mise à jour du Dossier Technique Amiante pour les parties communes d'immeubles collectifs et les ERP.",
-    longDescription:
-      "Le Dossier Technique Amiante (DTA) est obligatoire pour les parties communes des immeubles collectifs d'habitation et pour tous les immeubles bâtis autres que les maisons individuelles. Il compile les résultats des repérages amiante et doit être tenu à disposition des occupants et des entreprises intervenant dans le bâtiment.",
-    whatWeCheck:
-      "Je compile l'ensemble des repérages amiante réalisés dans les parties communes de l'immeuble. Le DTA inclut la localisation des matériaux amiantés, leur état de conservation, et les recommandations de gestion.",
-    whyItMatters:
-      "Le DTA est obligatoire pour tous les immeubles collectifs et les ERP. Il doit être tenu à disposition des occupants, des entreprises intervenant dans le bâtiment, et des autorités.",
-    ifPositive: null,
-  },
-]
-
-export const servicesTertiaire = [
-  {
-    id: 'dpe_tertiaire',
-    slug: 'dpe-tertiaire',
-    icon: Building2,
-    name: 'DPE tertiaire',
-    description:
-      'Bureaux, commerces, bâtiments publics — périmètre élargi grâce à la certification avec mention.',
-    longDescription:
-      "Le DPE tertiaire concerne les bâtiments à usage autre que d'habitation : bureaux, commerces, hôtels, bâtiments d'enseignement, établissements de santé. Il nécessite la certification DPE avec mention, que peu de diagnostiqueurs détiennent.",
-    whatWeCheck:
-      "J'évalue la performance énergétique de votre bâtiment professionnel : bureaux, commerces, locaux d'activité. La méthodologie est adaptée aux spécificités du tertiaire (horaires d'occupation, systèmes de climatisation, éclairage).",
-    whyItMatters:
-      "Obligatoire pour la vente ou la location de tout bâtiment tertiaire. Peu de diagnostiqueurs disposent de la certification avec mention nécessaire — c'est l'une de nos spécialités.",
-    ifPositive: null,
-  },
-  {
-    id: 'dpe_immeuble',
-    slug: 'dpe-immeuble',
-    icon: Building2,
-    name: 'DPE immeuble',
-    description:
-      "DPE à l'échelle d'un bâtiment collectif d'habitation.",
-    longDescription:
-      "Le DPE à l'immeuble évalue la performance énergétique globale d'un bâtiment collectif d'habitation. Il est souvent demandé par les syndics de copropriété dans le cadre du plan pluriannuel de travaux (PPT) ou d'un audit énergétique de copropriété.",
-    whatWeCheck:
-      "J'évalue la performance énergétique globale d'un immeuble collectif d'habitation : enveloppe du bâtiment, chauffage collectif, production d'eau chaude, ventilation des parties communes.",
-    whyItMatters:
-      "Souvent demandé par les syndics dans le cadre du Plan Pluriannuel de Travaux (PPT). Il donne une vision d'ensemble de la performance du bâtiment et aide à prioriser les travaux de rénovation.",
-    ifPositive: null,
-  },
-  {
-    id: 'amiante_erp',
-    slug: 'amiante-erp',
-    icon: Shield,
-    name: 'Amiante ERP / IGH',
-    description:
-      "Repérage dans les ERP (catégorie 1-4), immeubles de grande hauteur, bâtiments industriels.",
-    longDescription:
-      "Le repérage amiante dans les Établissements Recevant du Public (ERP) et les Immeubles de Grande Hauteur (IGH) nécessite la certification amiante avec mention. Ce diagnostic couvre les bâtiments tertiaires, industriels et publics de grande envergure.",
-    whatWeCheck:
-      "Je réalise le repérage amiante dans les établissements recevant du public et les immeubles de grande hauteur. Ce diagnostic nécessite la certification avec mention et couvre des bâtiments de grande envergure.",
-    whyItMatters:
-      "Obligatoire pour les ERP et IGH, ce diagnostic protège le public et le personnel. Il alimente le DTA et permet de planifier la gestion des matériaux amiantés.",
-    ifPositive:
-      "Si de l'amiante est détectée, les recommandations varient selon l'état de conservation : surveillance, confinement ou retrait. Le rapport alimente le Dossier Technique Amiante du bâtiment.",
-  },
-]
-
-export const allServices = [...servicesVente, ...servicesAvantTravaux, ...servicesTertiaire]
+export const allServices = [...servicesVente]

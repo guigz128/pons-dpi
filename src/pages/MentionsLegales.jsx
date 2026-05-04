@@ -40,9 +40,8 @@ export default function MentionsLegales() {
               <h2 className="text-lg font-semibold text-text mb-3">Certifications</h2>
               <p>
                 Guillaume Pons est titulaire de certifications délivrées par un organisme
-                certificateur accrédité COFRAC pour les domaines suivants : DPE (avec et sans mention),
-                amiante (avec et sans mention), plomb, gaz, électricité, termites.
-                Habilitation électrique BE et certification amiante SS4.
+                certificateur accrédité COFRAC pour les domaines suivants : DPE, amiante,
+                plomb, gaz, électricité, termites. Habilitation électrique BE complémentaire.
               </p>
             </div>
 

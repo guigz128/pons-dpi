@@ -2,8 +2,6 @@
 export const pricing = {
   dpe: { base: 150, label: 'DPE' },
   amiante: { base: 120, label: 'Amiante (vente)' },
-  amiante_avant_travaux: { base: 500, label: 'Amiante avant travaux' },
-  amiante_avant_demolition: { base: 800, label: 'Amiante avant démolition' },
   plomb: { base: 130, label: 'Plomb (CREP)' },
   electricite: { base: 100, label: 'Électricité' },
   gaz: { base: 100, label: 'Gaz' },
@@ -11,19 +9,11 @@ export const pricing = {
   erp: { base: 20, label: 'ERP' },
   carrez: { base: 90, label: 'Mesurage Carrez' },
   boutin: { base: 80, label: 'Surface habitable (Boutin)' },
-  audit: { base: 700, label: 'Audit énergétique' },
   assainissement: { base: 150, label: 'Assainissement' },
-  dta: { base: 350, label: 'Dossier Technique Amiante (DTA)' },
 }
 
 // Diagnostics premium : toujours facturés au prix unitaire, jamais inclus dans un pack
-const PREMIUM_DIAGS = [
-  'amiante_avant_travaux',
-  'amiante_avant_demolition',
-  'audit',
-  'assainissement',
-  'dta',
-]
+const PREMIUM_DIAGS = ['assainissement']
 
 // Packs définis du plus grand au plus petit (on matche le plus gros d'abord)
 const PACKS = [

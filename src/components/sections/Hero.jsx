@@ -14,7 +14,7 @@ export default function Hero() {
           >
             <div className="inline-flex items-center gap-2 rounded-full bg-white/80 border border-border px-3 py-1 text-xs font-semibold text-accent mb-6">
               <Shield className="h-3.5 w-3.5" />
-              Certifié COFRAC — 8 certifications
+              Certifié COFRAC
             </div>
 
             <p className="text-sm font-medium text-accent tracking-wide uppercase mb-2">
@@ -73,7 +73,7 @@ export default function Hero() {
             </span>
             <span className="flex items-center gap-2">
               <Shield className="h-4 w-4 text-accent" />
-              DPE + Amiante avec mention
+              Diagnostiqueur indépendant
             </span>
           </motion.div>
         </div>

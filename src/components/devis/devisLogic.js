@@ -15,12 +15,8 @@ export function getDiagnosticsObligatoires({
   // DPE obligatoire pour tous les biens > 50 m²
   if (surface >= 50) diags.push('dpe')
 
-  // Amiante : selon transaction et année de construction
-  if (annee < 1997) {
-    if (transaction === 'vente') diags.push('amiante')
-    if (transaction === 'avant_travaux') diags.push('amiante_avant_travaux')
-    if (transaction === 'avant_demolition') diags.push('amiante_avant_demolition')
-  }
+  // Amiante : vente d'un bien construit avant 1997
+  if (annee < 1997 && transaction === 'vente') diags.push('amiante')
 
   // Plomb : avant 1949
   if (annee < 1949) diags.push('plomb')
@@ -56,12 +52,9 @@ export const TYPE_BIENS = [
   { value: 'maison', label: 'Maison' },
   { value: 'appartement', label: 'Appartement' },
   { value: 'local_commercial', label: 'Local commercial' },
-  { value: 'bureau_tertiaire', label: 'Bureau / Tertiaire' },
 ]
 
 export const TRANSACTIONS = [
   { value: 'vente', label: 'Vente' },
   { value: 'location', label: 'Location' },
-  { value: 'avant_travaux', label: 'Avant travaux' },
-  { value: 'avant_demolition', label: 'Avant démolition' },
 ]

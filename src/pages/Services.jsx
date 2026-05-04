@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
-import { servicesVente, servicesAvantTravaux, servicesTertiaire } from '../content/services'
+import { servicesVente } from '../content/services'
 import Card from '../components/ui/Card'
 import Badge from '../components/ui/Badge'
 import ScrollReveal from '../components/ui/ScrollReveal'
@@ -60,7 +60,7 @@ export default function ServicesPage() {
         <title>Diagnostics immobiliers — Tous nos services | Pons DPI</title>
         <meta
           name="description"
-          content="DPE, amiante, plomb, électricité, gaz, termites, ERP, mesurage Carrez, audit énergétique. Tous les diagnostics immobiliers obligatoires à Montpellier."
+          content="DPE, amiante, plomb, électricité, gaz, termites, ERP, mesurage Carrez. Tous les diagnostics immobiliers obligatoires à Montpellier."
         />
         <link rel="canonical" href="https://www.pons-dpi.fr/services" />
       </Helmet>
@@ -73,8 +73,8 @@ export default function ServicesPage() {
                 Nos diagnostics immobiliers
               </h1>
               <p className="mt-4 text-lg text-text-secondary">
-                Tous les diagnostics obligatoires pour la vente, la location, les travaux
-                et le tertiaire. Certifié COFRAC, intervention à Montpellier et environs.
+                Tous les diagnostics obligatoires pour la vente et la location.
+                Certifié COFRAC, intervention à Montpellier et environs.
               </p>
             </div>
           </ScrollReveal>
@@ -82,18 +82,6 @@ export default function ServicesPage() {
           <ServiceGroup
             title="Diagnostics pour la vente et la location"
             services={servicesVente}
-          />
-
-          <ServiceGroup
-            title="Diagnostics avant travaux et démolition"
-            description="Obligations du maître d'ouvrage avant tout chantier impactant des matériaux potentiellement amiantés."
-            services={servicesAvantTravaux}
-          />
-
-          <ServiceGroup
-            title="Services tertiaire et copropriété"
-            description="Grâce aux certifications avec mention, j'interviens sur les bâtiments professionnels, publics et industriels."
-            services={servicesTertiaire}
           />
         </div>
       </section>

@@ -20,11 +20,6 @@ export const faqItems = [
       "La durée dépend du type de diagnostic et de la taille du bien. Comptez environ 1 heure pour un DPE d'appartement, et 2 à 3 heures pour un pack complet en maison. Nous nous adaptons à vos disponibilités.",
   },
   {
-    question: "Qu'est-ce que la certification avec mention ?",
-    answer:
-      "La certification avec mention (DPE et amiante) permet d'intervenir sur des bâtiments tertiaires, publics, industriels, des ERP et des IGH. C'est un niveau de qualification supérieur que peu de diagnostiqueurs détiennent. Cela nous permet de répondre aux besoins des professionnels (syndics, agences, entreprises) en plus des particuliers.",
-  },
-  {
     question: 'Les rapports sont-ils transmis aux notaires ?',
     answer:
       "Oui, tous les rapports sont transmis au format numérique et peuvent être envoyés directement à votre notaire, agent immobilier ou syndic. Ils sont conformes aux exigences réglementaires et lisibles par tous.",
@@ -32,7 +27,7 @@ export const faqItems = [
   {
     question: "Que se passe-t-il si mon DPE est classé F ou G ?",
     answer:
-      "Un logement classé F ou G est considéré comme une passoire thermique. Depuis 2023, un audit énergétique est obligatoire pour la vente de maisons individuelles classées F ou G. Nous vous accompagnons dans la réalisation de cet audit et vous proposons des scénarios de travaux chiffrés.",
+      "Un logement classé F ou G est considéré comme une passoire thermique. Depuis 2023, un audit énergétique est obligatoire pour la vente de maisons individuelles classées F ou G — il doit être réalisé par un professionnel disposant de la qualification correspondante (OPQIBI, RGE Études). Je vous orienterai vers un partenaire de confiance si votre DPE conduit à cette obligation.",
   },
   {
     question: 'Intervenez-vous en dehors de Montpellier ?',

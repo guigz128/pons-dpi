@@ -1,11 +1,10 @@
-import { Home, Building, Store, Building2 } from 'lucide-react'
+import { Home, Building, Store } from 'lucide-react'
 import { TYPE_BIENS, TRANSACTIONS } from './devisLogic'
 
 const ICONS = {
   maison: Home,
   appartement: Building,
   local_commercial: Store,
-  bureau_tertiaire: Building2,
 }
 
 export default function DevisStep1({ data, onChange }) {
