@@ -7,8 +7,8 @@ export default function Cta() {
     <section className="py-16 sm:py-20 lg:py-24 bg-stone-900">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
         <ScrollReveal>
-          <h2 className="text-2xl sm:text-3xl font-bold text-white">
-            Besoin d'un diagnostic immobilier ?
+          <h2 className="font-display text-4xl sm:text-5xl text-white">
+            Besoin d'un <span className="text-highlight-light">diagnostic immobilier</span> ?
           </h2>
           <p className="mt-4 text-stone-400 leading-relaxed">
             Obtenez votre devis en ligne en 2 minutes. Intervention sous 48h,

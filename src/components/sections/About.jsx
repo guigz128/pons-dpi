@@ -42,8 +42,8 @@ export default function About() {
           {/* Texte */}
           <ScrollReveal>
             <div>
-              <h2 className="text-2xl sm:text-3xl font-bold text-text">
-                Guillaume Pons, diagnostiqueur immobilier
+              <h2 className="font-display text-4xl sm:text-5xl text-text leading-[1.1]">
+                Guillaume Pons, <span className="text-highlight">diagnostiqueur immobilier</span>
               </h2>
               <p className="mt-4 text-text-secondary leading-relaxed">
                 Titulaire du Titre professionnel Diagnostiqueur Immobilier (RNCP 38469, niveau 5),
@@ -70,7 +70,7 @@ export default function About() {
               return (
                 <ScrollReveal key={i} delay={i * 0.05}>
                   <div className="flex items-start gap-3">
-                    <div className="flex items-center justify-center h-9 w-9 rounded-[--radius-sm] bg-accent-light text-accent shrink-0">
+                    <div className="flex items-center justify-center h-9 w-9 rounded-sm bg-accent-light text-accent shrink-0">
                       <Icon className="h-4.5 w-4.5" />
                     </div>
                     <div>

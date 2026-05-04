@@ -8,8 +8,8 @@ export default function Zone() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-10">
-            <h2 className="text-2xl sm:text-3xl font-bold text-text">
-              Zone d'intervention
+            <h2 className="font-display text-4xl sm:text-5xl text-text">
+              Zone d'<span className="text-highlight">intervention</span>
             </h2>
             <p className="mt-3 text-text-secondary">
               J'interviens sur Montpellier et l'ensemble de la métropole, ainsi que les communes environnantes du département de l'Hérault.

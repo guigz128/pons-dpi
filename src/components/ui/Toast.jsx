@@ -11,7 +11,7 @@ export default function Toast({ show, type = 'success', message, onClose }) {
           exit={{ opacity: 0, y: 40 }}
           className="fixed bottom-24 left-1/2 z-50 -translate-x-1/2"
         >
-          <div className={`flex items-center gap-3 rounded-[--radius-sm] px-4 py-3 shadow-lg text-sm font-medium text-white ${
+          <div className={`flex items-center gap-3 rounded-sm px-4 py-3 shadow-lg text-sm font-medium text-white ${
             type === 'success' ? 'bg-success' : 'bg-danger'
           }`}>
             {type === 'success' ? <CheckCircle className="h-5 w-5" /> : <XCircle className="h-5 w-5" />}

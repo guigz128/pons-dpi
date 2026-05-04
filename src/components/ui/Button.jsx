@@ -26,7 +26,7 @@ export default function Button({
   className = '',
   ...props
 }) {
-  const base = `inline-flex items-center justify-center gap-2 font-semibold rounded-[--radius-sm] transition-colors focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ${VARIANTS[variant]} ${SIZES[size]} ${className}`
+  const base = `inline-flex items-center justify-center gap-2 font-semibold rounded-full transition-colors focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ${VARIANTS[variant]} ${SIZES[size]} ${className}`
 
   if (to) return <Link to={to} className={base} {...props}>{children}</Link>
   if (href) return <a href={href} className={base} {...props}>{children}</a>

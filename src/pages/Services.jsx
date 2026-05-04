@@ -24,7 +24,7 @@ function ServiceGroup({ title, description, services }) {
             <ScrollReveal key={service.id} delay={i * 0.05}>
               <Link to={`/services/${service.slug}`}>
                 <Card className="h-full hover:shadow-md hover:border-accent/20 transition-all group">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-[--radius-sm] bg-accent-light text-accent mb-4">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-sm bg-accent-light text-accent mb-4">
                     <Icon className="h-5 w-5" />
                   </div>
                   <h3 className="font-semibold text-text group-hover:text-accent transition-colors">

@@ -20,9 +20,9 @@ export default function Hero() {
             <p className="text-sm font-medium text-accent tracking-wide uppercase mb-2">
               Diagnostics et Performance Immobilière
             </p>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-text leading-tight">
+            <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl tracking-tight text-text leading-[1.05]">
               Vos diagnostics immobiliers à{' '}
-              <span className="text-accent">Montpellier</span>
+              <span className="text-highlight">Montpellier</span>
             </h1>
 
             <p className="mt-4 text-lg sm:text-xl text-text-secondary leading-relaxed max-w-xl">

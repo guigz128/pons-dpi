@@ -64,7 +64,7 @@ export default function ServiceDetail() {
               Tous les diagnostics
             </Link>
 
-            <div className="flex items-center justify-center h-14 w-14 rounded-[--radius-md] bg-accent-light text-accent mb-6">
+            <div className="flex items-center justify-center h-14 w-14 rounded-md bg-accent-light text-accent mb-6">
               <Icon className="h-7 w-7" />
             </div>
 
@@ -91,7 +91,7 @@ export default function ServiceDetail() {
           {service.whatWeCheck && (
             <ScrollReveal>
               <div className="mt-8 space-y-4">
-                <div className="rounded-[--radius-md] border border-border bg-surface p-5">
+                <div className="rounded-md border border-border bg-surface p-5">
                   <div className="flex items-center gap-2 mb-2">
                     <div className="flex items-center justify-center h-8 w-8 rounded-full bg-accent-light text-accent">
                       <Search className="h-4 w-4" />
@@ -102,7 +102,7 @@ export default function ServiceDetail() {
                 </div>
 
                 {service.whyItMatters && (
-                  <div className="rounded-[--radius-md] border border-border bg-surface p-5">
+                  <div className="rounded-md border border-border bg-surface p-5">
                     <div className="flex items-center gap-2 mb-2">
                       <div className="flex items-center justify-center h-8 w-8 rounded-full bg-accent-light text-accent">
                         <Lightbulb className="h-4 w-4" />
@@ -114,7 +114,7 @@ export default function ServiceDetail() {
                 )}
 
                 {service.ifPositive && (
-                  <div className="rounded-[--radius-md] border border-amber-200 bg-amber-50 p-5">
+                  <div className="rounded-md border border-amber-200 bg-amber-50 p-5">
                     <div className="flex items-center gap-2 mb-2">
                       <div className="flex items-center justify-center h-8 w-8 rounded-full bg-amber-100 text-amber-600">
                         <AlertCircle className="h-4 w-4" />
@@ -131,7 +131,7 @@ export default function ServiceDetail() {
           <ScrollReveal>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               {service.condition && (
-                <div className="flex items-start gap-3 rounded-[--radius-md] border border-border bg-surface p-4">
+                <div className="flex items-start gap-3 rounded-md border border-border bg-surface p-4">
                   <FileCheck className="h-5 w-5 text-accent shrink-0 mt-0.5" />
                   <div>
                     <p className="text-sm font-semibold text-text">Obligation</p>
@@ -140,7 +140,7 @@ export default function ServiceDetail() {
                 </div>
               )}
               {service.validite && (
-                <div className="flex items-start gap-3 rounded-[--radius-md] border border-border bg-surface p-4">
+                <div className="flex items-start gap-3 rounded-md border border-border bg-surface p-4">
                   <Clock className="h-5 w-5 text-accent shrink-0 mt-0.5" />
                   <div>
                     <p className="text-sm font-semibold text-text">Validité</p>

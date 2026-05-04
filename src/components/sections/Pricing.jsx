@@ -44,8 +44,8 @@ export default function Pricing() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-2xl sm:text-3xl font-bold text-text">
-              Tarifs transparents
+            <h2 className="font-display text-4xl sm:text-5xl text-text">
+              Tarifs <span className="text-highlight">transparents</span>
             </h2>
             <p className="mt-3 text-text-secondary">
               Des packs avantageux pour les diagnostics courants. Prix clairs,
@@ -111,7 +111,7 @@ export default function Pricing() {
               {PREMIUM.map((item) => (
                 <div
                   key={item.name}
-                  className="rounded-[--radius-md] border border-border bg-surface p-4"
+                  className="rounded-md border border-border bg-surface p-4"
                 >
                   <p className="text-sm font-semibold text-text">{item.name}</p>
                   <p className="mt-1 text-lg font-bold text-accent">{item.price} €</p>

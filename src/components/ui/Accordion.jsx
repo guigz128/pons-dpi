@@ -6,7 +6,7 @@ export default function Accordion({ items }) {
   const [openIndex, setOpenIndex] = useState(null)
 
   return (
-    <div className="divide-y divide-border rounded-[--radius-md] border border-border bg-surface">
+    <div className="divide-y divide-border rounded-md border border-border bg-surface">
       {items.map((item, i) => (
         <div key={i}>
           <button

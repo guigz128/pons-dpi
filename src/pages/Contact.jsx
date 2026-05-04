@@ -145,7 +145,7 @@ export default function Contact() {
                         required
                         value={form.name}
                         onChange={handleChange}
-                        className="w-full rounded-[--radius-sm] border border-border bg-surface px-4 py-2.5 text-sm text-text placeholder:text-text-secondary focus:border-accent focus:ring-1 focus:ring-accent outline-none"
+                        className="w-full rounded-sm border border-border bg-surface px-4 py-2.5 text-sm text-text placeholder:text-text-secondary focus:border-accent focus:ring-1 focus:ring-accent outline-none"
                         placeholder="Jean Dupont"
                       />
                     </div>
@@ -160,7 +160,7 @@ export default function Contact() {
                         required
                         value={form.email}
                         onChange={handleChange}
-                        className="w-full rounded-[--radius-sm] border border-border bg-surface px-4 py-2.5 text-sm text-text placeholder:text-text-secondary focus:border-accent focus:ring-1 focus:ring-accent outline-none"
+                        className="w-full rounded-sm border border-border bg-surface px-4 py-2.5 text-sm text-text placeholder:text-text-secondary focus:border-accent focus:ring-1 focus:ring-accent outline-none"
                         placeholder="jean@exemple.fr"
                       />
                     </div>
@@ -175,7 +175,7 @@ export default function Contact() {
                       type="tel"
                       value={form.phone}
                       onChange={handleChange}
-                      className="w-full rounded-[--radius-sm] border border-border bg-surface px-4 py-2.5 text-sm text-text placeholder:text-text-secondary focus:border-accent focus:ring-1 focus:ring-accent outline-none"
+                      className="w-full rounded-sm border border-border bg-surface px-4 py-2.5 text-sm text-text placeholder:text-text-secondary focus:border-accent focus:ring-1 focus:ring-accent outline-none"
                       placeholder="06 12 34 56 78"
                     />
                   </div>
@@ -190,7 +190,7 @@ export default function Contact() {
                       rows={4}
                       value={form.message}
                       onChange={handleChange}
-                      className="w-full rounded-[--radius-sm] border border-border bg-surface px-4 py-2.5 text-sm text-text placeholder:text-text-secondary focus:border-accent focus:ring-1 focus:ring-accent outline-none resize-y"
+                      className="w-full rounded-sm border border-border bg-surface px-4 py-2.5 text-sm text-text placeholder:text-text-secondary focus:border-accent focus:ring-1 focus:ring-accent outline-none resize-y"
                       placeholder="Décrivez votre besoin (type de bien, adresse, transaction prévue...)"
                     />
                   </div>

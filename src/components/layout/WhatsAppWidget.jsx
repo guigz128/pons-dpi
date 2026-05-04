@@ -15,7 +15,7 @@ export default function WhatsAppWidget() {
       <MessageCircle className="h-7 w-7 sm:h-8 sm:w-8" />
 
       {/* Tooltip desktop */}
-      <span className="hidden sm:block absolute right-full mr-3 whitespace-nowrap rounded-[--radius-sm] bg-stone-800 px-3 py-1.5 text-sm font-medium text-white opacity-0 transition-opacity group-hover:opacity-100 pointer-events-none">
+      <span className="hidden sm:block absolute right-full mr-3 whitespace-nowrap rounded-sm bg-stone-800 px-3 py-1.5 text-sm font-medium text-white opacity-0 transition-opacity group-hover:opacity-100 pointer-events-none">
         Contactez-moi sur WhatsApp
       </span>
     </a>

@@ -8,8 +8,8 @@ export default function Faq() {
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center mb-10">
-            <h2 className="text-2xl sm:text-3xl font-bold text-text">
-              Questions fréquentes
+            <h2 className="font-display text-4xl sm:text-5xl text-text">
+              Questions <span className="text-highlight">fréquentes</span>
             </h2>
             <p className="mt-3 text-text-secondary">
               Les réponses aux questions les plus courantes sur les diagnostics immobiliers.

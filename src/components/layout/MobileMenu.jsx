@@ -19,7 +19,7 @@ export default function MobileMenu({ open, onClose, links }) {
           <div className="px-4 py-4 space-y-1">
             {links.map(({ to, label, external }) => {
               const isActive = location.pathname === to
-              const className = `block px-3 py-2.5 text-base font-medium rounded-[--radius-sm] transition-colors ${
+              const className = `block px-3 py-2.5 text-base font-medium rounded-sm transition-colors ${
                 isActive
                   ? 'text-accent bg-accent-light'
                   : 'text-text-secondary hover:text-text hover:bg-stone-100'

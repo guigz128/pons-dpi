@@ -21,8 +21,8 @@ export default function Certifications() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-2xl sm:text-3xl font-bold text-text">
-              Certifications COFRAC
+            <h2 className="font-display text-4xl sm:text-5xl text-text">
+              Certifications <span className="text-highlight">COFRAC</span>
             </h2>
             <p className="mt-3 text-text-secondary">
               Toutes les certifications délivrées par un organisme accrédité COFRAC.
@@ -33,8 +33,8 @@ export default function Certifications() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {CERTIFICATIONS.map((cert, i) => (
-            <ScrollReveal key={i} delay={i * 0.04}>
-              <div className={`flex items-start gap-3 rounded-[--radius-md] border p-4 transition-colors ${
+            <ScrollReveal key={i} delay={i * 0.04} className="h-full">
+              <div className={`h-full flex items-start gap-3 rounded-md border p-4 transition-colors ${
                 cert.highlight
                   ? 'border-accent/30 bg-accent-light/50'
                   : 'border-border bg-surface'
