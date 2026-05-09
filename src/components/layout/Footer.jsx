@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react'
+import { villes } from '../../content/villes'
 
 export default function Footer() {
   return (
     <footer className="bg-stone-900 text-stone-300">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-10">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link to="/" className="inline-flex items-center gap-2 mb-1">
@@ -68,6 +69,28 @@ export default function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 shrink-0 mt-0.5" />
                 <span>Montpellier et alentours (34)</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Zone d'intervention */}
+          <div>
+            <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
+              Zone d'intervention
+            </h3>
+            <ul className="space-y-2 text-sm">
+              {villes.map((v) => (
+                <li key={v.slug}>
+                  <Link
+                    to={`/diagnostic-immobilier/${v.slug}`}
+                    className="hover:text-white transition-colors"
+                  >
+                    {v.name}
+                  </Link>
+                </li>
+              ))}
+              <li className="text-stone-500 italic text-xs pt-1">
+                Et l'ensemble de la métropole de Montpellier.
               </li>
             </ul>
           </div>

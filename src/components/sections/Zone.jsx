@@ -1,6 +1,13 @@
+import { Link } from 'react-router-dom'
 import { MapPin } from 'lucide-react'
 import { communes } from '../../content/zone'
+import { villes } from '../../content/villes'
 import ScrollReveal from '../ui/ScrollReveal'
+
+function findVilleByLabel(label) {
+  const normalized = label.replace(/\s*\(.*?\)\s*/g, '').trim().toLowerCase()
+  return villes.find((v) => v.name.toLowerCase() === normalized)
+}
 
 export default function Zone() {
   return (
@@ -19,15 +26,30 @@ export default function Zone() {
 
         <ScrollReveal>
           <div className="flex flex-wrap justify-center gap-2">
-            {communes.map((commune) => (
-              <span
-                key={commune}
-                className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1.5 text-sm text-text"
-              >
-                <MapPin className="h-3.5 w-3.5 text-accent" />
-                {commune}
-              </span>
-            ))}
+            {communes.map((commune) => {
+              const linkedVille = findVilleByLabel(commune)
+              if (linkedVille) {
+                return (
+                  <Link
+                    key={commune}
+                    to={`/diagnostic-immobilier/${linkedVille.slug}`}
+                    className="inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-accent-light px-3 py-1.5 text-sm font-medium text-accent hover:bg-accent hover:text-white transition-colors"
+                  >
+                    <MapPin className="h-3.5 w-3.5" />
+                    {commune}
+                  </Link>
+                )
+              }
+              return (
+                <span
+                  key={commune}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1.5 text-sm text-text"
+                >
+                  <MapPin className="h-3.5 w-3.5 text-accent" />
+                  {commune}
+                </span>
+              )
+            })}
           </div>
         </ScrollReveal>
       </div>

@@ -2,6 +2,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { villes } from '../src/content/villes.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(__dirname, '..')
@@ -65,30 +66,6 @@ const services = [
     fullName: 'Mesurage loi Carrez',
     description: 'Surface privative du lot de copropriété selon la loi du 18 décembre 1996.',
   },
-  {
-    slug: 'audit-energetique',
-    name: 'Audit énergétique',
-    fullName: 'Audit énergétique réglementaire',
-    description: 'Analyse approfondie des performances énergétiques, scénarios de travaux chiffrés, gains estimés.',
-  },
-  {
-    slug: 'amiante-avant-travaux',
-    name: 'Amiante avant travaux',
-    fullName: 'Repérage amiante avant travaux',
-    description: "Repérage exhaustif de tous les matériaux amiantés susceptibles d'être impactés par les travaux — obligation du maître d'ouvrage.",
-  },
-  {
-    slug: 'amiante-avant-demolition',
-    name: 'Amiante avant démolition',
-    fullName: 'Repérage amiante avant démolition',
-    description: "Repérage de l'ensemble des matériaux contenant de l'amiante avant démolition totale ou partielle.",
-  },
-  {
-    slug: 'dpe-tertiaire',
-    name: 'DPE tertiaire',
-    fullName: 'DPE tertiaire',
-    description: 'Bureaux, commerces, bâtiments publics — périmètre élargi grâce à la certification avec mention.',
-  },
 ]
 
 const routes = [
@@ -100,12 +77,17 @@ const routes = [
   {
     path: '/services',
     title: 'Diagnostics immobiliers — Tous nos services | Pons DPI',
-    description: 'DPE, amiante, plomb, électricité, gaz, termites, ERP, mesurage Carrez, audit énergétique. Tous les diagnostics immobiliers obligatoires à Montpellier.',
+    description: 'DPE, amiante, plomb, électricité, gaz, termites, ERP, mesurage Carrez. Tous les diagnostics immobiliers obligatoires à Montpellier.',
   },
   ...services.map((s) => ({
     path: `/services/${s.slug}`,
     title: `${s.name} à Montpellier — Diagnostic immobilier | Pons DPI`,
     description: `${s.fullName} à Montpellier. ${s.description} Devis en ligne, intervention sous 48h.`,
+  })),
+  ...villes.map((v) => ({
+    path: `/diagnostic-immobilier/${v.slug}`,
+    title: `Diagnostic immobilier à ${v.name} (${v.codePostal}) — DPE, amiante | Pons DPI`,
+    description: `Diagnostiqueur immobilier certifié à ${v.name}. DPE, amiante, plomb, électricité, gaz, termites. Devis en ligne, intervention sous 48 h, rapport sous 24 h.`,
   })),
   {
     path: '/devis',
@@ -115,7 +97,7 @@ const routes = [
   {
     path: '/a-propos',
     title: 'À propos — Guillaume Pons, diagnostiqueur immobilier | Pons DPI',
-    description: 'Guillaume Pons, diagnostiqueur immobilier certifié COFRAC à Montpellier. 8 certifications, DPE et amiante avec mention. Titre RNCP 38469.',
+    description: 'Guillaume Pons, diagnostiqueur immobilier certifié COFRAC à Montpellier. DPE, amiante, plomb, électricité, gaz, termites. Titre RNCP 38469.',
   },
   {
     path: '/contact',
