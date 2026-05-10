@@ -15,6 +15,13 @@ export const villes = [
     inCoreZone: true,
     inOuterZone: false,
 
+    image: {
+      url: '/images/villes/montpellier.webp',
+      alt: 'Place de la Comédie à Montpellier',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Place_de_la_Com%C3%A9die_(2377437375).jpg',
+    },
+
     population: 310240,
     nbLogements: 175000,
     pctResidencesSecondaires: 5.2,
@@ -115,6 +122,13 @@ export const villes = [
     travelTimeMin: 10,
     inCoreZone: true,
     inOuterZone: false,
+
+    image: {
+      url: '/images/villes/castelnau-le-lez.webp',
+      alt: 'Avenue du Jeu de Mail à Castelnau-le-Lez',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Castelnau_le_Lez.jpg',
+    },
 
     population: 28678,
     nbLogements: 11514,
@@ -217,6 +231,13 @@ export const villes = [
     inCoreZone: true,
     inOuterZone: false,
 
+    image: {
+      url: '/images/villes/saint-gely-du-fesc.webp',
+      alt: 'Église paroissiale Saint-Gilles à Saint-Gély-du-Fesc',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Saint-Gely-du-Fesc_(39).jpg',
+    },
+
     population: 10945,
     nbLogements: 4345,
     pctResidencesSecondaires: 1.6,
@@ -317,6 +338,13 @@ export const villes = [
     travelTimeMin: 20,
     inCoreZone: true,
     inOuterZone: false,
+
+    image: {
+      url: '/images/villes/lattes.webp',
+      alt: 'Le quartier de Port-Ariane à Lattes',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Port_Ariane_0027.jpg',
+    },
 
     population: 15841,
     nbLogements: 7200,
@@ -419,6 +447,13 @@ export const villes = [
     inCoreZone: true,
     inOuterZone: false,
 
+    image: {
+      url: '/images/villes/saint-jean-de-vedas.webp',
+      alt: 'Église Saint-Jean-Baptiste de Saint-Jean-de-Védas',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Eglise_Saint-Jean_Baptiste_de_Saint-Jean-de-V%C3%A9das.jpg',
+    },
+
     population: 15229,
     nbLogements: 4919,
     pctResidencesSecondaires: 1.8,
@@ -519,6 +554,13 @@ export const villes = [
     travelTimeMin: 10,
     inCoreZone: true,
     inOuterZone: false,
+
+    image: {
+      url: '/images/villes/jacou.webp',
+      alt: 'Hôtel de ville de Jacou',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Mairie_jacou.jpg',
+    },
 
     population: 7018,
     nbLogements: 3100,
@@ -621,6 +663,13 @@ export const villes = [
     inCoreZone: true,
     inOuterZone: false,
 
+    image: {
+      url: '/images/villes/perols.webp',
+      alt: 'La mairie et l\'église Saint-Sixte de Pérols',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Perols_mairie.jpg',
+    },
+
     population: 9785,
     nbLogements: 3516,
     pctResidencesSecondaires: 3.5,
@@ -721,6 +770,13 @@ export const villes = [
     travelTimeMin: 12,
     inCoreZone: true,
     inOuterZone: false,
+
+    image: {
+      url: '/images/villes/le-cres.webp',
+      alt: 'Le lac du Crès',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Lac_le_cres.jpg',
+    },
 
     population: 9378,
     nbLogements: 4200,
@@ -823,6 +879,13 @@ export const villes = [
     inCoreZone: true,
     inOuterZone: false,
 
+    image: {
+      url: '/images/villes/clapiers.webp',
+      alt: 'Vue de Clapiers',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Clapiers_(29).jpg',
+    },
+
     population: 6010,
     nbLogements: 2341,
     pctResidencesSecondaires: 1.5,
@@ -923,6 +986,13 @@ export const villes = [
     travelTimeMin: 22,
     inCoreZone: true,
     inOuterZone: false,
+
+    image: {
+      url: '/images/villes/mauguio.webp',
+      alt: 'Vue générale de Mauguio depuis la Motte',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Mauguio_vue_1.JPG',
+    },
 
     population: 16274,
     nbLogements: 12313,
@@ -1025,6 +1095,13 @@ export const villes = [
     inCoreZone: false,
     inOuterZone: true,
 
+    image: {
+      url: '/images/villes/aigues-mortes.webp',
+      alt: 'Vue d\'Aigues-Mortes et de ses remparts',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Aigues-Mortes_-_View_from_the_ramparts_-_03.jpg',
+    },
+
     population: 8560,
     nbLogements: 6800,
     pctResidencesSecondaires: 20,
@@ -1125,6 +1202,13 @@ export const villes = [
     travelTimeMin: 45,
     inCoreZone: false,
     inOuterZone: true,
+
+    image: {
+      url: '/images/villes/le-grau-du-roi.webp',
+      alt: 'Le port du Grau-du-Roi et son phare',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Le_Grau-du-Roi_-_Port_-_03.jpg',
+    },
 
     population: 8538,
     nbLogements: 18000,
@@ -1227,6 +1311,13 @@ export const villes = [
     inCoreZone: false,
     inOuterZone: true,
 
+    image: {
+      url: '/images/villes/saint-laurent-d-aigouze.webp',
+      alt: 'Église de Saint-Laurent-d\'Aigouze',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Eglise_Saint-Laurent-d%27Aigouze.JPG',
+    },
+
     population: 3751,
     nbLogements: 1976,
     pctResidencesSecondaires: 5,
@@ -1327,6 +1418,13 @@ export const villes = [
     travelTimeMin: 35,
     inCoreZone: false,
     inOuterZone: true,
+
+    image: {
+      url: '/images/villes/sommieres.webp',
+      alt: 'Pont romain (Pont Tibère) de Sommières',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Pont_romain_de_Sommi%C3%A8res_(Pont_Tib%C3%A8re)_-_01.JPG',
+    },
 
     population: 5265,
     nbLogements: 2900,
@@ -1429,6 +1527,13 @@ export const villes = [
     inCoreZone: false,
     inOuterZone: true,
 
+    image: {
+      url: '/images/villes/vergeze.webp',
+      alt: 'La mairie de Vergèze',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Hotel_de_Vergeze_(2014).jpg',
+    },
+
     population: 5100,
     nbLogements: 2400,
     pctResidencesSecondaires: 4,
@@ -1529,6 +1634,14 @@ export const villes = [
     travelTimeMin: 30,
     inCoreZone: false,
     inOuterZone: true,
+
+    image: {
+      url: '/images/villes/lunel.webp',
+      alt: 'Cours Gabriel Péri à Lunel — axe animé du centre-ville',
+      credit: 'Wikimedia Commons — CC BY-SA',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Lunel_-_Cours_Gabriel_P%C3%A9ri.jpg',
+    },
+
 
     population: 18404,
     nbLogements: 11182,

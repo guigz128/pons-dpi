@@ -209,51 +209,88 @@ export default function VilleDetail() {
 
       {/* 1 — Hero ville */}
       <section className="relative overflow-hidden bg-gradient-to-b from-accent-light to-bg">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
           <ScrollReveal>
-            <Link
-              to="/"
-              className="inline-flex items-center gap-2 text-sm text-text-secondary hover:text-text transition-colors mb-6"
-            >
-              <ArrowLeft className="h-4 w-4" />
-              Toutes les zones d'intervention
-            </Link>
+            <div className={`grid gap-8 lg:gap-12 items-start ${ville.image ? 'lg:grid-cols-[1fr_280px]' : 'grid-cols-1'}`}>
+              <div className="lg:order-1">
+                <Link
+                  to="/"
+                  className="inline-flex items-center gap-2 text-sm text-text-secondary hover:text-text transition-colors mb-6"
+                >
+                  <ArrowLeft className="h-4 w-4" />
+                  Toutes les zones d'intervention
+                </Link>
 
-            <p className="text-sm font-medium text-accent tracking-wide uppercase mb-2">
-              Diagnostic immobilier — {codePostal}
-            </p>
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl tracking-tight text-text leading-[1.05]">
-              Diagnostic immobilier à <span className="text-highlight">{name}</span>
-            </h1>
+                <p className="text-sm font-medium text-accent tracking-wide uppercase mb-2">
+                  Diagnostic immobilier — {codePostal}
+                </p>
+                <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl tracking-tight text-text leading-[1.05]">
+                  Diagnostic immobilier à <span className="text-highlight">{name}</span>
+                </h1>
 
-            <p className="mt-4 text-lg text-text-secondary leading-relaxed max-w-2xl">
-              Diagnostiqueur indépendant — installation mars 2027, basé dans la région. Devis en ligne instantané, intervention sous 48 h sur {name} dès l'ouverture, rapport remis sous 24 h.
-            </p>
+                <p className="mt-4 text-lg text-text-secondary leading-relaxed max-w-2xl">
+                  Diagnostiqueur indépendant — installation mars 2027, basé dans la région. Devis en ligne instantané, intervention sous 48 h sur {name} dès l'ouverture, rapport remis sous 24 h.
+                </p>
 
-            <div className="mt-6 flex flex-wrap gap-2">
-              <Badge variant="accent">
-                <Clock className="h-3 w-3" />
-                Intervention sous 48 h
-              </Badge>
-              <Badge variant="accent">
-                <FileCheck className="h-3 w-3" />
-                Rapport sous 24 h
-              </Badge>
-              <Badge variant="accent">
-                <Award className="h-3 w-3" />
-                Activité dès mars 2027
-              </Badge>
-            </div>
+                <div className="mt-6 flex flex-wrap gap-2">
+                  <Badge variant="accent">
+                    <Clock className="h-3 w-3" />
+                    Intervention sous 48 h
+                  </Badge>
+                  <Badge variant="accent">
+                    <FileCheck className="h-3 w-3" />
+                    Rapport sous 24 h
+                  </Badge>
+                  <Badge variant="accent">
+                    <Award className="h-3 w-3" />
+                    Activité dès mars 2027
+                  </Badge>
+                </div>
 
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Button to="/devis" size="lg">
-                Demander un devis
-                <ArrowRight className="h-4 w-4" />
-              </Button>
-              <Button href="tel:0651669161" variant="outline" size="lg">
-                <Phone className="h-5 w-5" />
-                06 51 66 91 61
-              </Button>
+                <div className="mt-8 flex flex-wrap gap-3">
+                  <Button to="/devis" size="lg">
+                    Demander un devis
+                    <ArrowRight className="h-4 w-4" />
+                  </Button>
+                  <Button href="tel:0651669161" variant="outline" size="lg">
+                    <Phone className="h-5 w-5" />
+                    06 51 66 91 61
+                  </Button>
+                </div>
+              </div>
+
+              {ville.image && (
+                <div className="lg:order-2 lg:col-start-2 lg:pt-12">
+                  <figure className="m-0">
+                    <img
+                      src={ville.image.url}
+                      alt={ville.image.alt}
+                      width="280"
+                      height="200"
+                      loading="lazy"
+                      className="w-full h-40 sm:h-48 lg:h-[200px] rounded-md object-cover shadow-sm border border-border"
+                    />
+                    {ville.image.credit && (
+                      <figcaption className="mt-1.5 text-[10px] text-text-secondary leading-tight">
+                        {ville.image.attribution_url ? (
+                          <a
+                            href={ville.image.attribution_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:underline"
+                          >
+                            {ville.image.alt} · {ville.image.credit}
+                          </a>
+                        ) : (
+                          <>
+                            {ville.image.alt} · {ville.image.credit}
+                          </>
+                        )}
+                      </figcaption>
+                    )}
+                  </figure>
+                </div>
+              )}
             </div>
           </ScrollReveal>
         </div>
