@@ -85,6 +85,11 @@ const routes = [
     description: `${s.fullName} à Montpellier. ${s.description} Devis en ligne, intervention sous 48h.`,
   })),
   {
+    path: '/audit-energetique',
+    title: 'Audit énergétique à Montpellier — Obligation DPE F/G/E | Pons DPI',
+    description: "Audit énergétique réglementaire à Montpellier et environs. Obligatoire pour la vente de maisons classées F/G/E au DPE. Partenariat avec un bureau d'études qualifié OPQIBI 1905 / RGE Études.",
+  },
+  {
     path: '/diagnostic-immobilier',
     title: "Zones d'intervention — Diagnostic immobilier Hérault, Gard, Aude | Pons DPI",
     description: `Pages dédiées par commune en Hérault (34), Gard (30) et Aude (11) : marché immobilier local, risques PPRi, diagnostics prioritaires. Diagnostiqueur indépendant — activité dès mars 2027.`,

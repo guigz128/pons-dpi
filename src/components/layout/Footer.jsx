@@ -33,6 +33,7 @@ export default function Footer() {
               <li><Link to="/services#electricite" className="hover:text-white transition-colors">Électricité</Link></li>
               <li><Link to="/services#gaz" className="hover:text-white transition-colors">Gaz</Link></li>
               <li><Link to="/services#termites" className="hover:text-white transition-colors">Termites</Link></li>
+              <li><Link to="/audit-energetique" className="hover:text-white transition-colors">Audit énergétique</Link></li>
               <li><Link to="/devis" className="hover:text-white transition-colors">Devis en ligne</Link></li>
             </ul>
           </div>

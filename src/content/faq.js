@@ -27,7 +27,7 @@ export const faqItems = [
   {
     question: "Que se passe-t-il si mon DPE est classé F ou G ?",
     answer:
-      "Un logement classé F ou G est considéré comme une passoire thermique. Depuis 2023, un audit énergétique est obligatoire pour la vente de maisons individuelles classées F ou G — il doit être réalisé par un professionnel disposant de la qualification correspondante (OPQIBI, RGE Études). Je vous orienterai vers un partenaire de confiance si votre DPE conduit à cette obligation.",
+      "Un logement classé F ou G est considéré comme une passoire thermique. Depuis 2023, un audit énergétique est obligatoire pour la vente de maisons individuelles classées F ou G (étendu à la classe E depuis 2025) — il doit être réalisé par un professionnel disposant de la qualification correspondante (OPQIBI 1905 ou RGE Études). Pons DPI travaille en partenariat avec un bureau d'études qualifié pour vous orienter — voir la page dédiée audit énergétique pour le détail du dispositif et de la mise en relation.",
   },
   {
     question: 'Intervenez-vous en dehors de Montpellier ?',
