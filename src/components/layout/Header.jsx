@@ -18,7 +18,7 @@ export default function Header() {
   const location = useLocation()
 
   return (
-    <header className="sticky top-0 z-40 bg-surface/95 backdrop-blur-sm border-b border-border">
+    <header className="bg-surface/95 backdrop-blur-sm border-b border-border">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}

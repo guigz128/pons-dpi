@@ -14,8 +14,10 @@ export default function Layout({ children }) {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <PreLaunchBanner />
-      <Header />
+      <div className="sticky top-0 z-40">
+        <PreLaunchBanner />
+        <Header />
+      </div>
       <main className="flex-1">{children}</main>
       <Footer />
       <WhatsAppWidget />
