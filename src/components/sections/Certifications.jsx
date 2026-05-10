@@ -18,12 +18,16 @@ export default function Certifications() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center max-w-2xl mx-auto mb-12">
+            <p className="inline-flex items-center gap-2 rounded-full bg-amber-50 border border-amber-200 px-3 py-1 text-xs font-semibold text-amber-900 mb-4">
+              Certifications obtenues février-mars 2027
+            </p>
             <h2 className="font-display text-4xl sm:text-5xl text-text">
-              Certifications <span className="text-highlight">COFRAC</span>
+              Certifications <span className="text-highlight">COFRAC visées</span>
             </h2>
             <p className="mt-3 text-text-secondary">
-              Toutes les certifications délivrées par un organisme accrédité COFRAC.
-              Titre professionnel Diagnostiqueur Immobilier (RNCP 38469, niveau 5).
+              Formation Titre professionnel Diagnostiqueur Immobilier (RNCP 38469, niveau 5)
+              en cours (nov 2026 → fév 2027). À l'issue, certifications délivrées par un
+              organisme accrédité COFRAC pour les 7 domaines ci-dessous.
             </p>
           </div>
         </ScrollReveal>

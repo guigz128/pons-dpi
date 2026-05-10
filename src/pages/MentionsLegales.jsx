@@ -37,20 +37,36 @@ export default function MentionsLegales() {
             </div>
 
             <div>
-              <h2 className="text-lg font-semibold text-text mb-3">Certifications</h2>
+              <h2 className="text-lg font-semibold text-text mb-3">Statut et activité</h2>
               <p>
-                Guillaume Pons est titulaire de certifications délivrées par un organisme
-                certificateur accrédité COFRAC pour les domaines suivants : DPE, amiante,
-                plomb, gaz, électricité, termites. Habilitation électrique BE complémentaire.
+                Le site pons-dpi.fr est en ligne dès maintenant pour préparer le lancement
+                de l'activité officielle, prévu en mars 2027. Guillaume Pons suit actuellement
+                une formation au Titre professionnel Diagnostiqueur Immobilier (RNCP 38469,
+                niveau 5) et obtiendra les certifications COFRAC associées (DPE, amiante,
+                plomb, gaz, électricité, termites) entre février et mars 2027. Aucune mission
+                de diagnostic ne pourra être réalisée avant cette date. Les devis fournis sur
+                le site sont indicatifs et permettent de pré-réserver une mission au démarrage
+                de l'activité.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-text mb-3">Certifications visées (mars 2027)</h2>
+              <p>
+                À l'issue de la formation, Guillaume Pons sera titulaire de certifications
+                délivrées par un organisme certificateur accrédité COFRAC pour les domaines
+                suivants : DPE, amiante, plomb, gaz, électricité, termites. Habilitation
+                électrique BE complémentaire.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-text mb-3">Assurance responsabilité civile professionnelle</h2>
               <p>
-                Pons DPI est couvert par une assurance responsabilité civile professionnelle
-                conforme aux exigences réglementaires applicables aux diagnostiqueurs immobiliers.
-                Les coordonnées de l'assureur sont disponibles sur demande.
+                Une assurance responsabilité civile professionnelle, conforme aux exigences
+                réglementaires applicables aux diagnostiqueurs immobiliers, sera souscrite
+                au démarrage de l'activité (mars 2027). Les coordonnées de l'assureur seront
+                publiées sur cette page à cette date.
               </p>
             </div>
 

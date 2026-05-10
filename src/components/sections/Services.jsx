@@ -18,8 +18,8 @@ export default function Services() {
               Nos diagnostics immobiliers
             </h2>
             <p className="mt-3 text-text-secondary">
-              Tous les diagnostics obligatoires pour la vente, la location et les travaux.
-              Certifié COFRAC, rapports conformes.
+              Tous les diagnostics obligatoires pour la vente et la location.
+              Diagnostiqueur indépendant — rapports conformes dès mars 2027.
             </p>
           </div>
         </ScrollReveal>

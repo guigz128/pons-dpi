@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import PreLaunchBanner from './PreLaunchBanner'
 import Header from './Header'
 import Footer from './Footer'
 import WhatsAppWidget from './WhatsAppWidget'
@@ -13,6 +14,7 @@ export default function Layout({ children }) {
 
   return (
     <div className="flex min-h-screen flex-col">
+      <PreLaunchBanner />
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />

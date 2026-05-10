@@ -74,7 +74,7 @@ export default function ServicesPage() {
               </h1>
               <p className="mt-4 text-lg text-text-secondary">
                 Tous les diagnostics obligatoires pour la vente et la location.
-                Certifié COFRAC, intervention à Montpellier et environs.
+                Diagnostiqueur indépendant à Montpellier et environs — activité officielle dès mars 2027.
               </p>
             </div>
           </ScrollReveal>

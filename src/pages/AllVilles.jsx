@@ -42,14 +42,14 @@ export default function AllVilles() {
         <title>Zones d'intervention — Diagnostic immobilier Hérault & Gard | Pons DPI</title>
         <meta
           name="description"
-          content="Pages dédiées par commune en Hérault (34) et Gard (30) : marché immobilier local, risques PPRi, diagnostics prioritaires. Diagnostiqueur certifié, intervention sous 48 h."
+          content="Pages dédiées par commune en Hérault (34) et Gard (30) : marché immobilier local, risques PPRi, diagnostics prioritaires. Diagnostiqueur indépendant — activité dès mars 2027."
         />
         <link rel="canonical" href={url} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Toutes les zones d'intervention | Pons DPI" />
         <meta
           property="og:description"
-          content="Pages dédiées par commune en Hérault et Gard. Diagnostiqueur certifié, intervention sous 48 h."
+          content="Pages dédiées par commune en Hérault et Gard. Diagnostiqueur indépendant — activité dès mars 2027."
         />
         <meta property="og:url" content={url} />
         <meta property="og:locale" content="fr_FR" />

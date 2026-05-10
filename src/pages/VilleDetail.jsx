@@ -112,8 +112,8 @@ export default function VilleDetail() {
   const SITE = 'https://www.pons-dpi.fr'
 
   const pageTitle = `Diagnostic immobilier ${name} (${codePostal}) — DPE, amiante, termites | Pons DPI`
-  const pageDescription = `Diagnostic immobilier à ${name} : DPE, amiante, plomb, électricité, gaz, termites. Devis en ligne instantané, intervention sous 48 h, rapport remis sous 24 h ouvrées.`
-  const ogDescription = `Diagnostics immobiliers à ${name} et alentours. Devis en ligne, intervention 48 h, rapport 24 h.`
+  const pageDescription = `Diagnostic immobilier à ${name} : DPE, amiante, plomb, électricité, gaz, termites. Devis indicatif en ligne, activité dès mars 2027.`
+  const ogDescription = `Diagnostics immobiliers à ${name} et alentours. Devis en ligne, activité dès mars 2027.`
 
   // Combined JSON-LD : LocalBusiness + FAQPage + BreadcrumbList
   const jsonLd = {
@@ -123,7 +123,7 @@ export default function VilleDetail() {
         '@type': 'LocalBusiness',
         '@id': `${url}#business`,
         name: 'Pons DPI',
-        description: `Diagnostiqueur immobilier certifié à ${name} : DPE, amiante, plomb, électricité, gaz, termites.`,
+        description: `Diagnostiqueur immobilier indépendant à ${name} : DPE, amiante, plomb, électricité, gaz, termites. Activité dès mars 2027.`,
         url,
         telephone: '+33651669161',
         priceRange: '€€',
@@ -227,7 +227,7 @@ export default function VilleDetail() {
             </h1>
 
             <p className="mt-4 text-lg text-text-secondary leading-relaxed max-w-2xl">
-              Diagnostiqueur certifié COFRAC, basé dans la région. Devis en ligne instantané, intervention sous 48 h sur {name}, rapport remis sous 24 h.
+              Diagnostiqueur indépendant — installation mars 2027, basé dans la région. Devis en ligne instantané, intervention sous 48 h sur {name} dès l'ouverture, rapport remis sous 24 h.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-2">
@@ -241,7 +241,7 @@ export default function VilleDetail() {
               </Badge>
               <Badge variant="accent">
                 <Award className="h-3 w-3" />
-                Certifié COFRAC
+                Activité dès mars 2027
               </Badge>
             </div>
 

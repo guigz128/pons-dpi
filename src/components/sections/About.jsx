@@ -4,8 +4,8 @@ import ScrollReveal from '../ui/ScrollReveal'
 const DIFFERENCIATEURS = [
   {
     icon: ShieldCheck,
-    title: 'Certifié COFRAC',
-    description: 'Certifications délivrées par un organisme accrédité COFRAC pour l\'ensemble des diagnostics obligatoires.',
+    title: 'Certifications COFRAC mars 2027',
+    description: 'Formation Titre RNCP en cours (nov 2026 → fév 2027). Certifications COFRAC obtenues février-mars 2027 pour DPE, amiante, plomb, gaz, électricité et termites.',
   },
   {
     icon: Eye,
@@ -15,7 +15,7 @@ const DIFFERENCIATEURS = [
   {
     icon: Clock,
     title: 'Réactivité',
-    description: 'Devis instantané, intervention sous 48h, rapports sous 24 à 48h.',
+    description: 'Devis instantané, intervention sous 48 h, rapport sous 24 h ouvrées dès l\'ouverture.',
   },
   {
     icon: Lightbulb,
@@ -25,7 +25,7 @@ const DIFFERENCIATEURS = [
   {
     icon: Award,
     title: 'Titre RNCP niveau 5',
-    description: 'Titre professionnel Diagnostiqueur Immobilier (RNCP 38469).',
+    description: 'Titre professionnel Diagnostiqueur Immobilier (RNCP 38469) — formation en cours.',
   },
   {
     icon: MapPin,
@@ -46,14 +46,15 @@ export default function About() {
                 Guillaume Pons, <span className="text-highlight">diagnostiqueur immobilier</span>
               </h2>
               <p className="mt-4 text-text-secondary leading-relaxed">
-                Titulaire du Titre professionnel Diagnostiqueur Immobilier (RNCP 38469, niveau 5),
-                je suis certifié par un organisme accrédité COFRAC pour l'ensemble des diagnostics
-                immobiliers obligatoires.
+                Mon activité officielle débutera en mars 2027, après l'obtention du Titre
+                professionnel Diagnostiqueur Immobilier (RNCP 38469, niveau 5) et des
+                certifications COFRAC associées (formation en cours nov 2026 → fév 2027).
+                Le site est en ligne dès maintenant pour préparer votre prochaine transaction.
               </p>
               <p className="mt-3 text-text-secondary leading-relaxed">
                 Mon engagement : des rapports clairs, une transparence tarifaire totale,
                 et une réactivité sans faille. Je suis joignable par téléphone, email ou
-                WhatsApp pour répondre à toutes vos questions.
+                WhatsApp pour répondre à toutes vos questions et préparer votre devis.
               </p>
             </div>
           </ScrollReveal>

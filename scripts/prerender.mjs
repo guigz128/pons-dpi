@@ -72,7 +72,7 @@ const routes = [
   {
     path: '/',
     title: 'Pons DPI — Diagnostics Immobiliers à Montpellier | DPE, Amiante, Plomb',
-    description: 'Diagnostics immobiliers à Montpellier et environs. DPE, amiante, plomb, électricité, gaz, termites. Devis en ligne, intervention sous 48h. Certifié COFRAC.',
+    description: 'Diagnostics immobiliers à Montpellier et environs. DPE, amiante, plomb, électricité, gaz, termites. Diagnostiqueur indépendant — activité dès mars 2027.',
   },
   {
     path: '/services',
@@ -87,12 +87,12 @@ const routes = [
   {
     path: '/diagnostic-immobilier',
     title: "Zones d'intervention — Diagnostic immobilier Hérault & Gard | Pons DPI",
-    description: `Pages dédiées par commune en Hérault (34) et Gard (30) : marché immobilier local, risques PPRi, diagnostics prioritaires. Diagnostiqueur certifié, intervention sous 48 h.`,
+    description: `Pages dédiées par commune en Hérault (34) et Gard (30) : marché immobilier local, risques PPRi, diagnostics prioritaires. Diagnostiqueur indépendant — activité dès mars 2027.`,
   },
   ...villes.map((v) => ({
     path: `/diagnostic-immobilier/${v.slug}`,
     title: `Diagnostic immobilier à ${v.name} (${v.codePostal}) — DPE, amiante | Pons DPI`,
-    description: `Diagnostiqueur immobilier certifié à ${v.name}. DPE, amiante, plomb, électricité, gaz, termites. Devis en ligne, intervention sous 48 h, rapport sous 24 h.`,
+    description: `Diagnostiqueur immobilier indépendant à ${v.name}. DPE, amiante, plomb, électricité, gaz, termites. Devis indicatif en ligne, activité dès mars 2027.`,
   })),
   {
     path: '/devis',
@@ -102,7 +102,7 @@ const routes = [
   {
     path: '/a-propos',
     title: 'À propos — Guillaume Pons, diagnostiqueur immobilier | Pons DPI',
-    description: 'Guillaume Pons, diagnostiqueur immobilier certifié COFRAC à Montpellier. DPE, amiante, plomb, électricité, gaz, termites. Titre RNCP 38469.',
+    description: 'Guillaume Pons, futur diagnostiqueur immobilier indépendant à Montpellier. Formation Titre RNCP 38469 en cours, certifications COFRAC obtenues février-mars 2027. Activité officielle dès mars 2027.',
   },
   {
     path: '/professionnels',

@@ -16,7 +16,7 @@ export default function Home() {
     '@type': 'LocalBusiness',
     name: 'Pons DPI — Diagnostics Immobiliers',
     description:
-      'Diagnostics immobiliers à Montpellier et environs. DPE, amiante, plomb, électricité, gaz, termites. Certifié COFRAC.',
+      'Diagnostics immobiliers à Montpellier et environs. DPE, amiante, plomb, électricité, gaz, termites. Diagnostiqueur indépendant — activité dès mars 2027.',
     url: 'https://www.pons-dpi.fr/',
     telephone: '+33651669161',
     email: 'contact@pons-dpi.fr',
@@ -45,7 +45,7 @@ export default function Home() {
         <title>Pons DPI — Diagnostics Immobiliers à Montpellier | DPE, Amiante, Plomb</title>
         <meta
           name="description"
-          content="Diagnostics immobiliers à Montpellier et environs. DPE, amiante, plomb, électricité, gaz, termites. Devis en ligne, intervention sous 48h. Certifié COFRAC."
+          content="Diagnostics immobiliers à Montpellier et environs. DPE, amiante, plomb, électricité, gaz, termites. Devis indicatif en ligne, activité dès mars 2027."
         />
         <link rel="canonical" href="https://www.pons-dpi.fr/" />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
