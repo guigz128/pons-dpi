@@ -210,3 +210,43 @@ export function getVilleBySlug(slug) {
 export function getVillesByDepartement(deptCode) {
   return villes.filter((v) => v.departementCode === deptCode)
 }
+
+// Distance Haversine en km entre deux coordonnées GPS
+function haversineKm(a, b) {
+  if (!a || !b) return Number.POSITIVE_INFINITY
+  const R = 6371
+  const toRad = (deg) => (deg * Math.PI) / 180
+  const dLat = toRad(b.lat - a.lat)
+  const dLng = toRad(b.lng - a.lng)
+  const x =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.sin(dLng / 2) ** 2
+  return 2 * R * Math.asin(Math.sqrt(x))
+}
+
+// Retourne les N villes les plus proches d'un slug donné (excluant la ville elle-même).
+// Utilisé pour les cross-links géographiques sur les pages-villes.
+export function getNearestVilles(slug, limit = 6) {
+  const current = getVilleBySlug(slug)
+  if (!current) return []
+  return villes
+    .filter((v) => v.slug !== slug)
+    .map((v) => ({ ...v, _distanceKm: haversineKm(current.coords, v.coords) }))
+    .sort((a, b) => a._distanceKm - b._distanceKm)
+    .slice(0, limit)
+}
+
+// Retourne les N villes du cœur de zone (inCoreZone d'abord, puis ordre par distance Prades-le-Lez).
+// Utilisé pour les cross-links statiques (footer, pages-services).
+export function getCoreVilles(limit = 6) {
+  return [...villes]
+    .sort((a, b) => {
+      // Cœur d'abord
+      if (a.inCoreZone !== b.inCoreZone) return a.inCoreZone ? -1 : 1
+      // Puis par distance Prades-le-Lez
+      const distA = a.distanceFromBaseKm ?? Number.POSITIVE_INFINITY
+      const distB = b.distanceFromBaseKm ?? Number.POSITIVE_INFINITY
+      return distA - distB
+    })
+    .slice(0, limit)
+}

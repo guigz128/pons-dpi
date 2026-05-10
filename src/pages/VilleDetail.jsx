@@ -14,7 +14,7 @@ import {
   AlertCircle,
   MapPin,
 } from 'lucide-react'
-import { getVilleBySlug, villes } from '../content/villes'
+import { getVilleBySlug, villes, getNearestVilles } from '../content/villes'
 import { allServices } from '../content/services'
 import Badge from '../components/ui/Badge'
 import Button from '../components/ui/Button'
@@ -490,25 +490,27 @@ export default function VilleDetail() {
         </section>
       )}
 
-      {/* 7bis — Pons DPI dans le département (cross-link villes) */}
-      {villes.filter((v) => v.slug !== slug).length > 0 && (
-        <section className="py-16 sm:py-20">
-          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-            <ScrollReveal>
-              <div className="text-center max-w-2xl mx-auto mb-10">
-                <h2 className="font-display text-3xl sm:text-4xl text-text">
-                  Pons DPI dans le département
-                </h2>
-                <p className="mt-3 text-text-secondary">
-                  Pages dédiées par commune — diagnostics immobiliers, marché local, risques.
-                </p>
-              </div>
-            </ScrollReveal>
+      {/* 7bis — Pons DPI dans le département (cross-link villes les plus proches) */}
+      {(() => {
+        const nearest = getNearestVilles(slug, 6)
+        const totalOthers = villes.length - 1
+        if (nearest.length === 0) return null
+        return (
+          <section className="py-16 sm:py-20">
+            <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+              <ScrollReveal>
+                <div className="text-center max-w-2xl mx-auto mb-10">
+                  <h2 className="font-display text-3xl sm:text-4xl text-text">
+                    Pons DPI dans le département
+                  </h2>
+                  <p className="mt-3 text-text-secondary">
+                    Pages dédiées par commune — marché local, risques, diagnostics prioritaires.
+                  </p>
+                </div>
+              </ScrollReveal>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {villes
-                .filter((v) => v.slug !== slug)
-                .map((v, i) => (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {nearest.map((v, i) => (
                   <ScrollReveal key={v.slug} delay={i * 0.05}>
                     <Link
                       to={`/diagnostic-immobilier/${v.slug}`}
@@ -522,18 +524,29 @@ export default function VilleDetail() {
                           {v.name} <span className="text-xs font-normal text-text-secondary">({v.codePostal})</span>
                         </p>
                         <p className="text-xs text-text-secondary mt-0.5">
-                          {v.population != null ? `${v.population.toLocaleString('fr-FR')} habitants` : v.departement}
-                          {v.distanceFromBaseKm != null ? ` · ${v.distanceFromBaseKm} km de Prades-le-Lez` : ''}
+                          {Math.round(v._distanceKm)} km de {name}
+                          {v.population != null ? ` · ${v.population.toLocaleString('fr-FR')} hab.` : ''}
                         </p>
                       </div>
                       <ArrowRight className="h-4 w-4 text-text-secondary shrink-0 group-hover:text-accent group-hover:translate-x-0.5 transition-all" />
                     </Link>
                   </ScrollReveal>
                 ))}
+              </div>
+
+              {totalOthers > nearest.length && (
+                <ScrollReveal>
+                  <p className="mt-8 text-center text-sm text-text-secondary">
+                    <Link to="/#zone" className="text-accent font-semibold hover:text-accent-hover">
+                      Voir toutes les zones d'intervention →
+                    </Link>
+                  </p>
+                </ScrollReveal>
+              )}
             </div>
-          </div>
-        </section>
-      )}
+          </section>
+        )
+      })()}
 
       {/* 8 — FAQ ville */}
       {faqLocale?.length > 0 && (
