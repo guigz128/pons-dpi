@@ -4047,59 +4047,59 @@ export const villes = [
 
     diagnosticsPrioritaires: [
       {
-        slug: 'dpe',
+        slug: 'erp',
         whyHere:
-          'Saint-Gilles est dominée à 70 % par les maisons individuelles, majoritairement construites entre 1970 et 2010. Le DPE pèse fortement dans la valorisation à la vente (2150 €/m² en moyenne).',
+          'Saint-Gilles est en TRI Camargue Gardoise (Petit Rhône). Le PPRi couvre une partie significative du territoire — les abords du Petit Rhône, du Costière et la plaine inondable. La commune est au cœur de la basse vallée du Rhône, exposée aux crues à débordement lent. L\'État des Risques et Pollutions est central pour toute transaction.',
       },
       {
         slug: 'amiante',
         whyHere:
-          'Le centre village et les pavillons des années 1970-1990 déclenchent le repérage amiante en vente. Indispensable sur la majorité du parc pré-1997.',
+          'Le centre médiéval autour de l\'abbatiale (XIIe siècle, classée au patrimoine mondial UNESCO en tant qu\'étape sur le Chemin de Saint-Jacques-de-Compostelle) et les ensembles pavillonnaires des années 1960-1990 concentrent un bâti pré-1997 où le repérage amiante est quasi-systématique en vente.',
       },
       {
-        slug: 'erp',
+        slug: 'dpe',
         whyHere:
-          'Saint-Gilles est concernée par le PPRi Petit Rhône. L\'État des Risques et Pollutions est systématique pour toute transaction.',
+          'Saint-Gilles combine 70 % de maisons individuelles et 28 % d\'appartements, avec un parc majoritairement post-1970. Le DPE pèse fortement dans la valorisation à la vente (2 150 €/m² en moyenne — marché plus accessible que la métropole de Montpellier).',
       },
     ],
 
     intro:
-      'Saint-Gilles, commune du Gard, présente un marché immobilier actif (2 150 €/m² en moyenne). 14 734 habitants, parc dominé par les maisons individuelles.',
+      'Saint-Gilles, ville-porte de la Camargue gardoise, est célèbre pour son abbatiale médiévale du XIIe siècle (classée au patrimoine mondial UNESCO comme étape sur le Chemin de Saint-Jacques-de-Compostelle). Marché immobilier accessible (2 150 €/m² en moyenne), parc dominé à 70 % par les maisons individuelles, 14 734 habitants.',
 
     parcImmoNote:
-      'Le parc de Saint-Gilles est composé à 70 % de maisons et 28 % d\'appartements (7 200 logements au total). Le parc est majoritairement occupé en résidence principale. Les pavillons et collectifs des années 1970-1990 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes (post-2000) sont en classe énergétique correcte.',
+      'Le parc saint-gillois est composé à 70 % de maisons individuelles et 28 % d\'appartements (7 200 logements). Le centre médiéval, autour de l\'abbatiale et de ses dépendances, concentre un bâti antérieur à 1949 (plomb fréquent — édifices XIIe-XVIIIe siècle). Les lotissements pavillonnaires des années 1960-1990 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes alignent un parc post-2000 en classe énergétique correcte.',
 
     enjeuxLocaux:
-      'Saint-Gilles est concernée par le PPRi Petit Rhône. Une partie du territoire est en zone réglementée. L\'État des Risques et Pollutions est systématique et particulièrement scruté lors des transactions. Le diagnostic termites est obligatoire dans les zones classées par arrêté préfectoral.',
+      'Saint-Gilles est en TRI (Territoire à Risque Important d\'inondation) Camargue Gardoise, exposée aux crues à débordement lent du Petit Rhône et de ses affluents (Costière). Le PPRi couvre une partie significative du territoire, notamment la plaine inondable au sud de la commune. La proximité immédiate de la Camargue et du Rhône fait de l\'État des Risques et Pollutions un document central de toute transaction. Le diagnostic termites est obligatoire dans les zones classées par arrêté préfectoral du Gard (couvre la plaine du Petit Rhône).',
 
     accessibilityNote:
-      'Saint-Gilles est à 50 minutes de Prades-le-Lez (55 km) via l\'A9 (et autoroutes complémentaires) — intervention sous 48 h garantie sur l\'ensemble de la commune dès l\'ouverture de l\'activité (mars 2027).',
+      'Saint-Gilles est à 50 minutes de Prades-le-Lez (55 km) via l\'A9 (sortie Gallargues ou Nîmes Centre puis D42) — intervention sous 48 h garantie sur l\'ensemble de la commune (centre médiéval, ZAC, plaine du Petit Rhône) dès l\'ouverture de l\'activité.',
 
     quartiersTypiques: [
-      'Centre village historique',
-      'Faubourgs et extensions XIXe-XXe',
-      'Lotissements pavillonnaires (années 1970-1990)',
-      'ZAC récentes et résidences post-2000',
+      'Centre médiéval autour de l\'abbatiale UNESCO (pré-1949)',
+      'Faubourgs et lotissements pavillonnaires (années 1960-1990)',
+      'ZAC récentes (post-2000) en bonne classe énergétique',
+      'Plaine du Petit Rhône (zone PPRi, agriculture camarguaise)',
     ],
 
-    communesLimitrophes: ['Arles', 'Beauvoisin', 'Bellegarde', 'Caissargues', 'Fourques', 'Garons', 'Générac', 'Nîmes', 'Vauvert'],
+    communesLimitrophes: ['Vauvert', 'Beauvoisin', 'Bellegarde', 'Caissargues', 'Garons', 'Générac', 'Nîmes', 'Arles', 'Fourques'],
 
     faqLocale: [
       {
         q: 'Quels diagnostics sont obligatoires pour vendre à Saint-Gilles ?',
-        a: 'Pour toute vente à Saint-Gilles, le DPE et l\'ERP sont systématiques. Selon l\'âge et la nature du bien : amiante (avant 1997), plomb (avant 1949), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire en quelques questions.',
+        a: 'Pour toute vente à Saint-Gilles, le DPE et l\'ERP (central — TRI Camargue Gardoise + PPRi Petit Rhône) sont systématiques. Selon le bien : amiante (centre médiéval et pavillons pré-1997 — fréquent), plomb (centre historique pré-1949 — quasi-systématique sur les édifices XIIe-XVIIIe siècle), électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans les zones classées du Gard, couvre la plaine du Petit Rhône), et le mesurage Carrez en copropriété.',
       },
       {
         q: 'Combien coûte un pack diagnostic vente à Saint-Gilles ?',
-        a: 'À Saint-Gilles, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC. Aucun frais de déplacement n\'est appliqué sur la commune. Activité officielle dès mars 2027.',
+        a: 'À Saint-Gilles, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — c\'est le pack le plus demandé compte tenu du parc dominé à 70 % par les maisons individuelles. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.',
       },
       {
         q: 'Sous quel délai intervenez-vous à Saint-Gilles ?',
-        a: 'Saint-Gilles est à 50 minutes de Prades-le-Lez (55 km). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, et le rapport remis sous 24 h ouvrées après l\'intervention.',
+        a: 'Saint-Gilles est à 50 minutes de Prades-le-Lez (55 km) via l\'A9. L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.',
       },
       {
         q: 'Mon bien est-il en zone inondable à Saint-Gilles ?',
-        a: 'Une partie de Saint-Gilles est couverte par le PPRi Petit Rhône. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
+        a: 'Très probablement oui pour les biens situés dans la plaine sud de la commune ou à proximité du Petit Rhône. Saint-Gilles est en TRI Camargue Gardoise, exposée aux crues à débordement lent. Le PPRi couvre une part significative du territoire. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
       },
     ],
   },
@@ -4263,59 +4263,59 @@ export const villes = [
 
     diagnosticsPrioritaires: [
       {
-        slug: 'dpe',
+        slug: 'erp',
         whyHere:
-          'Aimargues est dominée à 78 % par les maisons individuelles, majoritairement construites entre 1970 et 2010. Le DPE pèse fortement dans la valorisation à la vente (2750 €/m² en moyenne).',
+          'Aimargues est en TRI Vidourle, exposée aux crues du Vidourle et de ses affluents (Vistre via l\'aval). Le PPRi couvre les abords du fleuve et la plaine alluviale. La commune est à la jonction Lunel/Aigues-Mortes/Vauvert, au cœur de la basse plaine du Vidourle. L\'État des Risques et Pollutions est central pour toute transaction.',
       },
       {
         slug: 'amiante',
         whyHere:
-          'Le centre village et les pavillons des années 1970-1990 déclenchent le repérage amiante en vente. Indispensable sur la majorité du parc pré-1997.',
+          'Le centre village historique et les pavillons des années 1960-1990 concentrent un bâti pré-1997 où le repérage amiante est quasi-systématique en vente. Les ZAC récentes (post-2000) sont épargnées mais minoritaires.',
       },
       {
-        slug: 'erp',
+        slug: 'dpe',
         whyHere:
-          'Aimargues est concernée par le PPRi Vidourle. L\'État des Risques et Pollutions est systématique pour toute transaction.',
+          'Aimargues est dominée à 78 % par les maisons individuelles, avec un parc majoritairement post-1970. Le DPE pèse fortement dans la valorisation à la vente (2 750 €/m² en moyenne — marché accessible mais en progression).',
       },
     ],
 
     intro:
-      'Aimargues, commune résidentielle du Gard, présente un marché immobilier actif (2 750 €/m² en moyenne). 5 705 habitants, parc dominé par les maisons individuelles.',
+      'Aimargues, commune de la basse plaine du Vidourle, à la frontière Hérault/Gard entre Lunel et Aigues-Mortes, est connue pour ses domaines viticoles et son château historique. Marché immobilier accessible (2 750 €/m² en moyenne), parc dominé à 78 % par les maisons individuelles, 5 705 habitants.',
 
     parcImmoNote:
-      'Le parc de Aimargues est composé à 78 % de maisons et 21 % d\'appartements (2 600 logements au total). Le parc est majoritairement occupé en résidence principale. Les pavillons et collectifs des années 1970-1990 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes (post-2000) sont en classe énergétique correcte.',
+      'Le parc d\'Aimargues est composé à 78 % de maisons individuelles et 21 % d\'appartements (2 600 logements). Le centre village historique concentre un bâti antérieur à 1949 (plomb fréquent). Les lotissements pavillonnaires des années 1970-2000 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes alignent un parc post-2000 en classe énergétique correcte. La proximité de la mer (Aigues-Mortes à 12 km) et de Montpellier (35 km) tire le marché.',
 
     enjeuxLocaux:
-      'Aimargues est concernée par le PPRi Vidourle. Une partie du territoire est en zone réglementée. L\'État des Risques et Pollutions est systématique et particulièrement scruté lors des transactions. Le diagnostic termites est obligatoire dans les zones classées par arrêté préfectoral.',
+      'Aimargues est en TRI Vidourle, exposée aux crues du Vidourle et à la submersion en cas d\'épisodes cévenols intenses. Le PPRi couvre les abords du fleuve et la plaine alluviale au sud de la commune. La proximité immédiate de la Camargue et des étangs ajoute un risque de remontée saline potentielle en zones basses. L\'État des Risques et Pollutions est systématique. Le diagnostic termites est obligatoire dans les zones classées par arrêté préfectoral du Gard (couvre la basse plaine du Vidourle).',
 
     accessibilityNote:
-      'Aimargues est à 40 minutes de Prades-le-Lez (36 km) via l\'A9 ou les axes principaux — intervention sous 48 h garantie sur l\'ensemble de la commune dès l\'ouverture de l\'activité (mars 2027).',
+      'Aimargues est à 40 minutes de Prades-le-Lez (36 km) via l\'A9 (sortie Gallargues) — intervention sous 48 h garantie sur l\'ensemble de la commune (centre village, lotissements, plaine du Vidourle) dès l\'ouverture de l\'activité.',
 
     quartiersTypiques: [
-      'Centre village historique',
-      'Faubourgs et extensions XIXe-XXe',
-      'Lotissements pavillonnaires (années 1970-1990)',
-      'ZAC récentes et résidences post-2000',
+      'Centre village historique (pré-1949, plomb fréquent)',
+      'Lotissements pavillonnaires (années 1970-2000)',
+      'Domaines viticoles et abords agricoles',
+      'Plaine alluviale du Vidourle (zone PPRi)',
     ],
 
-    communesLimitrophes: ['Aigues-Vives', 'Le Cailar', 'Gallargues-le-Montueux', 'Lunel', 'Marsillargues', 'Saint-Laurent-d\'Aigouze'],
+    communesLimitrophes: ['Lunel', 'Marsillargues', 'Saint-Laurent-d\'Aigouze', 'Le Cailar', 'Gallargues-le-Montueux', 'Aigues-Vives'],
 
     faqLocale: [
       {
         q: 'Quels diagnostics sont obligatoires pour vendre à Aimargues ?',
-        a: 'Pour toute vente à Aimargues, le DPE et l\'ERP sont systématiques. Selon l\'âge et la nature du bien : amiante (avant 1997), plomb (avant 1949), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire en quelques questions.',
+        a: 'Pour toute vente à Aimargues, le DPE et l\'ERP (central — TRI Vidourle + PPRi basse plaine) sont systématiques. Selon le bien : amiante (centre village et pavillons pré-1997), plomb (centre historique pré-1949), électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans les zones classées du Gard, couvre la basse plaine du Vidourle), et le mesurage Carrez en copropriété (minoritaire vu que 78 % du parc est en maison individuelle).',
       },
       {
         q: 'Combien coûte un pack diagnostic vente à Aimargues ?',
-        a: 'À Aimargues, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC. Aucun frais de déplacement n\'est appliqué sur la commune. Activité officielle dès mars 2027.',
+        a: 'À Aimargues, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — c\'est le pack le plus demandé compte tenu du parc dominé à 78 % par les maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.',
       },
       {
         q: 'Sous quel délai intervenez-vous à Aimargues ?',
-        a: 'Aimargues est à 40 minutes de Prades-le-Lez (36 km). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, et le rapport remis sous 24 h ouvrées après l\'intervention.',
+        a: 'Aimargues est à 40 minutes de Prades-le-Lez (36 km) via l\'A9 (sortie Gallargues). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.',
       },
       {
         q: 'Mon bien est-il en zone inondable à Aimargues ?',
-        a: 'Une partie de Aimargues est couverte par le PPRi Vidourle. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
+        a: 'Possible pour les biens situés au sud de la commune ou à proximité du Vidourle. Aimargues est en TRI Vidourle et le PPRi couvre la basse plaine. Les épisodes cévenols intenses peuvent provoquer des crues importantes (les \'Vidourlades\' historiques). L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
       },
     ],
   },
