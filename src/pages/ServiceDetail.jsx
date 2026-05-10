@@ -212,7 +212,7 @@ export default function ServiceDetail() {
               {villes.length > coreVilles.length && (
                 <ScrollReveal>
                   <p className="mt-8 text-center text-sm text-text-secondary">
-                    <Link to="/#zone" className="text-accent font-semibold hover:text-accent-hover">
+                    <Link to="/diagnostic-immobilier" className="text-accent font-semibold hover:text-accent-hover">
                       Voir toutes les zones d'intervention →
                     </Link>
                   </p>

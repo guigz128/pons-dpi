@@ -170,7 +170,7 @@ export default function VilleDetail() {
         '@id': `${url}#breadcrumb`,
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Accueil', item: `${SITE}/` },
-          { '@type': 'ListItem', position: 2, name: 'Zones d\'intervention', item: `${SITE}/#zone` },
+          { '@type': 'ListItem', position: 2, name: "Zones d'intervention", item: `${SITE}/diagnostic-immobilier` },
           { '@type': 'ListItem', position: 3, name, item: url },
         ],
       },
@@ -227,7 +227,7 @@ export default function VilleDetail() {
             </h1>
 
             <p className="mt-4 text-lg text-text-secondary leading-relaxed max-w-2xl">
-              Diagnostiqueur certifié COFRAC, basé à Prades-le-Lez. Devis en ligne instantané, intervention sous 48 h sur {name}, rapport remis sous 24 h.
+              Diagnostiqueur certifié COFRAC, basé dans la région. Devis en ligne instantané, intervention sous 48 h sur {name}, rapport remis sous 24 h.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-2">
@@ -583,7 +583,7 @@ export default function VilleDetail() {
               {totalOthers > nearest.length && (
                 <ScrollReveal>
                   <p className="mt-8 text-center text-sm text-text-secondary">
-                    <Link to="/#zone" className="text-accent font-semibold hover:text-accent-hover">
+                    <Link to="/diagnostic-immobilier" className="text-accent font-semibold hover:text-accent-hover">
                       Voir toutes les zones d'intervention →
                     </Link>
                   </p>

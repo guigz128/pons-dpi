@@ -84,6 +84,11 @@ const routes = [
     title: `${s.name} à Montpellier — Diagnostic immobilier | Pons DPI`,
     description: `${s.fullName} à Montpellier. ${s.description} Devis en ligne, intervention sous 48h.`,
   })),
+  {
+    path: '/diagnostic-immobilier',
+    title: "Zones d'intervention — Diagnostic immobilier Hérault & Gard | Pons DPI",
+    description: `Pages dédiées par commune en Hérault (34) et Gard (30) : marché immobilier local, risques PPRi, diagnostics prioritaires. Diagnostiqueur certifié, intervention sous 48 h.`,
+  },
   ...villes.map((v) => ({
     path: `/diagnostic-immobilier/${v.slug}`,
     title: `Diagnostic immobilier à ${v.name} (${v.codePostal}) — DPE, amiante | Pons DPI`,

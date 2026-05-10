@@ -25,7 +25,7 @@ export default function AboutPage() {
             </h1>
             <div className="mt-6 space-y-4 text-text-secondary leading-relaxed">
               <p>
-                Je suis Guillaume Pons, diagnostiqueur immobilier certifié, basé à Prades-le-Lez
+                Je suis Guillaume Pons, diagnostiqueur immobilier certifié, basé dans la région
                 près de Montpellier. Titulaire du Titre professionnel Diagnostiqueur Immobilier
                 (RNCP 38469, niveau 5), j'interviens sur l'ensemble de la métropole de Montpellier
                 et du département de l'Hérault.

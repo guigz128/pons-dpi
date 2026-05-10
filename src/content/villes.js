@@ -1010,6 +1010,511 @@ export const villes = [
     ],
   },
   {
+    slug: 'aigues-mortes',
+    name: 'Aigues-Mortes',
+    nameSeo: 'Aigues-Mortes (30)',
+    codePostal: '30220',
+    departement: 'Gard',
+    departementCode: '30',
+    departementSlug: 'gard',
+    region: 'Occitanie',
+
+    coords: { lat: 43.5670, lng: 4.1908 },
+    distanceFromBaseKm: 45,
+    travelTimeMin: 40,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 8560,
+    nbLogements: 6800,
+    pctResidencesSecondaires: 20,
+    pctMaisons: 55,
+    pctAppartements: 45,
+    surfaceMoyenne: 70,
+    surfaceMoyenneAppartement: 55,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 4135,
+    prixM2Maison: 4549,
+    prixM2Appartement: 4276,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: 'Vidourle',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPRi Aigues-Mortes — approuvé le 05/09/2022 (puis annulé par jugement du Tribunal Administratif de Nîmes le 16/10/2025, situation juridique évolutive). Triple influence Rhône, Vidourle et Mer. 95 % du territoire en zone d'aléa.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'erp',
+        whyHere:
+          "Aigues-Mortes est exposée à la triple influence du Rhône, du Vidourle et de la mer — 95 % du territoire est en zone d'aléa inondation et submersion marine. La situation juridique du PPRi (approuvé 2022, annulé 2025) ajoute un enjeu d'information renforcé pour les acquéreurs. L'État des Risques et Pollutions est déterminant.",
+      },
+      {
+        slug: 'dpe',
+        whyHere:
+          "Aigues-Mortes combine son centre médiéval intra-muros (bâti pré-1949) avec des extensions touristiques modernes. Le DPE pèse fortement dans la valorisation, particulièrement sur le parc ancien classé F-G. Marché premium (4 135 €/m² en moyenne).",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le centre médiéval et les ensembles pavillonnaires et balnéaires des années 1950-1990 déclenchent quasi-systématiquement le repérage amiante en vente. La forte part de résidences secondaires (20 %) signifie que beaucoup de biens pré-1997 changent régulièrement de main.",
+      },
+    ],
+
+    intro:
+      "Aigues-Mortes, ville fortifiée du sud du Gard, conjugue patrimoine médiéval exceptionnel et marché immobilier premium tiré par le tourisme et les résidences secondaires. Position unique : 95 % du territoire en zone d'aléa inondation/submersion, situation PPRi en cours de stabilisation après annulation 2025.",
+
+    parcImmoNote:
+      "Le parc aigues-mortais est composé à 73 % de résidences principales, 20 % de résidences secondaires et 8 % de logements vacants. Mix équilibré maisons (55 %) / appartements (45 %), avec une surface moyenne contenue (70 m²) typique des cœurs urbains anciens. Le centre médiéval intra-muros concentre un bâti antérieur à 1949 — plomb fréquent. Les extensions touristiques modernes (Saint-Pierre, Marines, abords des Salins) datent des années 1960-1990 et déclenchent presque toujours les diagnostics électricité et gaz.",
+
+    enjeuxLocaux:
+      "Aigues-Mortes est exposée à la triple influence du Rhône, du Vidourle et de la mer — la commune est inscrite en TRI (Territoire à Risque Important d'inondation) Vidourle. 95 % du territoire est en zone d'aléa : inondation par crue à débordement lent + submersion marine (crue centennale par tempête, dépression, surcote). Le PPRi, approuvé le 05/09/2022, a été annulé par le Tribunal Administratif de Nîmes le 16/10/2025 — la situation juridique est évolutive, l'information à l'acquéreur reste renforcée. Comme partout en zone Hérault-Gard littorale, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Aigues-Mortes est à 40 minutes de Prades-le-Lez (45 km) via l'A9 — intervention sous 48 h garantie sur l'ensemble de la commune (centre médiéval intra-muros, extensions touristiques, zone des Salins).",
+
+    quartiersTypiques: [
+      'Centre médiéval intra-muros (XIIIe siècle, pré-1949)',
+      'Saint-Pierre et faubourgs (extensions XIXe-XXe)',
+      'Marines et Mas (résidentiel touristique 1970-1990)',
+      'Abords des Salins (zone humide, exposition forte)',
+    ],
+
+    communesLimitrophes: ['Le Grau-du-Roi', 'Saint-Laurent-d\'Aigouze', 'La Grande-Motte', 'Marsillargues'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Aigues-Mortes ?",
+        a: "Pour toute vente à Aigues-Mortes, le DPE, l'ERP (central à cause du PPRi triple Rhône/Vidourle/Mer) et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (centre médiéval et extensions pré-1997), plomb (centre intra-muros pré-1949), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété (très fréquent sur les copros touristiques).",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Aigues-Mortes ?",
+        a: "À Aigues-Mortes, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC, le pack vente maison (avec termites en plus) à 380 € TTC. Aucun frais de déplacement n'est appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Aigues-Mortes ?",
+        a: "Aigues-Mortes est à 40 minutes de Prades-le-Lez (45 km) via l'A9. L'intervention est garantie sous 48 h après validation du devis. Rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Aigues-Mortes ?",
+        a: "Très probablement oui : 95 % du territoire d'Aigues-Mortes est en zone d'aléa, exposé à la triple influence du Rhône, du Vidourle et de la mer (submersion marine par tempête centennale). Le PPRi approuvé en septembre 2022 a été annulé en octobre 2025 par le Tribunal Administratif de Nîmes — la situation est évolutive, mais l'information à l'acquéreur reste obligatoire et renforcée. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'le-grau-du-roi',
+    name: 'Le Grau-du-Roi',
+    nameSeo: 'Le Grau-du-Roi (30)',
+    codePostal: '30240',
+    departement: 'Gard',
+    departementCode: '30',
+    departementSlug: 'gard',
+    region: 'Occitanie',
+
+    coords: { lat: 43.5378, lng: 4.1374 },
+    distanceFromBaseKm: 50,
+    travelTimeMin: 45,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 8538,
+    nbLogements: 18000,
+    pctResidencesSecondaires: 65,
+    pctMaisons: 11,
+    pctAppartements: 89,
+    surfaceMoyenne: 50,
+    surfaceMoyenneAppartement: 45,
+    surfaceMoyenneMaison: 95,
+    prixM2Moyen: 4934,
+    prixM2Maison: 5680,
+    prixM2Appartement: 4866,
+    dpeMoyenKwh: 195,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: 'Vidourle',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPRi Le Grau-du-Roi — totalité du territoire en zones d'aléa. Trois aléas étudiés : crue Rhône, submersion marine, crue Vidourle. Zone urbanisée en aléa modéré (eau 0-1 m), autres zones en aléa fort (eau >1 m).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'erp',
+        whyHere:
+          "Le Grau-du-Roi est intégralement en zone d'aléa inondation/submersion marine — totalité du territoire concernée par le PPRi (zone urbanisée en aléa modéré, autres zones en aléa fort). L'État des Risques et Pollutions est central et déterminant pour toute transaction sur cette commune littorale.",
+      },
+      {
+        slug: 'dpe',
+        whyHere:
+          "Le Grau-du-Roi est dominée à 89 % par les appartements (parc balnéaire des années 1960-1990 majoritaire). Le DPE pèse fortement dans la valorisation des copropriétés balnéaires, particulièrement sur le parc ancien souvent classé E-F. Marché premium (4 934 €/m² en moyenne, 5 680 €/m² pour les maisons).",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Les copropriétés balnéaires des années 1960-1990 — qui constituent l'essentiel du parc — déclenchent quasi-systématiquement le repérage amiante en vente. Avec 65 % de résidences secondaires, les transactions sont fréquentes et le repérage indispensable.",
+      },
+    ],
+
+    intro:
+      "Le Grau-du-Roi, station balnéaire majeure du Gard, présente un marché immobilier exceptionnel : 89 % d'appartements, 65 % de résidences secondaires, prix premium tirés par le tourisme. Totalité du territoire en zone d'aléa inondation/submersion marine — l'ERP est central dans toute transaction.",
+
+    parcImmoNote:
+      "Le parc graulen est exceptionnel : 89 % d'appartements (dans le département le ratio est inverse à 37 %), majoritairement dans des copropriétés balnéaires des années 1960-1990 (Port-Camargue, centre-port, abords plages). Surface moyenne contenue (50 m²) typique des appartements touristiques. Forte saisonnalité — 65 % du parc est en résidence secondaire ou locatif touristique. Le centre historique du port concentre quelques bâtis pré-1949.",
+
+    enjeuxLocaux:
+      "Le Grau-du-Roi est en TRI (Territoire à Risque Important d'inondation) Vidourle, avec la totalité du territoire en zones d'aléa étudiées par le PPRi. Trois aléas se cumulent : crue du Rhône, submersion marine et crue du Vidourle. La zone urbanisée est principalement en aléa modéré (hauteur d'eau 0-1 m), tandis que les zones non urbanisées sont en aléa fort (>1 m). La commune dispose d'un Plan Communal de Sauvegarde (PCS) intégrant ces trois risques. L'État des Risques et Pollutions est systématique et particulièrement scruté lors des transactions.",
+
+    accessibilityNote:
+      "Le Grau-du-Roi est à 45 minutes de Prades-le-Lez (50 km) via l'A9 et la D62 — intervention sous 48 h garantie sur l'ensemble de la commune (centre historique, Port-Camargue, plages).",
+
+    quartiersTypiques: [
+      'Centre historique du port (pré-1949 + faubourgs)',
+      'Port-Camargue (extensions touristiques 1970-1990)',
+      'Plages, Boucanet, Espiguette (résidentiel balnéaire)',
+      'Rive droite et rive gauche du Vidourle',
+    ],
+
+    communesLimitrophes: ['Aigues-Mortes', 'La Grande-Motte', 'Saint-Laurent-d\'Aigouze'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre au Grau-du-Roi ?",
+        a: "Pour toute vente au Grau-du-Roi, le DPE, l'ERP (central — totalité du territoire en zone d'aléa) et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (copros balnéaires pré-1997, très fréquent), plomb (centre historique pré-1949), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez (systématique vu que 89 % du parc est en copropriété).",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente au Grau-du-Roi ?",
+        a: "Au Grau-du-Roi, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC — c'est le pack le plus demandé compte tenu du parc dominé à 89 % par les appartements en copropriété balnéaire. Aucun frais de déplacement n'est appliqué.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous au Grau-du-Roi ?",
+        a: "Le Grau-du-Roi est à 45 minutes de Prades-le-Lez (50 km) via l'A9 et la D62. L'intervention est garantie sous 48 h après validation du devis. Rapport remis sous 24 h ouvrées après l'intervention. Pour les copropriétés, je peux coordonner directement avec le syndic pour l'accès aux parties communes.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable au Grau-du-Roi ?",
+        a: "Oui — la totalité du territoire du Grau-du-Roi est en zone d'aléa selon le PPRi. Trois aléas se cumulent : crue du Rhône, submersion marine et crue du Vidourle. Si votre bien est en zone urbanisée, vous êtes principalement en aléa modéré (hauteur d'eau 0-1 m). L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'saint-laurent-d-aigouze',
+    name: 'Saint-Laurent-d\'Aigouze',
+    nameSeo: 'Saint-Laurent-d\'Aigouze (30)',
+    codePostal: '30220',
+    departement: 'Gard',
+    departementCode: '30',
+    departementSlug: 'gard',
+    region: 'Occitanie',
+
+    coords: { lat: 43.6356, lng: 4.2036 },
+    distanceFromBaseKm: 35,
+    travelTimeMin: 35,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 3751,
+    nbLogements: 1976,
+    pctResidencesSecondaires: 5,
+    pctMaisons: 78,
+    pctAppartements: 22,
+    surfaceMoyenne: 100,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 115,
+    prixM2Moyen: 3452,
+    prixM2Maison: 3495,
+    prixM2Appartement: 3168,
+    dpeMoyenKwh: 175,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: 'Vidourle',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPRi Basse Plaine du Vidourle — approuvé le 03/04/2012, couvre la totalité du territoire communal. Concerne la basse plaine du Vidourle et la partie aval du fleuve Rhône. Commune protégée par le système d'endiguement de la basse vallée.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'erp',
+        whyHere:
+          "Saint-Laurent-d'Aigouze a la totalité de son territoire couverte par le PPRi Basse Plaine du Vidourle. Triple influence Vidourle/Rhône/Mer (proximité). L'État des Risques et Pollutions est central pour toute transaction — le système d'endiguement protège mais n'élimine pas le risque résiduel.",
+      },
+      {
+        slug: 'dpe',
+        whyHere:
+          "Saint-Laurent-d'Aigouze est dominée à 78 % par les maisons individuelles. Marché en hausse forte (+39 % sur 5 ans), prix accessibles (3 452 €/m²). Le DPE pèse fortement dans la valorisation à la vente, particulièrement sur le parc des années 1970-1990.",
+      },
+      {
+        slug: 'termites',
+        whyHere:
+          "Le Gard sud (zones humides du Vidourle, lagunes) est classé en zone termites par arrêté préfectoral. Le diagnostic est obligatoire pour toute vente — particulièrement scruté sur les pavillons individuels où la charpente bois est exposée à un environnement humide.",
+      },
+    ],
+
+    intro:
+      "Saint-Laurent-d'Aigouze, commune du sud du Gard entre Aigues-Mortes et Lunel, présente un parc immobilier majoritairement composé de maisons individuelles (78 %). Marché en forte progression (+39 % en 5 ans), prix accessibles, totalité du territoire couverte par le PPRi Basse Plaine du Vidourle.",
+
+    parcImmoNote:
+      "Le parc lauréois est dominé à 78 % par les maisons individuelles (1 546/1 976 logements), avec 71 % de propriétaires occupants. Le centre village historique concentre un bâti antérieur à 1949. Les lotissements pavillonnaires des années 1970-2000 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Marché en forte progression : +39 % de hausse des prix sur 5 ans.",
+
+    enjeuxLocaux:
+      "Saint-Laurent-d'Aigouze est intégralement couverte par le PPRi Basse Plaine du Vidourle (approuvé le 03/04/2012). Le territoire est concerné par la basse plaine du Vidourle et la partie aval du fleuve Rhône. La commune est incluse dans la zone protégée par le système d'endiguement de la basse vallée — protection qui réduit mais n'élimine pas le risque résiduel. L'État des Risques et Pollutions est systématique. Comme partout en zone humide Gard-Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Saint-Laurent-d'Aigouze est à 35 minutes de Prades-le-Lez (35 km) via l'A9 — intervention sous 48 h garantie sur l'ensemble de la commune.",
+
+    quartiersTypiques: [
+      'Centre village historique (pré-1949)',
+      'Lotissements pavillonnaires (années 1970-2000)',
+      'Résidences récentes en périphérie',
+      'Mas et zones agricoles (proximité Vidourle)',
+    ],
+
+    communesLimitrophes: ['Aigues-Mortes', 'Le Grau-du-Roi', 'Aimargues', 'Marsillargues', 'Gallargues-le-Montueux'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Laurent-d'Aigouze ?",
+        a: "Pour toute vente à Saint-Laurent-d'Aigouze, le DPE, l'ERP (central — territoire intégralement en PPRi) et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (centre village et pavillons pré-1997), plomb (centre historique pré-1949), électricité et gaz (installations de plus de 15 ans), et Carrez en copropriété (minoritaire à Saint-Laurent vu que 78 % du parc est en maison individuelle).",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Saint-Laurent-d'Aigouze ?",
+        a: "À Saint-Laurent-d'Aigouze, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — c'est le pack le plus demandé compte tenu du parc dominé par les maisons individuelles. Aucun frais de déplacement n'est appliqué.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Laurent-d'Aigouze ?",
+        a: "Saint-Laurent-d'Aigouze est à 35 minutes de Prades-le-Lez (35 km) via l'A9. L'intervention est garantie sous 48 h après validation du devis. Rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Saint-Laurent-d'Aigouze ?",
+        a: "Oui — la totalité du territoire de Saint-Laurent-d'Aigouze est couverte par le PPRi Basse Plaine du Vidourle, approuvé le 03/04/2012. La commune est concernée par la basse plaine du Vidourle et la partie aval du fleuve Rhône. La commune bénéficie du système d'endiguement de la basse vallée qui réduit mais n'élimine pas le risque résiduel. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'sommieres',
+    name: 'Sommières',
+    nameSeo: 'Sommières (30)',
+    codePostal: '30250',
+    departement: 'Gard',
+    departementCode: '30',
+    departementSlug: 'gard',
+    region: 'Occitanie',
+
+    coords: { lat: 43.7783, lng: 4.0900 },
+    distanceFromBaseKm: 35,
+    travelTimeMin: 35,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 5265,
+    nbLogements: 2900,
+    pctResidencesSecondaires: 8,
+    pctMaisons: 65,
+    pctAppartements: 35,
+    surfaceMoyenne: 90,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 115,
+    prixM2Moyen: 2680,
+    prixM2Maison: 3247,
+    prixM2Appartement: 2090,
+    dpeMoyenKwh: 195,
+    dpeMoyenCo2: 30,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: 'Vidourle',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPRi Moyen Vidourle — approuvé. Crues torrentielles ou rapides du Vidourle. Près de 1 400 bâtiments en zone à risque inondation sur le territoire de la communauté de communes Pays de Sommières.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Sommières est une commune patrimoniale médiévale au bord du Vidourle. Le centre ancien (XIIe siècle, château fort, pont romain) concentre un bâti très ancien souvent classé F-G. Le DPE pèse fortement dans la valorisation, particulièrement sur le bâti pré-1949 où l'isolation est rare. Marché plus accessible (2 680 €/m²) que la côte mais en progression.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Sommières est sur les rives du Vidourle, fleuve aux crues torrentielles documentées (la 'Vidourlade'). Le PPRi Moyen Vidourle couvre une partie significative du territoire. Près de 1 400 bâtiments du Pays de Sommières sont en zone à risque inondation. L'État des Risques et Pollutions est central et déterminant.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le centre médiéval et les extensions des années 1950-1990 (Vidourle rive droite, lotissements) concentrent un bâti pré-1997 où le repérage amiante est quasi-systématique en vente. Indispensable sur la majorité du parc.",
+      },
+    ],
+
+    intro:
+      "Sommières, ville médiévale au bord du Vidourle entre Nîmes et Montpellier, présente un patrimoine architectural exceptionnel (château, pont romain) et un marché immobilier accessible (2 680 €/m²). Forte exposition aux crues torrentielles du Vidourle — la 'Vidourlade' est une réalité historique récurrente.",
+
+    parcImmoNote:
+      "Le parc sommiérois mêle un centre médiéval dense (bâti XIIe-XVIIIe siècle, plomb fréquent, classes énergétiques basses) et des extensions résidentielles des années 1950-1990 (rive droite du Vidourle, lotissements pavillonnaires). 65 % de maisons / 35 % d'appartements. Le centre historique pré-1949 déclenche systématiquement plomb et amiante. Les pavillons des années 1970-1990 déclenchent presque toujours électricité et gaz.",
+
+    enjeuxLocaux:
+      "Sommières est exposée aux crues torrentielles du Vidourle — la 'Vidourlade' est documentée depuis des siècles. Le PPRi Moyen Vidourle couvre une partie significative du territoire. Près de 1 400 bâtiments du Pays de Sommières sont en zone à risque inondation, et la communauté de communes accompagne les propriétaires pour réduire la vulnérabilité de leur logement (programme Alabri). L'État des Risques et Pollutions est systématique et particulièrement scruté lors des transactions.",
+
+    accessibilityNote:
+      "Sommières est à 35 minutes de Prades-le-Lez (35 km) via la D17 et la D610 — intervention sous 48 h garantie sur l'ensemble de la commune (centre médiéval, rive droite, lotissements).",
+
+    quartiersTypiques: [
+      'Centre médiéval (XIIe-XVIIIe siècle, château, pont romain)',
+      'Rive droite du Vidourle (extensions XIXe-XXe)',
+      'Lotissements pavillonnaires (années 1970-1990)',
+      'Abords du Vidourle (zone PPRi)',
+    ],
+
+    communesLimitrophes: ['Junas', 'Aspères', 'Villevieille', 'Salinelles', 'Boisseron', 'Saussines'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Sommières ?",
+        a: "Pour toute vente à Sommières, le DPE, l'ERP (central à cause du PPRi Moyen Vidourle) et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (centre médiéval et extensions pré-1997), plomb (centre historique pré-1949 — quasi-systématique), électricité et gaz (installations de plus de 15 ans), et Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Sommières ?",
+        a: "À Sommières, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC, le pack vente maison (avec termites en plus) à 380 € TTC. Aucun frais de déplacement n'est appliqué.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Sommières ?",
+        a: "Sommières est à 35 minutes de Prades-le-Lez (35 km) via la D17 et la D610. L'intervention est garantie sous 48 h après validation du devis. Rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Sommières ?",
+        a: "Une partie significative de Sommières est couverte par le PPRi Moyen Vidourle. Les abords du Vidourle, en particulier le centre historique et la rive droite, sont en zone d'aléa pour les crues torrentielles ('Vidourlade'). Près de 1 400 bâtiments du Pays de Sommières sont concernés. La communauté de communes propose un accompagnement (programme Alabri) pour réduire la vulnérabilité. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'vergeze',
+    name: 'Vergèze',
+    nameSeo: 'Vergèze (30)',
+    codePostal: '30310',
+    departement: 'Gard',
+    departementCode: '30',
+    departementSlug: 'gard',
+    region: 'Occitanie',
+
+    coords: { lat: 43.7400, lng: 4.2200 },
+    distanceFromBaseKm: 45,
+    travelTimeMin: 40,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 5100,
+    nbLogements: 2400,
+    pctResidencesSecondaires: 4,
+    pctMaisons: 70,
+    pctAppartements: 30,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 115,
+    prixM2Moyen: 2800,
+    prixM2Maison: 2950,
+    prixM2Appartement: 2400,
+    dpeMoyenKwh: 195,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: 'Vistre',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "Vergèze est concernée par les débordements du Vistre et de la Vidourle (proximité). Une partie du territoire est en zone inondable.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Vergèze est dominée à 70 % par les maisons individuelles. Le centre village historique et les lotissements des années 1970-2000 dominent le parc. Le DPE pèse fortement dans la valorisation, particulièrement sur le bâti ancien (centre village pré-1949). Marché accessible (2 800 €/m²) en progression.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le centre village et les pavillons des années 1970-1990 déclenchent quasi-systématiquement le repérage amiante en vente. Indispensable sur la majorité du parc pré-1997.",
+      },
+      {
+        slug: 'termites',
+        whyHere:
+          "Le Gard sud (zones humides Vistre, Vidourle) est classé en zone termites par arrêté préfectoral. Le diagnostic est obligatoire pour toute vente — particulièrement scruté sur les pavillons individuels.",
+      },
+    ],
+
+    intro:
+      "Vergèze, commune du Gard sud entre Nîmes et Lunel, est connue pour la source Perrier et son tissu industriel local. Marché immobilier accessible (2 800 €/m²), parc dominé à 70 % par les maisons individuelles, exposition au risque inondation par le Vistre et le Vidourle.",
+
+    parcImmoNote:
+      "Le parc verguois est composé à 70 % de maisons et 30 % d'appartements. Le centre village historique concentre un bâti antérieur à 1949 (plomb fréquent). Les lotissements pavillonnaires des années 1970-2000 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes restent minoritaires.",
+
+    enjeuxLocaux:
+      "Vergèze est concernée par les débordements du Vistre et la proximité de la basse plaine du Vidourle. Une partie du territoire communal est en zone inondable. L'État des Risques et Pollutions est systématique sur la commune. Comme partout dans le Gard sud, le diagnostic termites est obligatoire pour toute vente, et le risque amiante reste élevé sur le parc pré-1997.",
+
+    accessibilityNote:
+      "Vergèze est à 40 minutes de Prades-le-Lez (45 km) via l'A9 et la D6086 — intervention sous 48 h garantie sur l'ensemble de la commune.",
+
+    quartiersTypiques: [
+      'Centre village historique',
+      'Lotissements pavillonnaires (années 1970-2000)',
+      'Zone industrielle et résidentielle Perrier',
+      'Extensions récentes en périphérie',
+    ],
+
+    communesLimitrophes: ['Codognan', 'Mus', 'Aimargues', 'Aubord', 'Uchaud'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Vergèze ?",
+        a: "Pour toute vente à Vergèze, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (centre village et pavillons pré-1997), plomb (centre historique pré-1949), électricité et gaz (installations de plus de 15 ans), et Carrez en copropriété (minoritaire vu que 70 % du parc est en maison individuelle).",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Vergèze ?",
+        a: "À Vergèze, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — c'est le pack le plus demandé compte tenu du parc dominé par les maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement n'est appliqué.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Vergèze ?",
+        a: "Vergèze est à 40 minutes de Prades-le-Lez (45 km) via l'A9 et la D6086. L'intervention est garantie sous 48 h après validation du devis. Rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Vergèze ?",
+        a: "Une partie de Vergèze est concernée par les débordements du Vistre et la proximité de la basse plaine du Vidourle. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
     slug: 'lunel',
     name: 'Lunel',
     nameSeo: 'Lunel (34)',

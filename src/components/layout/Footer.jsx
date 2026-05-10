@@ -91,7 +91,7 @@ export default function Footer() {
               ))}
               {villes.length > 6 ? (
                 <li className="pt-1">
-                  <Link to="/#zone" className="text-xs text-stone-400 hover:text-white transition-colors">
+                  <Link to="/diagnostic-immobilier" className="text-xs text-stone-400 hover:text-white transition-colors">
                     Voir toutes les zones →
                   </Link>
                 </li>

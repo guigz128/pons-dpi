@@ -30,7 +30,7 @@ const DIFFERENCIATEURS = [
   {
     icon: MapPin,
     title: 'Proximité',
-    description: 'Basé à Prades-le-Lez, connaissance fine du marché immobilier local.',
+    description: 'Basé dans la région, connaissance fine du marché immobilier local.',
   },
 ]
 
