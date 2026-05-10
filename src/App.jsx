@@ -9,6 +9,7 @@ const ServiceDetail = lazy(() => import('./pages/ServiceDetail'))
 const VilleDetail = lazy(() => import('./pages/VilleDetail'))
 const Devis = lazy(() => import('./pages/Devis'))
 const AboutPage = lazy(() => import('./pages/About'))
+const Pros = lazy(() => import('./pages/Pros'))
 const Contact = lazy(() => import('./pages/Contact'))
 const MentionsLegales = lazy(() => import('./pages/MentionsLegales'))
 const NotFound = lazy(() => import('./pages/NotFound'))
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/diagnostic-immobilier/:ville" element={<VilleDetail />} />
           <Route path="/devis" element={<Devis />} />
           <Route path="/a-propos" element={<AboutPage />} />
+          <Route path="/professionnels" element={<Pros />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="*" element={<NotFound />} />

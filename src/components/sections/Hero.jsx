@@ -1,4 +1,4 @@
-import { Phone, MessageCircle, FileText, ChevronRight, Shield, Clock, Award } from 'lucide-react'
+import { Phone, MessageCircle, FileText, ChevronRight, Clock } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Button from '../ui/Button'
 
@@ -13,8 +13,8 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
           >
             <div className="inline-flex items-center gap-2 rounded-full bg-white/80 border border-border px-3 py-1 text-xs font-semibold text-accent mb-6">
-              <Shield className="h-3.5 w-3.5" />
-              Certifié COFRAC
+              <Clock className="h-3.5 w-3.5" />
+              Rapport sous 24 h
             </div>
 
             <p className="text-sm font-medium text-accent tracking-wide uppercase mb-2">
@@ -26,7 +26,7 @@ export default function Hero() {
             </h1>
 
             <p className="mt-4 text-lg sm:text-xl text-text-secondary leading-relaxed max-w-xl">
-              Réactivité, clarté, expertise. Devis en ligne instantané, intervention sous 48h, rapports clairs et conformes.
+              Devis en ligne en 2 minutes. Intervention sous 48 h. Rapport sous 24 h (jours ouvrés).
             </p>
           </motion.div>
 
@@ -57,25 +57,6 @@ export default function Hero() {
             </Button>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="mt-10 flex flex-wrap gap-6 text-sm text-text-secondary"
-          >
-            <span className="flex items-center gap-2">
-              <Clock className="h-4 w-4 text-accent" />
-              Intervention sous 48h
-            </span>
-            <span className="flex items-center gap-2">
-              <Award className="h-4 w-4 text-accent" />
-              Titre RNCP niveau 5
-            </span>
-            <span className="flex items-center gap-2">
-              <Shield className="h-4 w-4 text-accent" />
-              Diagnostiqueur indépendant
-            </span>
-          </motion.div>
         </div>
       </div>
     </section>

@@ -17,7 +17,7 @@ export default function Footer() {
               Diagnostics et Performance Immobilière
             </p>
             <p className="text-sm leading-relaxed">
-              Diagnostics immobiliers à Montpellier et environs. Réactivité, clarté, expertise.
+              Diagnostiqueur immobilier indépendant à Montpellier. Devis en ligne, intervention sous 48 h, rapport sous 24 h.
             </p>
           </div>
 
@@ -103,6 +103,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link to="/a-propos" className="hover:text-white transition-colors">À propos</Link></li>
               <li><Link to="/contact" className="hover:text-white transition-colors">Contact</Link></li>
+              <li><Link to="/professionnels" className="hover:text-white transition-colors">Espace pros</Link></li>
               <li><Link to="/mentions-legales" className="hover:text-white transition-colors">Mentions légales</Link></li>
             </ul>
           </div>
@@ -112,7 +113,7 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-stone-500">
           <p>&copy; {new Date().getFullYear()} Pons DPI — Tous droits réservés</p>
-          <p>Certifications COFRAC — RNCP 38469</p>
+          <p>Diagnostiqueur indépendant à Montpellier</p>
         </div>
       </div>
     </footer>

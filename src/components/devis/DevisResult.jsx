@@ -1,6 +1,6 @@
-import { Check, Phone, MessageCircle, ArrowLeft, Tag, Package } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Check, Phone, MessageCircle, ArrowLeft, Tag, Package, Briefcase, ArrowRight } from 'lucide-react'
 import { pricing, calculateTotal } from './devisPricing'
-import Button from '../ui/Button'
 
 export default function DevisResult({ diagnostics, onRestart }) {
   const result = calculateTotal(diagnostics)
@@ -109,17 +109,38 @@ export default function DevisResult({ diagnostics, onRestart }) {
         </p>
       </div>
 
-      {/* CTA */}
-      <div className="flex flex-col sm:flex-row gap-3">
-        <Button
+      {/* Note pro */}
+      <Link
+        to="/professionnels"
+        className="flex items-center justify-between gap-3 rounded-md border border-accent/20 bg-accent-light/40 px-4 py-3 text-sm hover:bg-accent-light transition-colors group"
+      >
+        <span className="flex items-center gap-2.5 text-text">
+          <Briefcase className="h-4 w-4 text-accent shrink-0" />
+          <span>
+            <strong className="font-semibold">Vous êtes pro de l'immobilier ?</strong>{' '}
+            <span className="text-text-secondary">Discuter d'un partenariat</span>
+          </span>
+        </span>
+        <ArrowRight className="h-4 w-4 text-accent shrink-0 group-hover:translate-x-0.5 transition-transform" />
+      </Link>
+
+      {/* CTA — contact methods */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <a
           href="tel:0651669161"
-          size="lg"
-          className="flex-1"
+          className="group flex items-center gap-4 rounded-lg bg-accent px-5 py-4 text-white shadow-sm hover:bg-accent-hover transition-colors"
         >
-          <Phone className="h-5 w-5" />
-          Appeler pour confirmer
-        </Button>
-        <Button
+          <div className="flex items-center justify-center h-10 w-10 rounded-full bg-white/15 shrink-0">
+            <Phone className="h-5 w-5" />
+          </div>
+          <div className="flex-1 min-w-0">
+            <div className="text-base font-semibold leading-tight">06 51 66 91 61</div>
+            <div className="text-xs text-white/80 mt-0.5">Appel direct, sans standard</div>
+          </div>
+          <ArrowRight className="h-4 w-4 shrink-0 opacity-70 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
+        </a>
+
+        <a
           href={`https://wa.me/33651669161?text=${encodeURIComponent(
             `Bonjour, je souhaite confirmer mon devis en ligne :\n${diagnostics
               .map((d) => `- ${pricing[d]?.label}`)
@@ -127,13 +148,17 @@ export default function DevisResult({ diagnostics, onRestart }) {
           )}`}
           target="_blank"
           rel="noopener noreferrer"
-          variant="outline"
-          size="lg"
-          className="flex-1"
+          className="group flex items-center gap-4 rounded-lg border border-border bg-surface px-5 py-4 text-text hover:border-accent/30 hover:bg-stone-50 transition-colors"
         >
-          <MessageCircle className="h-5 w-5 text-whatsapp" />
-          Confirmer par WhatsApp
-        </Button>
+          <div className="flex items-center justify-center h-10 w-10 rounded-full bg-whatsapp/10 shrink-0">
+            <MessageCircle className="h-5 w-5 text-whatsapp" />
+          </div>
+          <div className="flex-1 min-w-0">
+            <div className="text-base font-semibold leading-tight">WhatsApp</div>
+            <div className="text-xs text-text-secondary mt-0.5">Confirmer en 1 message</div>
+          </div>
+          <ArrowRight className="h-4 w-4 text-text-secondary shrink-0 group-hover:text-accent group-hover:translate-x-0.5 transition-all" />
+        </a>
       </div>
 
       <button

@@ -234,7 +234,7 @@ export default function VilleDetail() {
 
           {risques?.pprApproves?.length > 0 && (
             <ScrollReveal>
-              <div className="mt-6 rounded-md border-l-4 border-amber-400 bg-amber-50 p-5">
+              <div className="mt-6 rounded-md border border-amber-200 bg-amber-50 p-5">
                 <div className="flex items-center gap-2 mb-2">
                   <div className="flex items-center justify-center h-8 w-8 rounded-full bg-amber-100 text-amber-600">
                     <AlertCircle className="h-4 w-4" />

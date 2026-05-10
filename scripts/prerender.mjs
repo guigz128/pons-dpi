@@ -100,6 +100,11 @@ const routes = [
     description: 'Guillaume Pons, diagnostiqueur immobilier certifié COFRAC à Montpellier. DPE, amiante, plomb, électricité, gaz, termites. Titre RNCP 38469.',
   },
   {
+    path: '/professionnels',
+    title: 'Espace pros — Agences, notaires, syndics | Pons DPI',
+    description: "Diagnostics immobiliers pour les agences, notaires et syndics à Montpellier. Réactivité 48 h, rapport sous 24 h, communication directe, tarifs négociés selon volume.",
+  },
+  {
     path: '/contact',
     title: 'Contact — Diagnostics immobiliers Montpellier | Pons DPI',
     description: 'Contactez Pons DPI pour vos diagnostics immobiliers à Montpellier. Téléphone, email, WhatsApp. Réponse rapide garantie.',

@@ -9,7 +9,7 @@ export default function Devis() {
         <title>Devis en ligne — Diagnostics immobiliers | Pons DPI</title>
         <meta
           name="description"
-          content="Obtenez votre devis en ligne en 2 minutes. Diagnostics immobiliers obligatoires calculés automatiquement selon votre bien. Prix transparents."
+          content="Obtenez votre devis en ligne en 2 minutes. Diagnostics immobiliers obligatoires calculés automatiquement selon votre bien."
         />
         <link rel="canonical" href="https://www.pons-dpi.fr/devis" />
       </Helmet>
