@@ -1,5 +1,106 @@
 export const villes = [
   {
+    slug: 'montpellier',
+    name: 'Montpellier',
+    nameSeo: 'Montpellier (34)',
+    codePostal: '34000',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    coords: { lat: 43.6107, lng: 3.8767 },
+    distanceFromBaseKm: 8,
+    travelTimeMin: 15,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 310240,
+    nbLogements: 175000,
+    pctResidencesSecondaires: 5.2,
+    pctMaisons: 14,
+    pctAppartements: 86,
+    surfaceMoyenne: 62,
+    surfaceMoyenneAppartement: 51,
+    surfaceMoyenneMaison: 110,
+    prixM2Moyen: 3439,
+    prixM2Maison: 4180,
+    prixM2Appartement: 3325,
+    dpeMoyenKwh: 195,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: 'Lez-Mosson',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPRI Basse vallée du Lez et de la Mosson — approuvé le 13/01/2004 (débordement de cours d'eau et ruissellement). Révision prescrite le 22/10/2025.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Le parc montpelliérain est dominé par la copropriété (86 % des résidences principales) avec un mix très large : centre médiéval de l'Écusson en classe F-G, faubourgs des années 1970-1990 en D-E, ZAC contemporaines (Port Marianne, Antigone) en B-C. Le DPE conditionne la valeur du bien à la vente comme à la location.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le centre ancien (Écusson, Beaux-Arts, Aiguelongue) et l'essentiel des immeubles construits entre 1949 et 1997 — soit la majorité du parc montpelliérain — déclenchent le repérage amiante en vente. Indispensable et quasi-systématique sur ce périmètre.",
+      },
+      {
+        slug: 'termites',
+        whyHere:
+          "L'Hérault est classé intégralement en zone termites par arrêté préfectoral. Le diagnostic est obligatoire pour toute vente à Montpellier, sans exception, particulièrement scruté en centre ancien et faubourgs où les charpentes anciennes sont vulnérables.",
+      },
+    ],
+
+    intro:
+      "Montpellier, capitale de l'Hérault et 9e aire urbaine de France, présente un marché immobilier dense et diversifié. Du centre médiéval de l'Écusson aux extensions contemporaines de Port Marianne, le parc reflète plus de huit siècles de construction — chaque période ayant ses propres enjeux en termes de diagnostics obligatoires.",
+
+    parcImmoNote:
+      "Le parc montpelliérain est dominé par les appartements en copropriété (86 % des résidences principales). Le centre ancien (Écusson, Beaux-Arts) concentre un bâti antérieur à 1949 — plomb fréquent, amiante quasi-systématique. Les extensions des années 1960-1990 (Mosson, Croix d'Argent, Près d'Arènes) déclenchent presque toujours les diagnostics électricité et gaz au-delà des 15 ans. Les ZAC récentes (Antigone post-1980, Port Marianne post-2000) restent en classe énergétique correcte mais demandent toujours DPE et ERP.",
+
+    enjeuxLocaux:
+      "Le PPRI du Lez et de la Mosson, approuvé le 13/01/2004, couvre une partie significative de la commune et fait l'objet d'une révision prescrite en octobre 2025. Les quartiers proches du Lez (Pompignane, Richter), de la Mosson (Mosson, Tonnelles) et de leurs affluents sont concernés par le risque inondation par débordement et ruissellement. L'État des Risques et Pollutions est systématique et particulièrement scruté lors des transactions. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Montpellier est à 15 minutes de Prades-le-Lez par la D17 ou l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune et sa première couronne.",
+
+    quartiersTypiques: [
+      'Écusson (centre médiéval pré-1949)',
+      'Antigone et Port Marianne (extensions modernes)',
+      'Beaux-Arts, Boutonnet, Aiguelongue (faubourgs traditionnels)',
+      'Mosson, Croix d\'Argent, Près d\'Arènes (collectif années 1960-1990)',
+    ],
+
+    communesLimitrophes: ['Castelnau-le-Lez', 'Lattes', 'Saint-Jean-de-Védas', 'Juvignac', 'Grabels', 'Clapiers'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Montpellier ?",
+        a: "Pour toute vente à Montpellier, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge et la nature du bien : amiante (avant 1997, fréquent dans le centre ancien et les faubourgs), plomb (avant 1949, quasi-systématique dans l'Écusson), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire en quelques questions.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Montpellier ?",
+        a: "À Montpellier, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC. Le pack vente maison (avec termites en plus) démarre à 380 € TTC. Aucun frais de déplacement n'est appliqué sur la commune et sa première couronne.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Montpellier ?",
+        a: "Montpellier est à 15 minutes de Prades-le-Lez par la D17 ou l'A750. L'intervention est garantie sous 48 h après validation du devis, et le rapport est remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Montpellier ?",
+        a: "Une partie significative de Montpellier est couverte par le PPRI Basse vallée du Lez et de la Mosson, approuvé le 13/01/2004 et en révision depuis octobre 2025. Les quartiers proches du Lez, de la Mosson et de leurs affluents (Verdansson, Chambéry, Lironde, Rieucoulon) sont concernés. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
     slug: 'lunel',
     name: 'Lunel',
     nameSeo: 'Lunel (34)',

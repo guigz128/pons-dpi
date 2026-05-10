@@ -490,6 +490,51 @@ export default function VilleDetail() {
         </section>
       )}
 
+      {/* 7bis — Pons DPI dans le département (cross-link villes) */}
+      {villes.filter((v) => v.slug !== slug).length > 0 && (
+        <section className="py-16 sm:py-20">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <ScrollReveal>
+              <div className="text-center max-w-2xl mx-auto mb-10">
+                <h2 className="font-display text-3xl sm:text-4xl text-text">
+                  Pons DPI dans le département
+                </h2>
+                <p className="mt-3 text-text-secondary">
+                  Pages dédiées par commune — diagnostics immobiliers, marché local, risques.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {villes
+                .filter((v) => v.slug !== slug)
+                .map((v, i) => (
+                  <ScrollReveal key={v.slug} delay={i * 0.05}>
+                    <Link
+                      to={`/diagnostic-immobilier/${v.slug}`}
+                      className="group flex items-start gap-3 rounded-md border border-border bg-surface p-4 hover:border-accent/30 hover:bg-stone-50 transition-colors h-full"
+                    >
+                      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-accent-light text-accent shrink-0">
+                        <MapPin className="h-5 w-5" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="font-semibold text-text group-hover:text-accent transition-colors">
+                          {v.name} <span className="text-xs font-normal text-text-secondary">({v.codePostal})</span>
+                        </p>
+                        <p className="text-xs text-text-secondary mt-0.5">
+                          {v.population != null ? `${v.population.toLocaleString('fr-FR')} habitants` : v.departement}
+                          {v.distanceFromBaseKm != null ? ` · ${v.distanceFromBaseKm} km de Prades-le-Lez` : ''}
+                        </p>
+                      </div>
+                      <ArrowRight className="h-4 w-4 text-text-secondary shrink-0 group-hover:text-accent group-hover:translate-x-0.5 transition-all" />
+                    </Link>
+                  </ScrollReveal>
+                ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* 8 — FAQ ville */}
       {faqLocale?.length > 0 && (
         <section className="py-16 sm:py-20">

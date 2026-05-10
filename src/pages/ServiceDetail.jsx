@@ -1,7 +1,8 @@
 import { useParams, Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
-import { ArrowLeft, ArrowRight, Clock, FileCheck, Phone, Search, Lightbulb, AlertCircle } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Clock, FileCheck, Phone, Search, Lightbulb, AlertCircle, MapPin } from 'lucide-react'
 import { allServices } from '../content/services'
+import { villes } from '../content/villes'
 import Badge from '../components/ui/Badge'
 import Button from '../components/ui/Button'
 import Cta from '../components/sections/Cta'
@@ -165,6 +166,48 @@ export default function ServiceDetail() {
           </ScrollReveal>
         </div>
       </section>
+
+      {villes.length > 0 && (
+        <section className="py-16 sm:py-20 bg-stone-50 border-t border-border">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <ScrollReveal>
+              <div className="text-center max-w-2xl mx-auto mb-10">
+                <h2 className="font-display text-3xl sm:text-4xl text-text">
+                  {service.name} dans <span className="text-highlight">votre commune</span>
+                </h2>
+                <p className="mt-3 text-text-secondary">
+                  Pages dédiées avec marché local, risques et particularités.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {villes.map((v, i) => (
+                <ScrollReveal key={v.slug} delay={i * 0.05}>
+                  <Link
+                    to={`/diagnostic-immobilier/${v.slug}`}
+                    className="group flex items-start gap-3 rounded-md border border-border bg-surface p-4 hover:border-accent/30 transition-colors h-full"
+                  >
+                    <div className="flex items-center justify-center h-10 w-10 rounded-full bg-accent-light text-accent shrink-0">
+                      <MapPin className="h-5 w-5" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="font-semibold text-text group-hover:text-accent transition-colors">
+                        {service.name} à {v.name}
+                      </p>
+                      <p className="text-xs text-text-secondary mt-0.5">
+                        {v.codePostal}
+                        {v.population != null ? ` · ${v.population.toLocaleString('fr-FR')} hab.` : ''}
+                      </p>
+                    </div>
+                    <ArrowRight className="h-4 w-4 text-text-secondary shrink-0 group-hover:text-accent group-hover:translate-x-0.5 transition-all" />
+                  </Link>
+                </ScrollReveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <Cta />
     </>
