@@ -214,7 +214,7 @@ export default function VilleDetail() {
             <div className={`grid gap-8 lg:gap-12 items-start ${ville.image ? 'lg:grid-cols-[1fr_280px]' : 'grid-cols-1'}`}>
               <div className="lg:order-1">
                 <Link
-                  to="/"
+                  to="/diagnostic-immobilier"
                   className="inline-flex items-center gap-2 text-sm text-text-secondary hover:text-text transition-colors mb-6"
                 >
                   <ArrowLeft className="h-4 w-4" />
