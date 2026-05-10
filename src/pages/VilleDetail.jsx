@@ -109,55 +109,101 @@ export default function VilleDetail() {
 
   const dpeClass = dpeWorstClass(dpeMoyenKwh, ville.dpeMoyenCo2)
   const url = `https://www.pons-dpi.fr/diagnostic-immobilier/${slug}`
+  const SITE = 'https://www.pons-dpi.fr'
 
+  const pageTitle = `Diagnostic immobilier ${name} (${codePostal}) — DPE, amiante, termites | Pons DPI`
+  const pageDescription = `Diagnostic immobilier à ${name} : DPE, amiante, plomb, électricité, gaz, termites. Devis en ligne instantané, intervention sous 48 h, rapport remis sous 24 h ouvrées.`
+  const ogDescription = `Diagnostics immobiliers à ${name} et alentours. Devis en ligne, intervention 48 h, rapport 24 h.`
+
+  // Combined JSON-LD : LocalBusiness + FAQPage + BreadcrumbList
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    name: 'Pons DPI',
-    description: `Diagnostiqueur immobilier certifié à ${name} : DPE, amiante, plomb, électricité, gaz, termites.`,
-    url,
-    telephone: '+33651669161',
-    areaServed: {
-      '@type': 'City',
-      name,
-      addressCountry: 'FR',
-      postalCode: codePostal,
-    },
-    geo: {
-      '@type': 'GeoCircle',
-      geoMidpoint: {
-        '@type': 'GeoCoordinates',
-        latitude: String(coords?.lat ?? ''),
-        longitude: String(coords?.lng ?? ''),
+    '@graph': [
+      {
+        '@type': 'LocalBusiness',
+        '@id': `${url}#business`,
+        name: 'Pons DPI',
+        description: `Diagnostiqueur immobilier certifié à ${name} : DPE, amiante, plomb, électricité, gaz, termites.`,
+        url,
+        telephone: '+33651669161',
+        priceRange: '€€',
+        areaServed: {
+          '@type': 'City',
+          name,
+          addressCountry: 'FR',
+          postalCode: codePostal,
+        },
+        geo: {
+          '@type': 'GeoCircle',
+          geoMidpoint: {
+            '@type': 'GeoCoordinates',
+            latitude: String(coords?.lat ?? ''),
+            longitude: String(coords?.lng ?? ''),
+          },
+          geoRadius: '30000',
+        },
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Prades-le-Lez',
+          postalCode: '34730',
+          addressCountry: 'FR',
+        },
       },
-      geoRadius: '30000',
-    },
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Prades-le-Lez',
-      postalCode: '34730',
-      addressCountry: 'FR',
-    },
-    priceRange: '€€',
+      ...(faqLocale?.length > 0
+        ? [
+            {
+              '@type': 'FAQPage',
+              '@id': `${url}#faq`,
+              mainEntity: faqLocale.map((f) => ({
+                '@type': 'Question',
+                name: f.q,
+                acceptedAnswer: {
+                  '@type': 'Answer',
+                  text: f.a,
+                },
+              })),
+            },
+          ]
+        : []),
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${url}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Accueil', item: `${SITE}/` },
+          { '@type': 'ListItem', position: 2, name: 'Zones d\'intervention', item: `${SITE}/#zone` },
+          { '@type': 'ListItem', position: 3, name, item: url },
+        ],
+      },
+    ],
   }
 
   return (
     <>
       <Helmet>
-        <title>{`Diagnostic immobilier à ${name} (${codePostal}) — DPE, amiante | Pons DPI`}</title>
-        <meta
-          name="description"
-          content={`Diagnostiqueur immobilier certifié à ${name}. DPE, amiante, plomb, électricité, gaz, termites. Devis en ligne, intervention sous 48 h, rapport sous 24 h.`}
-        />
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
         <link rel="canonical" href={url} />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+
+        {/* Geo targeting */}
+        <meta name="geo.region" content="FR-34" />
+        <meta name="geo.placename" content={name} />
+        {coords && <meta name="geo.position" content={`${coords.lat};${coords.lng}`} />}
+        {coords && <meta name="ICBM" content={`${coords.lat}, ${coords.lng}`} />}
+
+        {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content={`Diagnostic immobilier à ${name} | Pons DPI`} />
-        <meta
-          property="og:description"
-          content={`Diagnostics immobiliers à ${name} et alentours. DPE, amiante, plomb, gaz, électricité, termites. Devis en ligne.`}
-        />
+        <meta property="og:site_name" content="Pons DPI" />
+        <meta property="og:title" content={`Diagnostic immobilier ${name} | Pons DPI`} />
+        <meta property="og:description" content={ogDescription} />
         <meta property="og:url" content={url} />
         <meta property="og:locale" content="fr_FR" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`Diagnostic immobilier ${name} | Pons DPI`} />
+        <meta name="twitter:description" content={ogDescription} />
+
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
 
