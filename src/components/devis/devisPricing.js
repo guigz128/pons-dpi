@@ -16,26 +16,24 @@ export const pricing = {
 const PREMIUM_DIAGS = ['assainissement']
 
 // Packs définis du plus grand au plus petit (on matche le plus gros d'abord)
-// Calibration "compétitif Hérault" — 5-10 % au-dessus de la moyenne du département
-// (~284 € pour un pack complet), reste loin sous la moyenne nationale (355-385 €).
 const PACKS = [
   {
     id: 'vente_maison',
     name: 'Pack Vente Maison',
     items: ['dpe', 'amiante', 'electricite', 'gaz', 'termites', 'erp'],
-    price: 420,
+    price: 380,
   },
   {
     id: 'vente_appart',
     name: 'Pack Vente Appartement',
     items: ['dpe', 'amiante', 'electricite', 'gaz', 'erp', 'carrez'],
-    price: 390,
+    price: 290,
   },
   {
     id: 'location',
     name: 'Pack Location',
     items: ['dpe', 'electricite', 'gaz', 'erp', 'boutin'],
-    price: 280,
+    price: 200,
   },
 ]
 
