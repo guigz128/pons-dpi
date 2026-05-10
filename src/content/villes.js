@@ -1673,57 +1673,57 @@ export const villes = [
       {
         slug: 'erp',
         whyHere:
-          'Sète est exposée au PPRi Sète-Frontignan-Mèze et au risque de submersion marine. L\'État des Risques et Pollutions est central pour toute transaction sur ce périmètre.',
+          'Sète est inscrite en TRI Sète-Frontignan-Mèze, exposée à la fois aux débordements du bassin de Thau et au risque de submersion marine (Méditerranée + lagune). Le PPRi et le PPRL couvrent une part importante de la commune. L\'État des Risques et Pollutions est déterminant pour toute transaction — la décote en zone d\'aléa fort peut atteindre 10 à 20 %.',
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          'Le centre historique (Quartier-Haut, Pointe Courte, Île de Thau) et les ensembles balnéaires des années 1960-1990 (La Corniche, Plagette) concentrent un bâti pré-1997 où le repérage amiante est quasi-systématique en vente. Avec 22 % de résidences secondaires, le turnover est élevé.',
       },
       {
         slug: 'dpe',
         whyHere:
-          'Le parc mixte (70% appartements) demande un DPE rigoureux à la vente, particulièrement sur les copropriétés des années 1960-1990 souvent classées E-F.',
-      },
-      {
-        slug: 'termites',
-        whyHere:
-          'L\'Hérault est classé intégralement en zone termites par arrêté préfectoral. Le diagnostic est obligatoire pour toute vente à Sète.',
+          'Le parc sétois est dominé à 70 % par les appartements en copropriété, souvent dans des immeubles balnéaires des années 1960-1990 classés E-G. Le DPE pèse fortement dans la valorisation, et l\'audit énergétique devient fréquent sur les passoires thermiques (F/G) à la vente.',
       },
     ],
 
     intro:
-      'Sète, commune littorale de l\'Hérault, présente un marché immobilier actif (3 850 €/m² en moyenne). 45 337 habitants, 22 % de résidences secondaires, parc dominé par les appartements.',
+      'Sète, « île singulière » entre Méditerranée et bassin de Thau, est le premier port français de pêche en Méditerranée et l\'un des hauts lieux culturels de l\'Hérault (Théâtre de la Mer, cimetière marin de Paul Valéry, Mont Saint-Clair). Marché immobilier actif (3 850 €/m² en moyenne), parc historique dense, 22 % de résidences secondaires.',
 
     parcImmoNote:
-      'Le parc de Sète est composé à 28 % de maisons et 70 % d\'appartements (28 500 logements au total). Forte part de résidences secondaires (22 %), typique d\'une commune littorale. Les pavillons et collectifs des années 1970-1990 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes (post-2000) sont en classe énergétique correcte.',
+      'Le parc sétois est dominé à 70 % par les appartements (28 500 logements, 22 % de résidences secondaires). Le centre historique — Quartier-Haut, Pointe Courte, abords du canal — concentre un bâti antérieur à 1949 (plomb fréquent). Les copropriétés balnéaires de la Corniche et de la Plagette (années 1960-1990) déclenchent quasi-systématiquement amiante, électricité et gaz. L\'Île de Thau (collectif années 1970) et les ZAC plus récentes complètent le panorama. La forte saisonnalité touristique (port + plages) tire le marché.',
 
     enjeuxLocaux:
-      'Sète est concernée par le PPRi bassin de Thau, PPRL submersion marine. L\'exposition est double : débordement de cours d\'eau et submersion marine. Une partie du territoire est en zone réglementée. L\'État des Risques et Pollutions est systématique et particulièrement scruté lors des transactions — un bien en zone d\'aléa peut subir une décote de 10 à 20 %. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.',
+      'Sète est inscrite en TRI Sète-Frontignan-Mèze, doublement exposée au débordement du bassin de Thau et à la submersion marine (Méditerranée à l\'est, étang à l\'ouest). Le PPRi et le PPRL couvrent une partie significative du territoire. L\'État des Risques et Pollutions est central et particulièrement scruté lors des transactions — un bien en zone d\'aléa fort peut subir une décote de 10 à 20 %. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.',
 
     accessibilityNote:
-      'Sète est à 40 minutes de Prades-le-Lez (38 km) via l\'A9 ou les axes principaux — intervention sous 48 h garantie sur l\'ensemble de la commune dès l\'ouverture de l\'activité (mars 2027).',
+      'Sète est à 40 minutes de Prades-le-Lez (38 km) via l\'A9 et la sortie Mèze — intervention sous 48 h garantie dès l\'ouverture de l\'activité, du Quartier-Haut au Mont Saint-Clair en passant par la Corniche et l\'Île de Thau.',
 
     quartiersTypiques: [
-      'Centre historique (port, vieille ville)',
-      'Front de mer et copropriétés balnéaires',
-      'Résidences secondaires et locatif touristique',
-      'Quartiers résidentiels arrière-littoral',
+      'Centre historique : Quartier-Haut, Pointe Courte, abords du canal',
+      'La Corniche et la Plagette (copropriétés balnéaires 1960-1990)',
+      'Mont Saint-Clair (résidentiel premium avec vue)',
+      'Île de Thau (collectif années 1970, locatif et résidences secondaires)',
     ],
 
-    communesLimitrophes: ['Bouzigues', 'Frontignan', 'Loupian', 'Marseillan', 'Mèze'],
+    communesLimitrophes: ['Frontignan', 'Bouzigues', 'Loupian', 'Marseillan', 'Mèze'],
 
     faqLocale: [
       {
         q: 'Quels diagnostics sont obligatoires pour vendre à Sète ?',
-        a: 'Pour toute vente à Sète, le DPE et l\'ERP sont systématiques, ainsi que le diagnostic termites (Hérault classé). Selon l\'âge et la nature du bien : amiante (avant 1997), plomb (avant 1949), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire en quelques questions.',
+        a: 'Pour toute vente à Sète, le DPE, l\'ERP (central à cause du PPRi bassin de Thau et du PPRL submersion marine) et le diagnostic termites sont systématiques. Selon le bien : amiante (centre historique et copros balnéaires pré-1997 — très fréquent), plomb (Quartier-Haut, Pointe Courte pré-1949), électricité et gaz (installations de plus de 15 ans, courant sur la Corniche et l\'Île de Thau), et mesurage Carrez (systématique vu que 70 % du parc est en copropriété).',
       },
       {
         q: 'Combien coûte un pack diagnostic vente à Sète ?',
-        a: 'À Sète, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC. Aucun frais de déplacement n\'est appliqué sur la commune. Activité officielle dès mars 2027.',
+        a: 'À Sète, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC — c\'est le pack le plus demandé compte tenu du parc dominé à 70 % par les appartements en copropriété. Aucun frais de déplacement appliqué sur la commune. Pour les copropriétés balnéaires, je peux coordonner directement avec le syndic pour l\'accès aux parties communes.',
       },
       {
         q: 'Sous quel délai intervenez-vous à Sète ?',
-        a: 'Sète est à 40 minutes de Prades-le-Lez (38 km). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, et le rapport remis sous 24 h ouvrées après l\'intervention.',
+        a: 'Sète est à 40 minutes de Prades-le-Lez (38 km) via l\'A9. L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, et le rapport remis sous 24 h ouvrées. Pour les ventes urgentes (compromis signé, délai notaire), je priorise le créneau le plus rapide compatible avec mon agenda.',
       },
       {
-        q: 'Mon bien est-il en zone inondable à Sète ?',
-        a: 'Une partie de Sète est couverte par le PPRi bassin de Thau, PPRL submersion marine. La commune est également exposée au risque de submersion marine. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
+        q: 'Mon bien sétois est-il en zone inondable ou de submersion marine ?',
+        a: 'Une part significative de Sète est concernée. Le PPRi bassin de Thau couvre les abords de la lagune (Pointe Courte, Île de Thau, base nautique). Le PPRL submersion marine couvre la frange littorale méditerranéenne (Plagette, Corniche jusqu\'à la Mole). Le Quartier-Haut, perché sur le Mont Saint-Clair, est généralement épargné. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
       },
     ],
   },
@@ -1781,57 +1781,57 @@ export const villes = [
       {
         slug: 'erp',
         whyHere:
-          'Frontignan est exposée au PPRi Sète-Frontignan-Mèze et au risque de submersion marine. L\'État des Risques et Pollutions est central pour toute transaction sur ce périmètre.',
+          'Frontignan est inscrite en TRI Sète-Frontignan-Mèze. La commune est exposée au débordement de l\'étang de Thau, à la submersion marine (Frontignan-Plage, La Peyrade) et aux risques industriels (PPRT raffinerie historique). L\'État des Risques et Pollutions est particulièrement scruté lors des transactions.',
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          'Le centre médiéval (Tour Saint-Paul, vieille ville) et les pavillons des années 1960-1990 concentrent un bâti pré-1997 où le repérage amiante est quasi-systématique. La Peyrade, ancien quartier ouvrier de la raffinerie, présente aussi un parc ancien dense.',
       },
       {
         slug: 'dpe',
         whyHere:
-          'Le parc mixte (43% appartements) demande un DPE rigoureux à la vente, particulièrement sur les copropriétés des années 1960-1990 souvent classées E-F.',
-      },
-      {
-        slug: 'termites',
-        whyHere:
-          'L\'Hérault est classé intégralement en zone termites par arrêté préfectoral. Le diagnostic est obligatoire pour toute vente à Frontignan.',
+          'Frontignan combine 55 % de maisons et 43 % d\'appartements, avec un parc en grande partie post-1970. Le DPE pèse dans la valorisation à la vente comme à la location, particulièrement sur Frontignan-Plage où la saisonnalité touristique tire la demande.',
       },
     ],
 
     intro:
-      'Frontignan, commune littorale de l\'Hérault, présente un marché immobilier actif (3 650 €/m² en moyenne). 24 136 habitants, 18 % de résidences secondaires, parc dominé à parts équilibrées maisons/appartements.',
+      'Frontignan, ville-port entre Sète et Montpellier, est connue pour son AOC Muscat, sa raffinerie historique et son front de mer (Frontignan-Plage). Marché immobilier actif (3 650 €/m² en moyenne), parc équilibré entre centre médiéval, faubourgs ouvriers et résidentiel récent. 18 % de résidences secondaires.',
 
     parcImmoNote:
-      'Le parc de Frontignan est composé à 55 % de maisons et 43 % d\'appartements (13 800 logements au total). Forte part de résidences secondaires (18 %), typique d\'une commune littorale. Les pavillons et collectifs des années 1970-1990 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes (post-2000) sont en classe énergétique correcte.',
+      'Le parc frontignanais est composé à 55 % de maisons et 43 % d\'appartements (13 800 logements). Le centre médiéval autour de la Tour Saint-Paul concentre un bâti antérieur à 1949 — plomb fréquent. La Peyrade, ancien faubourg lié à la raffinerie, présente un parc des années 1950-1970 (amiante, électricité, gaz quasi-systématiques). Frontignan-Plage et les ZAC plus récentes complètent le panorama. La forte saisonnalité touristique (plage, AOC Muscat) tire la part de résidences secondaires à 18 %.',
 
     enjeuxLocaux:
-      'Frontignan est concernée par le PPRi bassin de Thau, PPRL submersion marine. L\'exposition est double : débordement de cours d\'eau et submersion marine. Une partie du territoire est en zone réglementée. L\'État des Risques et Pollutions est systématique et particulièrement scruté lors des transactions — un bien en zone d\'aléa peut subir une décote de 10 à 20 %. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.',
+      'Frontignan est en TRI Sète-Frontignan-Mèze, exposée au débordement de l\'étang de Thau et à la submersion marine au sud (Frontignan-Plage, La Peyrade). La commune comprend également un site industriel classé (raffinerie) avec un PPRT associé. L\'État des Risques et Pollutions est systématique et particulièrement déterminant. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.',
 
     accessibilityNote:
-      'Frontignan est à 35 minutes de Prades-le-Lez (32 km) via l\'A9 ou les axes principaux — intervention sous 48 h garantie sur l\'ensemble de la commune dès l\'ouverture de l\'activité (mars 2027).',
+      'Frontignan est à 35 minutes de Prades-le-Lez (32 km) via l\'A9 — intervention sous 48 h garantie sur l\'ensemble de la commune (centre médiéval, La Peyrade, Frontignan-Plage) dès l\'ouverture de l\'activité.',
 
     quartiersTypiques: [
-      'Centre village historique',
-      'Faubourgs et extensions XIXe-XXe',
-      'Lotissements pavillonnaires (années 1970-1990)',
-      'ZAC récentes et résidences post-2000',
+      'Centre médiéval (Tour Saint-Paul, vieille ville pré-1949)',
+      'La Peyrade (faubourg ouvrier années 1950-1970)',
+      'Frontignan-Plage (résidentiel touristique 1970-1990)',
+      'ZAC récentes (post-2000) en périphérie',
     ],
 
-    communesLimitrophes: ['Balaruc-le-Vieux', 'Balaruc-les-Bains', 'Gigean', 'Sète', 'Vic-la-Gardiole', 'Villeneuve-lès-Maguelone'],
+    communesLimitrophes: ['Sète', 'Balaruc-le-Vieux', 'Balaruc-les-Bains', 'Gigean', 'Vic-la-Gardiole', 'Villeneuve-lès-Maguelone'],
 
     faqLocale: [
       {
         q: 'Quels diagnostics sont obligatoires pour vendre à Frontignan ?',
-        a: 'Pour toute vente à Frontignan, le DPE et l\'ERP sont systématiques, ainsi que le diagnostic termites (Hérault classé). Selon l\'âge et la nature du bien : amiante (avant 1997), plomb (avant 1949), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire en quelques questions.',
+        a: 'Pour toute vente à Frontignan, le DPE, l\'ERP (central — TRI Sète-Frontignan-Mèze + PPRT raffinerie) et le diagnostic termites sont systématiques. Selon le bien : amiante (centre médiéval et pavillons pré-1997 — très fréquent), plomb (vieille ville pré-1949), électricité et gaz (installations de plus de 15 ans, courant sur La Peyrade et Frontignan-Plage), et le mesurage Carrez en copropriété.',
       },
       {
         q: 'Combien coûte un pack diagnostic vente à Frontignan ?',
-        a: 'À Frontignan, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC. Aucun frais de déplacement n\'est appliqué sur la commune. Activité officielle dès mars 2027.',
+        a: 'À Frontignan, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC, le pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune (centre, La Peyrade, Frontignan-Plage).',
       },
       {
         q: 'Sous quel délai intervenez-vous à Frontignan ?',
-        a: 'Frontignan est à 35 minutes de Prades-le-Lez (32 km). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, et le rapport remis sous 24 h ouvrées après l\'intervention.',
+        a: 'Frontignan est à 35 minutes de Prades-le-Lez (32 km) via l\'A9 (sortie Sète Est). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture, rapport remis sous 24 h ouvrées.',
       },
       {
-        q: 'Mon bien est-il en zone inondable à Frontignan ?',
-        a: 'Une partie de Frontignan est couverte par le PPRi bassin de Thau, PPRL submersion marine. La commune est également exposée au risque de submersion marine. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
+        q: 'Le risque industriel (raffinerie) impacte-t-il mon bien à Frontignan ?',
+        a: 'Oui pour les biens situés dans le périmètre du PPRT (Plan de Prévention des Risques Technologiques) de la raffinerie. L\'État des Risques et Pollutions (ERP) que je réalise précise si votre adresse est concernée et le niveau d\'aléa applicable.',
       },
     ],
   },
@@ -1889,57 +1889,57 @@ export const villes = [
       {
         slug: 'erp',
         whyHere:
-          'Villeneuve-lès-Maguelone est exposée au PPRi Lez-Mosson-Étangs Palavasiens et au risque de submersion marine. L\'État des Risques et Pollutions est central pour toute transaction sur ce périmètre.',
+          'Villeneuve-lès-Maguelone est en TRI Lez-Mosson-Étangs Palavasiens, exposée à la fois au débordement du bassin Lez-Mosson et à la submersion marine (étangs côtiers, plage de Maguelone). Le PPRi et le PPRL couvrent une part significative du territoire. L\'État des Risques et Pollutions est central pour toute transaction.',
       },
       {
         slug: 'dpe',
         whyHere:
-          'Le parc mixte (33% appartements) demande un DPE rigoureux à la vente, particulièrement sur les copropriétés des années 1960-1990 souvent classées E-F.',
+          'Villeneuve-lès-Maguelone combine 65 % de maisons individuelles et 33 % d\'appartements, avec un parc majoritairement post-1970. Le DPE pèse fortement dans la valorisation à la vente (4 150 €/m² en moyenne) — marché tendu par la proximité Montpellier.',
       },
       {
-        slug: 'termites',
+        slug: 'amiante',
         whyHere:
-          'L\'Hérault est classé intégralement en zone termites par arrêté préfectoral. Le diagnostic est obligatoire pour toute vente à Villeneuve-lès-Maguelone.',
+          'Le centre village historique et les pavillons des années 1970-1990 concentrent un bâti pré-1997 où le repérage amiante est quasi-systématique. Les ZAC plus récentes (post-2000) sont épargnées mais minoritaires dans le parc actuel.',
       },
     ],
 
     intro:
-      'Villeneuve-lès-Maguelone, commune littorale de la métropole de Montpellier, présente un marché immobilier tendu (4 150 €/m² en moyenne). 10 872 habitants, parc dominé par les maisons individuelles.',
+      'Villeneuve-lès-Maguelone, commune du sud-ouest de la Métropole de Montpellier, est célèbre pour la cathédrale de Maguelone (île monument historique, ancienne île épiscopale) et sa plage sauvage. Marché immobilier actif (4 150 €/m² en moyenne), parc dominé par les maisons individuelles, commune prisée pour son cadre.',
 
     parcImmoNote:
-      'Le parc de Villeneuve-lès-Maguelone est composé à 65 % de maisons et 33 % d\'appartements (5 200 logements au total). Le parc est majoritairement occupé en résidence principale. Les pavillons et collectifs des années 1970-1990 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes (post-2000) sont en classe énergétique correcte.',
+      'Le parc villeneuvois est composé à 65 % de maisons et 33 % d\'appartements (5 200 logements, 8 % de résidences secondaires). Le centre village concentre un bâti antérieur à 1949 (plomb fréquent). Les lotissements pavillonnaires des années 1970-1990 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes alignent un parc post-2000 en bonne classe énergétique. La proximité Montpellier (18 km) tire le marché.',
 
     enjeuxLocaux:
-      'Villeneuve-lès-Maguelone est concernée par le PPRi Lez-Mosson, PPRL submersion marine. L\'exposition est double : débordement de cours d\'eau et submersion marine. Une partie du territoire est en zone réglementée. L\'État des Risques et Pollutions est systématique et particulièrement scruté lors des transactions — un bien en zone d\'aléa peut subir une décote de 10 à 20 %. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.',
+      'Villeneuve-lès-Maguelone est en TRI Lez-Mosson-Étangs Palavasiens, doublement exposée au débordement de cours d\'eau et au risque de submersion marine (étangs côtiers + plage de Maguelone). Le PPRi et le PPRL couvrent une partie significative du territoire — particulièrement les abords des étangs et la zone littorale. L\'État des Risques et Pollutions est central et particulièrement scruté lors des transactions. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.',
 
     accessibilityNote:
-      'Villeneuve-lès-Maguelone est à 22 minutes de Prades-le-Lez (18 km) via l\'A9 ou les axes principaux — intervention sous 48 h garantie sur l\'ensemble de la commune dès l\'ouverture de l\'activité (mars 2027).',
+      'Villeneuve-lès-Maguelone est à 22 minutes de Prades-le-Lez (18 km) — intervention sous 48 h garantie sur l\'ensemble de la commune (centre village, ZAC, abords plage) dès l\'ouverture de l\'activité.',
 
     quartiersTypiques: [
-      'Centre village historique',
-      'Faubourgs et extensions XIXe-XXe',
-      'Lotissements pavillonnaires (années 1970-1990)',
-      'ZAC récentes et résidences post-2000',
+      'Centre village historique (pré-1949, plomb fréquent)',
+      'Lotissements pavillonnaires (années 1970-2000)',
+      'Cathédrale de Maguelone et abords littoraux',
+      'ZAC récentes (post-2000) en bonne classe énergétique',
     ],
 
-    communesLimitrophes: ['Fabrègues', 'Frontignan', 'Lattes', 'Mireval', 'Palavas-les-Flots', 'Saint-Jean-de-Védas', 'Vic-la-Gardiole'],
+    communesLimitrophes: ['Lattes', 'Saint-Jean-de-Védas', 'Fabrègues', 'Mireval', 'Vic-la-Gardiole', 'Frontignan', 'Palavas-les-Flots'],
 
     faqLocale: [
       {
         q: 'Quels diagnostics sont obligatoires pour vendre à Villeneuve-lès-Maguelone ?',
-        a: 'Pour toute vente à Villeneuve-lès-Maguelone, le DPE et l\'ERP sont systématiques, ainsi que le diagnostic termites (Hérault classé). Selon l\'âge et la nature du bien : amiante (avant 1997), plomb (avant 1949), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire en quelques questions.',
+        a: 'Pour toute vente à Villeneuve-lès-Maguelone, le DPE, l\'ERP (central — TRI Lez-Mosson + PPRL submersion marine) et le diagnostic termites sont systématiques. Selon le bien : amiante (centre village et pavillons pré-1997), plomb (centre historique pré-1949), électricité et gaz (installations de plus de 15 ans), et Carrez en copropriété.',
       },
       {
         q: 'Combien coûte un pack diagnostic vente à Villeneuve-lès-Maguelone ?',
-        a: 'À Villeneuve-lès-Maguelone, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC. Aucun frais de déplacement n\'est appliqué sur la commune. Activité officielle dès mars 2027.',
+        a: 'À Villeneuve-lès-Maguelone, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — c\'est le pack le plus demandé compte tenu du parc dominé à 65 % par les maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué.',
       },
       {
         q: 'Sous quel délai intervenez-vous à Villeneuve-lès-Maguelone ?',
-        a: 'Villeneuve-lès-Maguelone est à 22 minutes de Prades-le-Lez (18 km). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, et le rapport remis sous 24 h ouvrées après l\'intervention.',
+        a: 'Villeneuve-lès-Maguelone est à 22 minutes de Prades-le-Lez (18 km). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.',
       },
       {
-        q: 'Mon bien est-il en zone inondable à Villeneuve-lès-Maguelone ?',
-        a: 'Une partie de Villeneuve-lès-Maguelone est couverte par le PPRi Lez-Mosson, PPRL submersion marine. La commune est également exposée au risque de submersion marine. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
+        q: 'Mon bien est-il exposé à la submersion marine à Villeneuve-lès-Maguelone ?',
+        a: 'Possible si votre bien est proche des étangs Palavasiens ou de la plage de Maguelone. Le PPRL submersion marine couvre une partie significative du sud de la commune. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
       },
     ],
   },
@@ -1997,57 +1997,57 @@ export const villes = [
       {
         slug: 'erp',
         whyHere:
-          'Palavas-les-Flots est exposée au PPRi Lez-Mosson-Étangs Palavasiens et au risque de submersion marine. L\'État des Risques et Pollutions est central pour toute transaction sur ce périmètre.',
+          'Palavas-les-Flots est en TRI Lez-Mosson-Étangs Palavasiens, doublement exposée à la submersion marine (Méditerranée + étangs) et au débordement du Lez. Une partie très significative du territoire est en zone d\'aléa fort. L\'État des Risques et Pollutions est déterminant — la décote en zone d\'aléa peut atteindre 10 à 20 %.',
       },
       {
         slug: 'dpe',
         whyHere:
-          'Le parc balnéaire (80% appartements) demande un DPE rigoureux à la vente, particulièrement sur les copropriétés des années 1960-1990 souvent classées E-F.',
+          'Palavas est dominée à 80 % par les appartements en copropriété balnéaire, majoritairement des années 1960-1980 (souvent classés E-F). 58 % du parc est en résidence secondaire — le DPE pèse fortement dans la valorisation des copropriétés à la vente, particulièrement sur les passoires thermiques.',
       },
       {
-        slug: 'termites',
+        slug: 'amiante',
         whyHere:
-          'L\'Hérault est classé intégralement en zone termites par arrêté préfectoral. Le diagnostic est obligatoire pour toute vente à Palavas-les-Flots.',
+          'Les copropriétés balnéaires des années 1960-1990 — qui constituent l\'essentiel du parc palavasien — déclenchent quasi-systématiquement le repérage amiante en vente. Avec 58 % de résidences secondaires, les transactions sont fréquentes et le repérage indispensable.',
       },
     ],
 
     intro:
-      'Palavas-les-Flots, commune littorale de l\'Hérault, présente un marché immobilier tendu (5 650 €/m² en moyenne). 6 133 habitants, 58 % de résidences secondaires, parc dominé par les appartements.',
+      'Palavas-les-Flots, station balnéaire historique de la Côte languedocienne, est l\'une des destinations touristiques majeures de l\'Hérault. Marché immobilier premium (5 650 €/m² en moyenne — le plus cher de la sélection), parc dominé à 80 % par les appartements, 58 % de résidences secondaires.',
 
     parcImmoNote:
-      'Le parc de Palavas-les-Flots est composé à 18 % de maisons et 80 % d\'appartements (9 800 logements au total). Forte part de résidences secondaires (58 %), typique d\'une commune littorale. Les pavillons et collectifs des années 1970-1990 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes (post-2000) sont en classe énergétique correcte.',
+      'Le parc palavasien est exceptionnel : 80 % d\'appartements (vs 33 % à Villeneuve voisine), 58 % de résidences secondaires, 9 800 logements pour 6 133 habitants permanents. Surface moyenne contenue (48 m²) typique des appartements touristiques. Les copropriétés balnéaires des années 1960-1990 — symboles du Languedoc-Roussillon balnéaire planifié — dominent le parc, autour des deux rives du Lez et des étangs. Le centre historique du port concentre quelques bâtis pré-1949.',
 
     enjeuxLocaux:
-      'Palavas-les-Flots est concernée par le PPRi étangs palavasiens, PPRL submersion marine. L\'exposition est double : débordement de cours d\'eau et submersion marine. Une partie du territoire est en zone réglementée. L\'État des Risques et Pollutions est systématique et particulièrement scruté lors des transactions — un bien en zone d\'aléa peut subir une décote de 10 à 20 %. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.',
+      'Palavas-les-Flots est en TRI Lez-Mosson-Étangs Palavasiens, doublement exposée à la submersion marine (Méditerranée à l\'est, étangs Palavasiens à l\'ouest) et au débordement du Lez. Une part très significative du territoire est en zone d\'aléa fort selon le PPRL. La saisonnalité touristique (population multipliée par 5 en été) ajoute une pression sur les infrastructures. L\'État des Risques et Pollutions est central et particulièrement déterminant lors des transactions. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.',
 
     accessibilityNote:
-      'Palavas-les-Flots est à 28 minutes de Prades-le-Lez (22 km) via l\'A9 ou les axes principaux — intervention sous 48 h garantie sur l\'ensemble de la commune dès l\'ouverture de l\'activité (mars 2027).',
+      'Palavas-les-Flots est à 28 minutes de Prades-le-Lez (22 km) — intervention sous 48 h garantie sur l\'ensemble de la commune (rive gauche/droite du Lez, abords des étangs, casino) dès l\'ouverture. Pour les copropriétés, coordination directe avec le syndic possible pour l\'accès aux parties communes.',
 
     quartiersTypiques: [
-      'Centre historique (port, vieille ville)',
-      'Front de mer et copropriétés balnéaires',
-      'Résidences secondaires et locatif touristique',
-      'Quartiers résidentiels arrière-littoral',
+      'Centre historique du port (rive gauche/droite Lez, pré-1949)',
+      'Copropriétés balnéaires (années 1960-1990, 80 % du parc)',
+      'Résidences secondaires et locatif touristique saisonnier',
+      'Abords des étangs Palavasiens (zone d\'aléa fort)',
     ],
 
-    communesLimitrophes: ['Lattes', 'Mauguio', 'Pérols', 'Villeneuve-lès-Maguelone'],
+    communesLimitrophes: ['Lattes', 'Pérols', 'Mauguio', 'Villeneuve-lès-Maguelone'],
 
     faqLocale: [
       {
         q: 'Quels diagnostics sont obligatoires pour vendre à Palavas-les-Flots ?',
-        a: 'Pour toute vente à Palavas-les-Flots, le DPE et l\'ERP sont systématiques, ainsi que le diagnostic termites (Hérault classé). Selon l\'âge et la nature du bien : amiante (avant 1997), plomb (avant 1949), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire en quelques questions.',
+        a: 'Pour toute vente à Palavas-les-Flots, le DPE, l\'ERP (central — TRI Lez-Mosson + PPRL submersion marine très étendu) et le diagnostic termites sont systématiques. Selon le bien : amiante (copros balnéaires pré-1997 — quasi-systématique), plomb (centre historique du port pré-1949), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez (systématique vu que 80 % du parc est en copropriété).',
       },
       {
         q: 'Combien coûte un pack diagnostic vente à Palavas-les-Flots ?',
-        a: 'À Palavas-les-Flots, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC. Aucun frais de déplacement n\'est appliqué sur la commune. Activité officielle dès mars 2027.',
+        a: 'À Palavas-les-Flots, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC — c\'est le pack le plus demandé compte tenu du parc dominé à 80 % par les copropriétés balnéaires. Aucun frais de déplacement appliqué. Pour les copropriétés, je coordonne directement avec le syndic pour l\'accès aux parties communes.',
       },
       {
         q: 'Sous quel délai intervenez-vous à Palavas-les-Flots ?',
-        a: 'Palavas-les-Flots est à 28 minutes de Prades-le-Lez (22 km). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, et le rapport remis sous 24 h ouvrées après l\'intervention.',
+        a: 'Palavas-les-Flots est à 28 minutes de Prades-le-Lez (22 km). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées. En haute saison (juillet-août), je priorise les créneaux compatibles avec les locataires touristiques.',
       },
       {
-        q: 'Mon bien est-il en zone inondable à Palavas-les-Flots ?',
-        a: 'Une partie de Palavas-les-Flots est couverte par le PPRi étangs palavasiens, PPRL submersion marine. La commune est également exposée au risque de submersion marine. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
+        q: 'Mon bien est-il en zone d\'aléa fort à Palavas-les-Flots ?',
+        a: 'Très probablement oui : une part très significative du territoire de Palavas-les-Flots est en zone d\'aléa fort selon le PPRL submersion marine, en raison de la double exposition Méditerranée + étangs Palavasiens. Le débordement du Lez ajoute un risque inondation. La décote en zone d\'aléa fort peut atteindre 10 à 20 %. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
       },
     ],
   },
@@ -2105,57 +2105,57 @@ export const villes = [
       {
         slug: 'dpe',
         whyHere:
-          'Prades-le-Lez est dominée à 78 % par les maisons individuelles, majoritairement construites entre 1970 et 2010. Le DPE pèse fortement dans la valorisation à la vente (4250 €/m² en moyenne).',
+          'Prades-le-Lez est dominée à 78 % par les maisons individuelles, avec un parc de qualité et une forte proportion de résidences principales (97 %). Le DPE pèse fortement dans la valorisation à la vente (4 250 €/m² en moyenne), particulièrement sur les maisons des années 1980-2000 où l\'isolation thermique est un enjeu central.',
       },
       {
         slug: 'amiante',
         whyHere:
-          'Le centre village et les pavillons des années 1970-1990 déclenchent le repérage amiante en vente. Indispensable sur la majorité du parc pré-1997.',
+          'Le centre village historique et les pavillons des années 1970-1990 (Mas Carcasses, abords du Lez) concentrent un bâti pré-1997 où le repérage amiante est quasi-systématique en vente. Les domaines récents (post-2000) sont épargnés.',
       },
       {
-        slug: 'termites',
+        slug: 'erp',
         whyHere:
-          'L\'Hérault est classé intégralement en zone termites par arrêté préfectoral. Le diagnostic est obligatoire pour toute vente à Prades-le-Lez.',
+          'Prades-le-Lez est traversée par le Lez et concernée par son PPRi. Les abords du fleuve (zones est de la commune) sont en zone inondable réglementée. L\'État des Risques et Pollutions est systématique pour toute transaction.',
       },
     ],
 
     intro:
-      'Prades-le-Lez, commune résidentielle premium de la métropole de Montpellier, présente un marché immobilier tendu (4 250 €/m² en moyenne). 6 184 habitants, parc dominé par les maisons individuelles.',
+      'Prades-le-Lez, commune résidentielle premium de la première couronne nord de Montpellier, est connue pour le Domaine de Restinclières (240 ha de parc forestier départemental) et sa qualité de vie. Marché immobilier tendu (4 250 €/m² en moyenne), parc dominé à 78 % par les maisons individuelles, faible part de résidences secondaires (3 %).',
 
     parcImmoNote:
-      'Le parc de Prades-le-Lez est composé à 78 % de maisons et 21 % d\'appartements (2 700 logements au total). Le parc est majoritairement occupé en résidence principale. Les pavillons et collectifs des années 1970-1990 dominent le parc résidentiel — déclenchement systématique des diagnostics électricité et gaz au-delà des 15 ans. Les ZAC plus récentes (post-2000) sont en classe énergétique correcte.',
+      'Le parc prades-le-lézois est dominé à 78 % par les maisons individuelles (2 700 logements, 97 % de résidences principales). Les maisons familiales 4-5 pièces dominent, avec des surfaces moyennes autour de 120 m². Le centre village historique concentre un bâti antérieur à 1949 (plomb fréquent). Les lotissements des années 1970-1990 (Mas Carcasses, abords du Lez) déclenchent presque toujours les diagnostics électricité et gaz. Les domaines plus récents (post-2000) alignent un parc en bonne classe énergétique.',
 
     enjeuxLocaux:
-      'Prades-le-Lez est concernée par le PPRi du Lez. Une partie du territoire est en zone réglementée. L\'État des Risques et Pollutions est systématique et particulièrement scruté lors des transactions. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.',
+      'Prades-le-Lez est traversée par le Lez et concernée par son PPRi. Les abords du fleuve, particulièrement à l\'est de la commune, sont en zone inondable réglementée. La présence du Domaine de Restinclières (240 ha de forêt départementale) protège une partie significative du nord de la commune. L\'État des Risques et Pollutions est systématique sur la commune. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.',
 
     accessibilityNote:
-      'Prades-le-Lez est à 5 minutes de Prades-le-Lez (0 km) — intervention sous 48 h garantie sur l\'ensemble de la commune dès l\'ouverture de l\'activité (mars 2027).',
+      'Prades-le-Lez est ma commune de résidence — intervention le jour même très souvent possible, sous 48 h garantie. Couverture immédiate du centre village, des Mas, des domaines récents et des abords du Lez.',
 
     quartiersTypiques: [
-      'Centre village historique',
-      'Faubourgs et extensions XIXe-XXe',
-      'Lotissements pavillonnaires (années 1970-1990)',
-      'ZAC récentes et résidences post-2000',
+      'Centre village historique (pré-1949, plomb fréquent)',
+      'Mas Carcasses et lotissements (années 1970-1990)',
+      'Domaines résidentiels récents (post-2000, classe énergétique correcte)',
+      'Abords du Lez et Domaine de Restinclières (zone PPRi)',
     ],
 
-    communesLimitrophes: ['Assas', 'Clapiers', 'Les Matelles', 'Montferrier-sur-Lez', 'Saint-Clément-de-Rivière', 'Saint-Vincent-de-Barbeyrargues', 'Le Triadou'],
+    communesLimitrophes: ['Clapiers', 'Saint-Clément-de-Rivière', 'Montferrier-sur-Lez', 'Les Matelles', 'Assas', 'Le Triadou', 'Saint-Vincent-de-Barbeyrargues'],
 
     faqLocale: [
       {
         q: 'Quels diagnostics sont obligatoires pour vendre à Prades-le-Lez ?',
-        a: 'Pour toute vente à Prades-le-Lez, le DPE et l\'ERP sont systématiques, ainsi que le diagnostic termites (Hérault classé). Selon l\'âge et la nature du bien : amiante (avant 1997), plomb (avant 1949), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire en quelques questions.',
+        a: 'Pour toute vente à Prades-le-Lez, le DPE, l\'ERP (PPRi du Lez) et le diagnostic termites sont systématiques. Selon le bien : amiante (centre village et pavillons pré-1997 — fréquent), plomb (centre historique pré-1949), électricité et gaz (installations de plus de 15 ans, très courant sur les Mas des années 1970-1990), et le mesurage Carrez en copropriété (minoritaire vu que 78 % du parc est en maison individuelle).',
       },
       {
         q: 'Combien coûte un pack diagnostic vente à Prades-le-Lez ?',
-        a: 'À Prades-le-Lez, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC. Aucun frais de déplacement n\'est appliqué sur la commune. Activité officielle dès mars 2027.',
+        a: 'À Prades-le-Lez, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — c\'est le pack le plus demandé compte tenu du parc dominé à 78 % par les maisons. Aucun frais de déplacement, c\'est ma commune de résidence.',
       },
       {
         q: 'Sous quel délai intervenez-vous à Prades-le-Lez ?',
-        a: 'Prades-le-Lez est à 5 minutes de Prades-le-Lez (0 km). L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, et le rapport remis sous 24 h ouvrées après l\'intervention.',
+        a: 'Prades-le-Lez étant ma commune de résidence, l\'intervention le jour même est très souvent possible (sous réserve de mon agenda). Garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.',
       },
       {
         q: 'Mon bien est-il en zone inondable à Prades-le-Lez ?',
-        a: 'Une partie de Prades-le-Lez est couverte par le PPRi du Lez. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
+        a: 'Une partie de Prades-le-Lez est couverte par le PPRi du Lez, principalement les abords du fleuve à l\'est de la commune. Les quartiers situés en hauteur (centre village, lotissements ouest, domaines récents) sont généralement épargnés. L\'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.',
       },
     ],
   },
