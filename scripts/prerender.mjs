@@ -86,8 +86,23 @@ const routes = [
   })),
   {
     path: '/diagnostic-immobilier',
-    title: "Zones d'intervention — Diagnostic immobilier Hérault & Gard | Pons DPI",
-    description: `Pages dédiées par commune en Hérault (34) et Gard (30) : marché immobilier local, risques PPRi, diagnostics prioritaires. Diagnostiqueur indépendant — activité dès mars 2027.`,
+    title: "Zones d'intervention — Diagnostic immobilier Hérault, Gard, Aude | Pons DPI",
+    description: `Pages dédiées par commune en Hérault (34), Gard (30) et Aude (11) : marché immobilier local, risques PPRi, diagnostics prioritaires. Diagnostiqueur indépendant — activité dès mars 2027.`,
+  },
+  {
+    path: '/diagnostic-immobilier/herault',
+    title: 'Diagnostic immobilier Hérault (34) — DPE, amiante, termites | Pons DPI',
+    description: `Diagnostic immobilier dans l'Hérault : 20 communes avec page dédiée (Montpellier, Castelnau, Lattes, Sète, Lunel...). Diagnostiqueur indépendant — activité dès mars 2027.`,
+  },
+  {
+    path: '/diagnostic-immobilier/gard',
+    title: 'Diagnostic immobilier Gard (30) — DPE, amiante, termites | Pons DPI',
+    description: `Diagnostic immobilier dans le Gard : 9 communes avec page dédiée (Aigues-Mortes, Le Grau-du-Roi, Sommières, Bagnols-sur-Cèze...). Diagnostiqueur indépendant — activité dès mars 2027.`,
+  },
+  {
+    path: '/diagnostic-immobilier/aude',
+    title: 'Diagnostic immobilier Aude (11) — DPE, amiante, termites | Pons DPI',
+    description: `Diagnostic immobilier dans l'Aude : Narbonne et son agglomération. Diagnostiqueur indépendant — activité dès mars 2027.`,
   },
   ...villes.map((v) => ({
     path: `/diagnostic-immobilier/${v.slug}`,

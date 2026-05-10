@@ -8,6 +8,7 @@ import ScrollReveal from '../components/ui/ScrollReveal'
 const DEPARTEMENTS = [
   { code: '34', name: 'Hérault', slug: 'herault' },
   { code: '30', name: 'Gard', slug: 'gard' },
+  { code: '11', name: 'Aude', slug: 'aude' },
 ]
 
 export default function AllVilles() {
@@ -93,13 +94,22 @@ export default function AllVilles() {
           <section key={dept.code} className="py-16 sm:py-20 even:bg-stone-50">
             <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
               <ScrollReveal>
-                <div className="mb-10">
-                  <p className="text-sm font-medium text-accent tracking-wide uppercase mb-1">
-                    Département {dept.code}
-                  </p>
-                  <h2 className="font-display text-3xl sm:text-4xl text-text">
-                    {dept.name} <span className="text-text-secondary text-xl font-normal">({villesDept.length} commune{villesDept.length > 1 ? 's' : ''})</span>
-                  </h2>
+                <div className="mb-10 flex items-end justify-between flex-wrap gap-4">
+                  <div>
+                    <p className="text-sm font-medium text-accent tracking-wide uppercase mb-1">
+                      Département {dept.code}
+                    </p>
+                    <h2 className="font-display text-3xl sm:text-4xl text-text">
+                      {dept.name} <span className="text-text-secondary text-xl font-normal">({villesDept.length} commune{villesDept.length > 1 ? 's' : ''})</span>
+                    </h2>
+                  </div>
+                  <Link
+                    to={`/diagnostic-immobilier/${dept.slug}`}
+                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:text-accent-hover transition-colors"
+                  >
+                    Voir le département
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
                 </div>
               </ScrollReveal>
 
