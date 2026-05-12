@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Phone, Menu, X } from 'lucide-react'
+import { Phone, Menu, X, Sparkles } from 'lucide-react'
 import MobileMenu from './MobileMenu'
 
 const NAV_LINKS = [
   { to: '/', label: 'Accueil' },
   { to: '/services', label: 'Services' },
-  { to: '/devis', label: 'Devis en ligne' },
+  { to: '/exemple-rapport', label: 'Exemple de rapport', highlight: true },
+  { to: '/devis', label: 'Devis' },
   { to: 'https://pons-dpi.fr/blog/', label: 'Blog', external: true },
   { to: '/a-propos', label: 'À propos' },
-  { to: '/professionnels', label: 'Espace pros' },
+  { to: '/professionnels', label: 'Pros' },
   { to: '/contact', label: 'Contact' },
 ]
 
@@ -36,17 +37,30 @@ export default function Header() {
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-1" aria-label="Navigation principale">
-            {NAV_LINKS.map(({ to, label, external }) => {
+            {NAV_LINKS.map(({ to, label, external, highlight }) => {
               const isActive = location.pathname === to
-              const className = `px-3 py-2 text-xs font-semibold uppercase tracking-[0.08em] rounded-full transition-colors ${
-                isActive
-                  ? 'text-accent bg-accent-light'
-                  : 'text-text-secondary hover:text-text hover:bg-stone-100'
-              }`
-              return external ? (
-                <a key={to} href={to} className={className}>{label}</a>
+              const baseClass = 'px-3 py-2 text-xs font-semibold uppercase tracking-[0.08em] rounded-full transition-colors inline-flex items-center gap-1.5 whitespace-nowrap'
+              const className = highlight
+                ? `${baseClass} border border-accent/40 text-accent ${
+                    isActive ? 'bg-accent-light' : 'hover:bg-accent-light'
+                  }`
+                : `${baseClass} ${
+                    isActive
+                      ? 'text-accent bg-accent-light'
+                      : 'text-text-secondary hover:text-text hover:bg-stone-100'
+                  }`
+              const content = highlight ? (
+                <>
+                  <Sparkles className="h-3 w-3" />
+                  {label}
+                </>
               ) : (
-                <Link key={to} to={to} className={className}>{label}</Link>
+                label
+              )
+              return external ? (
+                <a key={to} href={to} className={className}>{content}</a>
+              ) : (
+                <Link key={to} to={to} className={className}>{content}</Link>
               )
             })}
           </nav>
@@ -55,7 +69,7 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <a
               href="tel:0651669161"
-              className="hidden sm:inline-flex items-center gap-2 rounded-full bg-accent px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-accent-hover"
+              className="hidden sm:inline-flex items-center gap-2 rounded-full bg-accent px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-accent-hover whitespace-nowrap"
             >
               <Phone className="h-4 w-4" />
               <span>06 51 66 91 61</span>

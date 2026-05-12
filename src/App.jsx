@@ -10,6 +10,7 @@ const VilleDetail = lazy(() => import('./pages/VilleDetail'))
 const AllVilles = lazy(() => import('./pages/AllVilles'))
 const DepartementDetail = lazy(() => import('./pages/DepartementDetail'))
 const AuditEnergetique = lazy(() => import('./pages/AuditEnergetique'))
+const RapportExemple = lazy(() => import('./pages/RapportExemple'))
 const Devis = lazy(() => import('./pages/Devis'))
 const AboutPage = lazy(() => import('./pages/About'))
 const Pros = lazy(() => import('./pages/Pros'))
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/services/:slug" element={<ServiceDetail />} />
           <Route path="/audit-energetique" element={<AuditEnergetique />} />
+          <Route path="/exemple-rapport" element={<RapportExemple />} />
           <Route path="/diagnostic-immobilier" element={<AllVilles />} />
           <Route path="/diagnostic-immobilier/herault" element={<DepartementDetail deptCode="34" />} />
           <Route path="/diagnostic-immobilier/gard" element={<DepartementDetail deptCode="30" />} />

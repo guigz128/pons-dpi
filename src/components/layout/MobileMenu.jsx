@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { Phone, MessageCircle } from 'lucide-react'
+import { Phone, MessageCircle, Sparkles } from 'lucide-react'
 
 export default function MobileMenu({ open, onClose, links }) {
   const location = useLocation()
@@ -17,17 +17,29 @@ export default function MobileMenu({ open, onClose, links }) {
           aria-label="Menu mobile"
         >
           <div className="px-4 py-4 space-y-1">
-            {links.map(({ to, label, external }) => {
+            {links.map(({ to, label, external, highlight }) => {
               const isActive = location.pathname === to
-              const className = `block px-3 py-2.5 text-base font-medium rounded-sm transition-colors ${
-                isActive
-                  ? 'text-accent bg-accent-light'
-                  : 'text-text-secondary hover:text-text hover:bg-stone-100'
-              }`
-              return external ? (
-                <a key={to} href={to} onClick={onClose} className={className}>{label}</a>
+              const className = highlight
+                ? `flex items-center gap-2 px-3 py-2.5 text-base font-semibold rounded-sm transition-colors ${
+                    isActive ? 'bg-accent text-white' : 'bg-accent-light text-accent'
+                  }`
+                : `block px-3 py-2.5 text-base font-medium rounded-sm transition-colors ${
+                    isActive
+                      ? 'text-accent bg-accent-light'
+                      : 'text-text-secondary hover:text-text hover:bg-stone-100'
+                  }`
+              const content = highlight ? (
+                <>
+                  <Sparkles className="h-4 w-4" />
+                  {label}
+                </>
               ) : (
-                <Link key={to} to={to} onClick={onClose} className={className}>{label}</Link>
+                label
+              )
+              return external ? (
+                <a key={to} href={to} onClick={onClose} className={className}>{content}</a>
+              ) : (
+                <Link key={to} to={to} onClick={onClose} className={className}>{content}</Link>
               )
             })}
             <hr className="my-3 border-border" />
