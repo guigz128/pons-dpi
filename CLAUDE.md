@@ -51,7 +51,7 @@
 | **Animations** | Framer Motion | Transitions de page, scroll reveals |
 | **Formulaire devis** | React state | Calcul auto côté client, pas de backend |
 | **Contact** | Brevo ou Formspree | Envoi email sans backend dédié |
-| **Blog** | WordPress classique | Sur sous-domaine blog.pons-dpi.fr — voir section Blog |
+| **Blog** | Astro 6 + Cloudflare Pages | Servi sous `pons-dpi.fr/blog/` via Cloudflare Worker — voir section Blog |
 | **WhatsApp** | Widget flottant | Lien wa.me/33651669161 |
 | **Hébergement** | Vercel ou Netlify | Gratuit, déploiement auto via Git |
 | **Analytics** | Plausible ou Umami | RGPD friendly, pas de cookies |
@@ -262,15 +262,34 @@ export function calculateTotal(diags) {
 
 ## Blog
 
-> Le blog est **séparé du site React** pour faciliter la publication d'articles sans toucher au code.
+> Le blog est **séparé du site React** mais servi **sous le même domaine** (`pons-dpi.fr/blog/`) — pas de sous-domaine.
 
-### Recommandation : WordPress classique sur `blog.pons-dpi.fr`
+### Architecture en place
 
-- Hébergement mutualisé (OVH, o2switch — ~3€/mois)
-- Thème léger (GeneratePress ou flavor) avec les couleurs du site principal
-- Plugin SEO : RankMath ou Yoast
-- Lien "Blog" dans le header du site React pointe vers `blog.pons-dpi.fr`
-- Facile à éditer — pas besoin de toucher au code
+- **Source** : projet Astro 6 dans `~/Desktop/Guillaume/blogs/pons-dpi-blog/`
+  - Articles Markdown dans `src/content/blog/`, schema validé dans `src/content.config.ts`
+  - Build : `astro build` avec `site: 'https://www.pons-dpi.fr'` et `base: '/blog/'`
+- **Hébergement** : Cloudflare Pages → `pons-dpi-blog.pages.dev` (rebuild auto sur push `main`)
+- **Routing** : Cloudflare Worker `pons-dpi-blog-router` (`worker/index.js` + `worker/wrangler.toml`)
+  - Intercepte `pons-dpi.fr/blog` et `pons-dpi.fr/blog/*` (zone Cloudflare)
+  - Strip le préfixe `/blog` et proxy vers `pons-dpi-blog.pages.dev`
+  - `/blog` → 301 vers `/blog/`
+- **Côté Vercel (site React)** : `vercel.json` exclut `/blog` du rewrite SPA via `(?!api/|blog)` pour laisser Cloudflare prendre la main
+- **Pipeline contenu** : drafts générés par [`content-factory`](https://github.com/guigz128/content-factory) (cron `auto-publish-pons-dpi.yml`), email à Guillaume avec lien `/blog/api/publish?slug=…&t=…` (Cloudflare Pages Function) qui flippe `draft: false` via l'API GitHub → CF Pages rebuild auto
+
+### SEO blog (déjà en place)
+
+- `src/pages/sitemap-0.xml.ts` + `sitemap-index.xml.ts` custom avec `<lastmod>`
+- `src/pages/404.astro` (status 404 réel servi par CF Pages)
+- `BlogPosting` + `BreadcrumbList` JSON-LD dans `BlogPost.astro`
+- `worker/index.js` forward `response.status` (pas d'override)
+- `robots.txt` pointe vers `https://pons-dpi.fr/blog/sitemap-index.xml`
+
+### Déploiement manuel du worker (après modif de routing)
+
+```bash
+cd ~/Desktop/Guillaume/blogs/pons-dpi-blog/worker && npx wrangler deploy
+```
 
 ### Articles prioritaires
 
@@ -350,7 +369,7 @@ Lunel, Sète, Frontignan, Béziers (ponctuel)
 | `/mentions-legales` | MentionsLegales | Mentions légales + RGPD |
 | `/*` | 404 | Page non trouvée |
 
-> **Blog** : hébergé séparément sur `blog.pons-dpi.fr` (WordPress). Lien dans le header.
+> **Blog** : Astro hébergé sur Cloudflare Pages, servi sous `pons-dpi.fr/blog/` via Cloudflare Worker (pas de sous-domaine). Lien dans le header.
 
 ---
 
@@ -439,7 +458,7 @@ VITE_WHATSAPP_URL=https://wa.me/33651669161?text=Bonjour%2C%20je%20souhaite%20un
 - [ ] Domaine pons-dpi.fr configuré + SSL
 
 ### P1 — SEO & visibilité
-- [ ] WordPress installé sur blog.pons-dpi.fr
+- [x] Blog Astro déployé sur Cloudflare Pages, routé via Worker sous `pons-dpi.fr/blog/`
 - [ ] 3 premiers articles de blog publiés
 - [ ] Google Search Console configuré
 - [ ] Inscription annuaires (PagesJaunes, AlloVoisins)
@@ -633,4 +652,4 @@ Respecte strictement :
 - Le numéro de téléphone est cliquable partout (tel:)
 - Le widget WhatsApp est visible sur toutes les pages
 - Pas de PWA, pas de service worker, pas de manifest.json
-- Le blog est externe (WordPress) — pas de pages blog dans React
+- Le blog est externe (Astro sur Cloudflare Pages, routé via Worker sous `pons-dpi.fr/blog/`) — pas de pages blog dans React
