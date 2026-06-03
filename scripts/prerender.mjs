@@ -120,6 +120,16 @@ const routes = [
     description: 'Obtenez votre devis en ligne en 2 minutes. Diagnostics immobiliers obligatoires calculés automatiquement selon votre bien. Prix transparents.',
   },
   {
+    path: '/dpe-existant',
+    title: 'DPE existant à Montpellier — Recherche officielle ADEME | Pons DPI',
+    description: 'Trouvez en 10 secondes le DPE déjà réalisé à votre adresse. Données officielles ADEME, mise à jour quotidienne. Montpellier et Hérault.',
+  },
+  ...villes.map((v) => ({
+    path: `/dpe-existant/${v.slug}`,
+    title: `DPE existant à ${v.name} (${v.codePostal}) — Statistiques ADEME | Pons DPI`,
+    description: `Distribution des étiquettes DPE à ${v.name}, nombre de logements F ou G, marché de l'audit énergétique. Données officielles ADEME.`,
+  })),
+  {
     path: '/a-propos',
     title: 'À propos — Guillaume Pons, diagnostiqueur immobilier | Pons DPI',
     description: 'Guillaume Pons, futur diagnostiqueur immobilier indépendant à Montpellier. Formation Titre RNCP 38469 en cours, certifications COFRAC obtenues février-mars 2027. Activité officielle dès mars 2027.',

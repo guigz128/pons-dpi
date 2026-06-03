@@ -10,8 +10,11 @@ import {
   ArrowRight,
   PhoneCall,
   Send,
+  ShieldAlert,
+  MapPin,
 } from 'lucide-react'
 import { pricing, calculateTotal } from './devisPricing'
+import { capture } from '../../lib/posthog'
 
 const SLOTS = [
   { value: '', label: 'Pas de préférence' },
@@ -20,7 +23,7 @@ const SLOTS = [
   { value: 'soir', label: 'Fin de journée (17h-19h)' },
 ]
 
-export default function DevisResult({ diagnostics, onRestart }) {
+export default function DevisResult({ diagnostics, risques, data, onRestart }) {
   const result = calculateTotal(diagnostics)
   const { subtotal, total, saving, packName, discount } = result
 
@@ -32,6 +35,13 @@ export default function DevisResult({ diagnostics, onRestart }) {
 
   function handleCallbackSubmit(e) {
     e.preventDefault()
+    capture('callback_requested', {
+      slot: callbackForm.slot || 'no_preference',
+      total,
+      diagnostics_count: diagnostics.length,
+      type_bien: data?.typeBien,
+      transaction: data?.transaction,
+    })
     const subject = encodeURIComponent(
       `Demande de rappel — Devis ${total} € — ${callbackForm.name}`
     )
@@ -73,6 +83,49 @@ export default function DevisResult({ diagnostics, onRestart }) {
           )
         })}
       </div>
+
+      {/* Risques détectés à l'adresse — issus de Géorisques, couverts par l'ERP */}
+      {risques && risques.risques.length > 0 && (
+        <div className="rounded-md border-l-4 border-accent bg-accent-light/30 p-4">
+          <div className="flex items-start gap-3">
+            <div className="flex items-center justify-center h-9 w-9 rounded-full bg-accent text-white shrink-0">
+              <ShieldAlert className="h-4 w-4" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <h4 className="text-sm font-semibold text-text">
+                Risques détectés à votre adresse
+              </h4>
+              {risques.commune && data?.adresse && (
+                <p className="mt-0.5 inline-flex items-center gap-1 text-xs text-text-secondary">
+                  <MapPin className="h-3 w-3" />
+                  {data.adresse}
+                </p>
+              )}
+              <ul className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-x-3 gap-y-1.5">
+                {risques.risques.map((r) => (
+                  <li key={r.key} className="flex items-center gap-1.5 text-sm text-text">
+                    <span
+                      className={`inline-block h-1.5 w-1.5 rounded-full ${
+                        r.category === 'technologique' ? 'bg-warning' : 'bg-accent'
+                      }`}
+                    />
+                    {r.label}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-3 text-xs text-text-secondary leading-relaxed">
+                Source : <a
+                  href="https://www.georisques.gouv.fr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-text"
+                >Géorisques (État)</a>. Ces risques sont automatiquement documentés
+                dans l'<strong className="text-text">État des Risques (ERP)</strong> que je vous remets — inclus dans votre devis ci-dessous.
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Récap calcul + total */}
       <div className="rounded-md bg-stone-50 border border-border p-4 space-y-2">
@@ -120,6 +173,7 @@ export default function DevisResult({ diagnostics, onRestart }) {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <a
           href="tel:0651669161"
+          onClick={() => capture('phone_clicked', { context: 'devis_result', total, diagnostics_count: diagnostics.length })}
           className="group flex items-center gap-4 rounded-lg bg-accent px-5 py-4 text-white shadow-sm hover:bg-accent-hover transition-colors"
         >
           <div className="flex items-center justify-center h-10 w-10 rounded-full bg-white/15 shrink-0">
@@ -138,6 +192,7 @@ export default function DevisResult({ diagnostics, onRestart }) {
           )}`}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => capture('whatsapp_clicked', { context: 'devis_result', total, diagnostics_count: diagnostics.length })}
           className="group flex items-center gap-4 rounded-lg border border-border bg-surface px-5 py-4 text-text hover:border-accent/30 hover:bg-stone-50 transition-colors"
         >
           <div className="flex items-center justify-center h-10 w-10 rounded-full bg-whatsapp/10 shrink-0">

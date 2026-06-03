@@ -19,6 +19,7 @@ import Card from '../components/ui/Card'
 import Badge from '../components/ui/Badge'
 import Accordion from '../components/ui/Accordion'
 import ScrollReveal from '../components/ui/ScrollReveal'
+import AidesSimulator from '../components/sections/AidesSimulator'
 
 const PROCESS_STEPS = [
   {
@@ -285,6 +286,11 @@ export default function AuditEnergetique() {
             })}
           </div>
         </div>
+      </section>
+
+      {/* Simulateur aides MaPrimeRénov' (API France Rénov') */}
+      <section className="bg-stone-50">
+        <AidesSimulator />
       </section>
 
       {/* CTA partenariat */}
