@@ -54,7 +54,7 @@
 | **Blog** | Astro 6 + Cloudflare Pages | Servi sous `pons-dpi.fr/blog/` via Cloudflare Worker — voir section Blog |
 | **WhatsApp** | Widget flottant | Lien wa.me/33651669161 |
 | **Hébergement** | Vercel ou Netlify | Gratuit, déploiement auto via Git |
-| **Analytics** | Plausible ou Umami | RGPD friendly, pas de cookies |
+| **Analytics** | PostHog (projet `DPI`, EU cloud) | Autocapture + pageviews SPA + session recordings + heatmaps + Web Vitals. Init : [src/lib/posthog.js](src/lib/posthog.js), pageviews dans [src/App.jsx](src/App.jsx). Clés via `VITE_POSTHOG_KEY` (cf. content-factory/.env, `POSTHOG_PUBLIC_KEY_PONS_DPI`). |
 | **SEO** | react-helmet-async | Meta tags dynamiques par page |
 | **Sitemap** | Génération statique | Pour Google Search Console |
 
