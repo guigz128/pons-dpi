@@ -55,6 +55,106 @@ function formatDate(iso) {
   return d && m && y ? `${d}/${m}/${y}` : iso
 }
 
+// — Génération auto des scénarios travaux + plan d'action (depuis l'étiquette DPE) —
+const AFTER_LADDER = {
+  G: ['E', 'C', 'B'],
+  F: ['D', 'B', 'A'],
+  E: ['D', 'B', 'A'],
+  D: ['C', 'B', 'A'],
+  C: ['B', 'A', 'A'],
+}
+const AID_PCT = { modeste: 0.68, intermediaire: 0.45, superieur: 0.25 }
+
+function netCosts(cost) {
+  const r = (p) => Math.round((cost * (1 - p)) / 100) * 100
+  return { modeste: r(AID_PCT.modeste), intermediaire: r(AID_PCT.intermediaire), superieur: r(AID_PCT.superieur) }
+}
+
+function generateScenarios(letter) {
+  const after = AFTER_LADDER[letter]
+  if (!after) return [] // A/B : déjà performants, pas de scénario
+  const tpl = [
+    {
+      id: 'essentiel',
+      name: 'Essentiel',
+      tagline: 'Premiers gros gains',
+      cost: 9500,
+      duration: '2 à 3 semaines',
+      consoReduction: 30,
+      co2Reduction: 25,
+      roi: 10,
+      items: [
+        'Isolation de la toiture / combles',
+        'Remplacement ECS par ballon thermodynamique',
+        'Calorifugeage des réseaux',
+      ],
+    },
+    {
+      id: 'confort',
+      name: 'Confort',
+      tagline: 'Confort thermique 4 saisons',
+      cost: 32000,
+      duration: '6 à 9 semaines',
+      consoReduction: 55,
+      co2Reduction: 50,
+      roi: 13,
+      recommended: true,
+      items: [
+        'Tout le scénario Essentiel',
+        "Isolation des murs par l'extérieur (ITE)",
+        'Isolation du plancher bas',
+        'Pompe à chaleur en relève',
+      ],
+    },
+    {
+      id: 'performance',
+      name: 'Performance',
+      tagline: 'Basse consommation',
+      cost: 52000,
+      duration: '3 à 4 mois',
+      consoReduction: 72,
+      co2Reduction: 68,
+      roi: 15,
+      items: [
+        'Tout le scénario Confort',
+        'Remplacement des menuiseries',
+        'Panneaux photovoltaïques',
+      ],
+    },
+  ]
+  return tpl.map((s, i) => ({ ...s, dpeBefore: letter, dpeAfter: after[i], netCost: netCosts(s.cost) }))
+}
+
+function generateActionPlan(transaction) {
+  const firstDetail =
+    transaction === 'Location'
+      ? 'Diagnostics à annexer au bail (DDT location).'
+      : 'Tous les rapports sont prêts à être joints au dossier de diagnostic technique.'
+  return [
+    {
+      horizon: 'Avant signature',
+      items: [
+        { title: 'Annexer les diagnostics au DDT', detail: firstDetail },
+        { title: "Informer l'acquéreur / le locataire", detail: 'Les conclusions et anomalies relevées sont portées à sa connaissance.' },
+      ],
+    },
+    {
+      horizon: '30 jours',
+      items: [
+        { title: 'Lever les anomalies prioritaires', detail: 'Faire intervenir un professionnel qualifié sur les points signalés.' },
+        { title: "Évaluer les travaux d'amélioration", detail: 'Prioriser les postes au meilleur rapport gain / coût.' },
+      ],
+    },
+    {
+      horizon: '60 à 90 jours',
+      items: [
+        { title: "Constituer un dossier MaPrimeRénov'", detail: "À monter avant signature des devis ; Accompagnateur Rénov' requis au-delà de 5 000 €." },
+        { title: 'Planifier les travaux', detail: 'Selon le scénario retenu, en étalant si besoin.' },
+      ],
+    },
+  ]
+}
+
 const emptyDiag = (cat) => ({
   uid: `${cat.key}-${Math.round(performance.now() * 1000)}`,
   key: cat.key,
@@ -85,6 +185,7 @@ export default function GenererRapport() {
   })
   const [diagnostics, setDiagnostics] = useState([])
   const [addKey, setAddKey] = useState('amiante')
+  const [includeTravaux, setIncludeTravaux] = useState(true)
 
   async function handleFetch(e) {
     e.preventDefault()
@@ -175,11 +276,11 @@ export default function GenererRapport() {
       dpe,
       findings,
       diagnostics: allDiags,
-      scenarios: [],
-      actionPlan: [],
-      documents: [],
+      scenarios: includeTravaux ? generateScenarios(dpe.etiquette) : [],
+      actionPlan: includeTravaux ? generateActionPlan(mission.transaction) : [],
+      documents: allDiags.map((d) => ({ name: d.name })),
     }
-  }, [ademe, bien, mission, diagnostics])
+  }, [ademe, bien, mission, diagnostics, includeTravaux])
 
   const jsonOutput = data && JSON.stringify(data, null, 2)
 
@@ -476,6 +577,23 @@ export default function GenererRapport() {
                   </button>
                 </div>
               </fieldset>
+
+              {/* Options */}
+              <label className="flex items-start gap-3 rounded-lg border border-border bg-stone-50 p-4 text-sm">
+                <input
+                  type="checkbox"
+                  checked={includeTravaux}
+                  onChange={(e) => setIncludeTravaux(e.target.checked)}
+                  className="mt-0.5 h-4 w-4 accent-accent"
+                />
+                <span>
+                  <span className="font-semibold">Inclure les scénarios de travaux et le plan d'action</span>
+                  <span className="block text-text-secondary">
+                    Générés automatiquement depuis l'étiquette DPE (montants indicatifs, modifiables
+                    ensuite dans le JSON). Décoche pour un rapport de constat simple.
+                  </span>
+                </span>
+              </label>
 
               {/* Export */}
               <div className="rounded-lg border border-border bg-stone-50 p-4">
