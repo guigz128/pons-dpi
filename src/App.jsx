@@ -1,35 +1,30 @@
-import { lazy, Suspense, useEffect } from 'react'
+import { useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Layout from './components/layout/Layout'
-import Home from './pages/Home' // eager : route index, rendue en 1 commit avec le shell (évite le CLS de l'insertion lazy)
 import { capture } from './lib/posthog'
 
-const HomeTest = lazy(() => import('./pages/HomeTest'))
-const ServicesPage = lazy(() => import('./pages/Services'))
-const ServiceDetail = lazy(() => import('./pages/ServiceDetail'))
-const VilleDetail = lazy(() => import('./pages/VilleDetail'))
-const AllVilles = lazy(() => import('./pages/AllVilles'))
-const DepartementDetail = lazy(() => import('./pages/DepartementDetail'))
-const AuditEnergetique = lazy(() => import('./pages/AuditEnergetique'))
-const RapportExemple = lazy(() => import('./pages/RapportExemple'))
-const RapportClient = lazy(() => import('./pages/RapportClient'))
-const GenererRapport = lazy(() => import('./pages/GenererRapport'))
-const Devis = lazy(() => import('./pages/Devis'))
-const DpeExistant = lazy(() => import('./pages/DpeExistant'))
-const DpeExistantVille = lazy(() => import('./pages/DpeExistantVille'))
-const AboutPage = lazy(() => import('./pages/About'))
-const Pros = lazy(() => import('./pages/Pros'))
-const Contact = lazy(() => import('./pages/Contact'))
-const MentionsLegales = lazy(() => import('./pages/MentionsLegales'))
-const NotFound = lazy(() => import('./pages/NotFound'))
-
-function PageLoader() {
-  return (
-    <div className="flex items-center justify-center py-20">
-      <div className="h-8 w-8 animate-spin rounded-full border-2 border-accent border-t-transparent" />
-    </div>
-  )
-}
+// Imports eager : le site est prérendu (SSG). renderToString étant synchrone,
+// les pages doivent se rendre sans suspendre — pas de React.lazy ici, sinon le
+// SSR ne capture que le fallback et le contenu reste injecté côté client.
+import Home from './pages/Home'
+import HomeTest from './pages/HomeTest'
+import ServicesPage from './pages/Services'
+import ServiceDetail from './pages/ServiceDetail'
+import VilleDetail from './pages/VilleDetail'
+import AllVilles from './pages/AllVilles'
+import DepartementDetail from './pages/DepartementDetail'
+import AuditEnergetique from './pages/AuditEnergetique'
+import RapportExemple from './pages/RapportExemple'
+import RapportClient from './pages/RapportClient'
+import GenererRapport from './pages/GenererRapport'
+import Devis from './pages/Devis'
+import DpeExistant from './pages/DpeExistant'
+import DpeExistantVille from './pages/DpeExistantVille'
+import AboutPage from './pages/About'
+import Pros from './pages/Pros'
+import Contact from './pages/Contact'
+import MentionsLegales from './pages/MentionsLegales'
+import NotFound from './pages/NotFound'
 
 function PageviewTracker() {
   const location = useLocation()
@@ -46,8 +41,7 @@ export default function App() {
   return (
     <Layout>
       <PageviewTracker />
-      <Suspense fallback={<PageLoader />}>
-        <Routes>
+      <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/test-design" element={<HomeTest />} />
           <Route path="/services" element={<ServicesPage />} />
@@ -69,8 +63,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/mentions-legales" element={<MentionsLegales />} />
           <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Suspense>
+      </Routes>
     </Layout>
   )
 }

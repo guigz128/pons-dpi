@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs'
 import path from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 import { villes } from '../src/content/villes.js'
 
 // Snapshot DPE optionnel — si absent (jamais généré), on retombe sur les
@@ -206,14 +206,44 @@ function inject(html, { title, description, canonical }) {
   return out
 }
 
+// SSG : rendu du body de chaque route via le bundle serveur (vite build --ssr).
+// Optionnel : si le bundle est absent, on retombe sur un #root vide (ancien comportement).
+let ssrRender = null
+const ssrEntry = path.join(root, 'dist-ssr', 'entry-server.js')
+if (fs.existsSync(ssrEntry)) {
+  try {
+    ;({ render: ssrRender } = await import(pathToFileURL(ssrEntry).href))
+  } catch (e) {
+    console.warn(`[prerender] bundle SSR illisible (#root restera vide) : ${e.message}`)
+  }
+} else {
+  console.warn('[prerender] dist-ssr/entry-server.js absent — #root vide (lance "vite build --ssr" avant).')
+}
+
 let count = 0
+let ssrCount = 0
+const ssrFailed = []
 for (const route of routes) {
   const canonical = route.path === '/' ? `${SITE_URL}/` : `${SITE_URL}${route.path}`
-  const html = inject(template, {
+  let html = inject(template, {
     title: route.title,
     description: route.description,
     canonical,
   })
+
+  // Injecte le HTML pré-rendu dans #root (hydraté côté client). Une route qui
+  // planterait au SSR (accès window au render, etc.) retombe sur #root vide.
+  if (ssrRender) {
+    try {
+      const { html: body } = ssrRender(route.path)
+      if (body && html.includes('<div id="root"></div>')) {
+        html = html.replace('<div id="root"></div>', `<div id="root">${body}</div>`)
+        ssrCount++
+      }
+    } catch (e) {
+      ssrFailed.push(`${route.path} (${e.message.split('\n')[0]})`)
+    }
+  }
 
   let outPath
   if (route.path === '/') {
@@ -229,4 +259,8 @@ for (const route of routes) {
   console.log(`  ${route.path.padEnd(40)} → ${path.relative(root, outPath)}`)
 }
 
-console.log(`\n[prerender] ${count} routes generated.`)
+console.log(`\n[prerender] ${count} routes generated · ${ssrCount} avec body SSG.`)
+if (ssrFailed.length) {
+  console.warn(`[prerender] ${ssrFailed.length} route(s) en #root vide (SSR échoué) :`)
+  for (const f of ssrFailed) console.warn(`   - ${f}`)
+}
