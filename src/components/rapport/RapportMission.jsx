@@ -733,11 +733,17 @@ export default function RapportMission({ data, showPrint = true }) {
                     <Tag
                       {...(doc.url
                         ? { href: doc.url, target: '_blank', rel: 'noopener' }
-                        : { type: 'button' })}
-                      className="flex shrink-0 items-center gap-1.5 rounded-md border border-border bg-surface px-3 py-1.5 text-sm font-semibold text-text-secondary hover:text-text hover:border-text/30 transition-colors"
+                        : { type: 'button', disabled: true, title: 'PDF non encore joint' })}
+                      className={`flex shrink-0 items-center gap-1.5 rounded-md border border-border bg-surface px-3 py-1.5 text-sm font-semibold transition-colors ${
+                        doc.url
+                          ? 'text-text-secondary hover:text-text hover:border-text/30'
+                          : 'cursor-not-allowed text-text-secondary/50'
+                      }`}
                     >
                       <Download className="h-4 w-4" />
-                      <span className="hidden sm:inline">Télécharger</span>
+                      <span className="hidden sm:inline">
+                        {doc.url ? 'Télécharger' : 'Bientôt'}
+                      </span>
                     </Tag>
                   </div>
                 )
