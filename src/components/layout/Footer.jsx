@@ -36,6 +36,7 @@ export default function Footer() {
               <li><Link to="/audit-energetique" className="hover:text-white transition-colors">Audit énergétique</Link></li>
               <li><Link to="/devis" className="hover:text-white transition-colors">Devis en ligne</Link></li>
               <li><Link to="/dpe-existant" className="hover:text-white transition-colors">DPE existant (ADEME)</Link></li>
+              <li><Link to="/exemple-rapport" className="hover:text-white transition-colors">Exemple de rapport</Link></li>
             </ul>
           </div>
 
