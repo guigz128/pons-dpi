@@ -3021,6 +3021,321 @@ export const VILLE_DPE_STATS = {
         "pct": 0
       }
     ]
+  },
+  "castries": {
+    "insee": "34058",
+    "total": 927,
+    "fgCount": 35,
+    "fgPct": 3.8,
+    "efgCount": 93,
+    "efgPct": 10,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 71,
+        "pct": 7.7
+      },
+      {
+        "label": "B",
+        "count": 98,
+        "pct": 10.6
+      },
+      {
+        "label": "C",
+        "count": 513,
+        "pct": 55.3
+      },
+      {
+        "label": "D",
+        "count": 152,
+        "pct": 16.4
+      },
+      {
+        "label": "E",
+        "count": 58,
+        "pct": 6.3
+      },
+      {
+        "label": "F",
+        "count": 28,
+        "pct": 3
+      },
+      {
+        "label": "G",
+        "count": 7,
+        "pct": 0.8
+      }
+    ]
+  },
+  "baillargues": {
+    "insee": "34022",
+    "total": 1679,
+    "fgCount": 5,
+    "fgPct": 0.3,
+    "efgCount": 44,
+    "efgPct": 2.6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 161,
+        "pct": 9.6
+      },
+      {
+        "label": "B",
+        "count": 234,
+        "pct": 13.9
+      },
+      {
+        "label": "C",
+        "count": 1089,
+        "pct": 64.9
+      },
+      {
+        "label": "D",
+        "count": 151,
+        "pct": 9
+      },
+      {
+        "label": "E",
+        "count": 39,
+        "pct": 2.3
+      },
+      {
+        "label": "F",
+        "count": 3,
+        "pct": 0.2
+      },
+      {
+        "label": "G",
+        "count": 2,
+        "pct": 0.1
+      }
+    ]
+  },
+  "saint-bres": {
+    "insee": "34244",
+    "total": 412,
+    "fgCount": 3,
+    "fgPct": 0.7,
+    "efgCount": 21,
+    "efgPct": 5.1,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 48,
+        "pct": 11.7
+      },
+      {
+        "label": "B",
+        "count": 117,
+        "pct": 28.4
+      },
+      {
+        "label": "C",
+        "count": 164,
+        "pct": 39.8
+      },
+      {
+        "label": "D",
+        "count": 62,
+        "pct": 15
+      },
+      {
+        "label": "E",
+        "count": 18,
+        "pct": 4.4
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 0.5
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "sussargues": {
+    "insee": "34307",
+    "total": 216,
+    "fgCount": 2,
+    "fgPct": 0.9,
+    "efgCount": 11,
+    "efgPct": 5.1,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 32,
+        "pct": 14.8
+      },
+      {
+        "label": "B",
+        "count": 51,
+        "pct": 23.6
+      },
+      {
+        "label": "C",
+        "count": 91,
+        "pct": 42.1
+      },
+      {
+        "label": "D",
+        "count": 31,
+        "pct": 14.4
+      },
+      {
+        "label": "E",
+        "count": 9,
+        "pct": 4.2
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 0.9
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "saint-genies-des-mourgues": {
+    "insee": "34256",
+    "total": 197,
+    "fgCount": 12,
+    "fgPct": 6.1,
+    "efgCount": 23,
+    "efgPct": 11.7,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 22,
+        "pct": 11.2
+      },
+      {
+        "label": "B",
+        "count": 37,
+        "pct": 18.8
+      },
+      {
+        "label": "C",
+        "count": 75,
+        "pct": 38.1
+      },
+      {
+        "label": "D",
+        "count": 40,
+        "pct": 20.3
+      },
+      {
+        "label": "E",
+        "count": 11,
+        "pct": 5.6
+      },
+      {
+        "label": "F",
+        "count": 12,
+        "pct": 6.1
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "restinclieres": {
+    "insee": "34227",
+    "total": 197,
+    "fgCount": 2,
+    "fgPct": 1,
+    "efgCount": 7,
+    "efgPct": 3.6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 46,
+        "pct": 23.4
+      },
+      {
+        "label": "B",
+        "count": 37,
+        "pct": 18.8
+      },
+      {
+        "label": "C",
+        "count": 85,
+        "pct": 43.1
+      },
+      {
+        "label": "D",
+        "count": 22,
+        "pct": 11.2
+      },
+      {
+        "label": "E",
+        "count": 5,
+        "pct": 2.5
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 1
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "beaulieu": {
+    "insee": "34027",
+    "total": 191,
+    "fgCount": 2,
+    "fgPct": 1,
+    "efgCount": 8,
+    "efgPct": 4.2,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 31,
+        "pct": 16.2
+      },
+      {
+        "label": "B",
+        "count": 42,
+        "pct": 22
+      },
+      {
+        "label": "C",
+        "count": 72,
+        "pct": 37.7
+      },
+      {
+        "label": "D",
+        "count": 38,
+        "pct": 19.9
+      },
+      {
+        "label": "E",
+        "count": 6,
+        "pct": 3.1
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 1
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
   }
 }
 

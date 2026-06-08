@@ -436,6 +436,41 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/castries</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/baillargues</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/saint-bres</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/sussargues</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/saint-genies-des-mourgues</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/restinclieres</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/beaulieu</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.pons-dpi.fr/mentions-legales</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

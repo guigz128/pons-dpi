@@ -7098,6 +7098,710 @@ export const villes = [
       },
     ],
   },
+  {
+    slug: "castries",
+    name: "Castries",
+    nameSeo: "Castries (34)",
+    codePostal: "34160",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.6905, lng: 3.9853 },
+    distanceFromBaseKm: 10,
+    travelTimeMin: 16,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 6883,
+    nbLogements: 2675,
+    pctResidencesSecondaires: 6,
+    pctMaisons: 77,
+    pctAppartements: 23,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 110,
+    prixM2Moyen: 4100,
+    prixM2Maison: 4160,
+    prixM2Appartement: 3850,
+    dpeMoyenKwh: 180,
+    dpeMoyenCo2: 25,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation (bassin versant nord de l'étang de l'Or) — approuvé par arrêté préfectoral le 18 mars 2004.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Castries dispose d'un PPRi inondation approuvé en 2004 (bassin du Bérange et du Salaison) et d'une exposition au feu de forêt en bordure de garrigue (obligations de débroussaillement). L'État des Risques et Pollutions est systématiquement obligatoire et particulièrement justifié ici.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Couronne est aisée et très demandée (autour de 4 100 €/m²), au parc majoritairement pavillonnaire des années 1980-2000 : le DPE est le diagnostic à plus fort volume et un argument central à la revente.",
+      },
+      {
+        slug: "electricite",
+        whyHere:
+          "Beaucoup de maisons construites il y a plus de 15 ans : le diagnostic électricité (et gaz si installation présente) est quasi systématique à la vente comme à la location.",
+      },
+    ],
+
+    intro:
+      "Castries, ville de la couronne est de Montpellier, est célèbre pour son château Renaissance — « le Versailles du Languedoc » — et son aqueduc. Secteur garrigue, parc à 77 % de maisons, marché aisé (autour de 4 100 €/m²), 6 883 habitants.",
+
+    parcImmoNote:
+      "Castries combine un centre ancien autour du château (bâti pré-1949, pierre, ruelles du bourg historique — plomb et amiante fréquents) et une très forte extension pavillonnaire récente (le parc a crû d'environ 10 % en cinq ans, en lotissements de frange de garrigue). Le tissu péri-urbain résidentiel domine, avec des constructions majoritairement postérieures aux années 1980 où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Castries dispose d'un PPRi inondation approuvé en 2004 (bassin versant nord de l'étang de l'Or, débordements du Bérange et du Salaison). Le secteur garrigue l'expose au feu de forêt (porter-à-connaissance départemental, obligations légales de débroussaillement). L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Castries est à 16 minutes de Prades-le-Lez (10 km) — au cœur de ma zone d'intervention : aucun frais de déplacement, intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien autour du château (pré-1949)",
+      "Lotissements pavillonnaires récents (post-1980)",
+      "Frange de garrigue (zone exposée au feu de forêt)",
+      "Abords du Bérange et du Salaison (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Vendargues", "Saint-Geniès-des-Mourgues", "Sussargues", "Saint-Drézéry", "Beaulieu", "Saint-Brès", "Baillargues", "Le Crès"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Castries ?",
+        a: "Pour toute vente à Castries, le DPE et l'ERP (PPRi inondation + feu de forêt) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le centre ancien autour du château, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Castries ?",
+        a: "À Castries, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 77 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement : la commune est au cœur de ma zone.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Castries ?",
+        a: "Castries est à 16 minutes de Prades-le-Lez (10 km), au cœur de ma zone. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Castries ?",
+        a: "C'est possible : Castries dispose d'un PPRi inondation approuvé en 2004 (bassin du Bérange et du Salaison). L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "baillargues",
+    name: "Baillargues",
+    nameSeo: "Baillargues (34)",
+    codePostal: "34670",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.6565, lng: 4.0102 },
+    distanceFromBaseKm: 12,
+    travelTimeMin: 18,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 7829,
+    nbLogements: 3774,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 68,
+    pctAppartements: 32,
+    surfaceMoyenne: 85,
+    surfaceMoyenneAppartement: 55,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 3900,
+    prixM2Maison: 4190,
+    prixM2Appartement: 3700,
+    dpeMoyenKwh: 180,
+    dpeMoyenCo2: 25,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Montpellier-Lunel-Mauguio-Palavas",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: false,
+      pprApproves: [],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Baillargues connaît un marché très actif, porté par la gare TER et l'A9, avec une densification récente en collectif : sur un parc mêlant maisons et appartements neufs, le DPE est le diagnostic à plus fort volume.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Commune du bassin versant de l'étang de l'Or, en zone inondable (la Cadoule à l'ouest, le Bérange à l'est) et dans le TRI Montpellier-Lunel-Mauguio-Palavas. L'État des Risques et Pollutions est systématiquement obligatoire, avec des reconnaissances de catastrophe naturelle récurrentes.",
+      },
+      {
+        slug: "mesurage-carrez",
+        whyHere:
+          "La part d'appartements a presque doublé en dix ans (densification en copropriété autour de la gare) : le mesurage Carrez est de plus en plus demandé à chaque vente de lot.",
+      },
+    ],
+
+    intro:
+      "Baillargues, sur le corridor A9 entre Montpellier et Lunel, est une commune en forte croissance portée par sa gare TER et le golf de Massane. Densification résidentielle récente, parc à 68 % de maisons, marché actif (autour de 3 900 €/m²), 7 829 habitants.",
+
+    parcImmoNote:
+      "Baillargues conserve un centre ancien (bâti pré-1949 autour de l'église — plomb et amiante fréquents), mais l'essentiel du parc résulte d'une forte extension pavillonnaire des années 1970-2000. Depuis 2010, la commune connaît une densification résidentielle marquée (programmes neufs en collectif) portée par la gare TER et l'accès A9 : la part d'appartements a presque doublé, ce qui renforce l'enjeu copropriété et mesurage Carrez.",
+
+    enjeuxLocaux:
+      "Baillargues appartient au bassin versant de l'étang de l'Or et au TRI Montpellier-Lunel-Mauguio-Palavas : la commune est exposée aux débordements de la Cadoule, du Bérange et du Salaison, avec des reconnaissances de catastrophe naturelle inondation récurrentes (couverte par le PAPI Bassin de l'Or). L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Baillargues est à 18 minutes de Prades-le-Lez (12 km) via l'A9 — intervention sous 48 h garantie sur l'ensemble de la commune, du centre ancien aux programmes neufs de la gare, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien autour de l'église (pré-1949)",
+      "Lotissements pavillonnaires (années 1970-2000)",
+      "Programmes neufs en collectif (abords de la gare TER)",
+      "Golf et domaine de Massane",
+    ],
+
+    communesLimitrophes: ["Vendargues", "Saint-Aunès", "Mauguio", "Mudaison", "Saint-Brès", "Saint-Geniès-des-Mourgues"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Baillargues ?",
+        a: "Pour toute vente à Baillargues, le DPE et l'ERP (bassin de l'étang de l'Or, TRI Montpellier-Lunel) sont systématiques. En copropriété (de plus en plus fréquente près de la gare) : le mesurage Carrez. Selon le bien : électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le centre ancien.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Baillargues ?",
+        a: "À Baillargues, le pack vente appartement (DPE + électricité + gaz + ERP + Carrez) démarre à 290 € TTC — très demandé avec la densification autour de la gare. Pack vente maison à 380 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Baillargues ?",
+        a: "Baillargues est à 18 minutes de Prades-le-Lez (12 km) via l'A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Baillargues ?",
+        a: "C'est possible : Baillargues est dans le bassin de l'étang de l'Or et le TRI Montpellier-Lunel, exposée aux débordements de la Cadoule et du Bérange. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "saint-bres",
+    name: "Saint-Brès",
+    nameSeo: "Saint-Brès (34)",
+    codePostal: "34670",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.6656, lng: 4.0377 },
+    distanceFromBaseKm: 14,
+    travelTimeMin: 19,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 3623,
+    nbLogements: 1500,
+    pctResidencesSecondaires: 2,
+    pctMaisons: 80,
+    pctAppartements: 18,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 108,
+    prixM2Moyen: 3600,
+    prixM2Maison: 3600,
+    prixM2Appartement: 3550,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Montpellier-Lunel-Mauguio-Palavas",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Saint-Brès est en zone inondable (la Cadoule, bassin de l'étang de l'Or) et dans le TRI Montpellier-Lunel-Mauguio-Palavas, avec des reconnaissances de catastrophe naturelle inondation répétées. L'État des Risques et Pollutions est systématiquement obligatoire et sensible ici.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Commune résidentielle en croissance continue sur le corridor A9 : sur un parc majoritairement pavillonnaire, le DPE est le diagnostic à plus fort volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent en secteur de plaine humide près de la Cadoule.",
+      },
+    ],
+
+    intro:
+      "Saint-Brès, sur le corridor A9 entre Montpellier et Lunel, est une commune résidentielle en croissance continue, en bordure du bassin de l'étang de l'Or. Parc majoritairement pavillonnaire, marché tendu (autour de 3 600 €/m²), 3 623 habitants.",
+
+    parcImmoNote:
+      "Saint-Brès possède un petit centre ancien (autour de la place de la Ramade, bâti pré-1949 — plomb et amiante fréquents), mais l'essentiel du parc résulte d'une forte extension pavillonnaire récente liée à l'attractivité du corridor A9. Lotissements et maisons individuelles des années 1980-2020 dominent largement, dans une commune en croissance résidentielle continue où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Saint-Brès est en zone inondable (la Cadoule et son bassin, bassin versant de l'étang de l'Or) et intégrée au TRI Montpellier-Lunel-Mauguio-Palavas, avec des reconnaissances de catastrophe naturelle inondation répétées (couverte par le PAPI Bassin de l'Or). Une partie du territoire est exposée au feu de forêt (espaces naturels et garrigue). L'ERP est donc central, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Saint-Brès est à 19 minutes de Prades-le-Lez (14 km) via l'A9 — intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien (place de la Ramade, pré-1949)",
+      "Lotissements pavillonnaires récents (années 1980-2020)",
+      "Plaine agricole et ripisylve de la Cadoule",
+      "Abords du bassin de l'étang de l'Or (Natura 2000)",
+    ],
+
+    communesLimitrophes: ["Baillargues", "Mudaison", "Montaud", "Sussargues", "Beaulieu", "Restinclières"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Brès ?",
+        a: "Pour toute vente à Saint-Brès, le DPE et l'ERP (zone inondable de la Cadoule, TRI Montpellier-Lunel) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le centre ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Saint-Brès ?",
+        a: "À Saint-Brès, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu du parc majoritairement pavillonnaire. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Brès ?",
+        a: "Saint-Brès est à 19 minutes de Prades-le-Lez (14 km) via l'A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Saint-Brès ?",
+        a: "C'est possible : Saint-Brès est en zone inondable de la Cadoule et dans le TRI Montpellier-Lunel, avec des inondations reconnues à plusieurs reprises. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "sussargues",
+    name: "Sussargues",
+    nameSeo: "Sussargues (34)",
+    codePostal: "34160",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.7105, lng: 3.9884 },
+    distanceFromBaseKm: 10,
+    travelTimeMin: 16,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 2840,
+    nbLogements: 1260,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 86,
+    pctAppartements: 14,
+    surfaceMoyenne: 98,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 110,
+    prixM2Moyen: 3500,
+    prixM2Maison: 3500,
+    prixM2Appartement: 3400,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: false,
+      pprApproves: [
+        "PPRi inondation — approuvé par arrêté préfectoral le 18 mars 2004.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Commune résidentielle à 86 % de maisons, au parc essentiellement construit après 1970 mais comptant de nombreux pavillons des années 1970-1990 souvent énergivores : le DPE est le diagnostic à plus fort volume.",
+      },
+      {
+        slug: "electricite",
+        whyHere:
+          "Une large part des maisons (constructions 1971-2005) dépasse aujourd'hui 15 ans d'installation : le diagnostic électricité (et gaz si installation présente) est quasi systématique à la vente.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Sussargues dispose d'un PPRi inondation approuvé en 2004 (le Bérange, la Cadoule) : l'État des Risques et Pollutions est systématiquement obligatoire et la commune cumule plusieurs aléas.",
+      },
+    ],
+
+    intro:
+      "Sussargues, commune de la couronne est de Montpellier en secteur Castries, conjugue un cœur villageois à une forte croissance pavillonnaire en garrigue. Parc à 86 % de maisons, marché aisé (autour de 3 500 €/m²), 2 840 habitants.",
+
+    parcImmoNote:
+      "Sussargues conserve un petit centre ancien (autour de l'église Saint-Pierre, environ 8 % du parc antérieur à 1946 — plomb et amiante fréquents), mais la commune est massivement marquée par l'extension pavillonnaire récente : la grande majorité des logements ont été construits après 1970, en lotissements de garrigue. Profil typique de la couronne est en croissance, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Sussargues dispose d'un PPRi inondation approuvé en 2004 et est sensible aux crues du Bérange et de la Cadoule (plusieurs reconnaissances de catastrophe naturelle inondation). L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Sussargues est à 16 minutes de Prades-le-Lez (10 km) — au cœur de ma zone d'intervention : aucun frais de déplacement, intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien autour de l'église Saint-Pierre (pré-1949)",
+      "Lotissements pavillonnaires en garrigue (post-1970)",
+      "Domaines viticoles et garrigue (secteur Castries)",
+      "Abords du Bérange (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Castries", "Beaulieu", "Saint-Geniès-des-Mourgues", "Saint-Drézéry", "Saint-Brès", "Montaud"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Sussargues ?",
+        a: "Pour toute vente à Sussargues, le DPE et l'ERP (PPRi inondation 2004) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le centre ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Sussargues ?",
+        a: "À Sussargues, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 86 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement : la commune est au cœur de ma zone.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Sussargues ?",
+        a: "Sussargues est à 16 minutes de Prades-le-Lez (10 km), au cœur de ma zone. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Sussargues ?",
+        a: "C'est possible : Sussargues dispose d'un PPRi inondation approuvé en 2004 (le Bérange, la Cadoule). L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "saint-genies-des-mourgues",
+    name: "Saint-Geniès-des-Mourgues",
+    nameSeo: "Saint-Geniès-des-Mourgues (34)",
+    codePostal: "34160",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.6972, lng: 4.0382 },
+    distanceFromBaseKm: 14,
+    travelTimeMin: 19,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2148,
+    nbLogements: 932,
+    pctResidencesSecondaires: 1,
+    pctMaisons: 87,
+    pctAppartements: 12,
+    surfaceMoyenne: 100,
+    surfaceMoyenneAppartement: 65,
+    surfaceMoyenneMaison: 115,
+    prixM2Moyen: 4000,
+    prixM2Maison: 4030,
+    prixM2Appartement: 3600,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      feuForet: true,
+      pprApproves: [],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Village viticole à 87 % de maisons, au parc pavillonnaire majoritaire des années 1971-1990 souvent énergivore : le DPE est le diagnostic à plus fort volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Saint-Geniès-des-Mourgues est en zone inondable (le Bérange, le Dardaillon) et exposée au feu de forêt, avec un fort aléa de retrait-gonflement des argiles (plus de 85 % du territoire). L'État des Risques et Pollutions est systématiquement obligatoire et chargé ici.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent sur le bâti ancien du cœur viticole.",
+      },
+    ],
+
+    intro:
+      "Saint-Geniès-des-Mourgues, village viticole de la couronne est de Montpellier en secteur Castries, s'organise autour de son église abbatiale romane du XIe siècle. Parc à 87 % de maisons, marché aisé (autour de 4 000 €/m²), 2 148 habitants.",
+
+    parcImmoNote:
+      "Saint-Geniès-des-Mourgues conserve un cœur villageois ancien autour de l'église abbatiale (bâti pré-1949, pierre, viticole — plomb et amiante fréquents) entouré d'une extension pavillonnaire dominante, construite majoritairement entre 1971 et 1990. Des domaines et mas viticoles ponctuent le territoire. Le retrait-gonflement des argiles concerne plus de 85 % de la commune (enjeu fissuration sur le bâti).",
+
+    enjeuxLocaux:
+      "Saint-Geniès-des-Mourgues est en zone inondable (le Bérange, le Dardaillon-Ouest, avec plusieurs reconnaissances de catastrophe naturelle), exposée au feu de forêt par sa garrigue, et fortement concernée par le retrait-gonflement des argiles (plus de 85 % du territoire en aléa moyen ou fort). L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Saint-Geniès-des-Mourgues est à 19 minutes de Prades-le-Lez (14 km) — intervention sous 48 h garantie sur l'ensemble de la commune, du cœur viticole aux lotissements, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur villageois autour de l'église abbatiale (pré-1949)",
+      "Extension pavillonnaire (années 1971-1990)",
+      "Domaines et mas viticoles (AOC/IGP)",
+      "Garrigue environnante (feu de forêt, argiles)",
+    ],
+
+    communesLimitrophes: ["Beaulieu", "Castries", "Lunel-Viel", "Restinclières", "Saint-Brès", "Sussargues", "Valergues"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Geniès-des-Mourgues ?",
+        a: "Pour toute vente à Saint-Geniès-des-Mourgues, le DPE et l'ERP (zone inondable du Bérange, feu de forêt, argiles) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le cœur viticole ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Saint-Geniès-des-Mourgues ?",
+        a: "À Saint-Geniès-des-Mourgues, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 87 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Geniès-des-Mourgues ?",
+        a: "Saint-Geniès-des-Mourgues est à 19 minutes de Prades-le-Lez (14 km). L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Saint-Geniès-des-Mourgues ?",
+        a: "C'est possible : la commune est en zone inondable du Bérange, exposée au feu de forêt, et fortement concernée par le retrait-gonflement des argiles. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "restinclieres",
+    name: "Restinclières",
+    nameSeo: "Restinclières (34)",
+    codePostal: "34160",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.7238, lng: 4.0393 },
+    distanceFromBaseKm: 14,
+    travelTimeMin: 20,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2612,
+    nbLogements: 1150,
+    pctResidencesSecondaires: 2,
+    pctMaisons: 92,
+    pctAppartements: 8,
+    surfaceMoyenne: 100,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 108,
+    prixM2Moyen: 3930,
+    prixM2Maison: 3950,
+    prixM2Appartement: 3500,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Montpellier-Lunel-Mauguio-Palavas",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: false,
+      pprApproves: [],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Commune à 92 % de maisons, au parc pavillonnaire des années 1980-2000 affichant souvent des classes C à E : le DPE est le diagnostic à plus fort volume et un enjeu commercial fort à la revente.",
+      },
+      {
+        slug: "electricite",
+        whyHere:
+          "La très grande majorité des pavillons dépasse 15 ans d'installation : le diagnostic électricité (souvent couplé au gaz) est quasi systématique à la vente.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Restinclières est traversée par la Cadoule (la commune en relève le nom) et figure dans le TRI Montpellier-Lunel-Mauguio-Palavas, avec plusieurs reconnaissances de catastrophe naturelle inondation. L'État des Risques et Pollutions est systématiquement obligatoire.",
+      },
+    ],
+
+    intro:
+      "Restinclières, village résidentiel de la couronne est de Montpellier en secteur Castries, s'étire dans la vallée de la Cadoule. Parc à 92 % de maisons, marché aisé (autour de 3 930 €/m²), 2 612 habitants.",
+
+    parcImmoNote:
+      "Restinclières est une commune à très forte dominante pavillonnaire récente : un petit noyau villageois ancien (autour de l'église, pré-1949) entoure l'essentiel du parc, issu de l'expansion résidentielle des années 1980 à aujourd'hui (lotissements successifs liés à la périurbanisation de Montpellier et de Castries). Le bâti est globalement récent — faible incidence d'amiante et de plomb sur la majorité des biens — mais nombre d'installations électricité et gaz dépassent 15 ans.",
+
+    enjeuxLocaux:
+      "Restinclières est traversée par la Cadoule et figure dans le TRI Montpellier-Lunel-Mauguio-Palavas, avec plusieurs reconnaissances de catastrophe naturelle inondation. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001), un secteur de vallée humide propice aux insectes xylophages.",
+
+    accessibilityNote:
+      "Restinclières est à 20 minutes de Prades-le-Lez (14 km) — intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Noyau villageois ancien autour de l'église (pré-1949)",
+      "Lotissements pavillonnaires (années 1980-2000)",
+      "Vallée de la Cadoule (zone inondable)",
+      "Coteaux et franges de garrigue",
+    ],
+
+    communesLimitrophes: ["Castries", "Sussargues", "Beaulieu", "Saint-Brès", "Saint-Geniès-des-Mourgues", "Baillargues"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Restinclières ?",
+        a: "Pour toute vente à Restinclières, le DPE et l'ERP (zone inondable de la Cadoule, TRI Montpellier-Lunel) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le bâti ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Restinclières ?",
+        a: "À Restinclières, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 92 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Restinclières ?",
+        a: "Restinclières est à 20 minutes de Prades-le-Lez (14 km). L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Restinclières ?",
+        a: "C'est possible, notamment à proximité de la Cadoule : Restinclières figure dans le TRI Montpellier-Lunel, avec plusieurs inondations reconnues. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "beaulieu",
+    name: "Beaulieu",
+    nameSeo: "Beaulieu (34)",
+    codePostal: "34160",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.7293, lng: 4.0256 },
+    distanceFromBaseKm: 14,
+    travelTimeMin: 20,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2264,
+    nbLogements: 1010,
+    pctResidencesSecondaires: 2,
+    pctMaisons: 87,
+    pctAppartements: 13,
+    surfaceMoyenne: 98,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 110,
+    prixM2Moyen: 4150,
+    prixM2Maison: 4200,
+    prixM2Appartement: 3700,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Village résidentiel à 87 % de maisons, au parc dominé par des pavillons des années 1975-2005 : le DPE est le diagnostic à plus fort volume, avec un audit énergétique probable sur les maisons F ou G.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Beaulieu est en zone inondable (le Bérange, Atlas des zones inondables du bassin du Vidourle) et exposée au feu de forêt sur son plateau de garrigue. L'État des Risques et Pollutions est systématiquement obligatoire à la vente comme à la location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente sur l'ensemble de la commune.",
+      },
+    ],
+
+    intro:
+      "Beaulieu, village résidentiel de la couronne est de Montpellier en secteur Castries, occupe un plateau calcaire dominant la vallée du Bérange. Patrimoine remarquable (château de la Devèze), parc à 87 % de maisons, marché aisé (autour de 4 150 €/m²), 2 264 habitants.",
+
+    parcImmoNote:
+      "Beaulieu présente un petit noyau ancien (château médiéval fortifié des XIe-XIIe siècles, chapelle, église Saint-Pierre-aux-Liens de 1860 — plomb et amiante sur le bâti pré-1949) entouré d'une très forte extension pavillonnaire récente : la commune est passée d'environ 180 logements en 1968 à un millier aujourd'hui. Le parc est dominé par des maisons individuelles récentes (post-1975) à grandes typologies, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Beaulieu est en zone inondable (le Bérange, inscrite à l'Atlas des zones inondables du bassin du Vidourle, couverte par le PAPI) et exposée au feu de forêt sur son plateau de garrigue. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Beaulieu est à 20 minutes de Prades-le-Lez (14 km) — intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Noyau ancien (château XIe-XIIe, église de 1860 — pré-1949)",
+      "Extension pavillonnaire récente (post-1975)",
+      "Domaines viticoles et garrigue (Coteaux du Languedoc)",
+      "Vallée du Bérange (zone inondable)",
+    ],
+
+    communesLimitrophes: ["Restinclières", "Saint-Drézéry", "Saint-Geniès-des-Mourgues", "Saint-Hilaire-de-Beauvoir", "Saint-Jean-de-Cornies", "Saussines", "Sussargues"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Beaulieu ?",
+        a: "Pour toute vente à Beaulieu, le DPE et l'ERP (zone inondable du Bérange, feu de forêt) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le noyau ancien et le château, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Beaulieu ?",
+        a: "À Beaulieu, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 87 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Beaulieu ?",
+        a: "Beaulieu est à 20 minutes de Prades-le-Lez (14 km). L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Beaulieu ?",
+        a: "C'est possible : Beaulieu est en zone inondable du Bérange et exposée au feu de forêt sur son plateau de garrigue. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
 ]
 
 export function getVilleBySlug(slug) {
