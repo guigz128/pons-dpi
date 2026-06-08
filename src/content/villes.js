@@ -5673,6 +5673,715 @@ export const villes = [
       },
     ],
   },
+  {
+    slug: "balaruc-les-bains",
+    name: "Balaruc-les-Bains",
+    nameSeo: "Balaruc-les-Bains (34)",
+    codePostal: "34540",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.4476, lng: 3.6922 },
+    distanceFromBaseKm: 31,
+    travelTimeMin: 35,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 7139,
+    nbLogements: 7433,
+    pctResidencesSecondaires: 55,
+    pctMaisons: 32,
+    pctAppartements: 68,
+    surfaceMoyenne: 56,
+    surfaceMoyenneAppartement: 47,
+    surfaceMoyenneMaison: 90,
+    prixM2Moyen: 3900,
+    prixM2Maison: 3550,
+    prixM2Appartement: 4270,
+    dpeMoyenKwh: 175,
+    dpeMoyenCo2: 23,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: "Sète",
+      radon: 2,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPRi de Balaruc-les-Bains — approuvé par arrêté préfectoral le 25 janvier 2012 (bassin de Thau : inondation et submersion lagunaire).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "mesurage-carrez",
+        whyHere:
+          "Première station thermale de France, Balaruc-les-Bains affiche un parc à 68 % d'appartements en copropriété (résidences de tourisme et services pour curistes). Le mesurage Carrez est requis à quasiment chaque vente de lot.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Presqu'île basse sur l'étang de Thau, la commune est en TRI de Sète avec un PPRi approuvé en 2012 couvrant l'inondation et la submersion lagunaire. L'État des Risques et Pollutions est systématiquement obligatoire et particulièrement scruté ici.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Le marché de résidences secondaires (55 % du parc) et le locatif curiste génèrent un flux de DPE soutenu, surtout sur les petites surfaces (studios, T2) des copropriétés thermales.",
+      },
+    ],
+
+    intro:
+      "Balaruc-les-Bains, première station thermale de France, occupe une presqu'île sur l'étang de Thau. Parc atypique dominé à 68 % par l'appartement en copropriété, 55 % de résidences secondaires, marché premium (autour de 3 900 €/m²), 7 139 habitants.",
+
+    parcImmoNote:
+      "Le parc balarucois est dominé par l'appartement (68 %) : forte densité de résidences de tourisme, résidences services et copropriétés de standing en bord d'étang, héritées du développement thermal et du locatif curiste (petites surfaces, T1-T2). Le cœur de presqu'île ancien (vieux Balaruc, église) mêle du bâti pré-1949 à un parc balnéaire et pavillonnaire des années 1970-2000. La prépondérance des copropriétés rend le mesurage Carrez quasi systématique et le DPE collectif d'immeuble pertinent.",
+
+    enjeuxLocaux:
+      "Balaruc-les-Bains est une presqu'île basse exposée à l'inondation et à la submersion par la lagune de Thau, en TRI de Sète, avec un PPRi approuvé en 2012. Le phénomène local d'« inversac » (résurgence de la Vise) peut inonder la commune en période de sécheresse. L'ERP est donc un document central de toute transaction. Le diagnostic termites est obligatoire dans tout l'Hérault (arrêté préfectoral du 20 juin 2001).",
+
+    accessibilityNote:
+      "Balaruc-les-Bains est à 35 minutes de Prades-le-Lez (31 km) via l'A9 et l'A750 — intervention sous 48 h garantie sur l'ensemble de la presqu'île, des copropriétés thermales au vieux village, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Vieux Balaruc et cœur de presqu'île (pré-1949)",
+      "Copropriétés et résidences de tourisme en bord d'étang",
+      "Quartiers thermaux (studios et T2 curistes)",
+      "Pavillonnaire de périphérie (années 1970-2000)",
+    ],
+
+    communesLimitrophes: ["Balaruc-le-Vieux", "Sète", "Frontignan", "Bouzigues", "Gigean"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Balaruc-les-Bains ?",
+        a: "Pour toute vente à Balaruc-les-Bains, le DPE, l'ERP (TRI de Sète + PPRi inondation/submersion) et le mesurage Carrez (parc très majoritairement en copropriété) sont quasi systématiques. Selon le bien : amiante et plomb sur le vieux village pré-1997, électricité et gaz (installations de plus de 15 ans), et termites (obligatoire dans tout l'Hérault).",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Balaruc-les-Bains ?",
+        a: "À Balaruc-les-Bains, le pack vente appartement (DPE + électricité + gaz + ERP + amiante + Carrez) démarre à 290 € TTC — le plus demandé compte tenu des 68 % d'appartements. Pack vente maison à 380 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Balaruc-les-Bains ?",
+        a: "Balaruc-les-Bains est à 35 minutes de Prades-le-Lez (31 km) via l'A9 et l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Balaruc-les-Bains ?",
+        a: "C'est probable : la presqu'île est exposée à l'inondation et à la submersion par l'étang de Thau, et dispose d'un PPRi approuvé en 2012. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "balaruc-le-vieux",
+    name: "Balaruc-le-Vieux",
+    nameSeo: "Balaruc-le-Vieux (34)",
+    codePostal: "34540",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.465, lng: 3.6971 },
+    distanceFromBaseKm: 29,
+    travelTimeMin: 32,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2737,
+    nbLogements: 1273,
+    pctResidencesSecondaires: 9,
+    pctMaisons: 79,
+    pctAppartements: 19,
+    surfaceMoyenne: 92,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 108,
+    prixM2Moyen: 3970,
+    prixM2Maison: 4015,
+    prixM2Appartement: 3700,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: "Sète",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "PPRi de Balaruc-le-Vieux — approuvé par arrêté préfectoral le 25 janvier 2012 (bassin de Thau : inondation et submersion).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Balaruc-le-Vieux est en TRI de Sète avec un PPRi approuvé en 2012 et une exposition à l'inondation et à la submersion en bordure de l'étang de Thau. L'État des Risques et Pollutions est systématiquement obligatoire et structurant à la vente comme à la location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente sur l'ensemble de la commune.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Le parc est majoritairement composé de maisons individuelles (79 %), pour beaucoup en lotissements des années 1970-1990 : le DPE est le diagnostic à plus fort volume, avec un audit énergétique probable sur les passoires F ou G.",
+      },
+    ],
+
+    intro:
+      "Balaruc-le-Vieux, village perché au-dessus de l'étang de Thau (distinct de la station thermale voisine), associe un noyau médiéval à de larges lotissements pavillonnaires récents. Parc à 79 % de maisons, marché tendu (autour de 3 970 €/m²), 2 737 habitants.",
+
+    parcImmoNote:
+      "Balaruc-le-Vieux conserve un noyau ancien de village perché (cœur médiéval pré-1949 autour de l'église) mais l'essentiel du parc est constitué de lotissements pavillonnaires récents, largement postérieurs aux années 1970-1980 — d'où une part de maisons élevée (79 %) et des diagnostics électricité et gaz fréquents au-delà de 15 ans. La présence de la grande zone commerciale de la Capoulière a accompagné cette urbanisation périphérique. Peu de copropriétés.",
+
+    enjeuxLocaux:
+      "Balaruc-le-Vieux est en TRI de Sète et dispose d'un PPRi approuvé en 2012, en bordure de l'étang de Thau : inondation par débordement (la Vène, ruissellement) et submersion lagunaire. L'ERP est central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Balaruc-le-Vieux est à 32 minutes de Prades-le-Lez (29 km) via l'A9 et l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, du vieux village aux lotissements, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Vieux village médiéval perché (pré-1949)",
+      "Lotissements pavillonnaires récents (post-1970)",
+      "Abords de la zone commerciale de la Capoulière",
+      "Rive nord de l'étang de Thau (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Balaruc-les-Bains", "Sète", "Bouzigues", "Poussan", "Gigean"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Balaruc-le-Vieux ?",
+        a: "Pour toute vente à Balaruc-le-Vieux, le DPE et l'ERP (TRI de Sète + PPRi inondation/submersion) sont systématiques. Selon le bien : amiante et plomb sur le vieux village pré-1997, électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Balaruc-le-Vieux ?",
+        a: "À Balaruc-le-Vieux, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 79 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Balaruc-le-Vieux ?",
+        a: "Balaruc-le-Vieux est à 32 minutes de Prades-le-Lez (29 km) via l'A9 et l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Balaruc-le-Vieux ?",
+        a: "C'est possible, notamment en bordure de l'étang de Thau : la commune dispose d'un PPRi approuvé en 2012 (inondation et submersion). L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "meze",
+    name: "Mèze",
+    nameSeo: "Mèze (34)",
+    codePostal: "34140",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.4323, lng: 3.5843 },
+    distanceFromBaseKm: 37,
+    travelTimeMin: 40,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 12669,
+    nbLogements: 7000,
+    pctResidencesSecondaires: 14,
+    pctMaisons: 70,
+    pctAppartements: 30,
+    surfaceMoyenne: 88,
+    surfaceMoyenneAppartement: 55,
+    surfaceMoyenneMaison: 100,
+    prixM2Moyen: 3600,
+    prixM2Maison: 3850,
+    prixM2Appartement: 3450,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: "Sète",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPRi de Mèze — approuvé par arrêté préfectoral le 25 janvier 2012 (inondation et submersion du bassin de Thau).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Mèze, port conchylicole sur la rive sud de l'étang de Thau, est en TRI de Sète avec un PPRi approuvé en 2012 (inondation et submersion). De nombreuses reconnaissances de catastrophe naturelle inondation rendent l'État des Risques et Pollutions systématique et structurant.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Ville en forte croissance et marché actif : sur un parc à 70 % de maisons mêlant cœur portuaire ancien et programmes récents, le DPE est le diagnostic à plus fort volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent sur le bâti ancien du cœur portuaire (humidité, charpentes bois).",
+      },
+    ],
+
+    intro:
+      "Mèze, capitale conchylicole de la rive sud de l'étang de Thau, est une ville portuaire en forte croissance. Cœur historique autour du port, large couronne pavillonnaire et part notable de résidences secondaires, marché autour de 3 600 €/m², 12 669 habitants.",
+
+    parcImmoNote:
+      "Le cœur de ville ancien de Mèze, autour du port et des halles, concentre un bâti pré-1949 (maisons de pêcheurs et conchyliculteurs — plomb et amiante fréquents). La couronne pavillonnaire des années 1970-2000 domine le parc (environ 72 % construit après 1970), avec électricité et gaz fréquemment au-delà de 15 ans. La forte croissance démographique alimente des programmes neufs et lotissements en périphérie, et l'attractivité littorale entretient une part notable de résidences secondaires.",
+
+    enjeuxLocaux:
+      "Mèze est en TRI de Sète, en bordure de l'étang de Thau : inondation (ruissellement, débordement, bord de lagune) et submersion marine, avec un PPRi approuvé en 2012. L'ERP est central à toute transaction. Le diagnostic termites est obligatoire dans tout l'Hérault (arrêté du 20 juin 2001), et le bâti conchylicole ancien du port appelle une vigilance plomb et amiante.",
+
+    accessibilityNote:
+      "Mèze est à 40 minutes de Prades-le-Lez (37 km) via l'A9 et l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, du cœur portuaire aux lotissements récents, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur de ville portuaire ancien (pré-1949)",
+      "Couronne pavillonnaire (années 1970-2000)",
+      "Programmes neufs et lotissements récents",
+      "Rive sud de l'étang de Thau (zone PPRi, conchyliculture)",
+    ],
+
+    communesLimitrophes: ["Bouzigues", "Loupian", "Poussan", "Villeveyrac", "Montbazin"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Mèze ?",
+        a: "Pour toute vente à Mèze, le DPE et l'ERP (TRI de Sète + PPRi inondation/submersion) sont systématiques. Selon le bien : amiante et plomb sur le cœur portuaire pré-1997, électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Mèze ?",
+        a: "À Mèze, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 70 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Mèze ?",
+        a: "Mèze est à 40 minutes de Prades-le-Lez (37 km) via l'A9 et l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Mèze ?",
+        a: "C'est probable pour les biens proches du port ou de l'étang : Mèze est en TRI de Sète avec un PPRi approuvé en 2012 (inondation et submersion). L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "marseillan",
+    name: "Marseillan",
+    nameSeo: "Marseillan (34)",
+    codePostal: "34340",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.3543, lng: 3.556 },
+    distanceFromBaseKm: 45,
+    travelTimeMin: 48,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 8414,
+    nbLogements: 10232,
+    pctResidencesSecondaires: 62,
+    pctMaisons: 55,
+    pctAppartements: 45,
+    surfaceMoyenne: 72,
+    surfaceMoyenneAppartement: 45,
+    surfaceMoyenneMaison: 95,
+    prixM2Moyen: 3900,
+    prixM2Maison: 3945,
+    prixM2Appartement: 3762,
+    dpeMoyenKwh: 175,
+    dpeMoyenCo2: 23,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: "Sète",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPRi de Marseillan — approuvé par arrêté préfectoral le 25 janvier 2012 (inondation et submersion marine).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "mesurage-carrez",
+        whyHere:
+          "Marseillan-Plage concentre un parc massif de copropriétés et de résidences de tourisme (62 % de résidences secondaires sur la commune). Tout lot de copropriété vendu exige un mesurage Carrez — diagnostic à très fort volume ici.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Commune littorale en TRI de Sète, sous PPRi approuvé en 2012 couvrant l'inondation et la submersion marine (front de mer et bordure de l'étang de Thau bas). L'État des Risques et Pollutions est systématiquement obligatoire et varie fortement entre Marseillan-Ville et Marseillan-Plage.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : l'état termites de moins de 6 mois est obligatoire à toute vente, en particulier sur le centre ancien portuaire pré-1997 de Marseillan-Ville.",
+      },
+    ],
+
+    intro:
+      "Marseillan, entre étang de Thau et Méditerranée, conjugue deux pôles : Marseillan-Ville (port et chais du Noilly Prat) et Marseillan-Plage (station balnéaire). Parc balnéaire à 62 % de résidences secondaires, marché premium (autour de 3 900 €/m²), 8 414 habitants.",
+
+    parcImmoNote:
+      "Marseillan présente deux profils très contrastés. Marseillan-Ville : centre ancien portuaire dense, bâti antérieur à 1949 autour du port et de l'étang (maisons de pêcheurs, immeubles en pierre — enjeu fort amiante et plomb). Marseillan-Plage : tissu balnéaire récent (années 1960-1990 et après), dominé par les copropriétés, résidences de tourisme et lotissements de villégiature, avec une part massive de résidences secondaires (62 %). L'enjeu copropriété et mesurage Carrez y est particulièrement marqué.",
+
+    enjeuxLocaux:
+      "Marseillan est une commune littorale en TRI de Sète, exposée à l'inondation et à la submersion marine (front de mer à ~3 m NGF, arrière et étang à ~2 m NGF), avec un PPRi approuvé en 2012. Le zonage varie fortement entre la Ville et la Plage. L'ERP est systématiquement structurant, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Marseillan est à 48 minutes de Prades-le-Lez (45 km) via l'A9 et l'A75 — intervention sous 48 h garantie sur l'ensemble de la commune, de Marseillan-Ville à Marseillan-Plage, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Marseillan-Ville : centre ancien portuaire (pré-1949)",
+      "Marseillan-Plage : copropriétés et résidences de tourisme balnéaires",
+      "Secteurs pavillonnaires résidentiels récents",
+      "Front de mer et lido (zone PPRi, submersion marine)",
+    ],
+
+    communesLimitrophes: ["Agde", "Mèze", "Pinet", "Pomérols", "Florensac", "Sète"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Marseillan ?",
+        a: "Pour toute vente à Marseillan, le DPE, l'ERP (TRI de Sète + PPRi inondation/submersion marine) et, en copropriété, le mesurage Carrez (très fréquent à Marseillan-Plage) sont systématiques. Selon le bien : amiante et plomb sur le centre ancien pré-1997, électricité et gaz (installations de plus de 15 ans), et termites (obligatoire dans tout l'Hérault).",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Marseillan ?",
+        a: "À Marseillan, le pack vente appartement (DPE + électricité + gaz + ERP + amiante + Carrez) démarre à 290 € TTC — le plus demandé à Marseillan-Plage compte tenu du poids des copropriétés. Pack vente maison à 380 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Marseillan ?",
+        a: "Marseillan est à 48 minutes de Prades-le-Lez (45 km) via l'A9 et l'A75. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Marseillan ?",
+        a: "C'est probable, surtout à Marseillan-Plage et en bordure d'étang : la commune est en TRI de Sète avec un PPRi approuvé en 2012 (inondation et submersion marine). L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "bouzigues",
+    name: "Bouzigues",
+    nameSeo: "Bouzigues (34)",
+    codePostal: "34140",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.445, lng: 3.6563 },
+    distanceFromBaseKm: 32,
+    travelTimeMin: 35,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1601,
+    nbLogements: 1056,
+    pctResidencesSecondaires: 22,
+    pctMaisons: 78,
+    pctAppartements: 22,
+    surfaceMoyenne: 90,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 3900,
+    prixM2Maison: 3900,
+    prixM2Appartement: 3700,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: "Sète",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPR inondation et submersion marine du bassin de Thau — Bouzigues y est soumise (commune intégralement en zone inondable dès la crue décennale).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Bouzigues est intégralement classée en zone inondable (dès la crue décennale) et exposée à la submersion marine en bordure de l'étang de Thau, en TRI de Sète. L'État des Risques et Pollutions est systématiquement obligatoire et particulièrement structurant ici.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Village conchylicole prisé à forte composante de résidences secondaires (22 %) : le marché touristique génère un volume de DPE soutenu, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent en bord d'étang (humidité, charpentes bois) et sur le centre ancien pré-1997.",
+      },
+    ],
+
+    intro:
+      "Bouzigues, village emblématique de la conchyliculture (les huîtres de Bouzigues) sur la rive nord-est de l'étang de Thau, est petit mais à forte notoriété touristique. Parc à 78 % de maisons, 22 % de résidences secondaires, marché tendu (autour de 3 900 €/m²), 1 601 habitants.",
+
+    parcImmoNote:
+      "Le cœur de village ancien de Bouzigues, autour du port, conserve un bâti pré-1949 typique de pêcheurs et conchyliculteurs (pierre, ruelles étroites — plomb et amiante fréquents). Environ deux tiers des logements ont toutefois été construits après 1970, avec un développement pavillonnaire autour du noyau historique. La part de résidences secondaires en bord d'étang (22 %, le double de la moyenne nationale) est marquée, sur un habitat majoritairement individuel et spacieux.",
+
+    enjeuxLocaux:
+      "Bouzigues est intégralement classée en zone inondable dès la crue décennale et exposée à la submersion marine, en TRI de Sète et soumise au dispositif PPR du bassin de Thau. L'ERP est donc incontournable à chaque transaction. Le diagnostic termites est obligatoire dans tout l'Hérault (arrêté du 20 juin 2001), et le bâti conchylicole ancien appelle une vigilance plomb et amiante.",
+
+    accessibilityNote:
+      "Bouzigues est à 35 minutes de Prades-le-Lez (32 km) via l'A9 et l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, du port au pavillonnaire, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur de village de pêcheurs et conchyliculteurs (pré-1949)",
+      "Pavillonnaire autour du noyau historique (post-1970)",
+      "Résidences secondaires en bord d'étang",
+      "Port conchylicole (rive nord-est de Thau, zone inondable)",
+    ],
+
+    communesLimitrophes: ["Loupian", "Balaruc-les-Bains", "Balaruc-le-Vieux", "Mèze", "Poussan", "Gigean"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Bouzigues ?",
+        a: "Pour toute vente à Bouzigues, le DPE et l'ERP (TRI de Sète, commune intégralement inondable + submersion) sont systématiques. Selon le bien : amiante et plomb sur le cœur de village pré-1997, électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Bouzigues ?",
+        a: "À Bouzigues, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 78 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Bouzigues ?",
+        a: "Bouzigues est à 35 minutes de Prades-le-Lez (32 km) via l'A9 et l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Bouzigues ?",
+        a: "Très probablement oui : Bouzigues est intégralement classée en zone inondable dès la crue décennale et exposée à la submersion marine. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "poussan",
+    name: "Poussan",
+    nameSeo: "Poussan (34)",
+    codePostal: "34560",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.4976, lng: 3.6623 },
+    distanceFromBaseKm: 27,
+    travelTimeMin: 30,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 6797,
+    nbLogements: 2860,
+    pctResidencesSecondaires: 4,
+    pctMaisons: 75,
+    pctAppartements: 23,
+    surfaceMoyenne: 96,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 108,
+    prixM2Moyen: 3200,
+    prixM2Maison: 3300,
+    prixM2Appartement: 2850,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Sète",
+      radon: 2,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi du bassin de Thau (inondation) — Poussan y est soumise.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Poussan est en TRI de Sète et soumise au PPRi du bassin de Thau (inondation par débordement et ruissellement), avec une exposition au feu de forêt sur les reliefs de la Moure et de la Gardiole. L'État des Risques et Pollutions est systématiquement obligatoire et chargé ici.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Commune en forte croissance résidentielle (marché très actif, +200 maisons en cinq ans) : sur un parc à 75 % de maisons, le DPE est le diagnostic à plus fort volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "amiante",
+        whyHere:
+          "Le centre ancien organisé en circulade médiévale (bâti pré-1949) et la couronne pavillonnaire des années 1980-1997 génèrent un fort volume de biens dont le permis est antérieur au 1er juillet 1997 — repérage amiante quasi systématique en vente.",
+      },
+    ],
+
+    intro:
+      "Poussan, en arrière-pays nord de l'étang de Thau entre Montpellier et Sète, est une commune en forte croissance organisée autour d'une circulade médiévale. Parc à 75 % de maisons, marché autour de 3 200 €/m², 6 797 habitants.",
+
+    parcImmoNote:
+      "Poussan possède un centre ancien dense en circulade médiévale (rues concentriques autour de l'ancien château et de l'église — bâti pré-1949, plomb et amiante fréquents). Autour de ce noyau, la commune a connu une forte extension pavillonnaire récente (maisons individuelles en lotissements depuis les années 1980-2000, +200 maisons en cinq ans). Le parc est nettement bipolaire : un cœur ancien patrimonial et une large couronne pavillonnaire, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Poussan est en TRI de Sète et soumise au PPRi du bassin de Thau (inondation par débordement et ruissellement). Les reliefs boisés de la Moure et de la Gardiole exposent une partie du territoire au risque de feu de forêt, à mentionner à l'ERP. Le diagnostic termites est obligatoire dans tout l'Hérault (arrêté du 20 juin 2001), particulièrement pertinent sur le bâti ancien de la circulade.",
+
+    accessibilityNote:
+      "Poussan est à 30 minutes de Prades-le-Lez (27 km) via l'A9 et l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, de la circulade aux lotissements, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien en circulade médiévale (pré-1949)",
+      "Couronne pavillonnaire récente (années 1980-2000)",
+      "Lotissements en extension",
+      "Reliefs de la Moure et de la Gardiole (garrigue, feu de forêt)",
+    ],
+
+    communesLimitrophes: ["Bouzigues", "Loupian", "Mèze", "Montbazin", "Gigean", "Villeveyrac", "Cournonsec", "Balaruc-le-Vieux"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Poussan ?",
+        a: "Pour toute vente à Poussan, le DPE et l'ERP (TRI de Sète, PPRi du bassin de Thau, feu de forêt) sont systématiques. Selon le bien : amiante et plomb sur la circulade et les pavillons pré-1997, électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Poussan ?",
+        a: "À Poussan, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 75 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Poussan ?",
+        a: "Poussan est à 30 minutes de Prades-le-Lez (27 km) via l'A9 et l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Poussan ?",
+        a: "C'est possible : Poussan est soumise au PPRi du bassin de Thau (inondation, ruissellement) et une partie du territoire est exposée au feu de forêt (reliefs de la Moure et de la Gardiole). L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "gigean",
+    name: "Gigean",
+    nameSeo: "Gigean (34)",
+    codePostal: "34770",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.4953, lng: 3.7242 },
+    distanceFromBaseKm: 25,
+    travelTimeMin: 28,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 6639,
+    nbLogements: 2660,
+    pctResidencesSecondaires: 2,
+    pctMaisons: 78,
+    pctAppartements: 20,
+    surfaceMoyenne: 98,
+    surfaceMoyenneAppartement: 65,
+    surfaceMoyenneMaison: 115,
+    prixM2Moyen: 3200,
+    prixM2Maison: 3480,
+    prixM2Appartement: 2800,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi de Gigean — approuvé par arrêté préfectoral le 25 janvier 2012 (inondation par débordement et ruissellement).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Gigean cumule un PPRi inondation approuvé en 2012 et un risque de feu de forêt majeur au pied du massif de la Gardiole (incendie d'août 2024, plusieurs centaines d'hectares brûlés, habitations évacuées). L'État des Risques et Pollutions est systématiquement requis et doit impérativement mentionner ces deux risques.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Parc majoritairement récent (environ 60 % des logements construits après 1990) et marché résidentiel actif : le DPE est incontournable sur tout bien de plus de 50 m², avec un enjeu rénovation sur les maisons des années 1990-2000.",
+      },
+      {
+        slug: "electricite",
+        whyHere:
+          "Fort volume de pavillons des années 1990-2000 dont les installations approchent ou dépassent 15 ans : le diagnostic électricité (et gaz si installation présente) est fréquemment requis à la vente.",
+      },
+    ],
+
+    intro:
+      "Gigean, au pied du massif de la Gardiole entre Montpellier et Sète, est une commune résidentielle en forte croissance, dominée par l'abbaye Saint-Félix de Montceau. Parc à 78 % de maisons, majoritairement récent, marché autour de 3 200 €/m², 6 639 habitants.",
+
+    parcImmoNote:
+      "Gigean possède un petit centre ancien (noyau villageois pré-1949, présence possible d'amiante et de plomb) mais son parc est massivement récent : environ 60 % des logements ont été construits après 1990. La dynamique résidentielle est portée par une forte extension pavillonnaire (lotissements de maisons individuelles) gagnant le piémont de la Gardiole, ce qui place une part notable du bâti récent en interface habitat-forêt, exposée au feu de forêt.",
+
+    enjeuxLocaux:
+      "Gigean dispose d'un PPRi inondation approuvé en 2012 (débordement et ruissellement au pied de la Gardiole) et est exposée à un risque de feu de forêt majeur : l'incendie d'août 2024 a brûlé plusieurs centaines d'hectares sur le massif de la Gardiole entre Gigean et Frontignan, entraînant des évacuations. L'ERP doit impérativement mentionner ce risque. Le diagnostic termites est obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Gigean est à 28 minutes de Prades-le-Lez (25 km) via l'A9 et l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, du centre ancien aux lotissements du piémont de la Gardiole, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien villageois (pré-1949)",
+      "Lotissements pavillonnaires récents (post-1990)",
+      "Piémont du massif de la Gardiole (interface habitat-forêt)",
+      "Abords de l'abbaye Saint-Félix de Montceau",
+    ],
+
+    communesLimitrophes: ["Montbazin", "Cournonsec", "Fabrègues", "Villeneuve-lès-Maguelone", "Vic-la-Gardiole", "Frontignan", "Poussan"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Gigean ?",
+        a: "Pour toute vente à Gigean, le DPE et l'ERP (PPRi inondation + feu de forêt de la Gardiole) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le centre ancien pré-1997, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Gigean ?",
+        a: "À Gigean, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 78 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Gigean ?",
+        a: "Gigean est à 28 minutes de Prades-le-Lez (25 km) via l'A9 et l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Gigean ?",
+        a: "C'est possible : Gigean dispose d'un PPRi inondation approuvé en 2012 et une partie du territoire, au pied du massif de la Gardiole, est exposée au feu de forêt (incendie d'août 2024). L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
 ]
 
 export function getVilleBySlug(slug) {

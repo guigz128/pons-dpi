@@ -2391,6 +2391,321 @@ export const VILLE_DPE_STATS = {
         "pct": 0.6
       }
     ]
+  },
+  "balaruc-les-bains": {
+    "insee": "34023",
+    "total": 2587,
+    "fgCount": 53,
+    "fgPct": 2,
+    "efgCount": 282,
+    "efgPct": 10.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 101,
+        "pct": 3.9
+      },
+      {
+        "label": "B",
+        "count": 187,
+        "pct": 7.2
+      },
+      {
+        "label": "C",
+        "count": 1285,
+        "pct": 49.7
+      },
+      {
+        "label": "D",
+        "count": 732,
+        "pct": 28.3
+      },
+      {
+        "label": "E",
+        "count": 229,
+        "pct": 8.9
+      },
+      {
+        "label": "F",
+        "count": 45,
+        "pct": 1.7
+      },
+      {
+        "label": "G",
+        "count": 8,
+        "pct": 0.3
+      }
+    ]
+  },
+  "balaruc-le-vieux": {
+    "insee": "34024",
+    "total": 345,
+    "fgCount": 12,
+    "fgPct": 3.5,
+    "efgCount": 24,
+    "efgPct": 7,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 11,
+        "pct": 3.2
+      },
+      {
+        "label": "B",
+        "count": 47,
+        "pct": 13.6
+      },
+      {
+        "label": "C",
+        "count": 208,
+        "pct": 60.3
+      },
+      {
+        "label": "D",
+        "count": 55,
+        "pct": 15.9
+      },
+      {
+        "label": "E",
+        "count": 12,
+        "pct": 3.5
+      },
+      {
+        "label": "F",
+        "count": 11,
+        "pct": 3.2
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.3
+      }
+    ]
+  },
+  "meze": {
+    "insee": "34157",
+    "total": 2687,
+    "fgCount": 88,
+    "fgPct": 3.3,
+    "efgCount": 440,
+    "efgPct": 16.4,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 162,
+        "pct": 6
+      },
+      {
+        "label": "B",
+        "count": 397,
+        "pct": 14.8
+      },
+      {
+        "label": "C",
+        "count": 1094,
+        "pct": 40.7
+      },
+      {
+        "label": "D",
+        "count": 594,
+        "pct": 22.1
+      },
+      {
+        "label": "E",
+        "count": 352,
+        "pct": 13.1
+      },
+      {
+        "label": "F",
+        "count": 72,
+        "pct": 2.7
+      },
+      {
+        "label": "G",
+        "count": 16,
+        "pct": 0.6
+      }
+    ]
+  },
+  "marseillan": {
+    "insee": "34150",
+    "total": 2435,
+    "fgCount": 66,
+    "fgPct": 2.7,
+    "efgCount": 235,
+    "efgPct": 9.7,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 92,
+        "pct": 3.8
+      },
+      {
+        "label": "B",
+        "count": 380,
+        "pct": 15.6
+      },
+      {
+        "label": "C",
+        "count": 1241,
+        "pct": 51
+      },
+      {
+        "label": "D",
+        "count": 487,
+        "pct": 20
+      },
+      {
+        "label": "E",
+        "count": 169,
+        "pct": 6.9
+      },
+      {
+        "label": "F",
+        "count": 52,
+        "pct": 2.1
+      },
+      {
+        "label": "G",
+        "count": 14,
+        "pct": 0.6
+      }
+    ]
+  },
+  "bouzigues": {
+    "insee": "34039",
+    "total": 232,
+    "fgCount": 10,
+    "fgPct": 4.3,
+    "efgCount": 35,
+    "efgPct": 15.1,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 12,
+        "pct": 5.2
+      },
+      {
+        "label": "B",
+        "count": 18,
+        "pct": 7.8
+      },
+      {
+        "label": "C",
+        "count": 110,
+        "pct": 47.4
+      },
+      {
+        "label": "D",
+        "count": 57,
+        "pct": 24.6
+      },
+      {
+        "label": "E",
+        "count": 25,
+        "pct": 10.8
+      },
+      {
+        "label": "F",
+        "count": 10,
+        "pct": 4.3
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "poussan": {
+    "insee": "34213",
+    "total": 882,
+    "fgCount": 20,
+    "fgPct": 2.3,
+    "efgCount": 69,
+    "efgPct": 7.8,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 145,
+        "pct": 16.4
+      },
+      {
+        "label": "B",
+        "count": 164,
+        "pct": 18.6
+      },
+      {
+        "label": "C",
+        "count": 358,
+        "pct": 40.6
+      },
+      {
+        "label": "D",
+        "count": 146,
+        "pct": 16.6
+      },
+      {
+        "label": "E",
+        "count": 49,
+        "pct": 5.6
+      },
+      {
+        "label": "F",
+        "count": 17,
+        "pct": 1.9
+      },
+      {
+        "label": "G",
+        "count": 3,
+        "pct": 0.3
+      }
+    ]
+  },
+  "gigean": {
+    "insee": "34113",
+    "total": 1162,
+    "fgCount": 7,
+    "fgPct": 0.6,
+    "efgCount": 65,
+    "efgPct": 5.6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 73,
+        "pct": 6.3
+      },
+      {
+        "label": "B",
+        "count": 174,
+        "pct": 15
+      },
+      {
+        "label": "C",
+        "count": 613,
+        "pct": 52.8
+      },
+      {
+        "label": "D",
+        "count": 237,
+        "pct": 20.4
+      },
+      {
+        "label": "E",
+        "count": 58,
+        "pct": 5
+      },
+      {
+        "label": "F",
+        "count": 7,
+        "pct": 0.6
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
   }
 }
 

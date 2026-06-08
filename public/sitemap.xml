@@ -366,6 +366,41 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/balaruc-les-bains</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/balaruc-le-vieux</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/meze</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/marseillan</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/bouzigues</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/poussan</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/gigean</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.pons-dpi.fr/mentions-legales</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
