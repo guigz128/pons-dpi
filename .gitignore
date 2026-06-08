@@ -5,6 +5,9 @@ dist
 .DS_Store
 *.log
 
+# Rapports d'audit SEO écrits localement par scripts/cf.sh (cf. TOOLS.md)
+assets/
+
 # Personal / local-only
 local-docs/
 photos piscine avril 26/

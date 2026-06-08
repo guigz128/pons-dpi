@@ -1,9 +1,9 @@
 import { lazy, Suspense, useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Layout from './components/layout/Layout'
+import Home from './pages/Home' // eager : route index, rendue en 1 commit avec le shell (évite le CLS de l'insertion lazy)
 import { capture } from './lib/posthog'
 
-const Home = lazy(() => import('./pages/Home'))
 const HomeTest = lazy(() => import('./pages/HomeTest'))
 const ServicesPage = lazy(() => import('./pages/Services'))
 const ServiceDetail = lazy(() => import('./pages/ServiceDetail'))
