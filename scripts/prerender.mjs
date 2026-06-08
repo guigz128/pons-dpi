@@ -4,6 +4,21 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { villes } from '../src/content/villes.js'
 
+// Snapshot DPE optionnel — si absent (jamais généré), on retombe sur les
+// descriptions génériques sans casser le build.
+let getDpeStatsBySlug = () => null
+try {
+  ;({ getDpeStatsBySlug } = await import('../src/content/villes-dpe-stats.js'))
+} catch {
+  console.warn('[prerender] villes-dpe-stats.js absent — descriptions DPE génériques.')
+}
+
+const dpeFgSentence = (slug) => {
+  const s = getDpeStatsBySlug(slug)
+  if (!s || s.fgPct == null) return ''
+  return ` ${s.fgPct.toLocaleString('fr-FR')} % des logements y sont classés F ou G (passoires thermiques) selon l'ADEME.`
+}
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(__dirname, '..')
 const dist = path.join(root, 'dist')
@@ -112,7 +127,7 @@ const routes = [
   ...villes.map((v) => ({
     path: `/diagnostic-immobilier/${v.slug}`,
     title: `Diagnostic immobilier à ${v.name} (${v.codePostal}) — DPE, amiante | Pons DPI`,
-    description: `Diagnostiqueur immobilier indépendant à ${v.name}. DPE, amiante, plomb, électricité, gaz, termites. Devis indicatif en ligne, activité dès mars 2027.`,
+    description: `Diagnostiqueur immobilier indépendant à ${v.name}. DPE, amiante, plomb, électricité, gaz, termites.${dpeFgSentence(v.slug)} Devis indicatif en ligne, activité dès mars 2027.`,
   })),
   {
     path: '/devis',
@@ -124,11 +139,17 @@ const routes = [
     title: 'DPE existant à Montpellier — Recherche officielle ADEME | Pons DPI',
     description: 'Trouvez en 10 secondes le DPE déjà réalisé à votre adresse. Données officielles ADEME, mise à jour quotidienne. Montpellier et Hérault.',
   },
-  ...villes.map((v) => ({
-    path: `/dpe-existant/${v.slug}`,
-    title: `DPE existant à ${v.name} (${v.codePostal}) — Statistiques ADEME | Pons DPI`,
-    description: `Distribution des étiquettes DPE à ${v.name}, nombre de logements F ou G, marché de l'audit énergétique. Données officielles ADEME.`,
-  })),
+  ...villes.map((v) => {
+    const s = getDpeStatsBySlug(v.slug)
+    const figures = s
+      ? ` ${s.total.toLocaleString('fr-FR')} DPE recensés, ${s.fgPct.toLocaleString('fr-FR')} % classés F ou G.`
+      : ''
+    return {
+      path: `/dpe-existant/${v.slug}`,
+      title: `DPE existant à ${v.name} (${v.codePostal}) — Statistiques ADEME | Pons DPI`,
+      description: `Distribution des étiquettes DPE à ${v.name}, logements F ou G, marché de l'audit énergétique.${figures} Données officielles ADEME.`,
+    }
+  }),
   {
     path: '/a-propos',
     title: 'À propos — Guillaume Pons, diagnostiqueur immobilier | Pons DPI',

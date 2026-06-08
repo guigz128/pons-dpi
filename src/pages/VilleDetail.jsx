@@ -24,39 +24,8 @@ import ScrollReveal from '../components/ui/ScrollReveal'
 import Pricing from '../components/sections/Pricing'
 import Process from '../components/sections/Process'
 import Cta from '../components/sections/Cta'
-
-// DPE 2021 (3CL) — la classe finale est le pire des deux : énergie (kWhEP/m².an) et émissions (kgCO2eq/m².an)
-const DPE_LEVELS = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
-
-function dpeClassFromKwh(kwh) {
-  if (kwh == null) return null
-  if (kwh <= 70) return 'A'
-  if (kwh <= 110) return 'B'
-  if (kwh <= 180) return 'C'
-  if (kwh <= 250) return 'D'
-  if (kwh <= 330) return 'E'
-  if (kwh <= 420) return 'F'
-  return 'G'
-}
-
-function dpeClassFromCo2(co2) {
-  if (co2 == null) return null
-  if (co2 <= 6) return 'A'
-  if (co2 <= 11) return 'B'
-  if (co2 <= 30) return 'C'
-  if (co2 <= 50) return 'D'
-  if (co2 <= 70) return 'E'
-  if (co2 <= 100) return 'F'
-  return 'G'
-}
-
-function dpeWorstClass(kwh, co2) {
-  const a = dpeClassFromKwh(kwh)
-  const b = dpeClassFromCo2(co2)
-  if (!a) return b
-  if (!b) return a
-  return DPE_LEVELS.indexOf(a) >= DPE_LEVELS.indexOf(b) ? a : b
-}
+import DpeStatsLive from '../components/sections/DpeStatsLive'
+import { useDpeStats } from '../hooks/useDpeStats'
 
 function findVilleByName(name) {
   const normalized = name.trim().toLowerCase()
@@ -66,6 +35,7 @@ function findVilleByName(name) {
 export default function VilleDetail() {
   const { ville: slug } = useParams()
   const ville = getVilleBySlug(slug)
+  const dpeStats = useDpeStats(slug, ville?.name)
 
   if (!ville) {
     return (
@@ -94,7 +64,6 @@ export default function VilleDetail() {
     pctMaisons,
     pctAppartements,
     prixM2Moyen,
-    dpeMoyenKwh,
     risques,
     diagnosticsPrioritaires,
     intro,
@@ -107,12 +76,16 @@ export default function VilleDetail() {
     inOuterZone,
   } = ville
 
-  const dpeClass = dpeWorstClass(dpeMoyenKwh, ville.dpeMoyenCo2)
   const url = `https://www.pons-dpi.fr/diagnostic-immobilier/${slug}`
   const SITE = 'https://www.pons-dpi.fr'
 
+  const dpeSentence =
+    dpeStats.stats?.fgPct != null
+      ? ` ${dpeStats.stats.fgPct.toLocaleString('fr-FR')} % des logements y sont classés F ou G (passoires thermiques) selon l'ADEME.`
+      : ''
+
   const pageTitle = `Diagnostic immobilier ${name} (${codePostal}) — DPE, amiante, termites | Pons DPI`
-  const pageDescription = `Diagnostic immobilier à ${name} : DPE, amiante, plomb, électricité, gaz, termites. Devis indicatif en ligne, activité dès mars 2027.`
+  const pageDescription = `Diagnostic immobilier à ${name} : DPE, amiante, plomb, électricité, gaz, termites.${dpeSentence} Devis indicatif en ligne, activité dès mars 2027.`
   const ogDescription = `Diagnostics immobiliers à ${name} et alentours. Devis en ligne, activité dès mars 2027.`
 
   // Combined JSON-LD : LocalBusiness + FAQPage + BreadcrumbList
@@ -257,6 +230,18 @@ export default function VilleDetail() {
                     06 51 66 91 61
                   </Button>
                 </div>
+
+                {dpeStats.stats && dpeStats.stats.total > 0 && (
+                  <div className="mt-8 inline-flex items-center gap-3 rounded-md border border-border bg-surface px-4 py-3 shadow-sm">
+                    <div className="flex items-center justify-center h-9 w-9 rounded-full bg-red-50 text-danger shrink-0">
+                      <Flame className="h-5 w-5" />
+                    </div>
+                    <p className="text-sm text-text leading-snug">
+                      <span className="font-bold">{dpeStats.stats.total.toLocaleString('fr-FR')} DPE</span> enregistrés à {name} depuis 2021 —{' '}
+                      <span className="font-bold text-danger">{dpeStats.stats.fgPct.toLocaleString('fr-FR')} %</span> de passoires thermiques (F ou G)
+                    </p>
+                  </div>
+                )}
               </div>
 
               {ville.image && (
@@ -295,6 +280,15 @@ export default function VilleDetail() {
           </ScrollReveal>
         </div>
       </section>
+
+      {/* 1bis — Statistiques DPE réelles (live ADEME) — mises en avant juste après le hero */}
+      <DpeStatsLive
+        villeName={name}
+        slug={slug}
+        stats={dpeStats.stats}
+        loading={dpeStats.loading}
+        failed={dpeStats.failed}
+      />
 
       {/* 2 — Pourquoi un diagnostic à [ville] */}
       <section className="py-16 sm:py-20">
@@ -353,7 +347,7 @@ export default function VilleDetail() {
             </div>
           </ScrollReveal>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
             {population != null && (
               <ScrollReveal delay={0}>
                 <Card className="h-full">
@@ -401,40 +395,7 @@ export default function VilleDetail() {
               </ScrollReveal>
             )}
 
-            {dpeMoyenKwh != null && (
-              <ScrollReveal delay={0.15}>
-                <Card className="h-full">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-full bg-accent-light text-accent mb-3">
-                    <Flame className="h-5 w-5" />
-                  </div>
-                  <p className="text-xs uppercase tracking-wide text-text-secondary">DPE moyen</p>
-                  <p className="mt-1 text-lg font-bold text-text leading-tight">
-                    {dpeMoyenKwh}
-                    <span className="text-xs font-medium text-text-secondary"> kWhEP/m²·an</span>
-                  </p>
-                  {ville.dpeMoyenCo2 != null && (
-                    <p className="text-lg font-bold text-text leading-tight">
-                      {ville.dpeMoyenCo2}
-                      <span className="text-xs font-medium text-text-secondary"> kgCO₂/m²·an</span>
-                    </p>
-                  )}
-                  {dpeClass && (
-                    <p className="mt-1 text-xs text-text-secondary">
-                      classe {dpeClass} estimée<sup>*</sup>
-                    </p>
-                  )}
-                </Card>
-              </ScrollReveal>
-            )}
           </div>
-
-          {dpeClass && (
-            <ScrollReveal>
-              <p className="mt-4 max-w-3xl mx-auto text-center text-xs text-text-secondary">
-                <sup>*</sup> Classe estimée selon la méthode DPE 2021 (3CL) — la classe finale retenue est la plus défavorable entre la consommation d'énergie primaire et les émissions de CO₂.
-              </p>
-            </ScrollReveal>
-          )}
 
           {parcImmoNote && (
             <ScrollReveal>
