@@ -146,3 +146,29 @@ html {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
+
+/* — Impression / export PDF des rapports — */
+@media print {
+  html,
+  body {
+    background: #fff !important;
+  }
+  /* Forcer l'impression des fonds couleur (étiquettes DPE, barres, badges) */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  /* Neutraliser les animations ScrollReveal (sinon contenu masqué dans le PDF) */
+  .scroll-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  /* Éviter de couper les cartes / blocs entre deux pages */
+  .rounded-lg,
+  .rounded-md {
+    break-inside: avoid;
+  }
+  @page {
+    margin: 12mm;
+  }
+}

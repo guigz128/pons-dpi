@@ -44,7 +44,7 @@ export default function RapportClient() {
       </Helmet>
 
       {/* Bandeau confidentialité */}
-      <div className="border-b border-border bg-stone-100">
+      <div className="border-b border-border bg-stone-100 print:hidden">
         <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3">
           <Lock className="h-4 w-4 shrink-0 text-text-secondary" />
           <p className="text-xs text-text-secondary">

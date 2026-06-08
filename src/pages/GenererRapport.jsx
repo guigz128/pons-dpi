@@ -635,7 +635,7 @@ export default function GenererRapport() {
               Aperçu live du rapport
             </p>
           </div>
-          <RapportMission data={data} />
+          <RapportMission data={data} showPrint={false} />
         </div>
       )}
     </>

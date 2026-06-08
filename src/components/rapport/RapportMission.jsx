@@ -22,6 +22,7 @@ import {
   Info,
   Sparkles,
   Wind,
+  Printer,
 } from 'lucide-react'
 import Button from '../ui/Button'
 import Badge from '../ui/Badge'
@@ -256,7 +257,7 @@ const ACTION_PLAN_STYLES = [
   { color: 'border-accent bg-accent-light', iconBg: 'bg-accent-light text-accent' },
 ]
 
-export default function RapportMission({ data }) {
+export default function RapportMission({ data, showPrint = true }) {
   const [tranche, setTranche] = useState('intermediaire')
   const { bien, mission, diagnostiqueur, dpe } = data
 
@@ -269,6 +270,17 @@ export default function RapportMission({ data }) {
 
   return (
     <>
+      {showPrint && (
+        <button
+          type="button"
+          onClick={() => window.print()}
+          className="fixed bottom-6 left-6 z-40 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-2.5 text-sm font-semibold shadow-lg transition-colors hover:border-accent hover:text-accent print:hidden"
+        >
+          <Printer className="h-4 w-4" />
+          Imprimer / PDF
+        </button>
+      )}
+
       {/* COVER — Identité bien */}
       <section className="border-b border-border bg-surface">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:py-16">
@@ -737,7 +749,7 @@ export default function RapportMission({ data }) {
       )}
 
       {/* CTA FINAL */}
-      <section className="bg-text text-white">
+      <section className="bg-text text-white print:hidden">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:py-20">
           <ScrollReveal>
             <div className="grid gap-10 lg:grid-cols-[1.3fr_1fr] lg:items-center">

@@ -14,13 +14,17 @@ export default function Layout({ children }) {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <div className="sticky top-0 z-40">
+      <div className="sticky top-0 z-40 print:hidden">
         <PreLaunchBanner />
         <Header />
       </div>
       <main className="flex-1">{children}</main>
-      <Footer />
-      <WhatsAppWidget />
+      <div className="print:hidden">
+        <Footer />
+      </div>
+      <div className="print:hidden">
+        <WhatsAppWidget />
+      </div>
     </div>
   )
 }

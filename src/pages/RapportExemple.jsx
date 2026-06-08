@@ -17,7 +17,7 @@ export default function RapportExemple() {
       </Helmet>
 
       {/* Bannière démo */}
-      <div className="border-b border-border bg-accent-light">
+      <div className="border-b border-border bg-accent-light print:hidden">
         <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-start gap-3">
             <Sparkles className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
