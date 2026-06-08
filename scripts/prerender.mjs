@@ -220,29 +220,67 @@ if (fs.existsSync(ssrEntry)) {
   console.warn('[prerender] dist-ssr/entry-server.js absent — #root vide (lance "vite build --ssr" avant).')
 }
 
+// En React 19, react-helmet-async n'alimente plus le context : les balises
+// <title>/<meta>/<link> sont rendues inline et React les hisse en tête du body
+// SSG. On isole ce run de tête pour le replacer dans le <head>.
+function splitHeadTags(body) {
+  const m = body.match(
+    /^((?:\s*(?:<title>[\s\S]*?<\/title>|<meta\b[^>]*?>|<link\b[^>]*?>))+)/,
+  )
+  if (!m) return { head: '', rest: body }
+  return { head: m[1], rest: body.slice(m[1].length) }
+}
+
+// Retire le <title> et la <meta name="description"> par défaut du template
+// (index.html) pour laisser les balises Helmet faire foi (pas de doublon).
+function stripDefaultHead(html) {
+  return html
+    .replace(/<title>[\s\S]*?<\/title>\s*/i, '')
+    .replace(/<meta\s+name="description"[^>]*>\s*/i, '')
+}
+
 let count = 0
 let ssrCount = 0
+let helmetCount = 0
 const ssrFailed = []
 for (const route of routes) {
   const canonical = route.path === '/' ? `${SITE_URL}/` : `${SITE_URL}${route.path}`
-  let html = inject(template, {
-    title: route.title,
-    description: route.description,
-    canonical,
-  })
 
-  // Injecte le HTML pré-rendu dans #root (hydraté côté client). Une route qui
-  // planterait au SSR (accès window au render, etc.) retombe sur #root vide.
+  // Rendu SSG du body (peut échouer : accès window au render, etc.).
+  let body = null
   if (ssrRender) {
     try {
-      const { html: body } = ssrRender(route.path)
-      if (body && html.includes('<div id="root"></div>')) {
-        html = html.replace('<div id="root"></div>', `<div id="root">${body}</div>`)
-        ssrCount++
-      }
+      ;({ html: body } = ssrRender(route.path))
     } catch (e) {
       ssrFailed.push(`${route.path} (${e.message.split('\n')[0]})`)
     }
+  }
+
+  let html
+  if (body) {
+    const { head, rest } = splitHeadTags(body)
+    if (head) {
+      // Helmet a produit les balises de tête → on les hisse dans le <head>
+      // (et on supprime les valeurs par défaut du template pour éviter les
+      // <title>/<meta description> en double).
+      const headBlock = head.trim().replace(/></g, '>\n    <')
+      // On hisse les balises de tête dans le <head> et on les retire de #root :
+      // le HTML statique (lu par les crawlers et scrapers sociaux) a ainsi un seul
+      // jeu de balises page-spécifiques, au bon endroit. Au runtime, React 19
+      // réhydrate et gère le <head> dynamiquement (cf. note SSR ci-dessous).
+      html = stripDefaultHead(template)
+        .replace('</head>', `    ${headBlock}\n  </head>`)
+        .replace('<div id="root"></div>', `<div id="root">${rest}</div>`)
+      helmetCount++
+    } else {
+      // Body SSG sans balises Helmet → injection manuelle du <head>.
+      html = inject(template, { title: route.title, description: route.description, canonical })
+        .replace('<div id="root"></div>', `<div id="root">${body}</div>`)
+    }
+    ssrCount++
+  } else {
+    // Pas de SSR (bundle absent ou route en échec) → #root vide + head manuel.
+    html = inject(template, { title: route.title, description: route.description, canonical })
   }
 
   let outPath
@@ -259,7 +297,9 @@ for (const route of routes) {
   console.log(`  ${route.path.padEnd(40)} → ${path.relative(root, outPath)}`)
 }
 
-console.log(`\n[prerender] ${count} routes generated · ${ssrCount} avec body SSG.`)
+console.log(
+  `\n[prerender] ${count} routes generated · ${ssrCount} avec body SSG (${helmetCount} via Helmet → <head>).`,
+)
 if (ssrFailed.length) {
   console.warn(`[prerender] ${ssrFailed.length} route(s) en #root vide (SSR échoué) :`)
   for (const f of ssrFailed) console.warn(`   - ${f}`)
