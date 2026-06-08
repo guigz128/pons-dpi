@@ -55,6 +55,7 @@ Les slugs ciblent le blog : `slug` → `https://www.pons-dpi.fr/blog/<slug>/`.
 | Commande | npm | Description |
 |---|---|---|
 | `cf.sh queries --days 30` | `npm run seo:queries -- --days 30` | Vraies requêtes Search Console |
+| `node scripts/seo-reminder.mjs` | `npm run seo:reminder` | Check indexation + **email Resend** (rappel post-ping). `--dry` = sans email |
 | `cf.sh reddit --subreddit immobilier --period year` | — | Thèmes/questions d'un subreddit (pas de `--site`) |
 
 ---
