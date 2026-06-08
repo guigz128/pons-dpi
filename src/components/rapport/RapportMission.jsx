@@ -712,7 +712,9 @@ export default function RapportMission({ data }) {
                       <div className="min-w-0">
                         <p className="truncate font-medium">{doc.name}</p>
                         <p className="text-xs text-text-secondary">
-                          PDF · {doc.pages} pages · {doc.size}
+                          {['PDF', doc.pages && `${doc.pages} pages`, doc.size]
+                            .filter(Boolean)
+                            .join(' · ')}
                         </p>
                       </div>
                     </div>
