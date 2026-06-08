@@ -60,6 +60,17 @@ Les slugs ciblent le blog : `slug` → `https://www.pons-dpi.fr/blog/<slug>/`.
 
 ---
 
+## Rappel indexation automatique (hebdo)
+
+Un email récap de l'état d'indexation part **chaque lundi (~9h23 Paris)** via GitHub
+Actions, côté serveur (indépendant de ta machine) :
+
+- Workflow : `content-factory/.github/workflows/seo-reminder-pons-dpi.yml`
+- Script : `content-factory/scripts/send-indexation-reminder.mjs` (audit-gsc → email Resend)
+- Déclenchement manuel : `gh workflow run seo-reminder-pons-dpi.yml --repo guigz128/content-factory`
+- Rappel ponctuel en local (envoie tout de suite) : `npm run seo:reminder` (`--dry` pour tester sans email)
+- Pour arrêter : supprimer/commenter le `schedule` du workflow.
+
 ## Workflow type — après publication d'articles blog
 
 ```bash
