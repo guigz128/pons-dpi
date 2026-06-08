@@ -181,13 +181,15 @@ function escHtml(s) {
 }
 
 function inject(html, { title, description, canonical }) {
-  let out = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${escHtml(title)}</title>`)
+  // Remplacements via fonction → les `$` éventuels du contenu ne sont pas
+  // interprétés par String.replace (cf. priceRange "$$" du JSON-LD).
+  let out = html.replace(/<title>[\s\S]*?<\/title>/, () => `<title>${escHtml(title)}</title>`)
 
   const descTag = `<meta name="description" content="${escAttr(description)}" />`
   if (/<meta\s+name="description"[^>]*>/i.test(out)) {
-    out = out.replace(/<meta\s+name="description"[^>]*>/i, descTag)
+    out = out.replace(/<meta\s+name="description"[^>]*>/i, () => descTag)
   } else {
-    out = out.replace('</title>', `</title>\n    ${descTag}`)
+    out = out.replace('</title>', () => `</title>\n    ${descTag}`)
   }
 
   const seoTags = [
@@ -202,7 +204,7 @@ function inject(html, { title, description, canonical }) {
     `<meta name="twitter:description" content="${escAttr(description)}" />`,
   ].map((t) => `    ${t}`).join('\n')
 
-  out = out.replace('</head>', `${seoTags}\n  </head>`)
+  out = out.replace('</head>', () => `${seoTags}\n  </head>`)
   return out
 }
 
@@ -266,16 +268,18 @@ for (const route of routes) {
       const headBlock = head.trim().replace(/></g, '>\n    <')
       // On hisse les balises de tête dans le <head> et on les retire de #root :
       // le HTML statique (lu par les crawlers et scrapers sociaux) a ainsi un seul
-      // jeu de balises page-spécifiques, au bon endroit. Au runtime, React 19
-      // réhydrate et gère le <head> dynamiquement (cf. note SSR ci-dessous).
+      // jeu de balises page-spécifiques, au bon endroit. Au runtime, le shim
+      // client (cf. src/lib/helmet-shim.jsx) synchronise le <head> sans doublon.
+      // NB : remplacements via fonction → les `$` du contenu (ex. priceRange
+      // "$$" du JSON-LD) ne sont pas interprétés par String.replace.
       html = stripDefaultHead(template)
-        .replace('</head>', `    ${headBlock}\n  </head>`)
-        .replace('<div id="root"></div>', `<div id="root">${rest}</div>`)
+        .replace('</head>', () => `    ${headBlock}\n  </head>`)
+        .replace('<div id="root"></div>', () => `<div id="root">${rest}</div>`)
       helmetCount++
     } else {
       // Body SSG sans balises Helmet → injection manuelle du <head>.
       html = inject(template, { title: route.title, description: route.description, canonical })
-        .replace('<div id="root"></div>', `<div id="root">${body}</div>`)
+        .replace('<div id="root"></div>', () => `<div id="root">${body}</div>`)
     }
     ssrCount++
   } else {
