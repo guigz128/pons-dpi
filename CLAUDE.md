@@ -303,6 +303,37 @@ cd ~/Desktop/Guillaume/blogs/pons-dpi-blog/worker && npx wrangler deploy
 
 ---
 
+## Outils SEO / API (pont content-factory)
+
+> Les outils SEO (indexation Google/Bing, audits, recherche d'audience) vivent dans
+> **content-factory**. On ne les duplique pas : `scripts/cf.sh` est un **pont** qui les
+> appelle pré-câblés sur le site `pons-dpi` (injecte `--site pons-dpi`). Doc complète : [TOOLS.md](TOOLS.md).
+
+```bash
+bash scripts/cf.sh help                    # liste des commandes
+npm run seo:index -- --slugs "a,b"         # ping Indexing API
+npm run seo:crawl -- --from-sitemap        # état d'indexation
+npm run seo:reindex                        # health-check + ping post-déploiement
+npm run seo:audit-gsc                      # audit indexation
+bash scripts/cf.sh queries --days 30       # vraies requêtes Search Console
+bash scripts/cf.sh index-bing --from-sitemap   # IndexNow / Bing
+```
+
+| Catégorie | Commandes `cf.sh` |
+|---|---|
+| **Indexation Google** | `index`, `crawl`, `submit-sitemap`, `reindex` |
+| **Bing / IndexNow** | `index-bing`, `submit-sitemap-bing` |
+| **Audits SEO** | `audit-gsc`, `audit-onpage`, `audit-links`, `audit-internal`, `audit-images`, `audit-perf`, `audit-tags` |
+| **Audience** | `queries` (Search Console), `reddit` |
+
+- Tout passe par le `.env`, `secrets/gsc-sa.json`, la config `config/sites/pons-dpi.yaml`
+  et le `node_modules` de content-factory — **rien à installer ici, aucun secret à committer**.
+- Service account `content-factory-indexing@…` Propriétaire de `sc-domain:pons-dpi.fr`.
+- Chemin content-factory surchargé via `CF_ROOT=/path bash scripts/cf.sh …` si besoin.
+- La **rédaction** d'articles (brief/write/images) n'est pas pontée : travailler dans content-factory.
+
+---
+
 ## WhatsApp Widget
 
 ```jsx
