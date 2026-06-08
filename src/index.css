@@ -168,6 +168,22 @@ html {
   .rounded-md {
     break-inside: avoid;
   }
+  /* Les wrappers d'animation ne doivent pas se couper non plus */
+  .scroll-reveal {
+    break-inside: avoid;
+  }
+  /* Carte scénario : reste d'un seul tenant + marge haute pour loger le badge */
+  .scenario-card {
+    break-inside: avoid;
+    margin-top: 1.25rem;
+  }
+  /* Badge « RECOMMANDÉ » : repasse dans le flux (centré) pour ne pas déborder
+     sur la page précédente quand la carte démarre en haut d'une page */
+  .scenario-badge {
+    position: static !important;
+    transform: none !important;
+    margin: -0.25rem auto 1rem !important;
+  }
   @page {
     margin: 12mm;
   }

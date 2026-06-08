@@ -134,12 +134,12 @@ function ScenarioCard({ scenario, tranche }) {
   const aides = scenario.cost - net
   return (
     <div
-      className={`relative flex flex-col rounded-lg border bg-surface p-6 ${
+      className={`scenario-card relative flex flex-col rounded-lg border bg-surface p-6 ${
         scenario.recommended ? 'border-accent shadow-md ring-1 ring-accent' : 'border-border'
       }`}
     >
       {scenario.recommended && (
-        <div className="absolute -top-3 left-1/2 flex -translate-x-1/2 items-center gap-1 rounded-full bg-accent px-3 py-1 text-xs font-bold text-white shadow">
+        <div className="scenario-badge absolute -top-3 left-1/2 flex -translate-x-1/2 items-center gap-1 rounded-full bg-accent px-3 py-1 text-xs font-bold text-white shadow">
           <Sparkles className="h-3 w-3" />
           RECOMMANDÉ
         </div>
