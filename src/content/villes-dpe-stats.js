@@ -2076,6 +2076,321 @@ export const VILLE_DPE_STATS = {
         "pct": 0.2
       }
     ]
+  },
+  "vauvert": {
+    "insee": "30341",
+    "total": 1829,
+    "fgCount": 32,
+    "fgPct": 1.7,
+    "efgCount": 149,
+    "efgPct": 8.1,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 79,
+        "pct": 4.3
+      },
+      {
+        "label": "B",
+        "count": 216,
+        "pct": 11.8
+      },
+      {
+        "label": "C",
+        "count": 1028,
+        "pct": 56.2
+      },
+      {
+        "label": "D",
+        "count": 357,
+        "pct": 19.5
+      },
+      {
+        "label": "E",
+        "count": 117,
+        "pct": 6.4
+      },
+      {
+        "label": "F",
+        "count": 27,
+        "pct": 1.5
+      },
+      {
+        "label": "G",
+        "count": 5,
+        "pct": 0.3
+      }
+    ]
+  },
+  "manduel": {
+    "insee": "30155",
+    "total": 829,
+    "fgCount": 14,
+    "fgPct": 1.7,
+    "efgCount": 59,
+    "efgPct": 7.1,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 120,
+        "pct": 14.5
+      },
+      {
+        "label": "B",
+        "count": 156,
+        "pct": 18.8
+      },
+      {
+        "label": "C",
+        "count": 353,
+        "pct": 42.6
+      },
+      {
+        "label": "D",
+        "count": 141,
+        "pct": 17
+      },
+      {
+        "label": "E",
+        "count": 45,
+        "pct": 5.4
+      },
+      {
+        "label": "F",
+        "count": 13,
+        "pct": 1.6
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "marguerittes": {
+    "insee": "30156",
+    "total": 982,
+    "fgCount": 18,
+    "fgPct": 1.8,
+    "efgCount": 92,
+    "efgPct": 9.4,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 53,
+        "pct": 5.4
+      },
+      {
+        "label": "B",
+        "count": 200,
+        "pct": 20.4
+      },
+      {
+        "label": "C",
+        "count": 480,
+        "pct": 48.9
+      },
+      {
+        "label": "D",
+        "count": 157,
+        "pct": 16
+      },
+      {
+        "label": "E",
+        "count": 74,
+        "pct": 7.5
+      },
+      {
+        "label": "F",
+        "count": 15,
+        "pct": 1.5
+      },
+      {
+        "label": "G",
+        "count": 3,
+        "pct": 0.3
+      }
+    ]
+  },
+  "generac": {
+    "insee": "30128",
+    "total": 518,
+    "fgCount": 8,
+    "fgPct": 1.5,
+    "efgCount": 39,
+    "efgPct": 7.5,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 39,
+        "pct": 7.5
+      },
+      {
+        "label": "B",
+        "count": 103,
+        "pct": 19.9
+      },
+      {
+        "label": "C",
+        "count": 234,
+        "pct": 45.2
+      },
+      {
+        "label": "D",
+        "count": 103,
+        "pct": 19.9
+      },
+      {
+        "label": "E",
+        "count": 31,
+        "pct": 6
+      },
+      {
+        "label": "F",
+        "count": 7,
+        "pct": 1.4
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "bellegarde": {
+    "insee": "30034",
+    "total": 980,
+    "fgCount": 8,
+    "fgPct": 0.8,
+    "efgCount": 44,
+    "efgPct": 4.5,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 112,
+        "pct": 11.4
+      },
+      {
+        "label": "B",
+        "count": 186,
+        "pct": 19
+      },
+      {
+        "label": "C",
+        "count": 411,
+        "pct": 41.9
+      },
+      {
+        "label": "D",
+        "count": 227,
+        "pct": 23.2
+      },
+      {
+        "label": "E",
+        "count": 36,
+        "pct": 3.7
+      },
+      {
+        "label": "F",
+        "count": 8,
+        "pct": 0.8
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "garons": {
+    "insee": "30125",
+    "total": 626,
+    "fgCount": 10,
+    "fgPct": 1.6,
+    "efgCount": 37,
+    "efgPct": 5.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 67,
+        "pct": 10.7
+      },
+      {
+        "label": "B",
+        "count": 102,
+        "pct": 16.3
+      },
+      {
+        "label": "C",
+        "count": 308,
+        "pct": 49.2
+      },
+      {
+        "label": "D",
+        "count": 112,
+        "pct": 17.9
+      },
+      {
+        "label": "E",
+        "count": 27,
+        "pct": 4.3
+      },
+      {
+        "label": "F",
+        "count": 8,
+        "pct": 1.3
+      },
+      {
+        "label": "G",
+        "count": 2,
+        "pct": 0.3
+      }
+    ]
+  },
+  "milhaud": {
+    "insee": "30169",
+    "total": 977,
+    "fgCount": 17,
+    "fgPct": 1.7,
+    "efgCount": 78,
+    "efgPct": 8,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 97,
+        "pct": 9.9
+      },
+      {
+        "label": "B",
+        "count": 141,
+        "pct": 14.4
+      },
+      {
+        "label": "C",
+        "count": 504,
+        "pct": 51.6
+      },
+      {
+        "label": "D",
+        "count": 157,
+        "pct": 16.1
+      },
+      {
+        "label": "E",
+        "count": 61,
+        "pct": 6.2
+      },
+      {
+        "label": "F",
+        "count": 11,
+        "pct": 1.1
+      },
+      {
+        "label": "G",
+        "count": 6,
+        "pct": 0.6
+      }
+    ]
   }
 }
 

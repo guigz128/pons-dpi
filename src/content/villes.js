@@ -4968,6 +4968,711 @@ export const villes = [
       },
     ],
   },
+  {
+    slug: "vauvert",
+    name: "Vauvert",
+    nameSeo: "Vauvert (30)",
+    codePostal: "30600",
+    departement: "Gard",
+    departementCode: "30",
+    departementSlug: "gard",
+    region: "Occitanie",
+
+    coords: { lat: 43.626, lng: 4.3103 },
+    distanceFromBaseKm: 37,
+    travelTimeMin: 40,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 11671,
+    nbLogements: 5836,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 63,
+    pctAppartements: 35,
+    surfaceMoyenne: 92,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 2600,
+    prixM2Maison: 2790,
+    prixM2Appartement: 2245,
+    dpeMoyenKwh: 195,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Nîmes",
+      radon: 1,
+      sismique: 1,
+      mouvementTerrain: true,
+      pprApproves: [
+        "PPRi de Vauvert (bassin du Vistre) — approuvé par arrêté préfectoral le 4 avril 2014.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Vauvert est en TRI de Nîmes avec un PPRi inondation approuvé en 2014 (débordements du Vistre et du Rhôny), une exposition au retrait-gonflement des argiles (plusieurs reconnaissances de catastrophe naturelle sécheresse) et la proximité de la Petite Camargue. L\'État des Risques et Pollutions est systématique et particulièrement scruté à la vente comme à la location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Comme tout le Gard, Vauvert est couverte par l\'arrêté préfectoral de délimitation des zones à termites. En Petite Camargue humide, le constat termites est incontournable à chaque vente (validité 6 mois).",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Le parc est composé à 63 % de maisons individuelles, dont une large part de pavillons des années 1970-1990 souvent énergivores. Le DPE est central, avec un audit énergétique probable sur les passoires F ou G mises en vente.",
+      },
+    ],
+
+    intro:
+      "Vauvert, porte de la Petite Camargue gardoise, marie un centre ancien languedocien à de larges couronnes pavillonnaires et trois hameaux ruraux (Gallician, Montcalm, Sylvéréal). Marché accessible (autour de 2 600 €/m²), parc dominé à 63 % par la maison individuelle, 11 671 habitants.",
+
+    parcImmoNote:
+      "Le centre ancien de Vauvert concentre un bâti antérieur à 1949 (rues étroites autour de la Tour de l\'Horloge, de la Porte Saint-Louis et du temple circulaire de Charles Durand) où plomb et amiante sont fréquents. La couronne est dominée par les pavillons des années 1970-1990 — déclenchement quasi-systématique des diagnostics électricité et gaz au-delà de 15 ans d\'installation. Les hameaux de Gallician, Montcalm et Sylvéréal, à dominante agricole et viticole (Costières), complètent un parc majoritairement en résidences principales.",
+
+    enjeuxLocaux:
+      "Vauvert appartient au TRI de Nîmes et dispose d\'un PPRi approuvé en 2014 couvrant les débordements lents du Vistre et du Rhôny. Le sol argileux de plaine expose au retrait-gonflement (sécheresse), et le territoire touche la Camargue gardoise via le canal du Rhône à Sète. L\'ERP est donc un document central de toute transaction. Le diagnostic termites est obligatoire dans les zones classées du Gard.",
+
+    accessibilityNote:
+      "Vauvert est à 40 minutes de Prades-le-Lez (37 km) via l\'A9 — intervention sous 48 h garantie sur l\'ensemble de la commune et ses hameaux (Gallician, Montcalm, Sylvéréal) dès l\'ouverture de l\'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien (Tour de l\'Horloge, Porte Saint-Louis, temple Charles Durand — pré-1949)",
+      "Couronnes pavillonnaires (années 1970-1990)",
+      "Hameaux de Gallician, Montcalm et Sylvéréal (ruraux / viticoles)",
+      "Plaine de la Petite Camargue (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Beauvoisin", "Le Cailar", "Saint-Gilles", "Saint-Laurent-d'Aigouze", "Vestric-et-Candiac", "Les Saintes-Maries-de-la-Mer"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Vauvert ?",
+        a: "Pour toute vente à Vauvert, le DPE et l\'ERP (TRI de Nîmes + PPRi du Vistre) sont systématiques. Selon le bien : amiante et plomb sur le centre ancien et les pavillons pré-1997, électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans les zones classées du Gard), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Vauvert ?",
+        a: "À Vauvert, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 63 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Vauvert ?",
+        a: "Vauvert est à 40 minutes de Prades-le-Lez (37 km) via l\'A9. L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Vauvert ?",
+        a: "Possiblement oui : Vauvert est en TRI de Nîmes et dispose d\'un PPRi approuvé en 2014 (débordements du Vistre et du Rhôny). L\'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "manduel",
+    name: "Manduel",
+    nameSeo: "Manduel (30)",
+    codePostal: "30129",
+    departement: "Gard",
+    departementCode: "30",
+    departementSlug: "gard",
+    region: "Occitanie",
+
+    coords: { lat: 43.8084, lng: 4.4962 },
+    distanceFromBaseKm: 52,
+    travelTimeMin: 50,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 7044,
+    nbLogements: 3020,
+    pctResidencesSecondaires: 1,
+    pctMaisons: 85,
+    pctAppartements: 14,
+    surfaceMoyenne: 98,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 108,
+    prixM2Moyen: 2730,
+    prixM2Maison: 2790,
+    prixM2Appartement: 2400,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Nîmes",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "PPRi du Vistre — approuvé par arrêté préfectoral le 4 avril 2014.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Manduel est en zone inondable du Vistre (TRI de Nîmes) avec un PPRi approuvé en 2014, et a connu de nombreuses reconnaissances de catastrophe naturelle inondation. L\'État des Risques et Pollutions est systématiquement attendu par les notaires et acquéreurs.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "L\'ouverture de la gare TGV Nîmes-Pont-du-Gard en 2019 a porté un fort volume de transactions et de programmes neufs. Sur un parc à 85 % de maisons mêlant pavillons des années 1970-1990 et constructions récentes, le DPE est le diagnostic le plus demandé.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Le Gard est couvert par un arrêté préfectoral de délimitation des zones à termites : l\'état parasitaire est obligatoire à la vente, point de vigilance local fort en plaine du Vistre.",
+      },
+    ],
+
+    intro:
+      "Manduel a vu sa population se transformer avec l\'arrivée de la gare TGV Nîmes-Pont-du-Gard (2019). Commune résidentielle de la plaine du Vistre, à l\'est de Nîmes, elle affiche un parc à 85 % de maisons individuelles et un marché autour de 2 730 €/m², 7 044 habitants.",
+
+    parcImmoNote:
+      "Manduel associe un petit centre ancien en pierre (autour de l\'église Saint-Genest, bâti pré-1949 — plomb fréquent) à une très large couronne pavillonnaire des années 1970-1990, où électricité et gaz dépassent souvent le seuil des 15 ans. Depuis l\'ouverture de la gare TGV en 2019, de nombreux lotissements et programmes neufs d\'architecture méditerranéenne contemporaine ont renforcé un parc majoritairement individuel et récent.",
+
+    enjeuxLocaux:
+      "Manduel est rattachée au TRI de Nîmes et dispose d\'un PPRi du Vistre approuvé en 2014, dans un secteur exposé aux crues rapides du bassin Vistre-Vidourle (nombreuses reconnaissances de catastrophe naturelle). L\'ERP est central pour toute transaction. Le diagnostic termites est obligatoire dans les zones classées du Gard.",
+
+    accessibilityNote:
+      "Manduel est à 50 minutes de Prades-le-Lez (52 km) via l\'A9 (sortie Nîmes-Est) — intervention sous 48 h garantie sur l\'ensemble de la commune, du centre ancien aux lotissements proches de la gare TGV, dès l\'ouverture de l\'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien autour de l\'église Saint-Genest (pré-1949)",
+      "Couronne pavillonnaire (années 1970-1990)",
+      "Lotissements et programmes neufs post-gare TGV (depuis 2019)",
+      "Plaine du Vistre (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Beaucaire", "Bellegarde", "Bouillargues", "Marguerittes", "Redessan", "Rodilhan"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Manduel ?",
+        a: "Pour toute vente à Manduel, le DPE et l\'ERP (TRI de Nîmes + PPRi du Vistre) sont systématiques. Selon le bien : amiante et plomb sur le centre ancien et les pavillons pré-1997, électricité et gaz (installations de plus de 15 ans), termites (zones classées du Gard), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Manduel ?",
+        a: "À Manduel, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 85 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Manduel ?",
+        a: "Manduel est à 50 minutes de Prades-le-Lez (52 km) via l\'A9. L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Manduel ?",
+        a: "C\'est possible : Manduel est en TRI de Nîmes avec un PPRi du Vistre approuvé en 2014, dans un secteur sujet aux crues rapides. L\'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "marguerittes",
+    name: "Marguerittes",
+    nameSeo: "Marguerittes (30)",
+    codePostal: "30320",
+    departement: "Gard",
+    departementCode: "30",
+    departementSlug: "gard",
+    region: "Occitanie",
+
+    coords: { lat: 43.8661, lng: 4.4594 },
+    distanceFromBaseKm: 52,
+    travelTimeMin: 50,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 8346,
+    nbLogements: 3967,
+    pctResidencesSecondaires: 1,
+    pctMaisons: 85,
+    pctAppartements: 14,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 2570,
+    prixM2Maison: 2570,
+    prixM2Appartement: 2500,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Nîmes",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "PPRi de Marguerittes (bassin du Vistre) — approuvé par arrêté préfectoral le 4 avril 2014.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Marguerittes, en première couronne nord-est de Nîmes, dispose d\'un PPRi inondation approuvé en 2014 (bassin du Vistre, ruissellement pluvial marqué — nombreuses reconnaissances de catastrophe naturelle). L\'État des Risques et Pollutions est systématiquement obligatoire et particulièrement justifié ici.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Le Gard fait l\'objet d\'un arrêté préfectoral de délimitation des zones à termites : le constat est requis à la vente sur ce secteur de la couronne nîmoise.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Parc très majoritairement pavillonnaire (85 % de maisons, constructions des années 1970-2000 souvent énergivores) : le DPE est incontournable pour toute vente ou location et pèse fortement sur la valorisation.",
+      },
+    ],
+
+    intro:
+      "Marguerittes, première couronne nord-est de Nîmes, est une commune languedocienne entre plaine viticole et garrigue. Parc à 85 % de maisons individuelles, marché autour de 2 570 €/m², 8 346 habitants.",
+
+    parcImmoNote:
+      "Marguerittes conserve un cœur de village ancien (bâti languedocien pré-1949) entouré d\'une forte extension pavillonnaire des années 1970-2000 — d\'où une part de maisons élevée (85 %) et des diagnostics électricité et gaz fréquents sur les installations de plus de 15 ans. Le territoire, à caractère viticole au sud (ancien « grenier de Nîmes ») et de garrigue au nord, reste majoritairement en résidences principales.",
+
+    enjeuxLocaux:
+      "Marguerittes est concernée par le PPRi du Vistre approuvé en 2014 et par un fort aléa de ruissellement pluvial, hérité notamment des inondations historiques de la couronne nîmoise. Le retrait-gonflement des argiles (sécheresse) est également présent. L\'ERP est central à toute transaction, et le diagnostic termites obligatoire dans les zones classées du Gard.",
+
+    accessibilityNote:
+      "Marguerittes est à 50 minutes de Prades-le-Lez (52 km) via l\'A9 (sortie Nîmes-Est) — intervention sous 48 h garantie sur l\'ensemble de la commune, du cœur de village aux lotissements, dès l\'ouverture de l\'activité.",
+
+    quartiersTypiques: [
+      "Cœur de village ancien (bâti languedocien pré-1949)",
+      "Extensions pavillonnaires (années 1970-2000)",
+      "Plaine viticole au sud (ancien « grenier de Nîmes »)",
+      "Garrigue et oppidum de Roquecourbe au nord",
+    ],
+
+    communesLimitrophes: ["Nîmes", "Saint-Gervasy", "Rodilhan", "Poulx", "Manduel", "Redessan"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Marguerittes ?",
+        a: "Pour toute vente à Marguerittes, le DPE et l\'ERP (PPRi du Vistre, ruissellement) sont systématiques. Selon le bien : amiante et plomb sur le cœur de village et les pavillons pré-1997, électricité et gaz (installations de plus de 15 ans), termites (zones classées du Gard), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Marguerittes ?",
+        a: "À Marguerittes, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 85 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Marguerittes ?",
+        a: "Marguerittes est à 50 minutes de Prades-le-Lez (52 km) via l\'A9. L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Marguerittes ?",
+        a: "C\'est possible, notamment du fait du ruissellement pluvial : Marguerittes dispose d\'un PPRi du Vistre approuvé en 2014. L\'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "generac",
+    name: "Générac",
+    nameSeo: "Générac (30)",
+    codePostal: "30510",
+    departement: "Gard",
+    departementCode: "30",
+    departementSlug: "gard",
+    region: "Occitanie",
+
+    coords: { lat: 43.719, lng: 4.3587 },
+    distanceFromBaseKm: 40,
+    travelTimeMin: 45,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 4046,
+    nbLogements: 1948,
+    pctResidencesSecondaires: 2,
+    pctMaisons: 83,
+    pctAppartements: 17,
+    surfaceMoyenne: 98,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 110,
+    prixM2Moyen: 2300,
+    prixM2Maison: 2400,
+    prixM2Appartement: 2250,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 29,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPRi du Vistre — approuvé par arrêté préfectoral le 4 avril 2014.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Générac est concernée par le PPRi du Vistre approuvé en 2014 et figure en zone inondable depuis l\'Atlas des zones inondables (crues 2002, 2003, 2005, 2021). L\'État des Risques et Pollutions est obligatoire et systématiquement attendu à la vente.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Le Gard est couvert par un arrêté préfectoral de délimitation des zones à termites : le diagnostic est requis pour toute vente sur la commune.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Village viticole où le parc est composé à 83 % de maisons individuelles, souvent anciennes ou pavillonnaires : le DPE est le diagnostic à plus fort volume, avec un enjeu rénovation sur les biens énergivores.",
+      },
+    ],
+
+    intro:
+      "Générac est un village viticole de la plaine au sud de Nîmes, en terroir AOC Costières-de-Nîmes. Centre ancien en pierre, domaines viticoles et lotissements pavillonnaires composent un parc à 83 % de maisons individuelles, marché accessible (autour de 2 300 €/m²), 4 046 habitants.",
+
+    parcImmoNote:
+      "Générac s\'organise autour d\'un centre ancien groupé en pierre (bâti pré-1949 — plomb fréquent) ponctué de domaines et mas viticoles isolés dans la plaine des Costières. La croissance démographique récente s\'est traduite par des lotissements pavillonnaires en périphérie, ce qui explique la très forte proportion de maisons (83 %) et un parc majoritairement en résidences principales, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Générac est concernée par le PPRi du Vistre approuvé en 2014 et inscrite en zone inondable (Atlas des zones inondables depuis 2004). L\'ERP est central à toute transaction. Le diagnostic termites est obligatoire dans les zones classées du Gard, et la dimension viticole du territoire implique un bâti agricole spécifique (mas, caves) souvent ancien.",
+
+    accessibilityNote:
+      "Générac est à 45 minutes de Prades-le-Lez (40 km) via l\'A9 — intervention sous 48 h garantie sur l\'ensemble de la commune, du centre ancien aux domaines viticoles, dès l\'ouverture de l\'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien groupé en pierre (pré-1949)",
+      "Domaines et mas viticoles de la plaine (AOC Costières-de-Nîmes)",
+      "Lotissements pavillonnaires périphériques",
+      "Plaine du Vistre (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Nîmes", "Bouillargues", "Aubord", "Beauvoisin", "Vauvert", "Saint-Gilles", "Bernis"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Générac ?",
+        a: "Pour toute vente à Générac, le DPE et l\'ERP (PPRi du Vistre, zone inondable) sont systématiques. Selon le bien : amiante et plomb sur le centre ancien et le bâti viticole pré-1997, électricité et gaz (installations de plus de 15 ans), termites (zones classées du Gard), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Générac ?",
+        a: "À Générac, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 83 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Générac ?",
+        a: "Générac est à 45 minutes de Prades-le-Lez (40 km) via l\'A9. L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Générac ?",
+        a: "C\'est possible : Générac est concernée par le PPRi du Vistre approuvé en 2014 et inscrite en zone inondable. L\'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "bellegarde",
+    name: "Bellegarde",
+    nameSeo: "Bellegarde (30)",
+    codePostal: "30127",
+    departement: "Gard",
+    departementCode: "30",
+    departementSlug: "gard",
+    region: "Occitanie",
+
+    coords: { lat: 43.7483, lng: 4.4967 },
+    distanceFromBaseKm: 51,
+    travelTimeMin: 50,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 8035,
+    nbLogements: 3583,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 79,
+    pctAppartements: 19,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 108,
+    prixM2Moyen: 2790,
+    prixM2Maison: 2890,
+    prixM2Appartement: 2400,
+    dpeMoyenKwh: 195,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: "Delta du Rhône",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "PPRi du Rhône — approuvé par arrêté préfectoral le 7 février 2014.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Bellegarde, au seuil de la Camargue, est concernée par le PPRi du Rhône approuvé en 2014 et exposée au risque de submersion. L\'État des Risques et Pollutions est systématiquement obligatoire et constitue un point de vigilance majeur à la vente comme à la location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Le Gard est couvert par un arrêté préfectoral de délimitation des zones à termites : l\'état parasitaire est requis pour toute vente, argument local d\'autant plus pertinent en bordure de plaine humide.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Parc majoritairement pavillonnaire (79 % de maisons, large part construite après 1970) : le DPE est obligatoire pour toute vente ou location et central pour des maisons individuelles à rénover.",
+      },
+    ],
+
+    intro:
+      "Bellegarde, bourg de plaine entre Nîmes et Arles au seuil de la Camargue, marie un centre ancien autour de son château médiéval à une forte extension pavillonnaire. Parc à 79 % de maisons, marché autour de 2 790 €/m², 8 035 habitants.",
+
+    parcImmoNote:
+      "Bellegarde s\'organise autour d\'un centre ancien hérité de son château médiéval (bâti pré-1949 — plomb fréquent) et d\'une large couronne pavillonnaire, environ 69 % du parc étant construit après 1970 — d\'où des diagnostics électricité et gaz fréquents sur les installations de plus de 15 ans. Située sur l\'axe logistique et viticole entre Nîmes et le Rhône (A54, zones d\'activité), la commune reste dominée par les résidences principales de propriétaires occupants.",
+
+    enjeuxLocaux:
+      "Bellegarde est concernée par le PPRi du Rhône approuvé en 2014 et exposée au risque de submersion, à proximité immédiate de la Camargue et du delta du Rhône. L\'ERP y est un document central, et le diagnostic termites obligatoire dans les zones classées du Gard. Le terroir AOC Costières-de-Nîmes implique aussi un bâti agricole souvent ancien.",
+
+    accessibilityNote:
+      "Bellegarde est à 50 minutes de Prades-le-Lez (51 km) via l\'A9 puis l\'A54 — intervention sous 48 h garantie sur l\'ensemble de la commune, du centre ancien aux lotissements de plaine, dès l\'ouverture de l\'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien autour du château médiéval (pré-1949)",
+      "Couronne pavillonnaire (post-1970)",
+      "Plaine viticole et porte de la Camargue (AOC Costières-de-Nîmes)",
+      "Abords du Rhône (zone PPRi, submersion)",
+    ],
+
+    communesLimitrophes: ["Beaucaire", "Bouillargues", "Fourques", "Garons", "Manduel", "Saint-Gilles"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Bellegarde ?",
+        a: "Pour toute vente à Bellegarde, le DPE et l\'ERP (PPRi du Rhône, submersion) sont systématiques. Selon le bien : amiante et plomb sur le centre ancien et les pavillons pré-1997, électricité et gaz (installations de plus de 15 ans), termites (zones classées du Gard), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Bellegarde ?",
+        a: "À Bellegarde, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 79 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Bellegarde ?",
+        a: "Bellegarde est à 50 minutes de Prades-le-Lez (51 km) via l\'A9 puis l\'A54. L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Bellegarde ?",
+        a: "C\'est probable pour les biens proches du Rhône : Bellegarde est concernée par le PPRi du Rhône approuvé en 2014 et exposée au risque de submersion. L\'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "garons",
+    name: "Garons",
+    nameSeo: "Garons (30)",
+    codePostal: "30128",
+    departement: "Gard",
+    departementCode: "30",
+    departementSlug: "gard",
+    region: "Occitanie",
+
+    coords: { lat: 43.7706, lng: 4.4397 },
+    distanceFromBaseKm: 47,
+    travelTimeMin: 48,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 5381,
+    nbLogements: 2190,
+    pctResidencesSecondaires: 1,
+    pctMaisons: 76,
+    pctAppartements: 24,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 108,
+    prixM2Moyen: 2400,
+    prixM2Maison: 2600,
+    prixM2Appartement: 2350,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Garons est une commune résidentielle du plateau des Costières en fort développement pavillonnaire (population +46 % depuis 1999). Sur un parc à 76 % de maisons, le DPE est le diagnostic à plus fort volume et un argument clé à la revente.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Le Gard est intégralement couvert par un arrêté préfectoral de délimitation des zones à termites : l\'état termites est obligatoire à la vente sur Garons (validité 6 mois).",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Garons est inscrite en zone inondable (Atlas des zones inondables, bassin du Vistre) et en sismicité zone 2. L\'État des Risques et Pollutions est obligatoire à la vente comme à la location et particulièrement pertinent ici.",
+      },
+    ],
+
+    intro:
+      "Garons est une commune résidentielle du plateau des Costières, au sud-est de Nîmes, marquée par un fort développement pavillonnaire et la proximité de l\'aéroport Nîmes-Alès-Camargue-Cévennes. Parc à 76 % de maisons, marché autour de 2 400 €/m², 5 381 habitants.",
+
+    parcImmoNote:
+      "Garons associe un centre villageois ancien (mairie de 1658, ancienne résidence épiscopale ; église reconstruite en 1862) à de vastes lotissements pavillonnaires péri-urbains qui ont porté une croissance rapide de la population — d\'où une part de maisons élevée (76 %) et des installations électriques et gaz souvent au-delà de 15 ans. Le bâti ancien pré-1949 reste limité, ce qui rend plomb et amiante moins systématiques que la moyenne. La proximité de l\'aéroport et des zones d\'activité au sud de Nîmes attire primo-accédants et actifs.",
+
+    enjeuxLocaux:
+      "Garons est inscrite à l\'Atlas des zones inondables (bassin du Vistre) et exposée à la sismicité de zone 2. La commune ne dispose pas, à ce jour, d\'un PPRi approuvé, mais l\'État des Risques et Pollutions reste obligatoire et précise le zonage inondable applicable à chaque adresse. Le diagnostic termites est obligatoire dans les zones classées du Gard.",
+
+    accessibilityNote:
+      "Garons est à 48 minutes de Prades-le-Lez (47 km) via l\'A9 puis l\'A54 — intervention sous 48 h garantie sur l\'ensemble de la commune, du centre villageois aux lotissements proches de l\'aéroport, dès l\'ouverture de l\'activité.",
+
+    quartiersTypiques: [
+      "Centre villageois ancien (mairie de 1658, église de 1862)",
+      "Lotissements pavillonnaires péri-urbains",
+      "Abords de l\'aéroport Nîmes-Alès-Camargue-Cévennes et zones d\'activité",
+      "Plateau des Costières (vignoble)",
+    ],
+
+    communesLimitrophes: ["Bouillargues", "Rodilhan", "Bellegarde", "Caissargues", "Saint-Gilles", "Manduel"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Garons ?",
+        a: "Pour toute vente à Garons, le DPE et l\'ERP (zone inondable du Vistre, sismicité 2) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (zones classées du Gard), amiante et plomb sur le bâti ancien du centre, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Garons ?",
+        a: "À Garons, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 76 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Garons ?",
+        a: "Garons est à 48 minutes de Prades-le-Lez (47 km) via l\'A9 puis l\'A54. L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Garons ?",
+        a: "C\'est possible : Garons est inscrite à l\'Atlas des zones inondables (bassin du Vistre), sans PPRi approuvé à ce jour. L\'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "milhaud",
+    name: "Milhaud",
+    nameSeo: "Milhaud (30)",
+    codePostal: "30540",
+    departement: "Gard",
+    departementCode: "30",
+    departementSlug: "gard",
+    region: "Occitanie",
+
+    coords: { lat: 43.7831, lng: 4.3081 },
+    distanceFromBaseKm: 37,
+    travelTimeMin: 42,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 6297,
+    nbLogements: 2688,
+    pctResidencesSecondaires: 1,
+    pctMaisons: 78,
+    pctAppartements: 20,
+    surfaceMoyenne: 92,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 2620,
+    prixM2Maison: 2660,
+    prixM2Appartement: 2470,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Nîmes",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "PPRi du Vistre — approuvé par arrêté préfectoral le 4 avril 2014.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Milhaud est en zone inondable du Vistre (PPRi approuvé en 2014, le Rhôny traverse aussi le secteur) et a connu plusieurs reconnaissances de catastrophe naturelle inondation. L\'État des Risques et Pollutions est systématiquement obligatoire et constitue un point de vigilance fort pour les acquéreurs.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Le Gard est intégralement couvert par un arrêté préfectoral de délimitation des zones à termites : l\'état termites est exigé à la vente sur toute la commune.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Sur un parc à 78 % de maisons individuelles, dont beaucoup datent des années 1970-1990, le DPE est le diagnostic à plus fort volume, avec un enjeu rénovation (audit éventuel sur les passoires F ou G).",
+      },
+    ],
+
+    intro:
+      "Milhaud, couronne sud-ouest de Nîmes en bordure des Costières, marie un village historique à une forte périurbanisation pavillonnaire. Parc à 78 % de maisons, marché autour de 2 620 €/m², 6 297 habitants.",
+
+    parcImmoNote:
+      "Milhaud associe un centre ancien (village historique autour de l\'église Saint-Saturnin, temple de 1809 — bâti pré-1949 où plomb et amiante sont fréquents) à un développement fortement pavillonnaire des années 1970-1990 lié à la périurbanisation de Nîmes. La dynamique récente est portée par des lotissements neufs, créant un parc mixte : cœur de village ancien et large couronne de pavillons individuels, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Milhaud est rattachée au TRI de Nîmes et dispose d\'un PPRi du Vistre approuvé en 2014, le Rhôny traversant également le secteur (plusieurs reconnaissances de catastrophe naturelle inondation). Le retrait-gonflement des argiles est présent. L\'ERP est central à toute transaction, et le diagnostic termites obligatoire dans les zones classées du Gard. Les Costières nîmoises (Natura 2000) bordent la commune.",
+
+    accessibilityNote:
+      "Milhaud est à 42 minutes de Prades-le-Lez (37 km) via l\'A9 — intervention sous 48 h garantie sur l\'ensemble de la commune, du cœur de village aux lotissements, dès l\'ouverture de l\'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien (église Saint-Saturnin, temple de 1809 — pré-1949)",
+      "Couronne pavillonnaire (années 1970-1990)",
+      "Lotissements récents",
+      "Costières nîmoises (vignoble AOC, Natura 2000)",
+    ],
+
+    communesLimitrophes: ["Nîmes", "Caveirac", "Langlade", "Bernis", "Aubord", "Générac"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Milhaud ?",
+        a: "Pour toute vente à Milhaud, le DPE et l\'ERP (TRI de Nîmes + PPRi du Vistre) sont systématiques. Selon le bien : amiante et plomb sur le centre ancien et les pavillons pré-1997, électricité et gaz (installations de plus de 15 ans), termites (zones classées du Gard), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Milhaud ?",
+        a: "À Milhaud, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 78 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Milhaud ?",
+        a: "Milhaud est à 42 minutes de Prades-le-Lez (37 km) via l\'A9. L\'intervention sera garantie sous 48 h après validation du devis dès l\'ouverture de l\'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Milhaud ?",
+        a: "C\'est possible : Milhaud est en TRI de Nîmes avec un PPRi du Vistre approuvé en 2014, le Rhôny traversant aussi le secteur. L\'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
 ]
 
 export function getVilleBySlug(slug) {

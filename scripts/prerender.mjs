@@ -112,12 +112,12 @@ const routes = [
   {
     path: '/diagnostic-immobilier/herault',
     title: 'Diagnostic immobilier Hérault (34) — DPE, amiante, termites | Pons DPI',
-    description: `Diagnostic immobilier dans l'Hérault : 20 communes avec page dédiée (Montpellier, Castelnau, Lattes, Sète, Lunel...). Diagnostiqueur indépendant — activité dès mars 2027.`,
+    description: `Diagnostic immobilier dans l'Hérault : ${villes.filter((v) => v.departementCode === '34').length} communes avec page dédiée (Montpellier, Castelnau, Lattes, Sète, Lunel...). Diagnostiqueur indépendant — activité dès mars 2027.`,
   },
   {
     path: '/diagnostic-immobilier/gard',
     title: 'Diagnostic immobilier Gard (30) — DPE, amiante, termites | Pons DPI',
-    description: `Diagnostic immobilier dans le Gard : 9 communes avec page dédiée (Aigues-Mortes, Le Grau-du-Roi, Sommières, Bagnols-sur-Cèze...). Diagnostiqueur indépendant — activité dès mars 2027.`,
+    description: `Diagnostic immobilier dans le Gard : ${villes.filter((v) => v.departementCode === '30').length} communes avec page dédiée (Aigues-Mortes, Le Grau-du-Roi, Nîmes Métropole, Bagnols-sur-Cèze...). Diagnostiqueur indépendant — activité dès mars 2027.`,
   },
   {
     path: '/diagnostic-immobilier/aude',

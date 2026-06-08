@@ -331,6 +331,41 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/vauvert</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/manduel</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/marguerittes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/generac</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/bellegarde</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/garons</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/milhaud</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.pons-dpi.fr/mentions-legales</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
