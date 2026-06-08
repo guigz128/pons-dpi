@@ -2706,6 +2706,321 @@ export const VILLE_DPE_STATS = {
         "pct": 0
       }
     ]
+  },
+  "saint-mathieu-de-treviers": {
+    "insee": "34276",
+    "total": 905,
+    "fgCount": 3,
+    "fgPct": 0.3,
+    "efgCount": 30,
+    "efgPct": 3.3,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 49,
+        "pct": 5.4
+      },
+      {
+        "label": "B",
+        "count": 108,
+        "pct": 11.9
+      },
+      {
+        "label": "C",
+        "count": 637,
+        "pct": 70.4
+      },
+      {
+        "label": "D",
+        "count": 81,
+        "pct": 9
+      },
+      {
+        "label": "E",
+        "count": 27,
+        "pct": 3
+      },
+      {
+        "label": "F",
+        "count": 1,
+        "pct": 0.1
+      },
+      {
+        "label": "G",
+        "count": 2,
+        "pct": 0.2
+      }
+    ]
+  },
+  "les-matelles": {
+    "insee": "34153",
+    "total": 168,
+    "fgCount": 3,
+    "fgPct": 1.8,
+    "efgCount": 17,
+    "efgPct": 10.1,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 16,
+        "pct": 9.5
+      },
+      {
+        "label": "B",
+        "count": 18,
+        "pct": 10.7
+      },
+      {
+        "label": "C",
+        "count": 71,
+        "pct": 42.3
+      },
+      {
+        "label": "D",
+        "count": 46,
+        "pct": 27.4
+      },
+      {
+        "label": "E",
+        "count": 14,
+        "pct": 8.3
+      },
+      {
+        "label": "F",
+        "count": 3,
+        "pct": 1.8
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "assas": {
+    "insee": "34014",
+    "total": 130,
+    "fgCount": 9,
+    "fgPct": 6.9,
+    "efgCount": 35,
+    "efgPct": 26.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 12,
+        "pct": 9.2
+      },
+      {
+        "label": "B",
+        "count": 16,
+        "pct": 12.3
+      },
+      {
+        "label": "C",
+        "count": 41,
+        "pct": 31.5
+      },
+      {
+        "label": "D",
+        "count": 26,
+        "pct": 20
+      },
+      {
+        "label": "E",
+        "count": 26,
+        "pct": 20
+      },
+      {
+        "label": "F",
+        "count": 7,
+        "pct": 5.4
+      },
+      {
+        "label": "G",
+        "count": 2,
+        "pct": 1.5
+      }
+    ]
+  },
+  "teyran": {
+    "insee": "34309",
+    "total": 435,
+    "fgCount": 7,
+    "fgPct": 1.6,
+    "efgCount": 25,
+    "efgPct": 5.7,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 36,
+        "pct": 8.3
+      },
+      {
+        "label": "B",
+        "count": 72,
+        "pct": 16.6
+      },
+      {
+        "label": "C",
+        "count": 213,
+        "pct": 49
+      },
+      {
+        "label": "D",
+        "count": 89,
+        "pct": 20.5
+      },
+      {
+        "label": "E",
+        "count": 18,
+        "pct": 4.1
+      },
+      {
+        "label": "F",
+        "count": 7,
+        "pct": 1.6
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "saint-vincent-de-barbeyrargues": {
+    "insee": "34290",
+    "total": 62,
+    "fgCount": 1,
+    "fgPct": 1.6,
+    "efgCount": 6,
+    "efgPct": 9.7,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 12,
+        "pct": 19.4
+      },
+      {
+        "label": "B",
+        "count": 7,
+        "pct": 11.3
+      },
+      {
+        "label": "C",
+        "count": 22,
+        "pct": 35.5
+      },
+      {
+        "label": "D",
+        "count": 15,
+        "pct": 24.2
+      },
+      {
+        "label": "E",
+        "count": 5,
+        "pct": 8.1
+      },
+      {
+        "label": "F",
+        "count": 0,
+        "pct": 0
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 1.6
+      }
+    ]
+  },
+  "combaillaux": {
+    "insee": "34082",
+    "total": 163,
+    "fgCount": 7,
+    "fgPct": 4.3,
+    "efgCount": 14,
+    "efgPct": 8.6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 43,
+        "pct": 26.4
+      },
+      {
+        "label": "B",
+        "count": 40,
+        "pct": 24.5
+      },
+      {
+        "label": "C",
+        "count": 58,
+        "pct": 35.6
+      },
+      {
+        "label": "D",
+        "count": 8,
+        "pct": 4.9
+      },
+      {
+        "label": "E",
+        "count": 7,
+        "pct": 4.3
+      },
+      {
+        "label": "F",
+        "count": 5,
+        "pct": 3.1
+      },
+      {
+        "label": "G",
+        "count": 2,
+        "pct": 1.2
+      }
+    ]
+  },
+  "vailhauques": {
+    "insee": "34320",
+    "total": 189,
+    "fgCount": 3,
+    "fgPct": 1.6,
+    "efgCount": 11,
+    "efgPct": 5.8,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 15,
+        "pct": 7.9
+      },
+      {
+        "label": "B",
+        "count": 35,
+        "pct": 18.5
+      },
+      {
+        "label": "C",
+        "count": 87,
+        "pct": 46
+      },
+      {
+        "label": "D",
+        "count": 41,
+        "pct": 21.7
+      },
+      {
+        "label": "E",
+        "count": 8,
+        "pct": 4.2
+      },
+      {
+        "label": "F",
+        "count": 3,
+        "pct": 1.6
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
   }
 }
 

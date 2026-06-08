@@ -6382,6 +6382,722 @@ export const villes = [
       },
     ],
   },
+  {
+    slug: "saint-mathieu-de-treviers",
+    name: "Saint-Mathieu-de-Tréviers",
+    nameSeo: "Saint-Mathieu-de-Tréviers (34)",
+    codePostal: "34270",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.7679, lng: 3.8628 },
+    distanceFromBaseKm: 8,
+    travelTimeMin: 12,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 4979,
+    nbLogements: 2100,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 73,
+    pctAppartements: 27,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 115,
+    prixM2Moyen: 3900,
+    prixM2Maison: 3900,
+    prixM2Appartement: 3600,
+    dpeMoyenKwh: 175,
+    dpeMoyenCo2: 24,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 3,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation — approuvé par arrêté préfectoral le 28 février 2013 (réseau du Terrieu et du Lirou).",
+        "PPRif (risque d'incendie de forêt) — approuvé par arrêté préfectoral le 21 mars 2005 (massif du Pic Saint-Loup).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Saint-Mathieu-de-Tréviers cumule un PPRi inondation (2013) et un PPRif incendie de forêt (2005) au pied du massif du Pic Saint-Loup, plus un potentiel radon de catégorie 3 (karst calcaire). L'État des Risques et Pollutions est systématiquement obligatoire et particulièrement chargé ici.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Couronne nord aisée et très demandée, au parc majoritairement pavillonnaire des années 1980-2000 : le DPE est le diagnostic à plus fort volume et un argument central à la revente.",
+      },
+      {
+        slug: "electricite",
+        whyHere:
+          "Beaucoup de maisons construites il y a plus de 15 ans : le diagnostic électricité (et gaz si installation présente) est quasi systématique à la vente comme à la location.",
+      },
+    ],
+
+    intro:
+      "Saint-Mathieu-de-Tréviers, ville principale du secteur du Pic Saint-Loup au cœur de l'AOC viticole, domine la couronne nord aisée de Montpellier sous le château de Montferrand. Parc à 73 % de maisons, marché aisé (autour de 3 900 €/m²), 4 979 habitants.",
+
+    parcImmoNote:
+      "Saint-Mathieu-de-Tréviers possède un petit noyau villageois ancien (église, bâti pré-1949) noyé dans une très forte croissance pavillonnaire récente : la commune a vu sa population se multiplier sous la pression de la couronne nord de Montpellier, avec de vastes lotissements postérieurs aux années 1980-2000. Le bâti, majoritairement individuel et récent, est surtout concerné par les obligations électricité et gaz. Des domaines viticoles (AOC Pic Saint-Loup) et leurs mas anciens ponctuent la périphérie.",
+
+    enjeuxLocaux:
+      "Saint-Mathieu-de-Tréviers est au pied du massif du Pic Saint-Loup et de l'Hortus, fortement boisé : le risque de feu de forêt est majeur (PPRif approuvé en 2005, obligations légales de débroussaillement) et constitue le risque le plus structurant pour le bâti en interface habitat-forêt. S'y ajoutent un PPRi inondation approuvé en 2013 (crues de type cévenol du Terrieu et du Lirou) et un potentiel radon élevé lié au karst calcaire. L'ERP est donc central, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Saint-Mathieu-de-Tréviers est à 12 minutes de Prades-le-Lez (8 km) — c'est le cœur de ma zone d'intervention : aucun frais de déplacement, intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Noyau villageois ancien (église, pré-1949)",
+      "Lotissements pavillonnaires récents (années 1980-2000)",
+      "Domaines viticoles AOC Pic Saint-Loup (mas anciens)",
+      "Interface habitat-forêt au pied du Pic Saint-Loup (zone PPRif)",
+    ],
+
+    communesLimitrophes: ["Saint-Jean-de-Cuculles", "Les Matelles", "Saint-Gély-du-Fesc", "Saint-Clément-de-Rivière", "Saint-Vincent-de-Barbeyrargues", "Le Triadou", "Valflaunès", "Sauteyrargues"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Mathieu-de-Tréviers ?",
+        a: "Pour toute vente à Saint-Mathieu-de-Tréviers, le DPE et l'ERP (PPRi inondation + PPRif feu de forêt + radon) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le bâti ancien du village, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Saint-Mathieu-de-Tréviers ?",
+        a: "À Saint-Mathieu-de-Tréviers, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 73 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement : la commune est au cœur de ma zone.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Mathieu-de-Tréviers ?",
+        a: "Saint-Mathieu-de-Tréviers est à 12 minutes de Prades-le-Lez (8 km), au cœur de ma zone. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Saint-Mathieu-de-Tréviers ?",
+        a: "C'est probable : la commune dispose d'un PPRi inondation (2013) et d'un PPRif incendie de forêt (2005) au pied du Pic Saint-Loup, avec un potentiel radon élevé. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "les-matelles",
+    name: "Les Matelles",
+    nameSeo: "Les Matelles (34)",
+    codePostal: "34270",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.7281, lng: 3.8083 },
+    distanceFromBaseKm: 6,
+    travelTimeMin: 12,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 2068,
+    nbLogements: 870,
+    pctResidencesSecondaires: 1,
+    pctMaisons: 88,
+    pctAppartements: 12,
+    surfaceMoyenne: 110,
+    surfaceMoyenneAppartement: 65,
+    surfaceMoyenneMaison: 118,
+    prixM2Moyen: 3990,
+    prixM2Maison: 4100,
+    prixM2Appartement: 3350,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation — approuvé par arrêté préfectoral le 28 février 2013.",
+        "PPRif (risque d'incendie de forêt) — approuvé par arrêté préfectoral le 30 janvier 2008.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Les Matelles cumule un PPRi inondation (2013) et un PPRif incendie de forêt (2008) en bordure de garrigue, au pied du Pic Saint-Loup et près de la source du Lez. L'État des Risques et Pollutions est systématiquement obligatoire et structurant.",
+      },
+      {
+        slug: "plomb",
+        whyHere:
+          "La circulade médiévale, exceptionnellement conservée (bâti en pierre pré-1949 très dense), impose le Constat de Risque d'Exposition au Plomb pour toute vente ou location : risque élevé de peintures anciennes au plomb.",
+      },
+      {
+        slug: "amiante",
+        whyHere:
+          "Le cœur médiéval et les premières extensions pavillonnaires antérieures au 1er juillet 1997 concentrent un bâti où le repérage amiante est quasi systématique en vente.",
+      },
+    ],
+
+    intro:
+      "Les Matelles, village médiéval à la circulade remarquablement conservée, est l'un des joyaux patrimoniaux de la vallée du Lez au pied du Pic Saint-Loup. Couronne nord aisée, parc à 88 % de maisons, marché tendu (autour de 3 990 €/m²), 2 068 habitants.",
+
+    parcImmoNote:
+      "Le cœur des Matelles est une circulade médiévale remarquable (plan circulaire concentrique du XIIe siècle), bâti en pierre pré-1949 très dense et bien conservé — d'où un enjeu fort plomb (CREP) et amiante. Tout autour, une extension pavillonnaire récente et importante (la majorité du parc est postérieure à 1970) compose des maisons individuelles spacieuses, occupées par leurs propriétaires. La dualité entre noyau historique protégé et lotissements contemporains structure le marché.",
+
+    enjeuxLocaux:
+      "Les Matelles disposent d'un PPRi inondation (2013) — la source du Lez jaillit à proximité, avec un aléa de ruissellement — et d'un PPRif incendie de forêt (2008) en bordure du massif du Pic Saint-Loup, avec obligations de débroussaillement. L'aléa retrait-gonflement des argiles est également marqué. L'ERP est donc central, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001), particulièrement pertinent sur le bâti ancien en bois du cœur médiéval.",
+
+    accessibilityNote:
+      "Les Matelles sont à 12 minutes de Prades-le-Lez (6 km) — au cœur de ma zone d'intervention : aucun frais de déplacement, intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Circulade médiévale (cœur en pierre, pré-1949)",
+      "Extensions pavillonnaires récentes (post-1970)",
+      "Abords de la source du Lez et de la vallée",
+      "Garrigue du Pic Saint-Loup (zone PPRif)",
+    ],
+
+    communesLimitrophes: ["Saint-Clément-de-Rivière", "Saint-Jean-de-Cuculles", "Le Triadou", "Saint-Mathieu-de-Tréviers", "Saint-Gély-du-Fesc", "Combaillaux", "Prades-le-Lez"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre aux Matelles ?",
+        a: "Pour toute vente aux Matelles, le DPE et l'ERP (PPRi inondation + PPRif feu de forêt) sont systématiques. Sur le cœur médiéval : plomb (CREP, bâti pré-1949 — quasi systématique) et amiante (avant 1997). Selon le bien : électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente aux Matelles ?",
+        a: "Aux Matelles, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 88 % de maisons. Sur le cœur médiéval, le plomb (CREP) s'ajoute fréquemment. Aucun frais de déplacement : la commune est au cœur de ma zone.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous aux Matelles ?",
+        a: "Les Matelles sont à 12 minutes de Prades-le-Lez (6 km), au cœur de ma zone. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel aux Matelles ?",
+        a: "C'est possible : la commune dispose d'un PPRi inondation (2013) et d'un PPRif incendie de forêt (2008) au pied du Pic Saint-Loup. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "assas",
+    name: "Assas",
+    nameSeo: "Assas (34)",
+    codePostal: "34820",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.7144, lng: 3.9039 },
+    distanceFromBaseKm: 4,
+    travelTimeMin: 10,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 1405,
+    nbLogements: 680,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 92,
+    pctAppartements: 8,
+    surfaceMoyenne: 110,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 118,
+    prixM2Moyen: 4525,
+    prixM2Maison: 4566,
+    prixM2Appartement: 4154,
+    dpeMoyenKwh: 180,
+    dpeMoyenCo2: 25,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRif (risque d'incendie de forêt) — Assas fait partie des communes du Grand Pic Saint-Loup dotées d'un Plan de Prévention du Risque d'incendie de forêt approuvé.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Village de garrigue (près de 40 % du territoire boisé), Assas dispose d'un PPRif incendie de forêt et d'un aléa inondation (le Salaison) ainsi que d'un fort aléa retrait-gonflement des argiles. L'État des Risques et Pollutions est systématiquement obligatoire et particulièrement justifié ici.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Commune parmi les plus aisées de la couronne nord (autour de 4 500 €/m²), au parc de grandes maisons individuelles souvent des années 1970-1990 : le DPE est le diagnostic de volume et pèse sur la valorisation.",
+      },
+      {
+        slug: "electricite",
+        whyHere:
+          "La majorité des maisons ont une installation de plus de 15 ans : le diagnostic électricité (et gaz si installation présente) est quasi systématique à la vente.",
+      },
+    ],
+
+    intro:
+      "Assas, village viticole parmi les plus aisés de la couronne nord de Montpellier, est dominé par sa folie du XVIIIe siècle, le château d'Assas. Secteur Pic Saint-Loup, parc à 92 % de maisons, marché premium (autour de 4 525 €/m²), 1 405 habitants.",
+
+    parcImmoNote:
+      "Assas possède un centre ancien médiéval organisé autour du château, avec une église romane (XIe-XIIe) — une part pré-1949 limitée mais réelle. Le parc est globalement semi-récent (environ 77 % construit après 1970), sous forme de lotissements pavillonnaires de grandes maisons individuelles avec terrain. Des domaines viticoles et des mas ponctuent la périphérie, héritage du caractère viticole du village. L'aléa retrait-gonflement des argiles concerne la quasi-totalité du territoire.",
+
+    enjeuxLocaux:
+      "Assas est un village de garrigue exposé au feu de forêt (PPRif approuvé, l'un des huit du Grand Pic Saint-Loup) — c'est le risque structurant local. S'y ajoutent un aléa inondation (le Salaison) et un fort aléa retrait-gonflement des argiles. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Assas est à 10 minutes de Prades-le-Lez (4 km) — au cœur de ma zone d'intervention : aucun frais de déplacement, intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien autour du château et de l'église romane (pré-1949)",
+      "Lotissements pavillonnaires de grandes maisons (post-1970)",
+      "Domaines viticoles et mas (secteur Pic Saint-Loup)",
+      "Garrigue boisée (zone PPRif, feu de forêt)",
+    ],
+
+    communesLimitrophes: ["Clapiers", "Guzargues", "Prades-le-Lez", "Saint-Mathieu-de-Tréviers", "Saint-Vincent-de-Barbeyrargues", "Teyran", "Le Triadou"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Assas ?",
+        a: "Pour toute vente à Assas, le DPE et l'ERP (PPRif feu de forêt + aléa inondation) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le centre ancien et le château, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Assas ?",
+        a: "À Assas, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 92 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement : la commune est au cœur de ma zone.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Assas ?",
+        a: "Assas est à 10 minutes de Prades-le-Lez (4 km), au cœur de ma zone. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Assas ?",
+        a: "C'est possible : Assas dispose d'un PPRif incendie de forêt (garrigue boisée) et d'un aléa inondation lié au Salaison, avec un fort aléa argiles. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "teyran",
+    name: "Teyran",
+    nameSeo: "Teyran (34)",
+    codePostal: "34820",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.688, lng: 3.9258 },
+    distanceFromBaseKm: 5,
+    travelTimeMin: 12,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 4787,
+    nbLogements: 2068,
+    pctResidencesSecondaires: 1,
+    pctMaisons: 90,
+    pctAppartements: 9,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 110,
+    prixM2Moyen: 3900,
+    prixM2Maison: 4000,
+    prixM2Appartement: 3500,
+    dpeMoyenKwh: 180,
+    dpeMoyenCo2: 25,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation du bassin du Salaison — approuvé par arrêté préfectoral le 14 août 2003.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Teyran dispose d'un PPRi inondation du bassin du Salaison (approuvé en 2003) et d'une exposition au feu de forêt (garrigue du secteur Pic Saint-Loup, obligations de débroussaillement). L'État des Risques et Pollutions est obligatoire et particulièrement pertinent à la vente.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Commune résidentielle à 90 % de maisons et au parc très majoritairement pavillonnaire (années 1970-1990) : le DPE est le diagnostic de volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "electricite",
+        whyHere:
+          "Le parc dominé par les pavillons des années 1971-1990 dépasse largement le seuil des 15 ans : le diagnostic électricité (et gaz si installation présente) est quasi systématique.",
+      },
+    ],
+
+    intro:
+      "Teyran, commune résidentielle de la couronne nord-est de Montpellier en secteur Pic Saint-Loup, a connu une forte croissance pavillonnaire. Parc à 90 % de maisons, marché aisé (autour de 3 900 €/m²), 4 787 habitants.",
+
+    parcImmoNote:
+      "Le parc de Teyran est très récent et fortement pavillonnaire : à peine 4 % des logements sont antérieurs à 1946, contre près de la moitié construits entre 1971 et 1990 et environ 40 % après 1991. La commune a connu une explosion démographique structurée par de vastes lotissements. Le centre ancien pré-1949 existe mais reste minoritaire. Conséquence : peu de plomb, amiante moins fréquent, mais un gros volume de pavillons des années 1970-1990 dont les installations électricité et gaz approchent ou dépassent 15 ans.",
+
+    enjeuxLocaux:
+      "Teyran dispose d'un PPRi inondation du bassin du Salaison (approuvé en 2003), traversée par le ruisseau de la Cassagnole. Le secteur garrigue du Pic Saint-Loup l'expose au feu de forêt (vigilance préfectorale et obligations de débroussaillement). L'ERP est donc obligatoire à chaque transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Teyran est à 12 minutes de Prades-le-Lez (5 km) — au cœur de ma zone d'intervention : aucun frais de déplacement, intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien (église Saint-Étienne, pré-1949 minoritaire)",
+      "Lotissements pavillonnaires (années 1971-1990)",
+      "Extensions résidentielles récentes (post-1991)",
+      "Garrigue et coteaux viticoles (secteur Pic Saint-Loup)",
+    ],
+
+    communesLimitrophes: ["Jacou", "Le Crès", "Assas", "Guzargues", "Castries", "Vendargues"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Teyran ?",
+        a: "Pour toute vente à Teyran, le DPE et l'ERP (PPRi inondation du Salaison + feu de forêt) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante sur les biens antérieurs à 1997, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Teyran ?",
+        a: "À Teyran, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 90 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement : la commune est au cœur de ma zone.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Teyran ?",
+        a: "Teyran est à 12 minutes de Prades-le-Lez (5 km), au cœur de ma zone. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Teyran ?",
+        a: "C'est possible, notamment à proximité du Salaison et de la Cassagnole : Teyran dispose d'un PPRi inondation approuvé en 2003. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "saint-vincent-de-barbeyrargues",
+    name: "Saint-Vincent-de-Barbeyrargues",
+    nameSeo: "Saint-Vincent-de-Barbeyrargues (34)",
+    codePostal: "34730",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.712, lng: 3.8765 },
+    distanceFromBaseKm: 2,
+    travelTimeMin: 8,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 775,
+    nbLogements: 290,
+    pctResidencesSecondaires: 1,
+    pctMaisons: 92,
+    pctAppartements: 8,
+    surfaceMoyenne: 110,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 118,
+    prixM2Moyen: 3940,
+    prixM2Maison: 3960,
+    prixM2Appartement: 3560,
+    dpeMoyenKwh: 180,
+    dpeMoyenCo2: 25,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Saint-Vincent-de-Barbeyrargues est inscrite à l'Atlas des zones inondables du Lez et exposée au feu de forêt (garrigue), sans PPR approuvé à ce jour. L'État des Risques et Pollutions reste obligatoire à la vente comme à la location et précise le zonage applicable à chaque adresse.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Petit village résidentiel aisé à 92 % de maisons, au parc majoritairement construit après 1970 : le DPE est le diagnostic de volume, avec un enjeu énergétique sur les maisons des années 1970-1990.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent dans ce contexte de garrigue et de bois.",
+      },
+    ],
+
+    intro:
+      "Saint-Vincent-de-Barbeyrargues, petit village résidentiel aisé voisin immédiat de Prades-le-Lez, appartient à la couronne nord de Montpellier en secteur Pic Saint-Loup. Parc à 92 % de maisons, marché tendu (autour de 3 940 €/m²), 775 habitants.",
+
+    parcImmoNote:
+      "Saint-Vincent-de-Barbeyrargues est un village résidentiel à dominante pavillonnaire récente : la grande majorité des logements a été construite après 1970, autour d'un petit noyau villageois ancien (église). Le parc se compose presque exclusivement de maisons familiales spacieuses occupées par leurs propriétaires, avec très peu de collectif et de locatif. Profil typique de la périurbanisation aisée du nord montpelliérain, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Saint-Vincent-de-Barbeyrargues est inscrite à l'Atlas des zones inondables du Lez (porter-à-connaissance) et exposée au feu de forêt par sa garrigue et ses bois, sans PPR approuvé à ce jour. L'ERP reste obligatoire et précise le zonage applicable. Le diagnostic termites est obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Saint-Vincent-de-Barbeyrargues est à 8 minutes de Prades-le-Lez (2 km) — c'est ma commune voisine immédiate, au cœur de ma zone : aucun frais de déplacement, intervention sous 48 h garantie dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Noyau villageois ancien (église)",
+      "Lotissements pavillonnaires récents (post-1970)",
+      "Garrigue et bois (interface habitat-forêt)",
+      "Abords de la vallée du Lez",
+    ],
+
+    communesLimitrophes: ["Prades-le-Lez", "Assas", "Le Triadou", "Guzargues", "Montferrier-sur-Lez", "Saint-Clément-de-Rivière"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Vincent-de-Barbeyrargues ?",
+        a: "Pour toute vente à Saint-Vincent-de-Barbeyrargues, le DPE et l'ERP (zone inondable du Lez, feu de forêt) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le bâti ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Saint-Vincent-de-Barbeyrargues ?",
+        a: "À Saint-Vincent-de-Barbeyrargues, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 92 % de maisons. Aucun frais de déplacement : c'est ma commune voisine immédiate.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Vincent-de-Barbeyrargues ?",
+        a: "Saint-Vincent-de-Barbeyrargues est à 8 minutes de Prades-le-Lez (2 km), ma commune voisine. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Saint-Vincent-de-Barbeyrargues ?",
+        a: "C'est possible : la commune est inscrite à l'Atlas des zones inondables du Lez et exposée au feu de forêt (garrigue), sans PPR approuvé à ce jour. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "combaillaux",
+    name: "Combaillaux",
+    nameSeo: "Combaillaux (34)",
+    codePostal: "34980",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.6744, lng: 3.7847 },
+    distanceFromBaseKm: 7,
+    travelTimeMin: 14,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 2001,
+    nbLogements: 806,
+    pctResidencesSecondaires: 2,
+    pctMaisons: 92,
+    pctAppartements: 8,
+    surfaceMoyenne: 110,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 120,
+    prixM2Moyen: 3700,
+    prixM2Maison: 3800,
+    prixM2Appartement: 3400,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation (bassin de la Mosson) — approuvé par arrêté préfectoral le 9 mars 2001.",
+        "PPRif (risque d'incendie de forêt) — approuvé par arrêté préfectoral le 30 janvier 2008.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Combaillaux cumule un PPRi inondation (bassin de la Mosson, 2001) et un PPRif incendie de forêt (2008) en plein cœur de garrigue. L'État des Risques et Pollutions est systématiquement obligatoire et particulièrement chargé ici.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Village à 92 % de maisons, au parc pavillonnaire souvent des années 1970-1990 : le DPE est le diagnostic à plus fort volume, avec un enjeu rénovation sur les passoires énergétiques.",
+      },
+      {
+        slug: "electricite",
+        whyHere:
+          "Très forte proportion de maisons issues de l'extension pavillonnaire (installations de plus de 15 ans) : le diagnostic électricité (et gaz si installation présente) est quasi systématique à la revente.",
+      },
+    ],
+
+    intro:
+      "Combaillaux, village résidentiel de la couronne nord-ouest de Montpellier niché dans la garrigue de la vallée de la Mosson, relève du secteur Pic Saint-Loup. Parc à 92 % de maisons, marché aisé (autour de 3 700 €/m²), 2 001 habitants.",
+
+    parcImmoNote:
+      "Combaillaux associe un noyau villageois ancien (pierre, garrigue) à une extension pavillonnaire récente importante, sous forme de lotissements implantés en garrigue sur les coteaux. Le parc est à 92 % composé de maisons individuelles, avec un taux de vacance faible et une quasi-absence de résidences secondaires : marché tendu de résidence principale, typique de la couronne nord-ouest de Montpellier, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Combaillaux cumule un PPRi inondation (bassin de la Mosson, approuvé en 2001) et un PPRif incendie de forêt (approuvé en 2008) — le risque feu de forêt, en plein cœur de garrigue, est structurant pour le bâti en interface habitat-forêt. L'aléa retrait-gonflement des argiles est également présent. L'ERP est donc central, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Combaillaux est à 14 minutes de Prades-le-Lez (7 km) — au cœur de ma zone d'intervention : aucun frais de déplacement, intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Noyau villageois ancien (église Saint-Étienne, pierre)",
+      "Lotissements pavillonnaires en garrigue (post-1970)",
+      "Coteaux et vallée de la Mosson",
+      "Garrigue boisée (zone PPRif, feu de forêt)",
+    ],
+
+    communesLimitrophes: ["Grabels", "Saint-Gély-du-Fesc", "Murviel-lès-Montpellier", "Vailhauquès", "Juvignac", "Montarnaud"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Combaillaux ?",
+        a: "Pour toute vente à Combaillaux, le DPE et l'ERP (PPRi inondation Mosson + PPRif feu de forêt) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le bâti ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Combaillaux ?",
+        a: "À Combaillaux, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 92 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement : la commune est au cœur de ma zone.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Combaillaux ?",
+        a: "Combaillaux est à 14 minutes de Prades-le-Lez (7 km), au cœur de ma zone. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Combaillaux ?",
+        a: "C'est probable : Combaillaux dispose d'un PPRi inondation (bassin de la Mosson, 2001) et d'un PPRif incendie de forêt (2008) en pleine garrigue. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "vailhauques",
+    name: "Vailhauquès",
+    nameSeo: "Vailhauquès (34)",
+    codePostal: "34570",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.6652, lng: 3.7304 },
+    distanceFromBaseKm: 11,
+    travelTimeMin: 18,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 2722,
+    nbLogements: 1022,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 93,
+    pctAppartements: 7,
+    surfaceMoyenne: 105,
+    surfaceMoyenneAppartement: 55,
+    surfaceMoyenneMaison: 115,
+    prixM2Moyen: 3560,
+    prixM2Maison: 3450,
+    prixM2Appartement: 2660,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation (bassin de la Mosson) — approuvé par arrêté préfectoral le 9 mars 2001.",
+        "PPR mouvement de terrain — approuvé par arrêté préfectoral le 9 mars 2001.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Vailhauquès cumule un PPRi inondation (bassin de la Mosson) et un PPR mouvement de terrain (tous deux approuvés en 2001), plus un aléa feu de forêt en garrigue. L'État des Risques et Pollutions est systématiquement obligatoire à la vente et à la location.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Village à 93 % de maisons, au parc pavillonnaire majoritairement post-1980 implanté en garrigue : le DPE est le diagnostic de volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent dans ce contexte de garrigue et de bois.",
+      },
+    ],
+
+    intro:
+      "Vailhauquès, village résidentiel de la couronne nord-ouest de Montpellier au milieu de la garrigue et des bois, relève du secteur Pic Saint-Loup. Parc à 93 % de maisons, marché aisé (autour de 3 560 €/m²), 2 722 habitants.",
+
+    parcImmoNote:
+      "Vailhauquès associe un petit centre ancien languedocien à une très forte extension pavillonnaire récente, typique de la périurbanisation de la couronne nord-ouest de Montpellier. Le parc est presque exclusivement constitué de maisons individuelles (environ 93 %), avec de nombreux lotissements implantés en zone de garrigue et de coteaux boisés, à un rythme de construction soutenu. Le bâti est à dominante récente (post-1980), où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Vailhauquès dispose de deux PPR approuvés en 2001 (inondation du bassin de la Mosson et mouvement de terrain) et est exposée au feu de forêt par sa garrigue et ses bois (aléa réel, sans PPRif approuvé à ce jour). L'ERP est donc systématiquement obligatoire et chargé. Le diagnostic termites est obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Vailhauquès est à 18 minutes de Prades-le-Lez (11 km) — au cœur de ma zone d'intervention : aucun frais de déplacement, intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien languedocien (église)",
+      "Lotissements pavillonnaires en garrigue (post-1980)",
+      "Coteaux et bois (interface habitat-forêt)",
+      "Abords du bassin de la Mosson (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Combaillaux", "Murles", "Montarnaud", "Saint-Paul-et-Valmalle", "Murviel-lès-Montpellier", "Grabels"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Vailhauquès ?",
+        a: "Pour toute vente à Vailhauquès, le DPE et l'ERP (PPRi inondation Mosson + PPR mouvement de terrain + feu de forêt) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le bâti ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Vailhauquès ?",
+        a: "À Vailhauquès, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 93 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement : la commune est au cœur de ma zone.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Vailhauquès ?",
+        a: "Vailhauquès est à 18 minutes de Prades-le-Lez (11 km), au cœur de ma zone. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Vailhauquès ?",
+        a: "C'est probable : Vailhauquès dispose d'un PPRi inondation (bassin de la Mosson) et d'un PPR mouvement de terrain, tous deux approuvés en 2001, avec une exposition au feu de forêt. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
 ]
 
 export function getVilleBySlug(slug) {
