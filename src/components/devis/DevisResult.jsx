@@ -15,6 +15,7 @@ import {
 } from 'lucide-react'
 import { pricing, calculateTotal } from './devisPricing'
 import { capture } from '../../lib/posthog'
+import { sendContactForm } from '../../lib/contact'
 
 const SLOTS = [
   { value: '', label: 'Pas de préférence' },
@@ -27,14 +28,16 @@ export default function DevisResult({ diagnostics, risques, data, onRestart }) {
   const result = calculateTotal(diagnostics)
   const { subtotal, total, saving, packName, discount } = result
 
-  const [callbackForm, setCallbackForm] = useState({ name: '', phone: '', slot: '' })
+  const [callbackForm, setCallbackForm] = useState({ name: '', phone: '', slot: '', honeypot: '' })
+  const [callbackStatus, setCallbackStatus] = useState(null) // null | 'sending' | 'sent' | 'error'
 
   const diagsList = diagnostics
     .map((d) => `- ${pricing[d]?.label}`)
     .join('\n')
 
-  function handleCallbackSubmit(e) {
+  async function handleCallbackSubmit(e) {
     e.preventDefault()
+    setCallbackStatus('sending')
     capture('callback_requested', {
       slot: callbackForm.slot || 'no_preference',
       total,
@@ -42,18 +45,21 @@ export default function DevisResult({ diagnostics, risques, data, onRestart }) {
       type_bien: data?.typeBien,
       transaction: data?.transaction,
     })
-    const subject = encodeURIComponent(
-      `Demande de rappel — Devis ${total} € — ${callbackForm.name}`
-    )
-    const body = encodeURIComponent(
-      `Demande de rappel via le devis en ligne pons-dpi.fr\n\n` +
-      `Nom : ${callbackForm.name}\n` +
-      `Téléphone : ${callbackForm.phone}\n` +
-      `Créneau préféré : ${SLOTS.find((s) => s.value === callbackForm.slot)?.label || 'Pas de préférence'}\n\n` +
-      `Diagnostics demandés :\n${diagsList}\n\n` +
-      `Total estimé : ${total} €`
-    )
-    window.location.href = `mailto:contact@pons-dpi.fr?subject=${subject}&body=${body}`
+
+    try {
+      await sendContactForm({
+        type: 'devis_callback',
+        name: callbackForm.name,
+        phone: callbackForm.phone,
+        slot: SLOTS.find((s) => s.value === callbackForm.slot)?.label || 'Pas de préférence',
+        diagnostics: diagsList,
+        total,
+        honeypot: callbackForm.honeypot,
+      })
+      setCallbackStatus('sent')
+    } catch (err) {
+      setCallbackStatus('error')
+    }
   }
 
   return (
@@ -206,11 +212,35 @@ export default function DevisResult({ diagnostics, risques, data, onRestart }) {
         </a>
       </div>
 
-      {/* Form rappel — toujours visible */}
+      {/* Form rappel — remplacé par une confirmation après envoi */}
+      {callbackStatus === 'sent' ? (
+        <div className="rounded-lg border border-success/30 bg-success/5 p-5 flex items-start gap-3">
+          <div className="flex items-center justify-center h-10 w-10 rounded-full bg-success/10 text-success shrink-0">
+            <Check className="h-5 w-5" />
+          </div>
+          <div>
+            <h4 className="text-base font-semibold text-text">Demande envoyée</h4>
+            <p className="text-sm text-text-secondary mt-0.5">
+              Merci, je vous rappelle au créneau choisi avec votre devis sous les yeux.
+            </p>
+          </div>
+        </div>
+      ) : (
       <form
         onSubmit={handleCallbackSubmit}
         className="rounded-lg border border-border bg-surface p-5 space-y-4"
       >
+        {/* Honeypot anti-spam : invisible pour les humains, rempli par les bots */}
+        <input
+          type="text"
+          name="company"
+          value={callbackForm.honeypot}
+          onChange={(e) => setCallbackForm({ ...callbackForm, honeypot: e.target.value })}
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          className="hidden"
+        />
         <div className="flex items-start gap-3">
           <div className="flex items-center justify-center h-10 w-10 rounded-full bg-accent-light text-accent shrink-0">
             <PhoneCall className="h-5 w-5" />
@@ -272,17 +302,25 @@ export default function DevisResult({ diagnostics, risques, data, onRestart }) {
 
         <button
           type="submit"
-          className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover transition-colors w-full sm:w-auto"
+          disabled={callbackStatus === 'sending'}
+          className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover transition-colors w-full sm:w-auto disabled:opacity-60"
         >
           <Send className="h-4 w-4" />
-          Demander à être rappelé(e)
+          {callbackStatus === 'sending' ? 'Envoi...' : 'Demander à être rappelé(e)'}
         </button>
+
+        {callbackStatus === 'error' && (
+          <p className="text-xs text-danger">
+            L'envoi a échoué. Réessayez, ou appelez-moi directement au 06 51 66 91 61.
+          </p>
+        )}
 
         <p className="text-xs text-text-secondary">
           En envoyant ce formulaire, vous acceptez d'être contacté par téléphone au créneau choisi.
           Vos données ne sont pas utilisées à d'autres fins.
         </p>
       </form>
+      )}
 
       <button
         type="button"

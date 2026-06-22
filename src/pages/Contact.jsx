@@ -5,9 +5,10 @@ import Button from '../components/ui/Button'
 import Card from '../components/ui/Card'
 import Toast from '../components/ui/Toast'
 import ScrollReveal from '../components/ui/ScrollReveal'
+import { sendContactForm } from '../lib/contact'
 
 export default function Contact() {
-  const [form, setForm] = useState({ name: '', email: '', phone: '', message: '' })
+  const [form, setForm] = useState({ name: '', email: '', phone: '', message: '', honeypot: '' })
   const [sending, setSending] = useState(false)
   const [toast, setToast] = useState({ show: false, type: 'success', message: '' })
 
@@ -19,20 +20,24 @@ export default function Contact() {
     e.preventDefault()
     setSending(true)
 
-    // For now, open mailto as fallback until Formspree/Brevo is configured
-    const subject = encodeURIComponent(`Contact via pons-dpi.fr — ${form.name}`)
-    const body = encodeURIComponent(
-      `Nom : ${form.name}\nEmail : ${form.email}\nTéléphone : ${form.phone}\n\n${form.message}`
-    )
-    window.location.href = `mailto:contact@pons-dpi.fr?subject=${subject}&body=${body}`
-
-    setSending(false)
-    setToast({
-      show: true,
-      type: 'success',
-      message: 'Votre client email va s\'ouvrir. Vous pouvez aussi nous contacter par téléphone ou WhatsApp.',
-    })
-    setTimeout(() => setToast({ ...toast, show: false }), 5000)
+    try {
+      await sendContactForm({ type: 'contact', ...form })
+      setForm({ name: '', email: '', phone: '', message: '', honeypot: '' })
+      setToast({
+        show: true,
+        type: 'success',
+        message: 'Message envoyé. Je vous réponds au plus vite.',
+      })
+    } catch (err) {
+      setToast({
+        show: true,
+        type: 'error',
+        message: "L'envoi a échoué. Réessayez, ou joignez-moi par téléphone ou WhatsApp.",
+      })
+    } finally {
+      setSending(false)
+      setTimeout(() => setToast((t) => ({ ...t, show: false })), 6000)
+    }
   }
 
   return (
@@ -133,6 +138,17 @@ export default function Contact() {
             <ScrollReveal className="lg:col-span-3">
               <Card>
                 <form onSubmit={handleSubmit} className="space-y-4">
+                  {/* Honeypot anti-spam : invisible pour les humains, rempli par les bots */}
+                  <input
+                    type="text"
+                    name="honeypot"
+                    value={form.honeypot}
+                    onChange={handleChange}
+                    tabIndex={-1}
+                    autoComplete="off"
+                    aria-hidden="true"
+                    className="hidden"
+                  />
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-text mb-1.5">
