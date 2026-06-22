@@ -150,17 +150,21 @@ export const servicesVente = [
     slug: 'mesurage-carrez',
     icon: Ruler,
     name: 'Mesurage Carrez',
-    fullName: 'Mesurage loi Carrez',
+    fullName: 'Attestation loi Carrez',
+    seoTitle:
+      'Attestation loi Carrez à Montpellier — Mesurage par diagnostiqueur certifié | Pons DPI',
+    seoDescription:
+      "Attestation de surface loi Carrez à Montpellier et dans l'Hérault. Mesurage précis au laser de votre lot de copropriété. Pas besoin de géomètre-expert : un diagnostiqueur certifié suffit. Devis en ligne.",
     condition: 'Copropriété',
     validite: 'Illimité sauf travaux',
     description:
-      'Surface privative du lot de copropriété selon la loi du 18 décembre 1996.',
+      'Attestation de surface privative du lot de copropriété selon la loi du 18 décembre 1996.',
     longDescription:
-      "Le mesurage loi Carrez détermine la surface privative exacte d'un lot de copropriété. Il exclut les surfaces dont la hauteur sous plafond est inférieure à 1,80 m, les murs, cloisons, cages d'escalier et embrasures. Une erreur de plus de 5 % ouvre droit à une diminution du prix.",
+      "Le mesurage loi Carrez détermine la surface privative exacte d'un lot de copropriété et donne lieu à une attestation de surface annexée à l'acte de vente. Il exclut les surfaces dont la hauteur sous plafond est inférieure à 1,80 m, les murs, cloisons, cages d'escalier et embrasures. Une erreur de plus de 5 % ouvre droit à une diminution du prix.",
     whatWeCheck:
-      "Je mesure au laser la surface privative de chaque pièce de votre lot de copropriété. Sont exclues : les surfaces sous 1,80 m de hauteur, les murs, cloisons, cages d'escalier, et les embrasures de portes et fenêtres.",
+      "Je mesure au laser la surface privative de chaque pièce de votre lot de copropriété, puis je vous remets une attestation loi Carrez. Sont exclues : les surfaces sous 1,80 m de hauteur, les murs, cloisons, cages d'escalier, et les embrasures de portes et fenêtres.",
     whyItMatters:
-      "La surface Carrez est mentionnée dans l'acte de vente. Si elle est surestimée de plus de 5 %, l'acheteur peut demander une réduction de prix proportionnelle dans l'année suivant la signature.",
+      "La surface Carrez est mentionnée dans l'acte de vente. Si elle est surestimée de plus de 5 %, l'acheteur peut demander une réduction de prix proportionnelle dans l'année suivant la signature. Bon à savoir : le mesurage loi Carrez ne nécessite pas de géomètre-expert — un diagnostiqueur certifié réalise l'attestation, généralement plus vite et à moindre coût.",
     ifPositive: null,
   },
   {

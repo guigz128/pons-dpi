@@ -45,10 +45,13 @@ export default function ServiceDetail() {
   return (
     <>
       <Helmet>
-        <title>{`${service.name} à Montpellier — Diagnostic immobilier | Pons DPI`}</title>
+        <title>{service.seoTitle || `${service.name} à Montpellier — Diagnostic immobilier | Pons DPI`}</title>
         <meta
           name="description"
-          content={`${service.fullName || service.name} à Montpellier. ${service.description} Devis en ligne, intervention sous 48h.`}
+          content={
+            service.seoDescription ||
+            `${service.fullName || service.name} à Montpellier. ${service.description} Devis en ligne, intervention sous 48h.`
+          }
         />
         <link rel="canonical" href={`https://www.pons-dpi.fr/services/${service.slug}`} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
