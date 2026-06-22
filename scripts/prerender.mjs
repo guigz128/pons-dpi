@@ -265,7 +265,27 @@ for (const route of routes) {
       // Helmet a produit les balises de tête → on les hisse dans le <head>
       // (et on supprime les valeurs par défaut du template pour éviter les
       // <title>/<meta description> en double).
-      const headBlock = head.trim().replace(/></g, '>\n    <')
+      let headBlock = head.trim().replace(/></g, '>\n    <')
+      // Open Graph / Twitter : certaines pages (accueil, services, devis,
+      // contact, à-propos, mentions) posent uniquement title/description via
+      // Helmet, sans balises sociales. On complète ici à partir du couple
+      // title/description de la route. Les pages qui émettent déjà leur og:title
+      // (villes, départements, pros, audit, dpe-existant) sont laissées telles
+      // quelles → pas de doublon. L'image og:image vient du template (statique).
+      if (!/property="og:title"/.test(headBlock)) {
+        const og = [
+          `<meta property="og:type" content="website" />`,
+          `<meta property="og:site_name" content="Pons DPI" />`,
+          `<meta property="og:url" content="${escAttr(canonical)}" />`,
+          `<meta property="og:title" content="${escAttr(route.title)}" />`,
+          `<meta property="og:description" content="${escAttr(route.description)}" />`,
+          `<meta property="og:locale" content="fr_FR" />`,
+          `<meta name="twitter:card" content="summary_large_image" />`,
+          `<meta name="twitter:title" content="${escAttr(route.title)}" />`,
+          `<meta name="twitter:description" content="${escAttr(route.description)}" />`,
+        ].join('\n    ')
+        headBlock = `${headBlock}\n    ${og}`
+      }
       // On hisse les balises de tête dans le <head> et on les retire de #root :
       // le HTML statique (lu par les crawlers et scrapers sociaux) a ainsi un seul
       // jeu de balises page-spécifiques, au bon endroit. Au runtime, le shim

@@ -1,0 +1,36 @@
+# Pons DPI — Diagnostics immobiliers à Montpellier
+
+> Pons DPI (Diagnostics et Performance Immobilière) est l'activité de Guillaume Pons, diagnostiqueur immobilier indépendant basé à Prades-le-Lez, intervenant à Montpellier et dans l'Hérault (34), le Gard (30) et l'Aude (11). Diagnostics réalisés pour la vente, la location, les travaux et la démolition. Certifications COFRAC, Titre professionnel RNCP 38469 (niveau 5). Devis indicatif en ligne, contact direct par WhatsApp. Activité officielle à partir de mars 2027 (formation et certifications COFRAC en cours, obtenues février-mars 2027).
+
+## Diagnostics (services)
+
+- [DPE — Diagnostic de Performance Énergétique](https://www.pons-dpi.fr/services/dpe) : consommation énergétique, émissions GES, classement A à G, recommandations de travaux. Valable 10 ans, obligatoire pour les biens > 50 m².
+- [Amiante](https://www.pons-dpi.fr/services/amiante) : repérage des matériaux contenant de l'amiante. Obligatoire pour les biens dont le permis est antérieur au 1er juillet 1997.
+- [Plomb (CREP)](https://www.pons-dpi.fr/services/plomb) : constat de risque d'exposition au plomb. Obligatoire pour les biens construits avant le 1er janvier 1949.
+- [Électricité](https://www.pons-dpi.fr/services/electricite) : sécurité de l'installation électrique. Obligatoire pour les installations de plus de 15 ans.
+- [Gaz](https://www.pons-dpi.fr/services/gaz) : état de l'installation intérieure de gaz. Obligatoire pour les installations de plus de 15 ans.
+- [Termites](https://www.pons-dpi.fr/services/termites) : présence de termites et insectes xylophages. Obligatoire en zone d'arrêté préfectoral.
+- [ERP — État des Risques et Pollutions](https://www.pons-dpi.fr/services/erp) : risques naturels, miniers, technologiques, sismiques, radon.
+- [Mesurage Carrez](https://www.pons-dpi.fr/services/mesurage-carrez) : surface privative d'un lot de copropriété.
+- [Audit énergétique](https://www.pons-dpi.fr/audit-energetique) : obligatoire à la vente des maisons classées F, G ou E au DPE.
+- [Tous les services](https://www.pons-dpi.fr/services)
+
+## Zones d'intervention
+
+- [Zones d'intervention](https://www.pons-dpi.fr/diagnostic-immobilier) : pages dédiées par commune en Hérault, Gard et Aude.
+- [Hérault (34)](https://www.pons-dpi.fr/diagnostic-immobilier/herault)
+- [Gard (30)](https://www.pons-dpi.fr/diagnostic-immobilier/gard)
+- [Aude (11)](https://www.pons-dpi.fr/diagnostic-immobilier/aude)
+- [Diagnostic immobilier à Montpellier](https://www.pons-dpi.fr/diagnostic-immobilier/montpellier)
+
+## Outils & contact
+
+- [Devis en ligne instantané](https://www.pons-dpi.fr/devis) : diagnostics obligatoires calculés automatiquement selon le bien.
+- [Recherche d'un DPE existant (données ADEME)](https://www.pons-dpi.fr/dpe-existant)
+- [Espace professionnels (agences, notaires, syndics)](https://www.pons-dpi.fr/professionnels)
+- [À propos de Guillaume Pons](https://www.pons-dpi.fr/a-propos)
+- [Contact](https://www.pons-dpi.fr/contact) : téléphone 06 51 66 91 61, WhatsApp, email contact@pons-dpi.fr.
+
+## En savoir plus
+
+- [Blog — guides diagnostics immobiliers](https://www.pons-dpi.fr/blog/)
