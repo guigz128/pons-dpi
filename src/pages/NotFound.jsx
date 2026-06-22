@@ -7,6 +7,7 @@ export default function NotFound() {
     <>
       <Helmet>
         <title>Page non trouvée | Pons DPI</title>
+        <meta name="robots" content="noindex, follow" />
       </Helmet>
 
       <section className="py-20 sm:py-28 lg:py-36">
