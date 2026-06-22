@@ -39,7 +39,7 @@ export default function RapportClient() {
   return (
     <>
       <Helmet>
-        <title>Rapport {data.mission.reference} | Pons DPI</title>
+        <title>{`Rapport ${data.mission.reference} | Pons DPI`}</title>
         <meta name="robots" content="noindex,nofollow" />
       </Helmet>
 

@@ -45,7 +45,7 @@ export default function ServiceDetail() {
   return (
     <>
       <Helmet>
-        <title>{service.name} à Montpellier — Diagnostic immobilier | Pons DPI</title>
+        <title>{`${service.name} à Montpellier — Diagnostic immobilier | Pons DPI`}</title>
         <meta
           name="description"
           content={`${service.fullName || service.name} à Montpellier. ${service.description} Devis en ligne, intervention sous 48h.`}
