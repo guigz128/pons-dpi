@@ -471,6 +471,41 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/laverune</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/saussan</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/cournonsec</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/murviel-les-montpellier</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/montbazin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/loupian</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/villeveyrac</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.pons-dpi.fr/mentions-legales</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

@@ -2,92 +2,92 @@
 // Généré automatiquement par scripts/build-dpe-stats.mjs — NE PAS éditer à la main.
 // Pour rafraîchir : npm run build:dpe-stats
 //
-// Dernière génération : 2026-06-08
+// Dernière génération : 2026-06-23
 
-export const DPE_STATS_GENERATED_AT = '2026-06-08'
+export const DPE_STATS_GENERATED_AT = '2026-06-23'
 
 export const VILLE_DPE_STATS = {
   "montpellier": {
     "insee": "34172",
-    "total": 83022,
-    "fgCount": 2131,
+    "total": 83565,
+    "fgCount": 2138,
     "fgPct": 2.6,
-    "efgCount": 9401,
+    "efgCount": 9459,
     "efgPct": 11.3,
     "distribution": [
       {
         "label": "A",
-        "count": 2661,
+        "count": 2683,
         "pct": 3.2
       },
       {
         "label": "B",
-        "count": 10690,
+        "count": 10779,
         "pct": 12.9
       },
       {
         "label": "C",
-        "count": 41325,
+        "count": 41579,
         "pct": 49.8
       },
       {
         "label": "D",
-        "count": 18945,
+        "count": 19065,
         "pct": 22.8
       },
       {
         "label": "E",
-        "count": 7270,
+        "count": 7321,
         "pct": 8.8
       },
       {
         "label": "F",
-        "count": 1690,
+        "count": 1695,
         "pct": 2
       },
       {
         "label": "G",
-        "count": 441,
+        "count": 443,
         "pct": 0.5
       }
     ]
   },
   "castelnau-le-lez": {
     "insee": "34057",
-    "total": 6947,
-    "fgCount": 71,
+    "total": 7007,
+    "fgCount": 72,
     "fgPct": 1,
-    "efgCount": 254,
+    "efgCount": 256,
     "efgPct": 3.7,
     "distribution": [
       {
         "label": "A",
-        "count": 552,
-        "pct": 7.9
+        "count": 566,
+        "pct": 8.1
       },
       {
         "label": "B",
-        "count": 1936,
+        "count": 1955,
         "pct": 27.9
       },
       {
         "label": "C",
-        "count": 3622,
-        "pct": 52.1
+        "count": 3642,
+        "pct": 52
       },
       {
         "label": "D",
-        "count": 583,
+        "count": 588,
         "pct": 8.4
       },
       {
         "label": "E",
-        "count": 183,
+        "count": 184,
         "pct": 2.6
       },
       {
         "label": "F",
-        "count": 55,
+        "count": 56,
         "pct": 0.8
       },
       {
@@ -99,7 +99,7 @@ export const VILLE_DPE_STATS = {
   },
   "saint-gely-du-fesc": {
     "insee": "34255",
-    "total": 1052,
+    "total": 1061,
     "fgCount": 14,
     "fgPct": 1.3,
     "efgCount": 51,
@@ -107,23 +107,23 @@ export const VILLE_DPE_STATS = {
     "distribution": [
       {
         "label": "A",
-        "count": 119,
-        "pct": 11.3
+        "count": 121,
+        "pct": 11.4
       },
       {
         "label": "B",
-        "count": 276,
-        "pct": 26.2
+        "count": 279,
+        "pct": 26.3
       },
       {
         "label": "C",
-        "count": 451,
+        "count": 455,
         "pct": 42.9
       },
       {
         "label": "D",
         "count": 155,
-        "pct": 14.7
+        "pct": 14.6
       },
       {
         "label": "E",
@@ -133,7 +133,7 @@ export const VILLE_DPE_STATS = {
       {
         "label": "F",
         "count": 10,
-        "pct": 1
+        "pct": 0.9
       },
       {
         "label": "G",
@@ -144,7 +144,7 @@ export const VILLE_DPE_STATS = {
   },
   "lattes": {
     "insee": "34129",
-    "total": 2750,
+    "total": 2763,
     "fgCount": 28,
     "fgPct": 1,
     "efgCount": 118,
@@ -152,22 +152,22 @@ export const VILLE_DPE_STATS = {
     "distribution": [
       {
         "label": "A",
-        "count": 169,
-        "pct": 6.1
+        "count": 170,
+        "pct": 6.2
       },
       {
         "label": "B",
-        "count": 495,
+        "count": 498,
         "pct": 18
       },
       {
         "label": "C",
-        "count": 1509,
+        "count": 1516,
         "pct": 54.9
       },
       {
         "label": "D",
-        "count": 459,
+        "count": 461,
         "pct": 16.7
       },
       {
@@ -189,7 +189,7 @@ export const VILLE_DPE_STATS = {
   },
   "saint-jean-de-vedas": {
     "insee": "34270",
-    "total": 2077,
+    "total": 2093,
     "fgCount": 16,
     "fgPct": 0.8,
     "efgCount": 61,
@@ -197,22 +197,22 @@ export const VILLE_DPE_STATS = {
     "distribution": [
       {
         "label": "A",
-        "count": 333,
-        "pct": 16
+        "count": 337,
+        "pct": 16.1
       },
       {
         "label": "B",
-        "count": 480,
-        "pct": 23.1
+        "count": 485,
+        "pct": 23.2
       },
       {
         "label": "C",
-        "count": 1012,
-        "pct": 48.7
+        "count": 1017,
+        "pct": 48.6
       },
       {
         "label": "D",
-        "count": 191,
+        "count": 193,
         "pct": 9.2
       },
       {
@@ -234,7 +234,7 @@ export const VILLE_DPE_STATS = {
   },
   "jacou": {
     "insee": "34120",
-    "total": 968,
+    "total": 969,
     "fgCount": 6,
     "fgPct": 0.6,
     "efgCount": 27,
@@ -248,11 +248,11 @@ export const VILLE_DPE_STATS = {
       {
         "label": "B",
         "count": 201,
-        "pct": 20.8
+        "pct": 20.7
       },
       {
         "label": "C",
-        "count": 566,
+        "count": 567,
         "pct": 58.5
       },
       {
@@ -279,30 +279,30 @@ export const VILLE_DPE_STATS = {
   },
   "perols": {
     "insee": "34198",
-    "total": 1462,
+    "total": 1467,
     "fgCount": 35,
     "fgPct": 2.4,
     "efgCount": 121,
-    "efgPct": 8.3,
+    "efgPct": 8.2,
     "distribution": [
       {
         "label": "A",
         "count": 115,
-        "pct": 7.9
+        "pct": 7.8
       },
       {
         "label": "B",
-        "count": 304,
+        "count": 305,
         "pct": 20.8
       },
       {
         "label": "C",
-        "count": 639,
+        "count": 641,
         "pct": 43.7
       },
       {
         "label": "D",
-        "count": 283,
+        "count": 285,
         "pct": 19.4
       },
       {
@@ -324,36 +324,36 @@ export const VILLE_DPE_STATS = {
   },
   "le-cres": {
     "insee": "34090",
-    "total": 1370,
+    "total": 1375,
     "fgCount": 15,
     "fgPct": 1.1,
     "efgCount": 87,
-    "efgPct": 6.4,
+    "efgPct": 6.3,
     "distribution": [
       {
         "label": "A",
-        "count": 70,
-        "pct": 5.1
+        "count": 71,
+        "pct": 5.2
       },
       {
         "label": "B",
-        "count": 255,
+        "count": 256,
         "pct": 18.6
       },
       {
         "label": "C",
-        "count": 781,
-        "pct": 57
+        "count": 782,
+        "pct": 56.9
       },
       {
         "label": "D",
-        "count": 177,
-        "pct": 12.9
+        "count": 179,
+        "pct": 13
       },
       {
         "label": "E",
         "count": 72,
-        "pct": 5.3
+        "pct": 5.2
       },
       {
         "label": "F",
@@ -369,7 +369,7 @@ export const VILLE_DPE_STATS = {
   },
   "clapiers": {
     "insee": "34077",
-    "total": 779,
+    "total": 783,
     "fgCount": 12,
     "fgPct": 1.5,
     "efgCount": 35,
@@ -378,32 +378,32 @@ export const VILLE_DPE_STATS = {
       {
         "label": "A",
         "count": 59,
-        "pct": 7.6
+        "pct": 7.5
       },
       {
         "label": "B",
-        "count": 176,
+        "count": 177,
         "pct": 22.6
       },
       {
         "label": "C",
-        "count": 409,
+        "count": 411,
         "pct": 52.5
       },
       {
         "label": "D",
-        "count": 100,
-        "pct": 12.8
+        "count": 101,
+        "pct": 12.9
       },
       {
         "label": "E",
         "count": 23,
-        "pct": 3
+        "pct": 2.9
       },
       {
         "label": "F",
         "count": 9,
-        "pct": 1.2
+        "pct": 1.1
       },
       {
         "label": "G",
@@ -414,31 +414,31 @@ export const VILLE_DPE_STATS = {
   },
   "mauguio": {
     "insee": "34154",
-    "total": 3891,
+    "total": 3914,
     "fgCount": 69,
     "fgPct": 1.8,
     "efgCount": 314,
-    "efgPct": 8.1,
+    "efgPct": 8,
     "distribution": [
       {
         "label": "A",
-        "count": 197,
+        "count": 200,
         "pct": 5.1
       },
       {
         "label": "B",
-        "count": 612,
+        "count": 616,
         "pct": 15.7
       },
       {
         "label": "C",
-        "count": 1983,
+        "count": 1997,
         "pct": 51
       },
       {
         "label": "D",
-        "count": 785,
-        "pct": 20.2
+        "count": 787,
+        "pct": 20.1
       },
       {
         "label": "E",
@@ -459,7 +459,7 @@ export const VILLE_DPE_STATS = {
   },
   "aigues-mortes": {
     "insee": "30003",
-    "total": 1864,
+    "total": 1875,
     "fgCount": 15,
     "fgPct": 0.8,
     "efgCount": 90,
@@ -467,22 +467,22 @@ export const VILLE_DPE_STATS = {
     "distribution": [
       {
         "label": "A",
-        "count": 74,
+        "count": 75,
         "pct": 4
       },
       {
         "label": "B",
-        "count": 289,
+        "count": 290,
         "pct": 15.5
       },
       {
         "label": "C",
-        "count": 982,
+        "count": 989,
         "pct": 52.7
       },
       {
         "label": "D",
-        "count": 429,
+        "count": 431,
         "pct": 23
       },
       {
@@ -504,10 +504,10 @@ export const VILLE_DPE_STATS = {
   },
   "le-grau-du-roi": {
     "insee": "30133",
-    "total": 5002,
+    "total": 5019,
     "fgCount": 110,
     "fgPct": 2.2,
-    "efgCount": 635,
+    "efgCount": 636,
     "efgPct": 12.7,
     "distribution": [
       {
@@ -517,22 +517,22 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 363,
+        "count": 365,
         "pct": 7.3
       },
       {
         "label": "C",
-        "count": 2408,
+        "count": 2416,
         "pct": 48.1
       },
       {
         "label": "D",
-        "count": 1572,
+        "count": 1578,
         "pct": 31.4
       },
       {
         "label": "E",
-        "count": 525,
+        "count": 526,
         "pct": 10.5
       },
       {
@@ -594,41 +594,41 @@ export const VILLE_DPE_STATS = {
   },
   "sommieres": {
     "insee": "30321",
-    "total": 1616,
-    "fgCount": 62,
-    "fgPct": 3.8,
-    "efgCount": 210,
-    "efgPct": 13,
+    "total": 1623,
+    "fgCount": 65,
+    "fgPct": 4,
+    "efgCount": 213,
+    "efgPct": 13.1,
     "distribution": [
       {
         "label": "A",
         "count": 218,
-        "pct": 13.5
+        "pct": 13.4
       },
       {
         "label": "B",
-        "count": 304,
-        "pct": 18.8
+        "count": 306,
+        "pct": 18.9
       },
       {
         "label": "C",
-        "count": 549,
-        "pct": 34
+        "count": 551,
+        "pct": 33.9
       },
       {
         "label": "D",
         "count": 335,
-        "pct": 20.7
+        "pct": 20.6
       },
       {
         "label": "E",
         "count": 148,
-        "pct": 9.2
+        "pct": 9.1
       },
       {
         "label": "F",
-        "count": 54,
-        "pct": 3.3
+        "count": 57,
+        "pct": 3.5
       },
       {
         "label": "G",
@@ -639,7 +639,7 @@ export const VILLE_DPE_STATS = {
   },
   "vergeze": {
     "insee": "30344",
-    "total": 865,
+    "total": 868,
     "fgCount": 14,
     "fgPct": 1.6,
     "efgCount": 66,
@@ -647,23 +647,23 @@ export const VILLE_DPE_STATS = {
     "distribution": [
       {
         "label": "A",
-        "count": 110,
-        "pct": 12.7
+        "count": 111,
+        "pct": 12.8
       },
       {
         "label": "B",
         "count": 153,
-        "pct": 17.7
+        "pct": 17.6
       },
       {
         "label": "C",
-        "count": 385,
-        "pct": 44.5
+        "count": 387,
+        "pct": 44.6
       },
       {
         "label": "D",
         "count": 151,
-        "pct": 17.5
+        "pct": 17.4
       },
       {
         "label": "E",
@@ -684,40 +684,40 @@ export const VILLE_DPE_STATS = {
   },
   "sete": {
     "insee": "34301",
-    "total": 15259,
-    "fgCount": 314,
+    "total": 15377,
+    "fgCount": 316,
     "fgPct": 2.1,
-    "efgCount": 1445,
-    "efgPct": 9.5,
+    "efgCount": 1451,
+    "efgPct": 9.4,
     "distribution": [
       {
         "label": "A",
-        "count": 554,
+        "count": 556,
         "pct": 3.6
       },
       {
         "label": "B",
-        "count": 2340,
+        "count": 2352,
         "pct": 15.3
       },
       {
         "label": "C",
-        "count": 7710,
-        "pct": 50.5
+        "count": 7779,
+        "pct": 50.6
       },
       {
         "label": "D",
-        "count": 3210,
-        "pct": 21
+        "count": 3239,
+        "pct": 21.1
       },
       {
         "label": "E",
-        "count": 1131,
+        "count": 1135,
         "pct": 7.4
       },
       {
         "label": "F",
-        "count": 260,
+        "count": 262,
         "pct": 1.7
       },
       {
@@ -729,36 +729,36 @@ export const VILLE_DPE_STATS = {
   },
   "frontignan": {
     "insee": "34108",
-    "total": 5057,
+    "total": 5184,
     "fgCount": 68,
     "fgPct": 1.3,
     "efgCount": 339,
-    "efgPct": 6.7,
+    "efgPct": 6.5,
     "distribution": [
       {
         "label": "A",
-        "count": 126,
-        "pct": 2.5
+        "count": 142,
+        "pct": 2.7
       },
       {
         "label": "B",
-        "count": 698,
-        "pct": 13.8
+        "count": 789,
+        "pct": 15.2
       },
       {
         "label": "C",
-        "count": 2833,
-        "pct": 56
+        "count": 2844,
+        "pct": 54.9
       },
       {
         "label": "D",
-        "count": 1061,
-        "pct": 21
+        "count": 1070,
+        "pct": 20.6
       },
       {
         "label": "E",
         "count": 271,
-        "pct": 5.4
+        "pct": 5.2
       },
       {
         "label": "F",
@@ -774,7 +774,7 @@ export const VILLE_DPE_STATS = {
   },
   "villeneuve-les-maguelone": {
     "insee": "34337",
-    "total": 1356,
+    "total": 1360,
     "fgCount": 16,
     "fgPct": 1.2,
     "efgCount": 76,
@@ -782,18 +782,18 @@ export const VILLE_DPE_STATS = {
     "distribution": [
       {
         "label": "A",
-        "count": 85,
+        "count": 86,
         "pct": 6.3
       },
       {
         "label": "B",
-        "count": 163,
-        "pct": 12
+        "count": 165,
+        "pct": 12.1
       },
       {
         "label": "C",
-        "count": 732,
-        "pct": 54
+        "count": 733,
+        "pct": 53.9
       },
       {
         "label": "D",
@@ -819,7 +819,7 @@ export const VILLE_DPE_STATS = {
   },
   "palavas-les-flots": {
     "insee": "34192",
-    "total": 2640,
+    "total": 2653,
     "fgCount": 71,
     "fgPct": 2.7,
     "efgCount": 272,
@@ -828,22 +828,22 @@ export const VILLE_DPE_STATS = {
       {
         "label": "A",
         "count": 86,
-        "pct": 3.3
+        "pct": 3.2
       },
       {
         "label": "B",
-        "count": 343,
+        "count": 346,
         "pct": 13
       },
       {
         "label": "C",
-        "count": 1323,
+        "count": 1329,
         "pct": 50.1
       },
       {
         "label": "D",
-        "count": 616,
-        "pct": 23.3
+        "count": 620,
+        "pct": 23.4
       },
       {
         "label": "E",
@@ -864,7 +864,7 @@ export const VILLE_DPE_STATS = {
   },
   "prades-le-lez": {
     "insee": "34217",
-    "total": 693,
+    "total": 700,
     "fgCount": 4,
     "fgPct": 0.6,
     "efgCount": 34,
@@ -873,21 +873,21 @@ export const VILLE_DPE_STATS = {
       {
         "label": "A",
         "count": 56,
-        "pct": 8.1
+        "pct": 8
       },
       {
         "label": "B",
         "count": 148,
-        "pct": 21.4
+        "pct": 21.1
       },
       {
         "label": "C",
-        "count": 368,
-        "pct": 53.1
+        "count": 374,
+        "pct": 53.4
       },
       {
         "label": "D",
-        "count": 87,
+        "count": 88,
         "pct": 12.6
       },
       {
@@ -909,7 +909,7 @@ export const VILLE_DPE_STATS = {
   },
   "saint-clement-de-riviere": {
     "insee": "34247",
-    "total": 792,
+    "total": 797,
     "fgCount": 11,
     "fgPct": 1.4,
     "efgCount": 30,
@@ -923,16 +923,16 @@ export const VILLE_DPE_STATS = {
       {
         "label": "B",
         "count": 179,
-        "pct": 22.6
+        "pct": 22.5
       },
       {
         "label": "C",
-        "count": 446,
-        "pct": 56.3
+        "count": 450,
+        "pct": 56.5
       },
       {
         "label": "D",
-        "count": 91,
+        "count": 92,
         "pct": 11.5
       },
       {
@@ -954,7 +954,7 @@ export const VILLE_DPE_STATS = {
   },
   "grabels": {
     "insee": "34116",
-    "total": 1730,
+    "total": 1738,
     "fgCount": 9,
     "fgPct": 0.5,
     "efgCount": 48,
@@ -963,27 +963,27 @@ export const VILLE_DPE_STATS = {
       {
         "label": "A",
         "count": 159,
-        "pct": 9.2
+        "pct": 9.1
       },
       {
         "label": "B",
-        "count": 293,
-        "pct": 16.9
+        "count": 295,
+        "pct": 17
       },
       {
         "label": "C",
-        "count": 1065,
+        "count": 1070,
         "pct": 61.6
       },
       {
         "label": "D",
-        "count": 165,
-        "pct": 9.5
+        "count": 166,
+        "pct": 9.6
       },
       {
         "label": "E",
         "count": 39,
-        "pct": 2.3
+        "pct": 2.2
       },
       {
         "label": "F",
@@ -999,31 +999,31 @@ export const VILLE_DPE_STATS = {
   },
   "juvignac": {
     "insee": "34123",
-    "total": 2657,
-    "fgCount": 10,
+    "total": 2678,
+    "fgCount": 11,
     "fgPct": 0.4,
-    "efgCount": 77,
+    "efgCount": 78,
     "efgPct": 2.9,
     "distribution": [
       {
         "label": "A",
-        "count": 482,
+        "count": 486,
         "pct": 18.1
       },
       {
         "label": "B",
-        "count": 718,
-        "pct": 27
+        "count": 726,
+        "pct": 27.1
       },
       {
         "label": "C",
-        "count": 1182,
-        "pct": 44.5
+        "count": 1189,
+        "pct": 44.4
       },
       {
         "label": "D",
-        "count": 198,
-        "pct": 7.5
+        "count": 199,
+        "pct": 7.4
       },
       {
         "label": "E",
@@ -1032,8 +1032,8 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "F",
-        "count": 9,
-        "pct": 0.3
+        "count": 10,
+        "pct": 0.4
       },
       {
         "label": "G",
@@ -1044,31 +1044,31 @@ export const VILLE_DPE_STATS = {
   },
   "pignan": {
     "insee": "34202",
-    "total": 1107,
+    "total": 1113,
     "fgCount": 14,
     "fgPct": 1.3,
     "efgCount": 55,
-    "efgPct": 5,
+    "efgPct": 4.9,
     "distribution": [
       {
         "label": "A",
-        "count": 109,
-        "pct": 9.8
+        "count": 110,
+        "pct": 9.9
       },
       {
         "label": "B",
-        "count": 315,
+        "count": 317,
         "pct": 28.5
       },
       {
         "label": "C",
-        "count": 500,
+        "count": 503,
         "pct": 45.2
       },
       {
         "label": "D",
         "count": 128,
-        "pct": 11.6
+        "pct": 11.5
       },
       {
         "label": "E",
@@ -1089,7 +1089,7 @@ export const VILLE_DPE_STATS = {
   },
   "fabregues": {
     "insee": "34095",
-    "total": 1053,
+    "total": 1057,
     "fgCount": 22,
     "fgPct": 2.1,
     "efgCount": 82,
@@ -1098,22 +1098,22 @@ export const VILLE_DPE_STATS = {
       {
         "label": "A",
         "count": 121,
-        "pct": 11.5
+        "pct": 11.4
       },
       {
         "label": "B",
         "count": 282,
-        "pct": 26.8
+        "pct": 26.7
       },
       {
         "label": "C",
-        "count": 427,
-        "pct": 40.6
+        "count": 431,
+        "pct": 40.8
       },
       {
         "label": "D",
         "count": 141,
-        "pct": 13.4
+        "pct": 13.3
       },
       {
         "label": "E",
@@ -1224,31 +1224,31 @@ export const VILLE_DPE_STATS = {
   },
   "vendargues": {
     "insee": "34327",
-    "total": 801,
+    "total": 811,
     "fgCount": 16,
     "fgPct": 2,
     "efgCount": 57,
-    "efgPct": 7.1,
+    "efgPct": 7,
     "distribution": [
       {
         "label": "A",
-        "count": 68,
+        "count": 69,
         "pct": 8.5
       },
       {
         "label": "B",
-        "count": 184,
-        "pct": 23
+        "count": 186,
+        "pct": 22.9
       },
       {
         "label": "C",
-        "count": 367,
-        "pct": 45.8
+        "count": 371,
+        "pct": 45.7
       },
       {
         "label": "D",
-        "count": 125,
-        "pct": 15.6
+        "count": 128,
+        "pct": 15.8
       },
       {
         "label": "E",
@@ -1269,31 +1269,31 @@ export const VILLE_DPE_STATS = {
   },
   "saint-aunes": {
     "insee": "34240",
-    "total": 459,
+    "total": 460,
     "fgCount": 6,
     "fgPct": 1.3,
     "efgCount": 14,
-    "efgPct": 3.1,
+    "efgPct": 3,
     "distribution": [
       {
         "label": "A",
-        "count": 67,
-        "pct": 14.6
+        "count": 68,
+        "pct": 14.8
       },
       {
         "label": "B",
         "count": 77,
-        "pct": 16.8
+        "pct": 16.7
       },
       {
         "label": "C",
         "count": 241,
-        "pct": 52.5
+        "pct": 52.4
       },
       {
         "label": "D",
         "count": 60,
-        "pct": 13.1
+        "pct": 13
       },
       {
         "label": "E",
@@ -1314,36 +1314,36 @@ export const VILLE_DPE_STATS = {
   },
   "lansargues": {
     "insee": "34127",
-    "total": 436,
+    "total": 441,
     "fgCount": 8,
     "fgPct": 1.8,
     "efgCount": 49,
-    "efgPct": 11.2,
+    "efgPct": 11.1,
     "distribution": [
       {
         "label": "A",
         "count": 26,
-        "pct": 6
+        "pct": 5.9
       },
       {
         "label": "B",
-        "count": 69,
-        "pct": 15.8
+        "count": 70,
+        "pct": 15.9
       },
       {
         "label": "C",
-        "count": 195,
-        "pct": 44.7
+        "count": 198,
+        "pct": 44.9
       },
       {
         "label": "D",
-        "count": 97,
+        "count": 98,
         "pct": 22.2
       },
       {
         "label": "E",
         "count": 41,
-        "pct": 9.4
+        "pct": 9.3
       },
       {
         "label": "F",
@@ -1359,16 +1359,16 @@ export const VILLE_DPE_STATS = {
   },
   "lunel-viel": {
     "insee": "34146",
-    "total": 472,
+    "total": 473,
     "fgCount": 12,
     "fgPct": 2.5,
-    "efgCount": 49,
-    "efgPct": 10.4,
+    "efgCount": 50,
+    "efgPct": 10.6,
     "distribution": [
       {
         "label": "A",
         "count": 39,
-        "pct": 8.3
+        "pct": 8.2
       },
       {
         "label": "B",
@@ -1378,17 +1378,17 @@ export const VILLE_DPE_STATS = {
       {
         "label": "C",
         "count": 216,
-        "pct": 45.8
+        "pct": 45.7
       },
       {
         "label": "D",
         "count": 97,
-        "pct": 20.6
+        "pct": 20.5
       },
       {
         "label": "E",
-        "count": 37,
-        "pct": 7.8
+        "count": 38,
+        "pct": 8
       },
       {
         "label": "F",
@@ -1449,31 +1449,31 @@ export const VILLE_DPE_STATS = {
   },
   "saint-just": {
     "insee": "34272",
-    "total": 229,
+    "total": 233,
     "fgCount": 2,
     "fgPct": 0.9,
     "efgCount": 14,
-    "efgPct": 6.1,
+    "efgPct": 6,
     "distribution": [
       {
         "label": "A",
         "count": 32,
-        "pct": 14
+        "pct": 13.7
       },
       {
         "label": "B",
-        "count": 48,
+        "count": 49,
         "pct": 21
       },
       {
         "label": "C",
-        "count": 101,
-        "pct": 44.1
+        "count": 103,
+        "pct": 44.2
       },
       {
         "label": "D",
-        "count": 34,
-        "pct": 14.8
+        "count": 35,
+        "pct": 15
       },
       {
         "label": "E",
@@ -1494,36 +1494,36 @@ export const VILLE_DPE_STATS = {
   },
   "marsillargues": {
     "insee": "34151",
-    "total": 1086,
+    "total": 1098,
     "fgCount": 17,
-    "fgPct": 1.6,
+    "fgPct": 1.5,
     "efgCount": 79,
-    "efgPct": 7.3,
+    "efgPct": 7.2,
     "distribution": [
       {
         "label": "A",
-        "count": 64,
-        "pct": 5.9
+        "count": 66,
+        "pct": 6
       },
       {
         "label": "B",
-        "count": 213,
-        "pct": 19.6
+        "count": 218,
+        "pct": 19.9
       },
       {
         "label": "C",
-        "count": 550,
-        "pct": 50.6
+        "count": 555,
+        "pct": 50.5
       },
       {
         "label": "D",
         "count": 180,
-        "pct": 16.6
+        "pct": 16.4
       },
       {
         "label": "E",
         "count": 62,
-        "pct": 5.7
+        "pct": 5.6
       },
       {
         "label": "F",
@@ -1539,7 +1539,7 @@ export const VILLE_DPE_STATS = {
   },
   "boisseron": {
     "insee": "34033",
-    "total": 215,
+    "total": 216,
     "fgCount": 6,
     "fgPct": 2.8,
     "efgCount": 20,
@@ -1552,18 +1552,18 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 39,
-        "pct": 18.1
+        "count": 40,
+        "pct": 18.5
       },
       {
         "label": "C",
         "count": 88,
-        "pct": 40.9
+        "pct": 40.7
       },
       {
         "label": "D",
         "count": 46,
-        "pct": 21.4
+        "pct": 21.3
       },
       {
         "label": "E",
@@ -1584,10 +1584,10 @@ export const VILLE_DPE_STATS = {
   },
   "bagnols-sur-ceze": {
     "insee": "30028",
-    "total": 6075,
-    "fgCount": 89,
+    "total": 6099,
+    "fgCount": 90,
     "fgPct": 1.5,
-    "efgCount": 534,
+    "efgCount": 538,
     "efgPct": 8.8,
     "distribution": [
       {
@@ -1597,27 +1597,27 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 432,
-        "pct": 7.1
+        "count": 438,
+        "pct": 7.2
       },
       {
         "label": "C",
-        "count": 2950,
-        "pct": 48.6
+        "count": 2956,
+        "pct": 48.5
       },
       {
         "label": "D",
-        "count": 2040,
+        "count": 2048,
         "pct": 33.6
       },
       {
         "label": "E",
-        "count": 445,
+        "count": 448,
         "pct": 7.3
       },
       {
         "label": "F",
-        "count": 67,
+        "count": 68,
         "pct": 1.1
       },
       {
@@ -1629,10 +1629,10 @@ export const VILLE_DPE_STATS = {
   },
   "beaucaire": {
     "insee": "30032",
-    "total": 3657,
+    "total": 3673,
     "fgCount": 84,
     "fgPct": 2.3,
-    "efgCount": 448,
+    "efgCount": 453,
     "efgPct": 12.3,
     "distribution": [
       {
@@ -1642,22 +1642,22 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 321,
+        "count": 323,
         "pct": 8.8
       },
       {
         "label": "C",
-        "count": 1682,
+        "count": 1688,
         "pct": 46
       },
       {
         "label": "D",
-        "count": 1080,
+        "count": 1083,
         "pct": 29.5
       },
       {
         "label": "E",
-        "count": 364,
+        "count": 369,
         "pct": 10
       },
       {
@@ -1674,16 +1674,16 @@ export const VILLE_DPE_STATS = {
   },
   "saint-gilles": {
     "insee": "30258",
-    "total": 2877,
+    "total": 2888,
     "fgCount": 45,
     "fgPct": 1.6,
-    "efgCount": 233,
+    "efgCount": 234,
     "efgPct": 8.1,
     "distribution": [
       {
         "label": "A",
-        "count": 144,
-        "pct": 5
+        "count": 146,
+        "pct": 5.1
       },
       {
         "label": "B",
@@ -1692,17 +1692,17 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "C",
-        "count": 1251,
-        "pct": 43.5
+        "count": 1259,
+        "pct": 43.6
       },
       {
         "label": "D",
         "count": 849,
-        "pct": 29.5
+        "pct": 29.4
       },
       {
         "label": "E",
-        "count": 188,
+        "count": 189,
         "pct": 6.5
       },
       {
@@ -1719,11 +1719,11 @@ export const VILLE_DPE_STATS = {
   },
   "aramon": {
     "insee": "30012",
-    "total": 837,
+    "total": 840,
     "fgCount": 17,
     "fgPct": 2,
-    "efgCount": 78,
-    "efgPct": 9.3,
+    "efgCount": 79,
+    "efgPct": 9.4,
     "distribution": [
       {
         "label": "A",
@@ -1732,23 +1732,23 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 108,
-        "pct": 12.9
+        "count": 109,
+        "pct": 13
       },
       {
         "label": "C",
-        "count": 396,
+        "count": 397,
         "pct": 47.3
       },
       {
         "label": "D",
         "count": 231,
-        "pct": 27.6
+        "pct": 27.5
       },
       {
         "label": "E",
-        "count": 61,
-        "pct": 7.3
+        "count": 62,
+        "pct": 7.4
       },
       {
         "label": "F",
@@ -1764,7 +1764,7 @@ export const VILLE_DPE_STATS = {
   },
   "aimargues": {
     "insee": "30006",
-    "total": 699,
+    "total": 700,
     "fgCount": 7,
     "fgPct": 1,
     "efgCount": 48,
@@ -1773,22 +1773,22 @@ export const VILLE_DPE_STATS = {
       {
         "label": "A",
         "count": 64,
-        "pct": 9.2
+        "pct": 9.1
       },
       {
         "label": "B",
         "count": 148,
-        "pct": 21.2
+        "pct": 21.1
       },
       {
         "label": "C",
         "count": 317,
-        "pct": 45.4
+        "pct": 45.3
       },
       {
         "label": "D",
-        "count": 122,
-        "pct": 17.5
+        "count": 123,
+        "pct": 17.6
       },
       {
         "label": "E",
@@ -1854,7 +1854,7 @@ export const VILLE_DPE_STATS = {
   },
   "calvisson": {
     "insee": "30062",
-    "total": 1115,
+    "total": 1120,
     "fgCount": 12,
     "fgPct": 1.1,
     "efgCount": 77,
@@ -1862,23 +1862,23 @@ export const VILLE_DPE_STATS = {
     "distribution": [
       {
         "label": "A",
-        "count": 93,
-        "pct": 8.3
+        "count": 94,
+        "pct": 8.4
       },
       {
         "label": "B",
-        "count": 151,
-        "pct": 13.5
+        "count": 152,
+        "pct": 13.6
       },
       {
         "label": "C",
-        "count": 618,
-        "pct": 55.4
+        "count": 619,
+        "pct": 55.3
       },
       {
         "label": "D",
-        "count": 176,
-        "pct": 15.8
+        "count": 178,
+        "pct": 15.9
       },
       {
         "label": "E",
@@ -1947,8 +1947,8 @@ export const VILLE_DPE_STATS = {
     "total": 600,
     "fgCount": 12,
     "fgPct": 2,
-    "efgCount": 41,
-    "efgPct": 6.8,
+    "efgCount": 40,
+    "efgPct": 6.7,
     "distribution": [
       {
         "label": "A",
@@ -1967,13 +1967,13 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "D",
-        "count": 118,
-        "pct": 19.7
+        "count": 119,
+        "pct": 19.8
       },
       {
         "label": "E",
-        "count": 29,
-        "pct": 4.8
+        "count": 28,
+        "pct": 4.7
       },
       {
         "label": "F",
@@ -1989,40 +1989,40 @@ export const VILLE_DPE_STATS = {
   },
   "narbonne": {
     "insee": "11262",
-    "total": 18224,
-    "fgCount": 308,
+    "total": 18402,
+    "fgCount": 310,
     "fgPct": 1.7,
-    "efgCount": 1358,
-    "efgPct": 7.5,
+    "efgCount": 1370,
+    "efgPct": 7.4,
     "distribution": [
       {
         "label": "A",
-        "count": 999,
+        "count": 1004,
         "pct": 5.5
       },
       {
         "label": "B",
-        "count": 3022,
-        "pct": 16.6
+        "count": 3122,
+        "pct": 17
       },
       {
         "label": "C",
-        "count": 9468,
-        "pct": 52
+        "count": 9515,
+        "pct": 51.7
       },
       {
         "label": "D",
-        "count": 3377,
-        "pct": 18.5
+        "count": 3391,
+        "pct": 18.4
       },
       {
         "label": "E",
-        "count": 1050,
+        "count": 1060,
         "pct": 5.8
       },
       {
         "label": "F",
-        "count": 257,
+        "count": 259,
         "pct": 1.4
       },
       {
@@ -2034,10 +2034,10 @@ export const VILLE_DPE_STATS = {
   },
   "lunel": {
     "insee": "34145",
-    "total": 4666,
+    "total": 4693,
     "fgCount": 73,
     "fgPct": 1.6,
-    "efgCount": 390,
+    "efgCount": 394,
     "efgPct": 8.4,
     "distribution": [
       {
@@ -2047,22 +2047,22 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 686,
-        "pct": 14.7
+        "count": 687,
+        "pct": 14.6
       },
       {
         "label": "C",
-        "count": 2524,
-        "pct": 54.1
+        "count": 2543,
+        "pct": 54.2
       },
       {
         "label": "D",
-        "count": 948,
+        "count": 951,
         "pct": 20.3
       },
       {
         "label": "E",
-        "count": 317,
+        "count": 321,
         "pct": 6.8
       },
       {
@@ -2079,7 +2079,7 @@ export const VILLE_DPE_STATS = {
   },
   "vauvert": {
     "insee": "30341",
-    "total": 1829,
+    "total": 1837,
     "fgCount": 32,
     "fgPct": 1.7,
     "efgCount": 149,
@@ -2087,22 +2087,22 @@ export const VILLE_DPE_STATS = {
     "distribution": [
       {
         "label": "A",
-        "count": 79,
-        "pct": 4.3
+        "count": 80,
+        "pct": 4.4
       },
       {
         "label": "B",
-        "count": 216,
+        "count": 217,
         "pct": 11.8
       },
       {
         "label": "C",
-        "count": 1028,
+        "count": 1032,
         "pct": 56.2
       },
       {
         "label": "D",
-        "count": 357,
+        "count": 359,
         "pct": 19.5
       },
       {
@@ -2124,41 +2124,41 @@ export const VILLE_DPE_STATS = {
   },
   "manduel": {
     "insee": "30155",
-    "total": 829,
+    "total": 866,
     "fgCount": 14,
-    "fgPct": 1.7,
+    "fgPct": 1.6,
     "efgCount": 59,
-    "efgPct": 7.1,
+    "efgPct": 6.8,
     "distribution": [
       {
         "label": "A",
         "count": 120,
-        "pct": 14.5
+        "pct": 13.9
       },
       {
         "label": "B",
-        "count": 156,
-        "pct": 18.8
+        "count": 157,
+        "pct": 18.1
       },
       {
         "label": "C",
-        "count": 353,
-        "pct": 42.6
+        "count": 355,
+        "pct": 41
       },
       {
         "label": "D",
-        "count": 141,
-        "pct": 17
+        "count": 175,
+        "pct": 20.2
       },
       {
         "label": "E",
         "count": 45,
-        "pct": 5.4
+        "pct": 5.2
       },
       {
         "label": "F",
         "count": 13,
-        "pct": 1.6
+        "pct": 1.5
       },
       {
         "label": "G",
@@ -2169,36 +2169,36 @@ export const VILLE_DPE_STATS = {
   },
   "marguerittes": {
     "insee": "30156",
-    "total": 982,
+    "total": 1020,
     "fgCount": 18,
     "fgPct": 1.8,
     "efgCount": 92,
-    "efgPct": 9.4,
+    "efgPct": 9,
     "distribution": [
       {
         "label": "A",
-        "count": 53,
-        "pct": 5.4
+        "count": 70,
+        "pct": 6.9
       },
       {
         "label": "B",
-        "count": 200,
-        "pct": 20.4
+        "count": 217,
+        "pct": 21.3
       },
       {
         "label": "C",
-        "count": 480,
-        "pct": 48.9
+        "count": 482,
+        "pct": 47.3
       },
       {
         "label": "D",
-        "count": 157,
-        "pct": 16
+        "count": 159,
+        "pct": 15.6
       },
       {
         "label": "E",
         "count": 74,
-        "pct": 7.5
+        "pct": 7.3
       },
       {
         "label": "F",
@@ -2214,11 +2214,11 @@ export const VILLE_DPE_STATS = {
   },
   "generac": {
     "insee": "30128",
-    "total": 518,
+    "total": 522,
     "fgCount": 8,
     "fgPct": 1.5,
-    "efgCount": 39,
-    "efgPct": 7.5,
+    "efgCount": 40,
+    "efgPct": 7.7,
     "distribution": [
       {
         "label": "A",
@@ -2227,28 +2227,28 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 103,
+        "count": 104,
         "pct": 19.9
       },
       {
         "label": "C",
-        "count": 234,
+        "count": 236,
         "pct": 45.2
       },
       {
         "label": "D",
         "count": 103,
-        "pct": 19.9
+        "pct": 19.7
       },
       {
         "label": "E",
-        "count": 31,
-        "pct": 6
+        "count": 32,
+        "pct": 6.1
       },
       {
         "label": "F",
         "count": 7,
-        "pct": 1.4
+        "pct": 1.3
       },
       {
         "label": "G",
@@ -2259,7 +2259,7 @@ export const VILLE_DPE_STATS = {
   },
   "bellegarde": {
     "insee": "30034",
-    "total": 980,
+    "total": 983,
     "fgCount": 8,
     "fgPct": 0.8,
     "efgCount": 44,
@@ -2272,18 +2272,18 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 186,
-        "pct": 19
+        "count": 188,
+        "pct": 19.1
       },
       {
         "label": "C",
-        "count": 411,
+        "count": 412,
         "pct": 41.9
       },
       {
         "label": "D",
         "count": 227,
-        "pct": 23.2
+        "pct": 23.1
       },
       {
         "label": "E",
@@ -2304,41 +2304,41 @@ export const VILLE_DPE_STATS = {
   },
   "garons": {
     "insee": "30125",
-    "total": 626,
-    "fgCount": 10,
-    "fgPct": 1.6,
-    "efgCount": 37,
-    "efgPct": 5.9,
+    "total": 633,
+    "fgCount": 11,
+    "fgPct": 1.7,
+    "efgCount": 39,
+    "efgPct": 6.2,
     "distribution": [
       {
         "label": "A",
         "count": 67,
-        "pct": 10.7
+        "pct": 10.6
       },
       {
         "label": "B",
-        "count": 102,
+        "count": 103,
         "pct": 16.3
       },
       {
         "label": "C",
         "count": 308,
-        "pct": 49.2
+        "pct": 48.7
       },
       {
         "label": "D",
-        "count": 112,
-        "pct": 17.9
+        "count": 116,
+        "pct": 18.3
       },
       {
         "label": "E",
-        "count": 27,
-        "pct": 4.3
+        "count": 28,
+        "pct": 4.4
       },
       {
         "label": "F",
-        "count": 8,
-        "pct": 1.3
+        "count": 9,
+        "pct": 1.4
       },
       {
         "label": "G",
@@ -2349,36 +2349,36 @@ export const VILLE_DPE_STATS = {
   },
   "milhaud": {
     "insee": "30169",
-    "total": 977,
+    "total": 985,
     "fgCount": 17,
     "fgPct": 1.7,
-    "efgCount": 78,
+    "efgCount": 79,
     "efgPct": 8,
     "distribution": [
       {
         "label": "A",
-        "count": 97,
+        "count": 98,
         "pct": 9.9
       },
       {
         "label": "B",
-        "count": 141,
-        "pct": 14.4
+        "count": 144,
+        "pct": 14.6
       },
       {
         "label": "C",
-        "count": 504,
-        "pct": 51.6
+        "count": 507,
+        "pct": 51.5
       },
       {
         "label": "D",
         "count": 157,
-        "pct": 16.1
+        "pct": 15.9
       },
       {
         "label": "E",
-        "count": 61,
-        "pct": 6.2
+        "count": 62,
+        "pct": 6.3
       },
       {
         "label": "F",
@@ -2394,11 +2394,11 @@ export const VILLE_DPE_STATS = {
   },
   "balaruc-les-bains": {
     "insee": "34023",
-    "total": 2587,
-    "fgCount": 53,
-    "fgPct": 2,
-    "efgCount": 282,
-    "efgPct": 10.9,
+    "total": 2601,
+    "fgCount": 55,
+    "fgPct": 2.1,
+    "efgCount": 285,
+    "efgPct": 11,
     "distribution": [
       {
         "label": "A",
@@ -2407,43 +2407,43 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 187,
+        "count": 188,
         "pct": 7.2
       },
       {
         "label": "C",
-        "count": 1285,
+        "count": 1292,
         "pct": 49.7
       },
       {
         "label": "D",
-        "count": 732,
+        "count": 735,
         "pct": 28.3
       },
       {
         "label": "E",
-        "count": 229,
-        "pct": 8.9
+        "count": 230,
+        "pct": 8.8
       },
       {
         "label": "F",
-        "count": 45,
-        "pct": 1.7
+        "count": 46,
+        "pct": 1.8
       },
       {
         "label": "G",
-        "count": 8,
+        "count": 9,
         "pct": 0.3
       }
     ]
   },
   "balaruc-le-vieux": {
     "insee": "34024",
-    "total": 345,
+    "total": 347,
     "fgCount": 12,
     "fgPct": 3.5,
     "efgCount": 24,
-    "efgPct": 7,
+    "efgPct": 6.9,
     "distribution": [
       {
         "label": "A",
@@ -2452,13 +2452,13 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 47,
-        "pct": 13.6
+        "count": 49,
+        "pct": 14.1
       },
       {
         "label": "C",
         "count": 208,
-        "pct": 60.3
+        "pct": 59.9
       },
       {
         "label": "D",
@@ -2484,41 +2484,41 @@ export const VILLE_DPE_STATS = {
   },
   "meze": {
     "insee": "34157",
-    "total": 2687,
+    "total": 2727,
     "fgCount": 88,
-    "fgPct": 3.3,
+    "fgPct": 3.2,
     "efgCount": 440,
-    "efgPct": 16.4,
+    "efgPct": 16.1,
     "distribution": [
       {
         "label": "A",
-        "count": 162,
+        "count": 163,
         "pct": 6
       },
       {
         "label": "B",
-        "count": 397,
-        "pct": 14.8
+        "count": 400,
+        "pct": 14.7
       },
       {
         "label": "C",
-        "count": 1094,
-        "pct": 40.7
+        "count": 1126,
+        "pct": 41.3
       },
       {
         "label": "D",
-        "count": 594,
-        "pct": 22.1
+        "count": 598,
+        "pct": 21.9
       },
       {
         "label": "E",
         "count": 352,
-        "pct": 13.1
+        "pct": 12.9
       },
       {
         "label": "F",
         "count": 72,
-        "pct": 2.7
+        "pct": 2.6
       },
       {
         "label": "G",
@@ -2529,11 +2529,11 @@ export const VILLE_DPE_STATS = {
   },
   "marseillan": {
     "insee": "34150",
-    "total": 2435,
+    "total": 2453,
     "fgCount": 66,
     "fgPct": 2.7,
-    "efgCount": 235,
-    "efgPct": 9.7,
+    "efgCount": 234,
+    "efgPct": 9.5,
     "distribution": [
       {
         "label": "A",
@@ -2542,23 +2542,23 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 380,
-        "pct": 15.6
+        "count": 388,
+        "pct": 15.8
       },
       {
         "label": "C",
-        "count": 1241,
-        "pct": 51
+        "count": 1248,
+        "pct": 50.9
       },
       {
         "label": "D",
-        "count": 487,
+        "count": 491,
         "pct": 20
       },
       {
         "label": "E",
-        "count": 169,
-        "pct": 6.9
+        "count": 168,
+        "pct": 6.8
       },
       {
         "label": "F",
@@ -2574,36 +2574,36 @@ export const VILLE_DPE_STATS = {
   },
   "bouzigues": {
     "insee": "34039",
-    "total": 232,
+    "total": 235,
     "fgCount": 10,
     "fgPct": 4.3,
-    "efgCount": 35,
-    "efgPct": 15.1,
+    "efgCount": 36,
+    "efgPct": 15.3,
     "distribution": [
       {
         "label": "A",
         "count": 12,
-        "pct": 5.2
+        "pct": 5.1
       },
       {
         "label": "B",
         "count": 18,
-        "pct": 7.8
+        "pct": 7.7
       },
       {
         "label": "C",
-        "count": 110,
-        "pct": 47.4
+        "count": 111,
+        "pct": 47.2
       },
       {
         "label": "D",
-        "count": 57,
-        "pct": 24.6
+        "count": 58,
+        "pct": 24.7
       },
       {
         "label": "E",
-        "count": 25,
-        "pct": 10.8
+        "count": 26,
+        "pct": 11.1
       },
       {
         "label": "F",
@@ -2619,36 +2619,36 @@ export const VILLE_DPE_STATS = {
   },
   "poussan": {
     "insee": "34213",
-    "total": 882,
+    "total": 893,
     "fgCount": 20,
-    "fgPct": 2.3,
+    "fgPct": 2.2,
     "efgCount": 69,
-    "efgPct": 7.8,
+    "efgPct": 7.7,
     "distribution": [
       {
         "label": "A",
-        "count": 145,
-        "pct": 16.4
+        "count": 148,
+        "pct": 16.6
       },
       {
         "label": "B",
-        "count": 164,
-        "pct": 18.6
+        "count": 167,
+        "pct": 18.7
       },
       {
         "label": "C",
-        "count": 358,
+        "count": 363,
         "pct": 40.6
       },
       {
         "label": "D",
         "count": 146,
-        "pct": 16.6
+        "pct": 16.3
       },
       {
         "label": "E",
         "count": 49,
-        "pct": 5.6
+        "pct": 5.5
       },
       {
         "label": "F",
@@ -2664,36 +2664,36 @@ export const VILLE_DPE_STATS = {
   },
   "gigean": {
     "insee": "34113",
-    "total": 1162,
+    "total": 1178,
     "fgCount": 7,
     "fgPct": 0.6,
     "efgCount": 65,
-    "efgPct": 5.6,
+    "efgPct": 5.5,
     "distribution": [
       {
         "label": "A",
-        "count": 73,
-        "pct": 6.3
+        "count": 84,
+        "pct": 7.1
       },
       {
         "label": "B",
-        "count": 174,
-        "pct": 15
+        "count": 176,
+        "pct": 14.9
       },
       {
         "label": "C",
-        "count": 613,
-        "pct": 52.8
+        "count": 616,
+        "pct": 52.3
       },
       {
         "label": "D",
         "count": 237,
-        "pct": 20.4
+        "pct": 20.1
       },
       {
         "label": "E",
         "count": 58,
-        "pct": 5
+        "pct": 4.9
       },
       {
         "label": "F",
@@ -2844,7 +2844,7 @@ export const VILLE_DPE_STATS = {
   },
   "teyran": {
     "insee": "34309",
-    "total": 435,
+    "total": 436,
     "fgCount": 7,
     "fgPct": 1.6,
     "efgCount": 25,
@@ -2857,18 +2857,18 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "B",
-        "count": 72,
-        "pct": 16.6
+        "count": 73,
+        "pct": 16.7
       },
       {
         "label": "C",
         "count": 213,
-        "pct": 49
+        "pct": 48.9
       },
       {
         "label": "D",
         "count": 89,
-        "pct": 20.5
+        "pct": 20.4
       },
       {
         "label": "E",
@@ -2979,36 +2979,36 @@ export const VILLE_DPE_STATS = {
   },
   "vailhauques": {
     "insee": "34320",
-    "total": 189,
-    "fgCount": 3,
-    "fgPct": 1.6,
-    "efgCount": 11,
-    "efgPct": 5.8,
+    "total": 193,
+    "fgCount": 4,
+    "fgPct": 2.1,
+    "efgCount": 12,
+    "efgPct": 6.2,
     "distribution": [
       {
         "label": "A",
         "count": 15,
-        "pct": 7.9
+        "pct": 7.8
       },
       {
         "label": "B",
-        "count": 35,
-        "pct": 18.5
+        "count": 36,
+        "pct": 18.7
       },
       {
         "label": "C",
-        "count": 87,
-        "pct": 46
+        "count": 89,
+        "pct": 46.1
       },
       {
         "label": "D",
         "count": 41,
-        "pct": 21.7
+        "pct": 21.2
       },
       {
         "label": "E",
         "count": 8,
-        "pct": 4.2
+        "pct": 4.1
       },
       {
         "label": "F",
@@ -3017,92 +3017,92 @@ export const VILLE_DPE_STATS = {
       },
       {
         "label": "G",
-        "count": 0,
-        "pct": 0
+        "count": 1,
+        "pct": 0.5
       }
     ]
   },
   "castries": {
     "insee": "34058",
-    "total": 927,
-    "fgCount": 35,
-    "fgPct": 3.8,
-    "efgCount": 93,
-    "efgPct": 10,
+    "total": 940,
+    "fgCount": 37,
+    "fgPct": 3.9,
+    "efgCount": 100,
+    "efgPct": 10.6,
     "distribution": [
       {
         "label": "A",
         "count": 71,
-        "pct": 7.7
+        "pct": 7.6
       },
       {
         "label": "B",
-        "count": 98,
-        "pct": 10.6
+        "count": 99,
+        "pct": 10.5
       },
       {
         "label": "C",
-        "count": 513,
-        "pct": 55.3
+        "count": 515,
+        "pct": 54.8
       },
       {
         "label": "D",
-        "count": 152,
-        "pct": 16.4
+        "count": 155,
+        "pct": 16.5
       },
       {
         "label": "E",
-        "count": 58,
-        "pct": 6.3
+        "count": 63,
+        "pct": 6.7
       },
       {
         "label": "F",
-        "count": 28,
-        "pct": 3
+        "count": 30,
+        "pct": 3.2
       },
       {
         "label": "G",
         "count": 7,
-        "pct": 0.8
+        "pct": 0.7
       }
     ]
   },
   "baillargues": {
     "insee": "34022",
-    "total": 1679,
-    "fgCount": 5,
-    "fgPct": 0.3,
-    "efgCount": 44,
-    "efgPct": 2.6,
+    "total": 1695,
+    "fgCount": 6,
+    "fgPct": 0.4,
+    "efgCount": 46,
+    "efgPct": 2.7,
     "distribution": [
       {
         "label": "A",
-        "count": 161,
-        "pct": 9.6
+        "count": 169,
+        "pct": 10
       },
       {
         "label": "B",
-        "count": 234,
+        "count": 236,
         "pct": 13.9
       },
       {
         "label": "C",
-        "count": 1089,
-        "pct": 64.9
+        "count": 1091,
+        "pct": 64.4
       },
       {
         "label": "D",
-        "count": 151,
+        "count": 153,
         "pct": 9
       },
       {
         "label": "E",
-        "count": 39,
-        "pct": 2.3
+        "count": 40,
+        "pct": 2.4
       },
       {
         "label": "F",
-        "count": 3,
+        "count": 4,
         "pct": 0.2
       },
       {
@@ -3114,7 +3114,7 @@ export const VILLE_DPE_STATS = {
   },
   "saint-bres": {
     "insee": "34244",
-    "total": 412,
+    "total": 413,
     "fgCount": 3,
     "fgPct": 0.7,
     "efgCount": 21,
@@ -3122,18 +3122,18 @@ export const VILLE_DPE_STATS = {
     "distribution": [
       {
         "label": "A",
-        "count": 48,
-        "pct": 11.7
+        "count": 49,
+        "pct": 11.9
       },
       {
         "label": "B",
         "count": 117,
-        "pct": 28.4
+        "pct": 28.3
       },
       {
         "label": "C",
         "count": 164,
-        "pct": 39.8
+        "pct": 39.7
       },
       {
         "label": "D",
@@ -3159,36 +3159,36 @@ export const VILLE_DPE_STATS = {
   },
   "sussargues": {
     "insee": "34307",
-    "total": 216,
+    "total": 218,
     "fgCount": 2,
     "fgPct": 0.9,
     "efgCount": 11,
-    "efgPct": 5.1,
+    "efgPct": 5,
     "distribution": [
       {
         "label": "A",
-        "count": 32,
-        "pct": 14.8
+        "count": 33,
+        "pct": 15.1
       },
       {
         "label": "B",
-        "count": 51,
-        "pct": 23.6
+        "count": 52,
+        "pct": 23.9
       },
       {
         "label": "C",
         "count": 91,
-        "pct": 42.1
+        "pct": 41.7
       },
       {
         "label": "D",
         "count": 31,
-        "pct": 14.4
+        "pct": 14.2
       },
       {
         "label": "E",
         "count": 9,
-        "pct": 4.2
+        "pct": 4.1
       },
       {
         "label": "F",
@@ -3294,7 +3294,7 @@ export const VILLE_DPE_STATS = {
   },
   "beaulieu": {
     "insee": "34027",
-    "total": 191,
+    "total": 192,
     "fgCount": 2,
     "fgPct": 1,
     "efgCount": 8,
@@ -3302,23 +3302,23 @@ export const VILLE_DPE_STATS = {
     "distribution": [
       {
         "label": "A",
-        "count": 31,
-        "pct": 16.2
+        "count": 32,
+        "pct": 16.7
       },
       {
         "label": "B",
         "count": 42,
-        "pct": 22
+        "pct": 21.9
       },
       {
         "label": "C",
         "count": 72,
-        "pct": 37.7
+        "pct": 37.5
       },
       {
         "label": "D",
         "count": 38,
-        "pct": 19.9
+        "pct": 19.8
       },
       {
         "label": "E",
@@ -3334,6 +3334,321 @@ export const VILLE_DPE_STATS = {
         "label": "G",
         "count": 0,
         "pct": 0
+      }
+    ]
+  },
+  "laverune": {
+    "insee": "34134",
+    "total": 477,
+    "fgCount": 15,
+    "fgPct": 3.1,
+    "efgCount": 43,
+    "efgPct": 9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 54,
+        "pct": 11.3
+      },
+      {
+        "label": "B",
+        "count": 83,
+        "pct": 17.4
+      },
+      {
+        "label": "C",
+        "count": 217,
+        "pct": 45.5
+      },
+      {
+        "label": "D",
+        "count": 80,
+        "pct": 16.8
+      },
+      {
+        "label": "E",
+        "count": 28,
+        "pct": 5.9
+      },
+      {
+        "label": "F",
+        "count": 13,
+        "pct": 2.7
+      },
+      {
+        "label": "G",
+        "count": 2,
+        "pct": 0.4
+      }
+    ]
+  },
+  "saussan": {
+    "insee": "34295",
+    "total": 154,
+    "fgCount": 6,
+    "fgPct": 3.9,
+    "efgCount": 23,
+    "efgPct": 14.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 34,
+        "pct": 22.1
+      },
+      {
+        "label": "B",
+        "count": 25,
+        "pct": 16.2
+      },
+      {
+        "label": "C",
+        "count": 47,
+        "pct": 30.5
+      },
+      {
+        "label": "D",
+        "count": 25,
+        "pct": 16.2
+      },
+      {
+        "label": "E",
+        "count": 17,
+        "pct": 11
+      },
+      {
+        "label": "F",
+        "count": 6,
+        "pct": 3.9
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "cournonsec": {
+    "insee": "34087",
+    "total": 338,
+    "fgCount": 2,
+    "fgPct": 0.6,
+    "efgCount": 15,
+    "efgPct": 4.4,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 50,
+        "pct": 14.8
+      },
+      {
+        "label": "B",
+        "count": 74,
+        "pct": 21.9
+      },
+      {
+        "label": "C",
+        "count": 177,
+        "pct": 52.4
+      },
+      {
+        "label": "D",
+        "count": 22,
+        "pct": 6.5
+      },
+      {
+        "label": "E",
+        "count": 13,
+        "pct": 3.8
+      },
+      {
+        "label": "F",
+        "count": 1,
+        "pct": 0.3
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.3
+      }
+    ]
+  },
+  "murviel-les-montpellier": {
+    "insee": "34179",
+    "total": 230,
+    "fgCount": 8,
+    "fgPct": 3.5,
+    "efgCount": 20,
+    "efgPct": 8.7,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 27,
+        "pct": 11.7
+      },
+      {
+        "label": "B",
+        "count": 33,
+        "pct": 14.3
+      },
+      {
+        "label": "C",
+        "count": 118,
+        "pct": 51.3
+      },
+      {
+        "label": "D",
+        "count": 32,
+        "pct": 13.9
+      },
+      {
+        "label": "E",
+        "count": 12,
+        "pct": 5.2
+      },
+      {
+        "label": "F",
+        "count": 6,
+        "pct": 2.6
+      },
+      {
+        "label": "G",
+        "count": 2,
+        "pct": 0.9
+      }
+    ]
+  },
+  "montbazin": {
+    "insee": "34165",
+    "total": 401,
+    "fgCount": 16,
+    "fgPct": 4,
+    "efgCount": 58,
+    "efgPct": 14.5,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 10,
+        "pct": 2.5
+      },
+      {
+        "label": "B",
+        "count": 52,
+        "pct": 13
+      },
+      {
+        "label": "C",
+        "count": 203,
+        "pct": 50.6
+      },
+      {
+        "label": "D",
+        "count": 78,
+        "pct": 19.5
+      },
+      {
+        "label": "E",
+        "count": 42,
+        "pct": 10.5
+      },
+      {
+        "label": "F",
+        "count": 13,
+        "pct": 3.2
+      },
+      {
+        "label": "G",
+        "count": 3,
+        "pct": 0.7
+      }
+    ]
+  },
+  "loupian": {
+    "insee": "34143",
+    "total": 335,
+    "fgCount": 6,
+    "fgPct": 1.8,
+    "efgCount": 38,
+    "efgPct": 11.3,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 15,
+        "pct": 4.5
+      },
+      {
+        "label": "B",
+        "count": 50,
+        "pct": 14.9
+      },
+      {
+        "label": "C",
+        "count": 143,
+        "pct": 42.7
+      },
+      {
+        "label": "D",
+        "count": 89,
+        "pct": 26.6
+      },
+      {
+        "label": "E",
+        "count": 32,
+        "pct": 9.6
+      },
+      {
+        "label": "F",
+        "count": 5,
+        "pct": 1.5
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.3
+      }
+    ]
+  },
+  "villeveyrac": {
+    "insee": "34341",
+    "total": 407,
+    "fgCount": 9,
+    "fgPct": 2.2,
+    "efgCount": 29,
+    "efgPct": 7.1,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 52,
+        "pct": 12.8
+      },
+      {
+        "label": "B",
+        "count": 85,
+        "pct": 20.9
+      },
+      {
+        "label": "C",
+        "count": 173,
+        "pct": 42.5
+      },
+      {
+        "label": "D",
+        "count": 68,
+        "pct": 16.7
+      },
+      {
+        "label": "E",
+        "count": 20,
+        "pct": 4.9
+      },
+      {
+        "label": "F",
+        "count": 8,
+        "pct": 2
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.2
       }
     ]
   }

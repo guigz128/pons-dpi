@@ -7802,6 +7802,719 @@ export const villes = [
       },
     ],
   },
+  {
+    slug: "laverune",
+    name: "Lavérune",
+    nameSeo: "Lavérune (34)",
+    codePostal: "34880",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.5848, lng: 3.8003 },
+    distanceFromBaseKm: 13,
+    travelTimeMin: 20,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 3302,
+    nbLogements: 1515,
+    pctResidencesSecondaires: 2,
+    pctMaisons: 71,
+    pctAppartements: 28,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 112,
+    prixM2Moyen: 3600,
+    prixM2Maison: 3727,
+    prixM2Appartement: 3145,
+    dpeMoyenKwh: 180,
+    dpeMoyenCo2: 25,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Montpellier-Lunel-Mauguio-Palavas",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: false,
+      pprApproves: [
+        "PPRi du bassin du Lez et de la Mosson — Lavérune est soumise à ce dispositif réglementaire (zone inondable de la Mosson).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Couronne ouest aisée et très demandée (autour de 3 600 €/m²), au parc majoritairement pavillonnaire et en densification (forte hausse récente des appartements) : le DPE est le diagnostic à plus fort volume.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Lavérune est en zone inondable de la Mosson, couverte par le PPRi Lez-Mosson et le TRI de Montpellier. L'État des Risques et Pollutions est systématiquement obligatoire à la vente comme à la location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente sur l'ensemble de la commune.",
+      },
+    ],
+
+    intro:
+      "Lavérune, commune résidentielle aisée de la couronne ouest immédiate de Montpellier, s'organise autour de son château des Évêques dans la vallée de la Mosson. Parc à 71 % de maisons, marché tendu (autour de 3 600 €/m²), 3 302 habitants.",
+
+    parcImmoNote:
+      "Le centre ancien de Lavérune se resserre autour du château des Évêques (bâti pré-1949, église des XIVe-XVIIIe siècles — plomb et amiante fréquents), entouré d'une forte extension pavillonnaire des dernières décennies. La croissance du parc est soutenue, avec une montée récente du collectif (copropriétés) — d'où un enjeu mesurage Carrez croissant, tandis que les pavillons de plus de 15 ans déclenchent électricité et gaz.",
+
+    enjeuxLocaux:
+      "Lavérune est en zone inondable de la Mosson, couverte par le PPRi du bassin du Lez et de la Mosson et intégrée au TRI Montpellier-Lunel-Mauguio-Palavas. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Lavérune est à 20 minutes de Prades-le-Lez (13 km) — au cœur de ma zone d'intervention : aucun frais de déplacement, intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien autour du château des Évêques (pré-1949)",
+      "Extensions pavillonnaires récentes",
+      "Programmes collectifs récents (copropriétés)",
+      "Vallée de la Mosson (zone inondable)",
+    ],
+
+    communesLimitrophes: ["Juvignac", "Pignan", "Saint-Georges-d'Orques", "Saint-Jean-de-Védas", "Saussan"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Lavérune ?",
+        a: "Pour toute vente à Lavérune, le DPE et l'ERP (PPRi Lez-Mosson, zone inondable) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le centre ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Lavérune ?",
+        a: "À Lavérune, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 71 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement : la commune est au cœur de ma zone.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Lavérune ?",
+        a: "Lavérune est à 20 minutes de Prades-le-Lez (13 km), au cœur de ma zone. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Lavérune ?",
+        a: "C'est possible, notamment à proximité de la Mosson : Lavérune est couverte par le PPRi du bassin du Lez et de la Mosson. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "saussan",
+    name: "Saussan",
+    nameSeo: "Saussan (34)",
+    codePostal: "34570",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.5685, lng: 3.7829 },
+    distanceFromBaseKm: 15,
+    travelTimeMin: 22,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2069,
+    nbLogements: 787,
+    pctResidencesSecondaires: 1,
+    pctMaisons: 91,
+    pctAppartements: 8,
+    surfaceMoyenne: 110,
+    surfaceMoyenneAppartement: 62,
+    surfaceMoyenneMaison: 118,
+    prixM2Moyen: 3700,
+    prixM2Maison: 3727,
+    prixM2Appartement: 3489,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Montpellier-Lunel-Mauguio-Palavas",
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: false,
+      pprApproves: [
+        "PPRi du bassin versant de la Brue — approuvé par arrêté préfectoral le 13 février 2009.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Village résidentiel à 91 % de maisons, au parc pavillonnaire des années 1980-2000 souvent classé D-E : le DPE est le diagnostic à plus fort volume et un enjeu fort pour les familles qui revendent.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Saussan dispose d'un PPRi inondation approuvé en 2009 (bassin de la Brue, affluent de la Mosson) avec une zone rouge le long de la RD27. L'État des Risques et Pollutions est systématiquement obligatoire à la vente comme à la location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente sur l'ensemble de la commune.",
+      },
+    ],
+
+    intro:
+      "Saussan, petit village résidentiel et viticole de la couronne ouest de Montpellier dans la vallée de la Mosson, est l'un des plus prisés du secteur. Parc à 91 % de maisons, marché tendu (autour de 3 700 €/m²), 2 069 habitants.",
+
+    parcImmoNote:
+      "Saussan associe un petit noyau villageois viticole ancien (bâti pré-1949 autour de l'église et des anciennes caves — plomb et amiante fréquents) à une forte extension pavillonnaire récente (lotissements La Condamine, Pascaou…) qui domine aujourd'hui le parc. L'habitat est très majoritairement individuel (91 %), avec de grands logements familiaux occupés par leurs propriétaires, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Saussan dispose d'un PPRi inondation approuvé en 2009 sur le bassin de la Brue (affluent de la Mosson), avec une zone rouge le long de la RD27, et relève du TRI Montpellier-Lunel-Mauguio-Palavas. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Saussan est à 22 minutes de Prades-le-Lez (15 km) — intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Noyau villageois viticole ancien (église Saint-Étienne, pré-1949)",
+      "Lotissements pavillonnaires récents (La Condamine, Pascaou…)",
+      "Domaines et caves viticoles de la vallée de la Mosson",
+      "Abords de la Brue (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Fabrègues", "Cournonsec", "Pignan", "Lavérune", "Saint-Jean-de-Védas"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saussan ?",
+        a: "Pour toute vente à Saussan, le DPE et l'ERP (PPRi inondation de la Brue) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le noyau ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Saussan ?",
+        a: "À Saussan, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 91 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saussan ?",
+        a: "Saussan est à 22 minutes de Prades-le-Lez (15 km). L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Saussan ?",
+        a: "C'est possible, notamment le long de la RD27 et de la Brue : Saussan dispose d'un PPRi inondation approuvé en 2009. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "cournonsec",
+    name: "Cournonsec",
+    nameSeo: "Cournonsec (34)",
+    codePostal: "34660",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.5395, lng: 3.7024 },
+    distanceFromBaseKm: 22,
+    travelTimeMin: 28,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 3616,
+    nbLogements: 1442,
+    pctResidencesSecondaires: 2,
+    pctMaisons: 82,
+    pctAppartements: 17,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 3700,
+    prixM2Maison: 3830,
+    prixM2Appartement: 3300,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Commune à 82 % de maisons, au parc essentiellement pavillonnaire implanté en garrigue : le DPE est le diagnostic à plus fort volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Cournonsec est en zone inondable de la Mosson et exposée au feu de forêt sur le piémont du massif de la Gardiole (incendie majeur en juillet 2025 entre Cournonsec et Montbazin). L'État des Risques et Pollutions est obligatoire et doit mentionner ces risques.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent en contexte de garrigue et de bois.",
+      },
+    ],
+
+    intro:
+      "Cournonsec, commune de la couronne sud-ouest de Montpellier au piémont du massif de la Gardiole, conjugue un noyau villageois à une forte croissance pavillonnaire en garrigue. Parc à 82 % de maisons, marché aisé (autour de 3 700 €/m²), 3 616 habitants.",
+
+    parcImmoNote:
+      "Cournonsec possède un noyau villageois ancien (centre médiéval autour de l'église Saint-Étienne — plomb et amiante fréquents), mais la majorité du parc résulte d'une forte extension pavillonnaire récente en lotissements de garrigue, tirée par la pression résidentielle de l'aire montpelliéraine. Très peu de résidences secondaires : commune résidentielle de couronne, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Cournonsec est en zone inondable de la Mosson (Atlas des zones inondables) et fortement exposée au feu de forêt sur le piémont nord de la Gardiole — un incendie de plus de 300 hectares a parcouru le secteur Cournonsec-Montbazin en juillet 2025. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Cournonsec est à 28 minutes de Prades-le-Lez (22 km) — intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Noyau villageois ancien (église Saint-Étienne, pré-1949)",
+      "Lotissements pavillonnaires en garrigue",
+      "Piémont du massif de la Gardiole (feu de forêt)",
+      "Plaine de la Mosson (zone inondable)",
+    ],
+
+    communesLimitrophes: ["Cournonterral", "Montbazin", "Fabrègues", "Pignan", "Villeveyrac"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Cournonsec ?",
+        a: "Pour toute vente à Cournonsec, le DPE et l'ERP (zone inondable de la Mosson, feu de forêt de la Gardiole) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le noyau ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Cournonsec ?",
+        a: "À Cournonsec, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 82 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Cournonsec ?",
+        a: "Cournonsec est à 28 minutes de Prades-le-Lez (22 km). L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Cournonsec ?",
+        a: "C'est possible : Cournonsec est en zone inondable de la Mosson et exposée au feu de forêt sur le piémont de la Gardiole (incendie de juillet 2025). L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "murviel-les-montpellier",
+    name: "Murviel-lès-Montpellier",
+    nameSeo: "Murviel-lès-Montpellier (34)",
+    codePostal: "34570",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.6116, lng: 3.7405 },
+    distanceFromBaseKm: 13,
+    travelTimeMin: 22,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 2075,
+    nbLogements: 778,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 88,
+    pctAppartements: 11,
+    surfaceMoyenne: 105,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 115,
+    prixM2Moyen: 3585,
+    prixM2Maison: 3760,
+    prixM2Appartement: 2900,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation — approuvé par arrêté préfectoral le 8 mars 2002.",
+        "PPRif (risque d'incendie de forêt) — approuvé par arrêté préfectoral le 30 janvier 2008.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Murviel-lès-Montpellier cumule un PPRi inondation (2002) et un PPRif incendie de forêt (2008) en pleine garrigue. L'État des Risques et Pollutions est systématiquement obligatoire et particulièrement chargé ici.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Village résidentiel à 88 % de maisons, sur un marché tendu de la couronne ouest : le DPE est le diagnostic à plus fort volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent sur le bâti ancien du cœur médiéval.",
+      },
+    ],
+
+    intro:
+      "Murviel-lès-Montpellier, village de la couronne ouest de Montpellier perché en garrigue, est célèbre pour son oppidum gallo-romain du Castellas. Parc à 88 % de maisons, marché tendu (autour de 3 585 €/m²), 2 075 habitants.",
+
+    parcImmoNote:
+      "Murviel-lès-Montpellier conserve un cœur médiéval perché (centre historique en pierre, bâti pré-1949 — plomb et amiante fréquents) entouré d'une forte extension pavillonnaire récente, portée par l'attractivité de la couronne ouest. Le parc est bicéphale : noyau ancien dense et lotissements récents en périphérie, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Murviel-lès-Montpellier cumule un PPRi inondation (approuvé en 2002, bassin de la Mosson) et un PPRif incendie de forêt (approuvé en 2008) — le risque feu de forêt, en pleine garrigue, est structurant pour le bâti en interface habitat-forêt (obligations légales de débroussaillement). L'ERP est donc central, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Murviel-lès-Montpellier est à 22 minutes de Prades-le-Lez (13 km) — au cœur de ma zone d'intervention : aucun frais de déplacement, intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur médiéval perché (centre historique en pierre, pré-1949)",
+      "Lotissements pavillonnaires récents",
+      "Oppidum du Castellas et garrigue (zone PPRif)",
+      "Vallée de la Mosson (zone inondable)",
+    ],
+
+    communesLimitrophes: ["Pignan", "Saint-Georges-d'Orques", "Cournonterral", "Cournonsec", "Fabrègues", "Saint-Paul-et-Valmalle"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Murviel-lès-Montpellier ?",
+        a: "Pour toute vente à Murviel-lès-Montpellier, le DPE et l'ERP (PPRi inondation + PPRif feu de forêt) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le cœur médiéval, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Murviel-lès-Montpellier ?",
+        a: "À Murviel-lès-Montpellier, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 88 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement : la commune est au cœur de ma zone.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Murviel-lès-Montpellier ?",
+        a: "Murviel-lès-Montpellier est à 22 minutes de Prades-le-Lez (13 km), au cœur de ma zone. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Murviel-lès-Montpellier ?",
+        a: "C'est probable : la commune cumule un PPRi inondation (2002) et un PPRif incendie de forêt (2008) en garrigue. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "montbazin",
+    name: "Montbazin",
+    nameSeo: "Montbazin (34)",
+    codePostal: "34560",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.5325, lng: 3.6694 },
+    distanceFromBaseKm: 24,
+    travelTimeMin: 30,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2877,
+    nbLogements: 1280,
+    pctResidencesSecondaires: 4,
+    pctMaisons: 80,
+    pctAppartements: 20,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 108,
+    prixM2Moyen: 2900,
+    prixM2Maison: 3012,
+    prixM2Appartement: 2400,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Sète",
+      radon: 2,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation — approuvé par arrêté préfectoral le 25 janvier 2012 (bassin de Thau, la Vène).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Montbazin est en zone inondable de la Vène (PPRi du bassin de Thau approuvé en 2012, TRI de Sète) et exposée au feu de forêt sur le piémont du massif de la Gardiole (incendie de juillet 2025). L'État des Risques et Pollutions est systématiquement obligatoire et chargé ici.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Commune en forte croissance résidentielle à 80 % de maisons, au parc pavillonnaire des années 1980-2020 souvent classé D-E : le DPE est le diagnostic à plus fort volume.",
+      },
+      {
+        slug: "electricite",
+        whyHere:
+          "Fort stock de maisons de plus de 15 ans : le diagnostic électricité (et gaz si installation présente) est quasi systématique à la vente.",
+      },
+    ],
+
+    intro:
+      "Montbazin, commune entre Montpellier et le bassin de Thau au piémont du massif de la Gardiole, connaît une forte croissance résidentielle. Parc à 80 % de maisons, marché accessible (autour de 2 900 €/m²), 2 877 habitants.",
+
+    parcImmoNote:
+      "Montbazin associe un cœur de village ancien (bâti pré-1949 en pierre — plomb et amiante fréquents) à une importante extension pavillonnaire récente (lotissements et maisons individuelles des années 1980-2020). La commune a vu sa population presque tripler en soixante ans ; le parc, à dominante maison individuelle (80 %), compte peu de collectif et de nombreuses installations électricité et gaz au-delà de 15 ans.",
+
+    enjeuxLocaux:
+      "Montbazin est en zone inondable de la Vène (PPRi du bassin de Thau approuvé en 2012, rattachement au TRI de Sète) et exposée au feu de forêt sur le piémont du massif de la Gardiole — un incendie a parcouru le secteur Cournonsec-Montbazin en juillet 2025. L'ERP est donc central, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Montbazin est à 30 minutes de Prades-le-Lez (24 km) via l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur de village ancien (église Saint-Pierre-aux-Liens, pré-1949)",
+      "Extension pavillonnaire récente (années 1980-2020)",
+      "Piémont du massif de la Gardiole (feu de forêt)",
+      "Plaine de la Vène (zone PPRi, bassin de Thau)",
+    ],
+
+    communesLimitrophes: ["Poussan", "Gigean", "Cournonsec", "Fabrègues", "Villeveyrac", "Loupian"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Montbazin ?",
+        a: "Pour toute vente à Montbazin, le DPE et l'ERP (PPRi inondation de la Vène + feu de forêt de la Gardiole) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le cœur ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Montbazin ?",
+        a: "À Montbazin, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 80 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Montbazin ?",
+        a: "Montbazin est à 30 minutes de Prades-le-Lez (24 km) via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Montbazin ?",
+        a: "C'est possible : Montbazin est en zone inondable de la Vène (PPRi 2012) et exposée au feu de forêt sur le piémont de la Gardiole. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "loupian",
+    name: "Loupian",
+    nameSeo: "Loupian (34)",
+    codePostal: "34140",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.4509, lng: 3.6279 },
+    distanceFromBaseKm: 33,
+    travelTimeMin: 38,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2169,
+    nbLogements: 1288,
+    pctResidencesSecondaires: 14,
+    pctMaisons: 87,
+    pctAppartements: 12,
+    surfaceMoyenne: 98,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 108,
+    prixM2Moyen: 3300,
+    prixM2Maison: 3300,
+    prixM2Appartement: 3120,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi du bassin de Thau (inondation) — approuvé par arrêté préfectoral le 25 janvier 2012.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "erp",
+        whyHere:
+          "Loupian est en bordure de l'étang de Thau, exposée à l'inondation (la Vène) et à la submersion, avec un PPRi du bassin de Thau approuvé en 2012. L'État des Risques et Pollutions est systématiquement obligatoire et particulièrement structurant ici.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent sur le bâti ancien du cœur de village en bord d'étang.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Village au bord de Thau à forte composante de résidences secondaires (14 %) et à 87 % de maisons : le marché est actif et le DPE incontournable à toute vente ou location.",
+      },
+    ],
+
+    intro:
+      "Loupian, village de la rive nord de l'étang de Thau, est célèbre pour sa villa gallo-romaine et ses mosaïques, et pour la conchyliculture. Parc à 87 % de maisons, 14 % de résidences secondaires, marché autour de 3 300 €/m², 2 169 habitants.",
+
+    parcImmoNote:
+      "Loupian conjugue un centre ancien viticole et conchylicole (bâti en pierre majoritairement antérieur à 1949, ruelles autour de l'église — plomb et amiante fréquents) et une forte extension pavillonnaire récente. Avec 87 % de maisons et une part notable de résidences secondaires (14 %) liée à l'attrait du bord d'étang, le tissu est très dominé par l'individuel ; la vacance, plus élevée, concerne surtout le bâti ancien du centre.",
+
+    enjeuxLocaux:
+      "Loupian est en bordure de l'étang de Thau : inondation (la Vène, débordements) et submersion, avec un PPRi du bassin de Thau approuvé en 2012. La commune relève de la stratégie locale de gestion du risque inondation du bassin de Thau. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Loupian est à 38 minutes de Prades-le-Lez (33 km) via l'A750 et l'A9 — intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien viticole et conchylicole (pré-1949)",
+      "Extension pavillonnaire récente",
+      "Résidences secondaires en bord d'étang",
+      "Rive nord de l'étang de Thau (zone PPRi, conchyliculture)",
+    ],
+
+    communesLimitrophes: ["Mèze", "Villeveyrac", "Bouzigues", "Poussan", "Balaruc-le-Vieux", "Montbazin"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Loupian ?",
+        a: "Pour toute vente à Loupian, le DPE et l'ERP (PPRi du bassin de Thau, inondation et submersion) sont systématiques. Selon le bien : amiante et plomb sur le centre ancien pré-1997, électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Loupian ?",
+        a: "À Loupian, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 87 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Loupian ?",
+        a: "Loupian est à 38 minutes de Prades-le-Lez (33 km) via l'A750 et l'A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Loupian ?",
+        a: "C'est probable pour les biens proches de l'étang : Loupian dispose d'un PPRi du bassin de Thau approuvé en 2012 (inondation et submersion). L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "villeveyrac",
+    name: "Villeveyrac",
+    nameSeo: "Villeveyrac (34)",
+    codePostal: "34560",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.4956, lng: 3.5931 },
+    distanceFromBaseKm: 31,
+    travelTimeMin: 36,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 3972,
+    nbLogements: 1730,
+    pctResidencesSecondaires: 5,
+    pctMaisons: 86,
+    pctAppartements: 14,
+    surfaceMoyenne: 98,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 110,
+    prixM2Moyen: 2900,
+    prixM2Maison: 2900,
+    prixM2Appartement: 3000,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: "Sète",
+      radon: 3,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation — approuvé par arrêté préfectoral le 25 janvier 2012 (bassin de Thau, la Vène).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Village viticole à 86 % de maisons, au parc pavillonnaire dominant et aux nombreuses maisons de village : le DPE est le diagnostic à plus fort volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "amiante",
+        whyHere:
+          "Village vigneron au bâti ancien dense et aux premières vagues pavillonnaires antérieures au 1er juillet 1997 : le repérage amiante est fréquemment requis en vente.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Villeveyrac est en zone inondable de la Vène (PPRi du bassin de Thau approuvé en 2012, TRI de Sète), exposée au feu de forêt sur le massif de la Moure et en potentiel radon élevé. L'État des Risques et Pollutions est systématiquement obligatoire et chargé ici.",
+      },
+    ],
+
+    intro:
+      "Villeveyrac, commune viticole de l'arrière-pays de l'étang de Thau, est célèbre pour son abbaye cistercienne de Valmagne, « la cathédrale des vignes ». Parc à 86 % de maisons, marché accessible (autour de 2 900 €/m²), 3 972 habitants.",
+
+    parcImmoNote:
+      "Villeveyrac présente un centre ancien vigneron (bâti dense en pierre largement antérieur à 1949 — plomb et amiante fréquents) et une forte extension pavillonnaire récente (le parc a plus que doublé depuis 1968). Des domaines et caves viticoles ponctuent la plaine et la garrigue. Le profil est dominé par la maison individuelle (86 %), où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Villeveyrac est en zone inondable de la Vène (PPRi du bassin de Thau approuvé en 2012, rattachement au TRI de Sète), exposée au feu de forêt sur le massif de la Moure et classée en potentiel radon significatif. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Villeveyrac est à 36 minutes de Prades-le-Lez (31 km) via l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, du cœur vigneron aux domaines, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Centre ancien vigneron (église Saint-Étienne, pré-1949)",
+      "Extension pavillonnaire récente",
+      "Domaines et caves viticoles (abbaye de Valmagne)",
+      "Massif de la Moure et garrigue (feu de forêt)",
+    ],
+
+    communesLimitrophes: ["Mèze", "Montagnac", "Loupian", "Bouzigues", "Gigean", "Poussan", "Cournonsec", "Montbazin", "Aumelas"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Villeveyrac ?",
+        a: "Pour toute vente à Villeveyrac, le DPE et l'ERP (PPRi inondation de la Vène, feu de forêt, radon) sont systématiques. Selon le bien : amiante et plomb sur le cœur vigneron pré-1997, électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Villeveyrac ?",
+        a: "À Villeveyrac, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 86 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Villeveyrac ?",
+        a: "Villeveyrac est à 36 minutes de Prades-le-Lez (31 km) via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Villeveyrac ?",
+        a: "C'est possible : Villeveyrac est en zone inondable de la Vène (PPRi 2012), exposée au feu de forêt sur le massif de la Moure et en potentiel radon significatif. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
 ]
 
 export function getVilleBySlug(slug) {
