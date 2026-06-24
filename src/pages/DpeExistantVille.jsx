@@ -18,6 +18,7 @@ import Button from '../components/ui/Button'
 import Badge from '../components/ui/Badge'
 import ScrollReveal from '../components/ui/ScrollReveal'
 import DpeBadge from '../components/ui/DpeBadge'
+import DpeAddressSearch from '../components/sections/DpeAddressSearch'
 import { villes } from '../content/villes'
 import { getInseeBySlug } from '../content/villes-insee'
 import { getStatsByInsee, listDpeByInsee, resolveInseeFromCity } from '../lib/ademe'
@@ -164,6 +165,22 @@ export default function DpeExistantVille() {
               depuis juillet 2021. Distribution des étiquettes, parc passoires thermiques,
               marché de l'audit énergétique.
             </p>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* Recherche DPE par adresse (API ADEME) */}
+      <section className="py-10 border-b border-border">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <ScrollReveal>
+            <h2 className="text-base font-semibold text-text">
+              Un DPE existe-t-il déjà à votre adresse à {ville.name} ?
+            </h2>
+            <p className="text-xs text-text-secondary mt-1 mb-4">
+              Saisissez votre adresse : je consulte la base officielle ADEME et affiche
+              l'historique des DPE réalisés.
+            </p>
+            <DpeAddressSearch villeName={ville.name} />
           </ScrollReveal>
         </div>
       </section>

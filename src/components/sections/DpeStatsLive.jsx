@@ -4,6 +4,7 @@ import Card from '../ui/Card'
 import Button from '../ui/Button'
 import DpeBadge from '../ui/DpeBadge'
 import ScrollReveal from '../ui/ScrollReveal'
+import DpeAddressSearch from './DpeAddressSearch'
 
 const DPE_COLOR = {
   A: 'bg-emerald-600',
@@ -60,6 +61,20 @@ export default function DpeStatsLive({ villeName, slug, stats, loading, failed }
               Mise à jour quotidienne.
             </p>
           </div>
+        </ScrollReveal>
+
+        {/* Recherche DPE par adresse (API ADEME) — hook d'engagement direct */}
+        <ScrollReveal>
+          <Card className="mb-10">
+            <h3 className="text-base font-semibold text-text">
+              Un DPE existe-t-il déjà à votre adresse à {villeName} ?
+            </h3>
+            <p className="text-xs text-text-secondary mt-1 mb-4">
+              Saisissez votre adresse : je consulte la base officielle ADEME et affiche
+              l'historique des DPE réalisés.
+            </p>
+            <DpeAddressSearch villeName={villeName} limit={8} />
+          </Card>
         </ScrollReveal>
 
         {loading && (
