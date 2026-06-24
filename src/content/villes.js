@@ -4978,6 +4978,13 @@ export const villes = [
     departementSlug: "gard",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/vauvert.webp",
+      alt: "Vue de Vauvert, Gard",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Hotel_de_ville_de_Vauvert.jpg",
+    },
+
     coords: { lat: 43.626, lng: 4.3103 },
     distanceFromBaseKm: 37,
     travelTimeMin: 40,
@@ -5078,6 +5085,13 @@ export const villes = [
     departementCode: "30",
     departementSlug: "gard",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/manduel.webp",
+      alt: "Vue de Manduel, Gard",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Manduel_-_%C3%A9glise_1.JPG",
+    },
 
     coords: { lat: 43.8084, lng: 4.4962 },
     distanceFromBaseKm: 52,
@@ -5180,6 +5194,13 @@ export const villes = [
     departementSlug: "gard",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/marguerittes.webp",
+      alt: "Vue de Marguerittes, Gard",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Marguerittes_%C3%A9glise_paroissiale.JPG",
+    },
+
     coords: { lat: 43.8661, lng: 4.4594 },
     distanceFromBaseKm: 52,
     travelTimeMin: 50,
@@ -5280,6 +5301,13 @@ export const villes = [
     departementCode: "30",
     departementSlug: "gard",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/generac.webp",
+      alt: "Vue de Générac, Gard",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:G%C3%A9n%C3%A9rac_-_vue_g%C3%A9n%C3%A9rale.JPG",
+    },
 
     coords: { lat: 43.719, lng: 4.3587 },
     distanceFromBaseKm: 40,
@@ -5382,6 +5410,13 @@ export const villes = [
     departementSlug: "gard",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/bellegarde.webp",
+      alt: "Vue de Bellegarde, Gard",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Bellegarde_-_tour_1.JPG",
+    },
+
     coords: { lat: 43.7483, lng: 4.4967 },
     distanceFromBaseKm: 51,
     travelTimeMin: 50,
@@ -5483,6 +5518,13 @@ export const villes = [
     departementSlug: "gard",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/garons.webp",
+      alt: "Vue de Garons, Gard",
+      credit: "Wikimedia Commons — Public domain",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Jardin_de_la_mairie_de_Garons_11_septembre_2006.JPG",
+    },
+
     coords: { lat: 43.7706, lng: 4.4397 },
     distanceFromBaseKm: 47,
     travelTimeMin: 48,
@@ -5581,6 +5623,13 @@ export const villes = [
     departementCode: "30",
     departementSlug: "gard",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/milhaud.webp",
+      alt: "Vue de Milhaud, Gard",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:B%C3%A2timent_voyageurs_de_Milhaud_par_Cramos.JPG",
+    },
 
     coords: { lat: 43.7831, lng: 4.3081 },
     distanceFromBaseKm: 37,
@@ -5683,6 +5732,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/balaruc-les-bains.webp",
+      alt: "Vue de Balaruc-les-Bains, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Balaruc-les-Bains%2C_H%C3%A9rault_01.jpg",
+    },
+
     coords: { lat: 43.4476, lng: 3.6922 },
     distanceFromBaseKm: 31,
     travelTimeMin: 35,
@@ -5783,6 +5839,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/balaruc-le-vieux.webp",
+      alt: "Vue de Balaruc-le-Vieux, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Balaruc-le-Vieux_mairie.JPG",
+    },
 
     coords: { lat: 43.465, lng: 3.6971 },
     distanceFromBaseKm: 29,
@@ -5885,6 +5948,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/meze.webp",
+      alt: "Vue de Mèze, Hérault",
+      credit: "Wikimedia Commons — CC BY 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Port_de_M%C3%A8ze_01.jpg",
+    },
+
     coords: { lat: 43.4323, lng: 3.5843 },
     distanceFromBaseKm: 37,
     travelTimeMin: 40,
@@ -5985,6 +6055,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/marseillan.webp",
+      alt: "Vue de Marseillan, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Port2019.jpg",
+    },
 
     coords: { lat: 43.3543, lng: 3.556 },
     distanceFromBaseKm: 45,
@@ -6087,6 +6164,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/bouzigues.webp",
+      alt: "Vue de Bouzigues, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 2.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Bouzigues_port_2007.jpg",
+    },
+
     coords: { lat: 43.445, lng: 3.6563 },
     distanceFromBaseKm: 32,
     travelTimeMin: 35,
@@ -6187,6 +6271,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/poussan.webp",
+      alt: "Vue de Poussan, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Poussan_chateau_Garenne.JPG",
+    },
 
     coords: { lat: 43.4976, lng: 3.6623 },
     distanceFromBaseKm: 27,
@@ -6290,6 +6381,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/gigean.webp",
+      alt: "Vue de Gigean, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Gigean_porte_village_1.JPG",
+    },
+
     coords: { lat: 43.4953, lng: 3.7242 },
     distanceFromBaseKm: 25,
     travelTimeMin: 28,
@@ -6391,6 +6489,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/saint-mathieu-de-treviers.webp",
+      alt: "Vue de Saint-Mathieu-de-Tréviers, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:St_Mathieu_Tr%C3%A9viers.jpg",
+    },
 
     coords: { lat: 43.7679, lng: 3.8628 },
     distanceFromBaseKm: 8,
@@ -6495,6 +6600,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/les-matelles.webp",
+      alt: "Vue de Les Matelles, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Les_Matelles-Place_du_Ch%C3%A2teau-20110514.jpg",
+    },
+
     coords: { lat: 43.7281, lng: 3.8083 },
     distanceFromBaseKm: 6,
     travelTimeMin: 12,
@@ -6598,6 +6710,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/assas.webp",
+      alt: "Vue de Assas, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Assas_-_Ch%C3%A2teau_-_02.JPG",
+    },
+
     coords: { lat: 43.7144, lng: 3.9039 },
     distanceFromBaseKm: 4,
     travelTimeMin: 10,
@@ -6699,6 +6818,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/teyran.webp",
+      alt: "Vue de Teyran, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Teyran_(21).jpg",
+    },
 
     coords: { lat: 43.688, lng: 3.9258 },
     distanceFromBaseKm: 5,
@@ -6802,6 +6928,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/saint-vincent-de-barbeyrargues.webp",
+      alt: "Vue de Saint-Vincent-de-Barbeyrargues, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Saint-Vincent-de-Barbeyrargues_mairie.JPG",
+    },
+
     coords: { lat: 43.712, lng: 3.8765 },
     distanceFromBaseKm: 2,
     travelTimeMin: 8,
@@ -6901,6 +7034,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/combaillaux.webp",
+      alt: "Vue de Combaillaux, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Combaillaux_(23).jpg",
+    },
 
     coords: { lat: 43.6744, lng: 3.7847 },
     distanceFromBaseKm: 7,
@@ -7005,6 +7145,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/vailhauques.webp",
+      alt: "Vue de Vailhauquès, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Vailhauques_vuedeLaCoste_20072009.JPG",
+    },
+
     coords: { lat: 43.6652, lng: 3.7304 },
     distanceFromBaseKm: 11,
     travelTimeMin: 18,
@@ -7108,6 +7255,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/castries.webp",
+      alt: "Vue de Castries, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Castries_(35).jpg",
+    },
+
     coords: { lat: 43.6905, lng: 3.9853 },
     distanceFromBaseKm: 10,
     travelTimeMin: 16,
@@ -7210,6 +7364,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/baillargues.webp",
+      alt: "Vue de Baillargues, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Baillargues_40210.JPG",
+    },
+
     coords: { lat: 43.6565, lng: 4.0102 },
     distanceFromBaseKm: 12,
     travelTimeMin: 18,
@@ -7310,6 +7471,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/saint-bres.webp",
+      alt: "Vue de Saint-Brès, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:SaintBres_eglise_07082009.JPG",
+    },
+
     coords: { lat: 43.6656, lng: 4.0377 },
     distanceFromBaseKm: 14,
     travelTimeMin: 19,
@@ -7409,6 +7577,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/sussargues.webp",
+      alt: "Vue de Sussargues, Hérault",
+      credit: "Wikimedia Commons — Public domain",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Eglise_sussargues.JPG",
+    },
 
     coords: { lat: 43.7105, lng: 3.9884 },
     distanceFromBaseKm: 10,
@@ -7512,6 +7687,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/saint-genies-des-mourgues.webp",
+      alt: "Vue de Saint-Geniès-des-Mourgues, Hérault",
+      credit: "Wikimedia Commons — Public domain",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:%C3%89glise_saint-genies_des_Mourgues.JPG",
+    },
+
     coords: { lat: 43.6972, lng: 4.0382 },
     distanceFromBaseKm: 14,
     travelTimeMin: 19,
@@ -7611,6 +7793,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/restinclieres.webp",
+      alt: "Vue de Restinclières, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Restincli%C3%A8res.jpg",
+    },
 
     coords: { lat: 43.7238, lng: 4.0393 },
     distanceFromBaseKm: 14,
@@ -7712,6 +7901,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/beaulieu.webp",
+      alt: "Vue de Beaulieu, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Chapelle_Notre-Dame-de-la-Piti%C3%A9_de_Beaulieu_01.JPG",
+    },
+
     coords: { lat: 43.7293, lng: 4.0256 },
     distanceFromBaseKm: 14,
     travelTimeMin: 20,
@@ -7811,6 +8007,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/laverune.webp",
+      alt: "Vue de Lavérune, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Mairielaverune.JPG",
+    },
 
     coords: { lat: 43.5848, lng: 3.8003 },
     distanceFromBaseKm: 13,
@@ -7914,6 +8117,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/saussan.webp",
+      alt: "Vue de Saussan, Hérault",
+      credit: "Wikimedia Commons — Public domain",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:F34570-Saussan-20090501-11.jpg",
+    },
+
     coords: { lat: 43.5685, lng: 3.7829 },
     distanceFromBaseKm: 15,
     travelTimeMin: 22,
@@ -8016,6 +8226,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/cournonsec.webp",
+      alt: "Vue de Cournonsec, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Cournonsec_(9).jpg",
+    },
+
     coords: { lat: 43.5395, lng: 3.7024 },
     distanceFromBaseKm: 22,
     travelTimeMin: 28,
@@ -8115,6 +8332,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/murviel-les-montpellier.webp",
+      alt: "Vue de Murviel-lès-Montpellier, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Murviel-les-Montpellier_(15).jpg",
+    },
 
     coords: { lat: 43.6116, lng: 3.7405 },
     distanceFromBaseKm: 13,
@@ -8219,6 +8443,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/montbazin.webp",
+      alt: "Vue de Montbazin, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Montbazin_village.jpg",
+    },
+
     coords: { lat: 43.5325, lng: 3.6694 },
     distanceFromBaseKm: 24,
     travelTimeMin: 30,
@@ -8320,6 +8551,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/loupian.webp",
+      alt: "Vue de Loupian, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Loupian_(2).jpg",
+    },
 
     coords: { lat: 43.4509, lng: 3.6279 },
     distanceFromBaseKm: 33,
@@ -8423,6 +8661,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/villeveyrac.webp",
+      alt: "Vue de Villeveyrac, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Abbaye_Valmagne_Villeveyrac_(1).jpg",
+    },
+
     coords: { lat: 43.4956, lng: 3.5931 },
     distanceFromBaseKm: 31,
     travelTimeMin: 36,
@@ -8524,6 +8769,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/gignac.webp",
+      alt: "Vue de Gignac, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 3.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Gignac-Tour1.JPG",
+    },
 
     coords: { lat: 43.6416, lng: 3.5661 },
     distanceFromBaseKm: 25,
@@ -8627,6 +8879,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/aniane.webp",
+      alt: "Vue de Aniane, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Aniane_(14).jpg",
+    },
+
     coords: { lat: 43.686, lng: 3.5911 },
     distanceFromBaseKm: 22,
     travelTimeMin: 25,
@@ -8728,6 +8987,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/saint-andre-de-sangonis.webp",
+      alt: "Vue de Saint-André-de-Sangonis, Hérault",
+      credit: "Wikimedia Commons — Public domain",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Saint-andr%C3%A9desangonis_mairie.JPG",
+    },
 
     coords: { lat: 43.6492, lng: 3.5056 },
     distanceFromBaseKm: 29,
@@ -8831,6 +9097,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/saint-jean-de-fos.webp",
+      alt: "Vue de Saint-Jean-de-Fos, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Saint-Jean-de-Fos_(3).jpg",
+    },
+
     coords: { lat: 43.6955, lng: 3.5463 },
     distanceFromBaseKm: 26,
     travelTimeMin: 30,
@@ -8930,6 +9203,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/montpeyroux.webp",
+      alt: "Vue de Montpeyroux, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Montpeyroux.jpg",
+    },
 
     coords: { lat: 43.7109, lng: 3.5011 },
     distanceFromBaseKm: 29,
@@ -9033,6 +9313,13 @@ export const villes = [
     departementSlug: "herault",
     region: "Occitanie",
 
+    image: {
+      url: "/images/villes/saint-guilhem-le-desert.webp",
+      alt: "Vue de Saint-Guilhem-le-Désert, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Saint-Guilhem-le-D%C3%A9sert_uuger.jpg",
+    },
+
     coords: { lat: 43.7536, lng: 3.5439 },
     distanceFromBaseKm: 27,
     travelTimeMin: 32,
@@ -9134,6 +9421,13 @@ export const villes = [
     departementCode: "34",
     departementSlug: "herault",
     region: "Occitanie",
+
+    image: {
+      url: "/images/villes/le-pouget.webp",
+      alt: "Vue de Le Pouget, Hérault",
+      credit: "Wikimedia Commons — CC BY-SA 4.0",
+      attribution_url: "https://commons.wikimedia.org/wiki/File:Le_Pouget_Sainte-Catherine_d'Alexandrie.jpg",
+    },
 
     coords: { lat: 43.5919, lng: 3.5184 },
     distanceFromBaseKm: 30,
