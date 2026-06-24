@@ -611,6 +611,62 @@ export default function VilleDetail() {
         </section>
       )}
 
+      {/* 8bis — Guides blog (maillage éditorial → pages communes) */}
+      <section className="py-16 sm:py-20 bg-stone-50">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <ScrollReveal>
+            <div className="text-center max-w-2xl mx-auto mb-8">
+              <h2 className="font-display text-3xl sm:text-4xl text-text">
+                Pour aller plus loin
+              </h2>
+              <p className="mt-3 text-text-secondary">
+                Mes guides pour préparer sereinement vos diagnostics à {name}.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal>
+            <div className="grid gap-4 sm:grid-cols-3">
+              {[
+                {
+                  href: '/blog/prix-diagnostic-immobilier-montpellier-2026/',
+                  label: 'Tarifs',
+                  title: 'Prix des diagnostics en 2026',
+                  desc: 'Les fourchettes par diagnostic et le budget des packs à Montpellier.',
+                },
+                {
+                  href: '/blog/liste-diagnostics-obligatoires-vente-immobilier/',
+                  label: 'Vente',
+                  title: 'Diagnostics obligatoires pour vendre',
+                  desc: 'La checklist complète pour signer chez le notaire l’esprit tranquille.',
+                },
+                {
+                  href: '/blog/diagnostic-termites-montpellier-obligations/',
+                  label: 'Hérault',
+                  title: 'Le diagnostic termites obligatoire',
+                  desc: 'Pourquoi il est exigé partout dans l’Hérault, et sa validité.',
+                },
+              ].map((g) => (
+                <a
+                  key={g.href}
+                  href={g.href}
+                  className="group block rounded-2xl border border-border bg-surface p-5 transition-colors hover:border-accent"
+                >
+                  <span className="text-xs font-semibold uppercase tracking-wide text-accent">
+                    {g.label}
+                  </span>
+                  <h3 className="mt-2 font-display text-lg leading-snug text-text">{g.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-text-secondary">{g.desc}</p>
+                  <span className="mt-3 inline-block text-sm font-semibold text-accent group-hover:text-accent-hover">
+                    Lire le guide →
+                  </span>
+                </a>
+              ))}
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* 9 — CTA final */}
       <Cta />
     </>
