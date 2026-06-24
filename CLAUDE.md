@@ -500,7 +500,7 @@ VITE_WHATSAPP_URL=https://wa.me/33651669161?text=Bonjour%2C%20je%20souhaite%20un
 - [ ] 3 premiers articles de blog publiés
 - [ ] Google Search Console configuré
 - [ ] Inscription annuaires (PagesJaunes, AlloVoisins)
-- [ ] Pages communes dédiées (Montpellier, Lattes, Castelnau…)
+- [x] Pages communes dédiées — 88 communes (Hérault/Gard/Aude) sous `/diagnostic-immobilier/:ville`, contenu local + JSON-LD LocalBusiness/FAQ + stats DPE ADEME + photo hero (Wikimedia, via `scripts/fetch-ville-images.mjs`) + maillage vers le blog
 - [ ] Schema.org Service pour chaque diagnostic
 
 ### P2 — Conversion & features
