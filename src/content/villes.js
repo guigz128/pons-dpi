@@ -8515,6 +8515,718 @@ export const villes = [
       },
     ],
   },
+  {
+    slug: "gignac",
+    name: "Gignac",
+    nameSeo: "Gignac (34)",
+    codePostal: "34150",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.6416, lng: 3.5661 },
+    distanceFromBaseKm: 25,
+    travelTimeMin: 28,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 6651,
+    nbLogements: 2646,
+    pctResidencesSecondaires: 4,
+    pctMaisons: 76,
+    pctAppartements: 24,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 110,
+    prixM2Moyen: 3120,
+    prixM2Maison: 3360,
+    prixM2Appartement: 2400,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation du fleuve Hérault — Gignac y est soumise.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Pôle de la vallée de l'Hérault en forte croissance sur l'A750 : sur un parc mêlant bourg ancien et lotissements récents, le DPE est le diagnostic à plus fort volume et un argument central à la revente.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Gignac est traversée par le fleuve Hérault (zone inondable, PPRi) et exposée au feu de forêt (incendie de 2022 entre Gignac et Aumelas, environ 1 000 ha). L'État des Risques et Pollutions est systématiquement obligatoire et chargé ici.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent sur le bâti ancien du centre-bourg.",
+      },
+    ],
+
+    intro:
+      "Gignac, pôle de la vallée de l'Hérault sur l'A750, conjugue bourg médiéval et forte croissance résidentielle au bord du fleuve Hérault. Marché dynamique (autour de 3 120 €/m²), parc à 76 % de maisons, 6 651 habitants.",
+
+    parcImmoNote:
+      "Gignac associe un centre ancien (bourg médiéval pré-1949 autour de la place et de l'église — plomb et amiante fréquents) à une très forte extension pavillonnaire récente, portée par l'arrivée de l'A750 et son statut de pôle de la vallée de l'Hérault. La commune est en croissance démographique soutenue, avec de nombreux lotissements depuis les années 1990-2000 où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Gignac est traversée par le fleuve Hérault et soumise à un PPRi inondation. Les reliefs de garrigue alentour l'exposent au feu de forêt (incendie majeur de juillet 2022 entre Gignac et Aumelas). L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Gignac est à 28 minutes de Prades-le-Lez (25 km) via l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, du centre-bourg aux lotissements, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Bourg médiéval ancien (place, église — pré-1949)",
+      "Lotissements pavillonnaires récents (années 1990-2020)",
+      "Abords du fleuve Hérault (zone PPRi)",
+      "Garrigue et vignobles (feu de forêt)",
+    ],
+
+    communesLimitrophes: ["Aniane", "Saint-Jean-de-Fos", "Saint-André-de-Sangonis", "Lagamas", "Popian", "Saint-Bauzille-de-la-Sylve"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Gignac ?",
+        a: "Pour toute vente à Gignac, le DPE et l'ERP (zone inondable du fleuve Hérault, feu de forêt) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le centre-bourg ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Gignac ?",
+        a: "À Gignac, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 76 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Gignac ?",
+        a: "Gignac est à 28 minutes de Prades-le-Lez (25 km) via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Gignac ?",
+        a: "C'est possible, notamment aux abords du fleuve Hérault : Gignac est soumise à un PPRi inondation. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "aniane",
+    name: "Aniane",
+    nameSeo: "Aniane (34)",
+    codePostal: "34150",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.686, lng: 3.5911 },
+    distanceFromBaseKm: 22,
+    travelTimeMin: 25,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2979,
+    nbLogements: 1560,
+    pctResidencesSecondaires: 7,
+    pctMaisons: 79,
+    pctAppartements: 21,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 2800,
+    prixM2Maison: 3080,
+    prixM2Appartement: 2240,
+    dpeMoyenKwh: 195,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation (fleuve Hérault) — approuvé par arrêté préfectoral le 9 septembre 1999.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Commune viticole en croissance au parc majoritairement composé de maisons familiales : le DPE est le diagnostic à plus fort volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Aniane est en zone inondable du fleuve Hérault (PPRi approuvé en 1999) et exposée au feu de forêt par sa garrigue. L'État des Risques et Pollutions est systématiquement obligatoire et particulièrement pertinent ici.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, en particulier sur le bourg abbatial ancien et les mas viticoles.",
+      },
+    ],
+
+    intro:
+      "Aniane, ancienne ville abbatiale et haut lieu viticole de la vallée de l'Hérault (Mas de Daumas Gassac), borde le Pont du Diable et l'A750. Parc à 79 % de maisons, marché autour de 2 800 €/m², 2 979 habitants.",
+
+    parcImmoNote:
+      "Aniane combine un centre ancien (cœur de village pré-1949, héritage de l'ancienne ville abbatiale bénédictine — plomb et amiante fréquents) et une extension pavillonnaire récente marquée (nombreuses maisons des années 1990-2005). S'y ajoutent les domaines viticoles de la vallée de l'Hérault (mas et bâti agricole ancien). Le parc est dominé par les maisons individuelles, où électricité et gaz dépassent souvent les 15 ans.",
+
+    enjeuxLocaux:
+      "Aniane est en zone inondable du fleuve Hérault (PPRi approuvé en 1999) et exposée au feu de forêt par sa garrigue et ses bois. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001). La proximité du Pont du Diable et de Saint-Guilhem-le-Désert soutient un marché touristique secondaire.",
+
+    accessibilityNote:
+      "Aniane est à 25 minutes de Prades-le-Lez (22 km) via l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, du bourg ancien aux domaines viticoles, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur de village abbatial ancien (pré-1949)",
+      "Extension pavillonnaire récente (années 1990-2005)",
+      "Domaines viticoles de la vallée de l'Hérault",
+      "Abords du fleuve Hérault et du Pont du Diable (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Gignac", "Saint-Jean-de-Fos", "Puéchabon", "La Boissière", "Lagamas"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Aniane ?",
+        a: "Pour toute vente à Aniane, le DPE et l'ERP (PPRi inondation du fleuve Hérault, feu de forêt) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le bourg ancien et les mas, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Aniane ?",
+        a: "À Aniane, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 79 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Aniane ?",
+        a: "Aniane est à 25 minutes de Prades-le-Lez (22 km) via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Aniane ?",
+        a: "C'est possible, notamment vers le fleuve Hérault : Aniane dispose d'un PPRi inondation approuvé en 1999. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "saint-andre-de-sangonis",
+    name: "Saint-André-de-Sangonis",
+    nameSeo: "Saint-André-de-Sangonis (34)",
+    codePostal: "34725",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.6492, lng: 3.5056 },
+    distanceFromBaseKm: 29,
+    travelTimeMin: 32,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 6427,
+    nbLogements: 2953,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 83,
+    pctAppartements: 17,
+    surfaceMoyenne: 90,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 2600,
+    prixM2Maison: 2700,
+    prixM2Appartement: 2200,
+    dpeMoyenKwh: 195,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation — approuvé par arrêté préfectoral le 11 juin 2007 (bassins de l'Hérault et de la Lergue).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Commune en forte croissance à 83 % de maisons, au parc pavillonnaire post-2000 lié à l'A750 : le DPE est le diagnostic à plus fort volume, avec un enjeu rénovation sur les maisons des années 1970-2000.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente sur l'ensemble de la commune.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Saint-André-de-Sangonis dispose d'un PPRi inondation approuvé en 2007 (bassins de l'Hérault et de la Lergue, crues torrentielles). L'État des Risques et Pollutions est systématiquement obligatoire et justifié ici.",
+      },
+    ],
+
+    intro:
+      "Saint-André-de-Sangonis, commune en forte croissance de la vallée de l'Hérault sur l'A750, conjugue cœur de bourg viticole et vastes lotissements récents. Parc à 83 % de maisons, marché accessible (autour de 2 600 €/m²), 6 427 habitants.",
+
+    parcImmoNote:
+      "Saint-André-de-Sangonis possède un centre ancien (cœur de bourg pré-1949, habitat viticole en pierre — plomb et amiante fréquents) mais connaît surtout une très forte extension pavillonnaire récente (lotissements post-2000) liée à sa position sur l'A750 et à la périurbanisation de Montpellier. Les maisons individuelles dominent (83 %), souvent avec des installations électriques et gaz de plus de 15 ans pour les premières vagues.",
+
+    enjeuxLocaux:
+      "Saint-André-de-Sangonis dispose d'un PPRi inondation approuvé en 2007, exposée aux crues de l'Hérault et de la Lergue. Le secteur de garrigue et de vignobles présente aussi un aléa feu de forêt. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Saint-André-de-Sangonis est à 32 minutes de Prades-le-Lez (29 km) via l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur de bourg viticole ancien (pré-1949)",
+      "Lotissements pavillonnaires récents (post-2000)",
+      "Vignobles de la vallée de l'Hérault (AOC, IGP)",
+      "Abords de l'Hérault et de la Lergue (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Gignac", "Saint-Félix-de-Lodez", "Ceyras", "Brignac", "Canet", "Pouzols", "Aniane"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-André-de-Sangonis ?",
+        a: "Pour toute vente à Saint-André-de-Sangonis, le DPE et l'ERP (PPRi inondation Hérault-Lergue) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le cœur de bourg ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Saint-André-de-Sangonis ?",
+        a: "À Saint-André-de-Sangonis, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 83 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-André-de-Sangonis ?",
+        a: "Saint-André-de-Sangonis est à 32 minutes de Prades-le-Lez (29 km) via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Saint-André-de-Sangonis ?",
+        a: "C'est possible : la commune dispose d'un PPRi inondation approuvé en 2007 (bassins de l'Hérault et de la Lergue). L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "saint-jean-de-fos",
+    name: "Saint-Jean-de-Fos",
+    nameSeo: "Saint-Jean-de-Fos (34)",
+    codePostal: "34150",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.6955, lng: 3.5463 },
+    distanceFromBaseKm: 26,
+    travelTimeMin: 30,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1745,
+    nbLogements: 990,
+    pctResidencesSecondaires: 15,
+    pctMaisons: 92,
+    pctAppartements: 8,
+    surfaceMoyenne: 100,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 110,
+    prixM2Moyen: 3130,
+    prixM2Maison: 3180,
+    prixM2Appartement: 2380,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 29,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "amiante",
+        whyHere:
+          "Le cœur médiéval en circulade (anciens ateliers de potiers, bâti majoritairement antérieur à 1949) et les biens d'avant le 1er juillet 1997 rendent le repérage amiante quasi systématique en vente.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Saint-Jean-de-Fos est en bord du fleuve Hérault (zone inondable, Atlas des zones inondables du bassin de l'Hérault) et exposée au feu de forêt par la garrigue de l'arrière-pays. L'État des Risques et Pollutions est obligatoire et précise le zonage applicable.",
+      },
+      {
+        slug: "dpe",
+        whyHere:
+          "Village touristique à forte part de résidences secondaires (15 %), au marché actif : le DPE est obligatoire pour toute vente ou location et conditionne la valorisation.",
+      },
+    ],
+
+    intro:
+      "Saint-Jean-de-Fos, village de potiers de la vallée de l'Hérault au pied du Pont du Diable (UNESCO), conjugue cœur médiéval et fort attrait touristique au bord du fleuve. Parc à 92 % de maisons, 15 % de résidences secondaires, marché autour de 3 130 €/m², 1 745 habitants.",
+
+    parcImmoNote:
+      "Saint-Jean-de-Fos possède un centre ancien médiéval dense en circulade (ruelles, anciens ateliers de potiers, bâti majoritairement pré-1949 — plomb et amiante fréquents). Le village compte une part notable de résidences secondaires (environ 15 %) liée à l'attractivité touristique (Pont du Diable, Compostelle, bord de fleuve), entourée d'une extension pavillonnaire récente où dominent les maisons individuelles.",
+
+    enjeuxLocaux:
+      "Saint-Jean-de-Fos borde le fleuve Hérault et figure à l'Atlas des zones inondables du bassin de l'Hérault (sans PPRi approuvé à ce jour), et son arrière-pays de garrigue l'expose au feu de forêt. L'ERP reste obligatoire et précise le zonage applicable à chaque adresse. Le diagnostic termites est obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Saint-Jean-de-Fos est à 30 minutes de Prades-le-Lez (26 km) via l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, du cœur médiéval aux lotissements, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur médiéval en circulade (anciens ateliers de potiers, pré-1949)",
+      "Résidences secondaires touristiques",
+      "Extension pavillonnaire récente",
+      "Abords du fleuve Hérault et du Pont du Diable (zone inondable)",
+    ],
+
+    communesLimitrophes: ["Aniane", "Montpeyroux", "Lagamas", "Saint-Guilhem-le-Désert", "Argelliers", "Puéchabon"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Jean-de-Fos ?",
+        a: "Pour toute vente à Saint-Jean-de-Fos, le DPE et l'ERP (zone inondable du fleuve Hérault, feu de forêt) sont systématiques. Sur le cœur médiéval : amiante (avant 1997) et plomb (bâti pré-1949) sont fréquents. Selon le bien : électricité et gaz (installations de plus de 15 ans), termites (obligatoire dans tout l'Hérault), et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Saint-Jean-de-Fos ?",
+        a: "À Saint-Jean-de-Fos, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 92 % de maisons. Sur le cœur médiéval, le plomb (CREP) s'ajoute fréquemment. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Jean-de-Fos ?",
+        a: "Saint-Jean-de-Fos est à 30 minutes de Prades-le-Lez (26 km) via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Saint-Jean-de-Fos ?",
+        a: "C'est possible, notamment vers le fleuve : Saint-Jean-de-Fos figure à l'Atlas des zones inondables du bassin de l'Hérault. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "montpeyroux",
+    name: "Montpeyroux",
+    nameSeo: "Montpeyroux (34)",
+    codePostal: "34150",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.7109, lng: 3.5011 },
+    distanceFromBaseKm: 29,
+    travelTimeMin: 33,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1449,
+    nbLogements: 803,
+    pctResidencesSecondaires: 14,
+    pctMaisons: 94,
+    pctAppartements: 6,
+    surfaceMoyenne: 100,
+    surfaceMoyenneAppartement: 58,
+    surfaceMoyenneMaison: 115,
+    prixM2Moyen: 2100,
+    prixM2Maison: 2200,
+    prixM2Appartement: 2050,
+    dpeMoyenKwh: 205,
+    dpeMoyenCo2: 29,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 2,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: true,
+      pprApproves: [
+        "PPRi inondation (fleuve Hérault) — approuvé par arrêté préfectoral le 11 juin 2007.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Village viticole à 94 % de maisons, au parc de grandes demeures mêlant ancien et pavillonnaire : le DPE est le diagnostic à plus fort volume, obligatoire à toute vente ou location.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent sur le bâti ancien en pierre et bois du cœur villageois.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Montpeyroux dispose d'un PPRi inondation du fleuve Hérault (approuvé en 2007), d'un potentiel radon de catégorie 2 et d'une exposition au feu de forêt en garrigue. L'État des Risques et Pollutions est systématiquement obligatoire et chargé ici.",
+      },
+    ],
+
+    intro:
+      "Montpeyroux, village viticole renommé de la vallée de l'Hérault (AOC Languedoc-Montpeyroux), est dominé par les ruines du Castellas. Cadre de garrigue, part notable de résidences secondaires, parc à 94 % de maisons, marché accessible (autour de 2 100 €/m²), 1 449 habitants.",
+
+    parcImmoNote:
+      "Montpeyroux conjugue un centre villageois ancien (cœur médiéval en pierre, pré-1949 — plomb et amiante fréquents) et une extension pavillonnaire récente (environ la moitié du parc est postérieure à 1970, avec une dominante de grandes maisons). S'y ajoutent les domaines viticoles isolés du terroir AOC, souvent en bâti ancien. Le parc est très majoritairement composé de maisons individuelles, avec une part notable de résidences secondaires.",
+
+    enjeuxLocaux:
+      "Montpeyroux dispose d'un PPRi inondation du fleuve Hérault (approuvé en 2007), d'un potentiel radon de catégorie 2 et d'une exposition au feu de forêt par sa garrigue. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Montpeyroux est à 33 minutes de Prades-le-Lez (29 km) via l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, du cœur villageois aux domaines viticoles, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur villageois médiéval (pré-1949)",
+      "Extension pavillonnaire récente",
+      "Domaines viticoles AOC Languedoc-Montpeyroux",
+      "Le Castellas et la garrigue (feu de forêt)",
+    ],
+
+    communesLimitrophes: ["Arboras", "Saint-Saturnin-de-Lucian", "Saint-Jean-de-Fos", "Aniane", "Saint-André-de-Sangonis", "Lagamas"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Montpeyroux ?",
+        a: "Pour toute vente à Montpeyroux, le DPE et l'ERP (PPRi inondation du fleuve Hérault + radon + feu de forêt) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le cœur villageois ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Montpeyroux ?",
+        a: "À Montpeyroux, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 94 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Montpeyroux ?",
+        a: "Montpeyroux est à 33 minutes de Prades-le-Lez (29 km) via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Montpeyroux ?",
+        a: "C'est possible : Montpeyroux dispose d'un PPRi inondation du fleuve Hérault (2007), d'un potentiel radon de catégorie 2 et d'une exposition au feu de forêt. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "saint-guilhem-le-desert",
+    name: "Saint-Guilhem-le-Désert",
+    nameSeo: "Saint-Guilhem-le-Désert (34)",
+    codePostal: "34150",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.7536, lng: 3.5439 },
+    distanceFromBaseKm: 27,
+    travelTimeMin: 32,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 237,
+    nbLogements: 251,
+    pctResidencesSecondaires: 40,
+    pctMaisons: 82,
+    pctAppartements: 16,
+    surfaceMoyenne: 85,
+    surfaceMoyenneAppartement: 50,
+    surfaceMoyenneMaison: 95,
+    prixM2Moyen: 2700,
+    prixM2Maison: 2850,
+    prixM2Appartement: 2100,
+    dpeMoyenKwh: 210,
+    dpeMoyenCo2: 30,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 2,
+      sismique: 2,
+      mouvementTerrain: true,
+      feuForet: true,
+      pprApproves: [
+        "PPRi de l'Hérault (haute vallée et gorges de l'Hérault) — Saint-Guilhem-le-Désert y est soumise.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "plomb",
+        whyHere:
+          "Le village médiéval est bâti à environ deux tiers avant 1949 (la majorité avant 1919) : le Constat de Risque d'Exposition au Plomb est quasi systématique sur les maisons en pierre du cœur classé.",
+      },
+      {
+        slug: "amiante",
+        whyHere:
+          "Les multiples restaurations du XXe siècle sur ce bâti ancien (toitures, sols, conduits) rendent le repérage amiante fréquemment requis à la vente.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Saint-Guilhem-le-Désert cumule l'inondation (fleuve Hérault et ruisseau du Verdus, dans les gorges), le feu de forêt, les mouvements de terrain (reliefs calcaires) et un radon de catégorie 2. L'État des Risques et Pollutions est systématiquement obligatoire et particulièrement chargé.",
+      },
+    ],
+
+    intro:
+      "Saint-Guilhem-le-Désert, classé parmi les « Plus Beaux Villages de France » et Grand Site de France, est un joyau médiéval des gorges de l'Hérault (abbaye de Gellone, UNESCO). Village patrimonial à 40 % de résidences secondaires, marché de niche (autour de 2 700 €/m²), 237 habitants.",
+
+    parcImmoNote:
+      "Le parc de Saint-Guilhem-le-Désert est très ancien et patrimonial : environ deux tiers des logements sont antérieurs à 1949 (60 % avant 1919), correspondant au cœur médiéval classé en pierre — d'où des enjeux forts de plomb (CREP) et d'amiante sur ce bâti restauré au fil des décennies. Les maisons dominent (82 %), avec une part exceptionnelle de résidences secondaires (environ 40 %) : gîtes, maisons de villégiature et locations touristiques liés au Grand Site.",
+
+    enjeuxLocaux:
+      "Saint-Guilhem-le-Désert est exposée à l'inondation (fleuve Hérault et ruisseau du Verdus dans les gorges, Atlas des zones inondables des hautes vallées de l'Hérault), au feu de forêt (garrigue et reliefs boisés), aux mouvements de terrain (chutes de blocs sur reliefs calcaires) et présente un radon de catégorie 2. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Saint-Guilhem-le-Désert est à 32 minutes de Prades-le-Lez (27 km) via l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune, du cœur médiéval aux abords des gorges, dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur médiéval classé (abbaye de Gellone, bâti pré-1919)",
+      "Maisons de villégiature et gîtes (résidences secondaires)",
+      "Abords du fleuve Hérault et du Verdus (gorges, zone inondable)",
+      "Reliefs calcaires et garrigue (feu de forêt, chutes de blocs)",
+    ],
+
+    communesLimitrophes: ["Aniane", "Saint-Jean-de-Fos", "Puéchabon", "Montpeyroux", "Causse-de-la-Selle", "Saint-Privat"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Guilhem-le-Désert ?",
+        a: "Pour toute vente à Saint-Guilhem-le-Désert, le plomb (CREP, bâti médiéval pré-1949 — quasi systématique), l'amiante (avant 1997), le DPE et l'ERP (inondation des gorges, feu de forêt, mouvements de terrain) sont au cœur du dossier. S'y ajoutent électricité et gaz (installations de plus de 15 ans) et termites (obligatoire dans tout l'Hérault).",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Saint-Guilhem-le-Désert ?",
+        a: "À Saint-Guilhem-le-Désert, le pack vente maison (DPE + amiante + plomb + électricité + gaz + termites + ERP) est le plus complet compte tenu du bâti médiéval — à partir de 380 € TTC, le plomb (CREP) s'ajoutant quasi systématiquement. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Guilhem-le-Désert ?",
+        a: "Saint-Guilhem-le-Désert est à 32 minutes de Prades-le-Lez (27 km) via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il exposé à un risque naturel à Saint-Guilhem-le-Désert ?",
+        a: "Très probablement : la commune cumule l'inondation des gorges de l'Hérault et du Verdus, le feu de forêt, les mouvements de terrain et un radon de catégorie 2. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: "le-pouget",
+    name: "Le Pouget",
+    nameSeo: "Le Pouget (34)",
+    codePostal: "34230",
+    departement: "Hérault",
+    departementCode: "34",
+    departementSlug: "herault",
+    region: "Occitanie",
+
+    coords: { lat: 43.5919, lng: 3.5184 },
+    distanceFromBaseKm: 30,
+    travelTimeMin: 33,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2122,
+    nbLogements: 1010,
+    pctResidencesSecondaires: 6,
+    pctMaisons: 90,
+    pctAppartements: 10,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 55,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 2700,
+    prixM2Maison: 2720,
+    prixM2Appartement: 1950,
+    dpeMoyenKwh: 195,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      feuForet: false,
+      pprApproves: [
+        "PPRi inondation (moyenne et basse vallée de l'Hérault) — approuvé par arrêté préfectoral le 28 octobre 2002.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: "dpe",
+        whyHere:
+          "Village viticole en croissance à 90 % de maisons, au parc pavillonnaire des années 1970-1990 souvent énergivore : le DPE est le diagnostic à plus fort volume et un enjeu rénovation marqué.",
+      },
+      {
+        slug: "termites",
+        whyHere:
+          "Tout l'Hérault est couvert par l'arrêté préfectoral du 20 juin 2001 : le constat termites est obligatoire à la vente, d'autant plus pertinent sur le cœur de village vigneron ancien.",
+      },
+      {
+        slug: "erp",
+        whyHere:
+          "Le Pouget dispose d'un PPRi inondation de la moyenne et basse vallée de l'Hérault (approuvé en 2002) et se situe en zone sismique 2. L'État des Risques et Pollutions est systématiquement obligatoire.",
+      },
+    ],
+
+    intro:
+      "Le Pouget, village viticole de la vallée de l'Hérault entre l'A750 et Clermont-l'Hérault, conjugue cœur vigneron ancien et lotissements récents. Parc à 90 % de maisons, marché accessible (autour de 2 700 €/m²), 2 122 habitants.",
+
+    parcImmoNote:
+      "Le Pouget possède un centre villageois ancien (cœur de bourg vigneron languedocien pré-1949, maisons de vigneron en pierre — plomb et amiante fréquents) entouré d'une forte extension pavillonnaire récente : plus de la moitié du parc est postérieure à 1970, portée par une croissance démographique soutenue. L'identité viticole reste marquée (vallée de l'Hérault, AOC Languedoc), avec des installations électriques et gaz souvent au-delà de 15 ans sur le pavillonnaire.",
+
+    enjeuxLocaux:
+      "Le Pouget dispose d'un PPRi inondation de la moyenne et basse vallée de l'Hérault (approuvé en 2002) et se situe en zone sismique 2. L'ERP est donc central à toute transaction, et le diagnostic termites obligatoire dans tout l'Hérault (arrêté du 20 juin 2001).",
+
+    accessibilityNote:
+      "Le Pouget est à 33 minutes de Prades-le-Lez (30 km) via l'A750 — intervention sous 48 h garantie sur l'ensemble de la commune dès l'ouverture de l'activité.",
+
+    quartiersTypiques: [
+      "Cœur de village vigneron ancien (pré-1949)",
+      "Extension pavillonnaire récente (post-1970)",
+      "Domaines viticoles de la vallée de l'Hérault (AOC)",
+      "Abords de la vallée de l'Hérault (zone PPRi)",
+    ],
+
+    communesLimitrophes: ["Canet", "Plaissan", "Popian", "Pouzols", "Puilacher", "Saint-Bauzille-de-la-Sylve", "Tressan", "Vendémian"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre au Pouget ?",
+        a: "Pour toute vente au Pouget, le DPE et l'ERP (PPRi inondation de la vallée de l'Hérault, sismicité) sont systématiques. Selon le bien : électricité et gaz (installations de plus de 15 ans, fréquentes sur les pavillons), termites (obligatoire dans tout l'Hérault), amiante et plomb sur le cœur vigneron ancien, et le mesurage Carrez en copropriété.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente au Pouget ?",
+        a: "Au Pouget, le pack vente maison (DPE + amiante + électricité + gaz + termites + ERP) démarre à 380 € TTC — le plus demandé compte tenu des 90 % de maisons. Pack vente appartement à 290 € TTC. Aucun frais de déplacement appliqué sur la commune.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous au Pouget ?",
+        a: "Le Pouget est à 33 minutes de Prades-le-Lez (30 km) via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable au Pouget ?",
+        a: "C'est possible : Le Pouget dispose d'un PPRi inondation de la moyenne et basse vallée de l'Hérault approuvé en 2002. L'État des Risques et Pollutions que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
 ]
 
 export function getVilleBySlug(slug) {

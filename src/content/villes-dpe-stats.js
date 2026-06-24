@@ -2,9 +2,9 @@
 // Généré automatiquement par scripts/build-dpe-stats.mjs — NE PAS éditer à la main.
 // Pour rafraîchir : npm run build:dpe-stats
 //
-// Dernière génération : 2026-06-23
+// Dernière génération : 2026-06-24
 
-export const DPE_STATS_GENERATED_AT = '2026-06-23'
+export const DPE_STATS_GENERATED_AT = '2026-06-24'
 
 export const VILLE_DPE_STATS = {
   "montpellier": {
@@ -3649,6 +3649,321 @@ export const VILLE_DPE_STATS = {
         "label": "G",
         "count": 1,
         "pct": 0.2
+      }
+    ]
+  },
+  "gignac": {
+    "insee": "34114",
+    "total": 1179,
+    "fgCount": 25,
+    "fgPct": 2.1,
+    "efgCount": 113,
+    "efgPct": 9.6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 69,
+        "pct": 5.9
+      },
+      {
+        "label": "B",
+        "count": 219,
+        "pct": 18.6
+      },
+      {
+        "label": "C",
+        "count": 611,
+        "pct": 51.8
+      },
+      {
+        "label": "D",
+        "count": 167,
+        "pct": 14.2
+      },
+      {
+        "label": "E",
+        "count": 88,
+        "pct": 7.5
+      },
+      {
+        "label": "F",
+        "count": 21,
+        "pct": 1.8
+      },
+      {
+        "label": "G",
+        "count": 4,
+        "pct": 0.3
+      }
+    ]
+  },
+  "aniane": {
+    "insee": "34010",
+    "total": 463,
+    "fgCount": 17,
+    "fgPct": 3.7,
+    "efgCount": 78,
+    "efgPct": 16.8,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 18,
+        "pct": 3.9
+      },
+      {
+        "label": "B",
+        "count": 46,
+        "pct": 9.9
+      },
+      {
+        "label": "C",
+        "count": 189,
+        "pct": 40.8
+      },
+      {
+        "label": "D",
+        "count": 132,
+        "pct": 28.5
+      },
+      {
+        "label": "E",
+        "count": 61,
+        "pct": 13.2
+      },
+      {
+        "label": "F",
+        "count": 13,
+        "pct": 2.8
+      },
+      {
+        "label": "G",
+        "count": 4,
+        "pct": 0.9
+      }
+    ]
+  },
+  "saint-andre-de-sangonis": {
+    "insee": "34239",
+    "total": 872,
+    "fgCount": 20,
+    "fgPct": 2.3,
+    "efgCount": 95,
+    "efgPct": 10.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 77,
+        "pct": 8.8
+      },
+      {
+        "label": "B",
+        "count": 124,
+        "pct": 14.2
+      },
+      {
+        "label": "C",
+        "count": 424,
+        "pct": 48.6
+      },
+      {
+        "label": "D",
+        "count": 152,
+        "pct": 17.4
+      },
+      {
+        "label": "E",
+        "count": 75,
+        "pct": 8.6
+      },
+      {
+        "label": "F",
+        "count": 17,
+        "pct": 1.9
+      },
+      {
+        "label": "G",
+        "count": 3,
+        "pct": 0.3
+      }
+    ]
+  },
+  "saint-jean-de-fos": {
+    "insee": "34267",
+    "total": 211,
+    "fgCount": 11,
+    "fgPct": 5.2,
+    "efgCount": 34,
+    "efgPct": 16.1,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 20,
+        "pct": 9.5
+      },
+      {
+        "label": "B",
+        "count": 36,
+        "pct": 17.1
+      },
+      {
+        "label": "C",
+        "count": 68,
+        "pct": 32.2
+      },
+      {
+        "label": "D",
+        "count": 53,
+        "pct": 25.1
+      },
+      {
+        "label": "E",
+        "count": 23,
+        "pct": 10.9
+      },
+      {
+        "label": "F",
+        "count": 8,
+        "pct": 3.8
+      },
+      {
+        "label": "G",
+        "count": 3,
+        "pct": 1.4
+      }
+    ]
+  },
+  "montpeyroux": {
+    "insee": "34173",
+    "total": 143,
+    "fgCount": 6,
+    "fgPct": 4.2,
+    "efgCount": 22,
+    "efgPct": 15.4,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 8,
+        "pct": 5.6
+      },
+      {
+        "label": "B",
+        "count": 23,
+        "pct": 16.1
+      },
+      {
+        "label": "C",
+        "count": 48,
+        "pct": 33.6
+      },
+      {
+        "label": "D",
+        "count": 42,
+        "pct": 29.4
+      },
+      {
+        "label": "E",
+        "count": 16,
+        "pct": 11.2
+      },
+      {
+        "label": "F",
+        "count": 4,
+        "pct": 2.8
+      },
+      {
+        "label": "G",
+        "count": 2,
+        "pct": 1.4
+      }
+    ]
+  },
+  "saint-guilhem-le-desert": {
+    "insee": "34261",
+    "total": 44,
+    "fgCount": 5,
+    "fgPct": 11.4,
+    "efgCount": 16,
+    "efgPct": 36.4,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 1,
+        "pct": 2.3
+      },
+      {
+        "label": "B",
+        "count": 4,
+        "pct": 9.1
+      },
+      {
+        "label": "C",
+        "count": 14,
+        "pct": 31.8
+      },
+      {
+        "label": "D",
+        "count": 9,
+        "pct": 20.5
+      },
+      {
+        "label": "E",
+        "count": 11,
+        "pct": 25
+      },
+      {
+        "label": "F",
+        "count": 4,
+        "pct": 9.1
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 2.3
+      }
+    ]
+  },
+  "le-pouget": {
+    "insee": "34210",
+    "total": 253,
+    "fgCount": 7,
+    "fgPct": 2.8,
+    "efgCount": 30,
+    "efgPct": 11.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 40,
+        "pct": 15.8
+      },
+      {
+        "label": "B",
+        "count": 40,
+        "pct": 15.8
+      },
+      {
+        "label": "C",
+        "count": 76,
+        "pct": 30
+      },
+      {
+        "label": "D",
+        "count": 67,
+        "pct": 26.5
+      },
+      {
+        "label": "E",
+        "count": 23,
+        "pct": 9.1
+      },
+      {
+        "label": "F",
+        "count": 6,
+        "pct": 2.4
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.4
       }
     ]
   }

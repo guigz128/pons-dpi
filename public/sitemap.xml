@@ -506,6 +506,41 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/gignac</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/aniane</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/saint-andre-de-sangonis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/saint-jean-de-fos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/montpeyroux</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/saint-guilhem-le-desert</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/le-pouget</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.pons-dpi.fr/mentions-legales</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
