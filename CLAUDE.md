@@ -349,26 +349,33 @@ bash scripts/cf.sh index-bing --from-sitemap   # IndexNow / Bing
 
 ## Design system
 
+> **Palette « Vert santé »** (juin 2026). Source de vérité : [src/index.css](src/index.css) `@theme` (site React) + [pons-dpi-blog/src/styles/global.css](../../../blogs/pons-dpi-blog/src/styles/global.css) (blog, synchronisé). Direction : confiance, santé du bâtiment, clarté. Remplace l'ancien teal `#3FB8B5` (lui-même ex-bleu).
+
 | Token | Valeur | Notes |
 |-------|--------|-------|
 | **Font sans** | Inter | UI, corps de texte |
-| **Font display** | — | À définir (optionnel, pour les titres) |
-| **bg** | `#FAFAF9` | Fond page — stone-50 chaud |
+| **Font display** | Figtree | Titres (h1-h3) |
+| **bg** | `#F3F7F3` | Fond page — vert très clair |
 | **surface** | `#FFFFFF` | Cartes, modales |
-| **text** | `#1C1917` | Texte principal — stone-900 |
-| **text-secondary** | `#78716C` | Texte secondaire — stone-500 |
-| **border** | `#E7E5E4` | Bordures — stone-200 |
-| **accent** | `#2563EB` | CTA, liens — blue-600 (confiance, pro) |
-| **accent-hover** | `#1D4ED8` | Hover CTA — blue-700 |
-| **accent-light** | `#EFF6FF` | Fond accent léger — blue-50 |
-| **success** | `#16A34A` | DPE A-B, confirmations |
-| **warning** | `#F59E0B` | DPE D-E, alertes |
+| **text** | `#13241A` | Texte principal — vert-noir |
+| **text-secondary** | `#5C6873` | Texte secondaire — gris ardoise neutre |
+| **border** | `#E2E9E1` | Bordures |
+| **accent** | `#2E7D43` | CTA, liens — vert forêt, **AA-safe** (blanc dessus ~4,4:1) |
+| **accent-hover** | `#246135` | Hover CTA |
+| **accent-light** | `#E8F3EA` | Fond accent léger |
+| **highlight** | `#3DA35D` | Vert vif — décoratif uniquement (jauges, accents non-textuels) |
+| **secondary** | `#D9614A` | Terracotta — widget WhatsApp, CTA secondaires, accents chauds |
+| **secondary-hover** | `#C24A35` | Hover secondaire |
+| **secondary-light** | `#FBECE7` | Fond secondaire léger |
+| **success** | `#10B981` | Émeraude — DPE A-B, confirmations (distinct de l'accent) |
+| **warning** | `#D97706` | DPE D-E, alertes |
 | **danger** | `#DC2626` | DPE F-G, erreurs |
-| **whatsapp** | `#25D366` | Bouton WhatsApp |
-| **radius-sm** | 8px | Boutons, inputs |
-| **radius-md** | 12px | Cartes |
-| **radius-lg** | 16px | Modales, hero |
+| **whatsapp** | `#25D366` | Token conservé, mais le widget utilise désormais `secondary` (terracotta) pour ressortir sur le vert |
+| **radius-sm** | 10px | Boutons, inputs |
+| **radius-md** | 16px | Cartes |
+| **radius-lg** | 20px | Modales, hero |
 
+> **Règle contraste** : pour tout texte blanc sur fond coloré, utiliser `accent` (`#2E7D43`), jamais `highlight` (`#3DA35D`, qui échoue l'AA en texte). `highlight` est réservé au décoratif.
 > **Direction design** : sobre, professionnel, confiance. Pas de look "startup".
 > Beaucoup de blanc, typographie soignée, peu de couleurs.
 

@@ -94,21 +94,28 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Figtree", "Inter", ui-sans-serif, system-ui, sans-serif;
 
-  --color-bg: #F2F4F7;
+  --color-bg: #F3F7F3;
   --color-surface: #FFFFFF;
-  --color-text: #0E1733;
-  --color-text-secondary: #5B6478;
-  --color-border: #E4E7ED;
+  --color-text: #13241A;
+  --color-text-secondary: #5C6873;
+  --color-border: #E2E9E1;
 
-  --color-accent: #3FB8B5;
-  --color-accent-hover: #329997;
-  --color-accent-light: #E6F5F4;
+  /* Vert santé — accent AA-safe (blanc dessus ~4,4:1) */
+  --color-accent: #2E7D43;
+  --color-accent-hover: #246135;
+  --color-accent-light: #E8F3EA;
 
-  --color-highlight: #3FB8B5;
-  --color-highlight-hover: #329997;
-  --color-highlight-light: #E6F5F4;
+  /* Vert vif décoratif (jauges, highlights non-textuels) */
+  --color-highlight: #3DA35D;
+  --color-highlight-hover: #2E7D43;
+  --color-highlight-light: #E8F3EA;
 
-  --color-success: #16A34A;
+  /* Secondaire terracotta — CTA secondaires, WhatsApp, accents chauds */
+  --color-secondary: #D9614A;
+  --color-secondary-hover: #C24A35;
+  --color-secondary-light: #FBECE7;
+
+  --color-success: #10B981;
   --color-warning: #D97706;
   --color-danger: #DC2626;
   --color-whatsapp: #25D366;
