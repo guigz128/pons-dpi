@@ -172,6 +172,43 @@ const routes = [
   },
 ]
 
+// ── Sitemap.xml — source unique = `routes` ────────────────────────────────
+// Généré à chaque build (donc à chaque déploiement) : le sitemap servi reste
+// toujours à jour, sans maintenance manuelle. Écrit dans dist/ (servi par
+// Vercel) ET public/ (le fichier du repo se rafraîchit après un build local).
+function sitemapMeta(p) {
+  if (p === '/') return { priority: '1.0', freq: 'weekly' }
+  if (p === '/mentions-legales') return { priority: '0.3', freq: 'yearly' }
+  if (/^\/services\/[^/]+$/.test(p)) return { priority: '0.8', freq: 'monthly' }
+  if (/^\/diagnostic-immobilier\/(herault|gard|aude)$/.test(p)) return { priority: '0.8', freq: 'monthly' }
+  if (/^\/diagnostic-immobilier\/[^/]+$/.test(p)) return { priority: '0.7', freq: 'monthly' }
+  if (/^\/dpe-existant\/[^/]+$/.test(p)) return { priority: '0.6', freq: 'monthly' }
+  if (['/services', '/devis', '/diagnostic-immobilier', '/dpe-existant', '/audit-energetique'].includes(p))
+    return { priority: '0.9', freq: 'monthly' }
+  return { priority: '0.6', freq: 'monthly' } // a-propos, professionnels, contact
+}
+
+const sitemapXml =
+  '<?xml version="1.0" encoding="UTF-8"?>\n' +
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+  routes
+    .map((r) => {
+      const loc = r.path === '/' ? `${SITE_URL}/` : `${SITE_URL}${r.path}`
+      const { priority, freq } = sitemapMeta(r.path)
+      return `  <url>\n    <loc>${loc}</loc>\n    <changefreq>${freq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`
+    })
+    .join('\n') +
+  '\n</urlset>\n'
+
+for (const dir of [dist, path.join(root, 'public')]) {
+  try {
+    fs.writeFileSync(path.join(dir, 'sitemap.xml'), sitemapXml)
+  } catch (e) {
+    console.warn(`[prerender] sitemap non écrit dans ${dir} : ${e.message}`)
+  }
+}
+console.log(`[prerender] sitemap.xml généré (${routes.length} URLs).`)
+
 function escAttr(s) {
   return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 }

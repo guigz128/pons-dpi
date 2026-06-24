@@ -56,7 +56,7 @@
 | **Hébergement** | Vercel ou Netlify | Gratuit, déploiement auto via Git |
 | **Analytics** | PostHog (projet `DPI`, EU cloud) | Autocapture + pageviews SPA + session recordings + heatmaps + Web Vitals. Init : [src/lib/posthog.js](src/lib/posthog.js), pageviews dans [src/App.jsx](src/App.jsx). Clés via `VITE_POSTHOG_KEY` (cf. content-factory/.env, `POSTHOG_PUBLIC_KEY_PONS_DPI`). |
 | **SEO** | react-helmet-async | Meta tags dynamiques par page |
-| **Sitemap** | Génération statique | Pour Google Search Console |
+| **Sitemap** | Généré au build par `scripts/prerender.mjs` depuis le tableau `routes` (source unique) → `dist/` + `public/sitemap.xml`. Toujours à jour, aucune maintenance manuelle. |
 
 > **Pas de backend Node/Express.** Le site est 100% statique côté hébergement.
 > **Pas de PWA.** Pas de manifest.json, pas de service worker.
