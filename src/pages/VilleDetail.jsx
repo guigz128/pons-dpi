@@ -13,8 +13,10 @@ import {
   Flame,
   AlertCircle,
   MapPin,
+  ExternalLink,
 } from 'lucide-react'
 import { getVilleBySlug, villes, getNearestVilles } from '../content/villes'
+import { getRessourcesOfficielles } from '../lib/ressourcesOfficielles'
 import { allServices } from '../content/services'
 import Badge from '../components/ui/Badge'
 import Button from '../components/ui/Button'
@@ -78,6 +80,8 @@ export default function VilleDetail() {
 
   const url = `https://www.pons-dpi.fr/diagnostic-immobilier/${slug}`
   const SITE = 'https://www.pons-dpi.fr'
+
+  const ressourcesOfficielles = getRessourcesOfficielles(ville)
 
   const dpeSentence =
     dpeStats.stats?.fgPct != null
@@ -666,6 +670,52 @@ export default function VilleDetail() {
           </ScrollReveal>
         </div>
       </section>
+
+      {/* 8ter — Ressources officielles de la commune (liens externes utiles) */}
+      {ressourcesOfficielles.length > 0 && (
+        <section className="py-16 sm:py-20">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+            <ScrollReveal>
+              <div className="text-center max-w-2xl mx-auto mb-8">
+                <h2 className="font-display text-3xl sm:text-4xl text-text">
+                  Ressources officielles à <span className="text-highlight">{name}</span>
+                </h2>
+                <p className="mt-3 text-text-secondary">
+                  Les sources publiques utiles pour préparer votre projet immobilier à {name}.
+                </p>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal>
+              <div className="grid gap-4 sm:grid-cols-2">
+                {ressourcesOfficielles.map((r) => (
+                  <a
+                    key={r.key}
+                    href={r.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-start gap-3 rounded-2xl border border-border bg-surface p-5 transition-colors hover:border-accent"
+                  >
+                    <ExternalLink className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent" aria-hidden="true" />
+                    <span className="min-w-0">
+                      <span className="flex items-center gap-2 font-display text-lg leading-snug text-text">
+                        {r.label}
+                      </span>
+                      <span className="mt-1 block text-sm leading-relaxed text-text-secondary">{r.description}</span>
+                      <span className="mt-2 block text-xs font-medium uppercase tracking-wide text-text-secondary/70">
+                        {r.source}
+                      </span>
+                    </span>
+                  </a>
+                ))}
+              </div>
+              <p className="mt-6 text-center text-xs text-text-secondary">
+                Liens vers des sites publics externes. Pons DPI n’est pas responsable de leur contenu.
+              </p>
+            </ScrollReveal>
+          </div>
+        </section>
+      )}
 
       {/* 9 — CTA final */}
       <Cta />

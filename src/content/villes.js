@@ -9521,6 +9521,635 @@ export const villes = [
       },
     ],
   },
+  {
+    slug: 'la-grande-motte',
+    name: 'La Grande-Motte',
+    nameSeo: 'La Grande-Motte (34)',
+    codePostal: '34280',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/la-grande-motte.webp',
+      alt: 'Vue de La Grande-Motte, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 3.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Ville-architecturale-de-la-Grande-Motte.JPG',
+    },
+
+    coords: { lat: 43.571, lng: 4.072 },
+    distanceFromBaseKm: 30,
+    travelTimeMin: 32,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 8440,
+    nbLogements: 17500,
+    pctResidencesSecondaires: 62,
+    pctMaisons: 12,
+    pctAppartements: 88,
+    surfaceMoyenne: 46,
+    surfaceMoyenneAppartement: 43,
+    surfaceMoyenneMaison: 95,
+    prixM2Moyen: 5200,
+    prixM2Maison: 6000,
+    prixM2Appartement: 5100,
+    dpeMoyenKwh: 185,
+    dpeMoyenCo2: 25,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: 'Étang de l’Or — littoral',
+      radon: 1,
+      sismique: 1,
+      mouvementTerrain: false,
+      pprApproves: [
+        'La Grande-Motte est couverte par un Plan de Prévention des Risques inondation et submersion marine (commune littorale de cordon dunaire).',
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Station balnéaire créée ex nihilo à partir de 1965, La Grande-Motte est dominée par la copropriété (88 % d'appartements) et un parc des années 1965-1990 souvent en classe D-E. Avec 62 % de résidences secondaires, le DPE est un point clé de chaque transaction et de chaque mise en location saisonnière.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "La quasi-totalité du parc grand-mottois a été bâtie entre 1965 et 1997 — la période la plus concernée par l'amiante. Le repérage avant vente est donc quasi-systématique sur les immeubles emblématiques de l'architecture pyramidale de Jean Balladur.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Commune littorale en cordon dunaire entre la Méditerranée et l'étang du Ponant, La Grande-Motte est exposée à la submersion marine et à l'inondation. L'État des Risques et Pollutions, particulièrement scruté ici, précise l'exposition exacte du bien.",
+      },
+    ],
+
+    intro:
+      "La Grande-Motte, station balnéaire emblématique de l'architecture des années 1960 (label Patrimoine du XXe siècle), présente un marché immobilier très particulier : forte proportion de résidences secondaires, copropriétés en bord de mer et saisonnalité marquée. Les diagnostics y rythment ventes et locations, sur un parc majoritairement antérieur à 1997.",
+
+    parcImmoNote:
+      "Le parc grand-mottois est dominé par les appartements en copropriété (88 % des logements) et par les résidences secondaires (62 %). L'essentiel du bâti date des grandes phases de construction de la station, entre 1965 et 1990 : pyramides du front de mer, résidences du Couchant et du Levant, quartier du Point Zéro. Cette période déclenche presque systématiquement le repérage amiante en vente, ainsi que les diagnostics électricité et gaz pour les installations de plus de 15 ans. Les surfaces moyennes sont réduites (studios et deux-pièces), ce qui rend le mesurage Carrez incontournable en copropriété.",
+
+    enjeuxLocaux:
+      "Construite sur un cordon dunaire entre la Méditerranée et l'étang du Ponant, La Grande-Motte cumule risque d'inondation (crue torrentielle, remontées de nappe) et risque de submersion marine. La commune est couverte par un Plan de Prévention des Risques qui encadre l'urbanisation du front de mer. L'État des Risques et Pollutions est systématique et particulièrement déterminant lors des transactions. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "La Grande-Motte est à une trentaine de minutes de Prades-le-Lez par l'A9 ou la route de la mer. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+
+    quartiersTypiques: [
+      'Front de mer et pyramides (architecture Balladur, 1965-1975)',
+      'Le Couchant et Le Levant (résidences de copropriété)',
+      'Le Point Zéro et le centre (commerces, marché)',
+      'Le Golf et la Petite-Motte (résidentiel plus récent)',
+    ],
+
+    communesLimitrophes: ['Mauguio', 'Le Grau-du-Roi', 'Lansargues', 'Saint-Laurent-d’Aigouze'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à La Grande-Motte ?",
+        a: "Pour toute vente à La Grande-Motte, le DPE, l'ERP et le diagnostic termites sont systématiques. La plupart des biens étant des appartements en copropriété d'avant 1997, le repérage amiante et le mesurage Carrez sont quasi-systématiques, auxquels s'ajoutent l'électricité et le gaz pour les installations de plus de 15 ans. Le devis en ligne identifie automatiquement la liste obligatoire en quelques questions.",
+      },
+      {
+        q: "Faites-vous les diagnostics pour la location saisonnière à La Grande-Motte ?",
+        a: "Oui. Pour une mise en location (y compris meublée à l'année), le DPE, l'ERP et — selon l'âge de l'installation — l'électricité et le gaz sont requis, ainsi que la surface habitable (Boutin) pour une résidence principale. Je m'adapte aux contraintes des copropriétés et des résidences secondaires de la station.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à La Grande-Motte ?",
+        a: "À La Grande-Motte, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC. Les studios et deux-pièces, très représentés dans la station, sont diagnostiqués rapidement. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Mon bien est-il exposé à la submersion marine à La Grande-Motte ?",
+        a: "C'est une réalité de la commune : construite sur un cordon dunaire entre mer et étang du Ponant, La Grande-Motte est exposée à la submersion marine et à l'inondation, et couverte par un Plan de Prévention des Risques. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'le-triadou',
+    name: 'Le Triadou',
+    nameSeo: 'Le Triadou (34)',
+    codePostal: '34270',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/le-triadou.webp',
+      alt: 'Vue de Le Triadou, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Le_Triadou_(25).jpg',
+    },
+
+    coords: { lat: 43.7358, lng: 3.8574 },
+    distanceFromBaseKm: 9,
+    travelTimeMin: 13,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 737,
+    nbLogements: 330,
+    pctResidencesSecondaires: 5,
+    pctMaisons: 92,
+    pctAppartements: 8,
+    surfaceMoyenne: 105,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 115,
+    prixM2Moyen: 3700,
+    prixM2Maison: 3800,
+    prixM2Appartement: 3200,
+    dpeMoyenKwh: 205,
+    dpeMoyenCo2: 29,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        'Le Triadou est exposé au risque feu de forêt (garrigues du Pic Saint-Loup) et au risque inondation par crue torrentielle de ses cours d’eau.',
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village de garrigue au pied du Pic Saint-Loup, Le Triadou est composé à 92 % de maisons individuelles. Le bâti ancien en pierre et les maisons des années 1970-1990 affichent souvent une classe énergétique moyenne (D-E) : le DPE est déterminant à la vente et oriente les travaux d'amélioration.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Les maisons construites entre 1949 et 1997 — bien représentées au Triadou — déclenchent le repérage amiante en vente (toitures en fibrociment, conduits, sols). Indispensable sur ce parc pavillonnaire.",
+      },
+      {
+        slug: 'termites',
+        whyHere:
+          "L'Hérault est classé intégralement en zone termites par arrêté préfectoral : le diagnostic est obligatoire pour toute vente au Triadou, particulièrement surveillé sur les charpentes et menuiseries des maisons anciennes.",
+      },
+    ],
+
+    intro:
+      "Le Triadou, petit village résidentiel au pied du Pic Saint-Loup, fait partie de la première couronne nord de Prades-le-Lez. Son marché immobilier est dominé par la maison individuelle, entre bâti ancien en pierre et lotissements récents, dans un cadre de garrigue très recherché.",
+
+    parcImmoNote:
+      "Le parc du Triadou est presque exclusivement pavillonnaire (92 % de maisons). On y trouve un noyau villageois ancien en pierre (plomb possible sur le bâti antérieur à 1949) et surtout des maisons des années 1970-2000 réparties en lotissements. Les installations électriques et gaz de plus de 15 ans y sont fréquentes, déclenchant les diagnostics correspondants. Les grandes surfaces moyennes (terrains et maisons) sont typiques de ce secteur de garrigue.",
+
+    enjeuxLocaux:
+      "Au pied du Pic Saint-Loup, Le Triadou est concerné par le risque feu de forêt (garrigues et bois environnants) — l'obligation légale de débroussaillement s'applique à de nombreuses parcelles. La commune est également exposée au risque inondation par crue torrentielle de ses cours d'eau et classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Le Triadou est à une dizaine de minutes de Prades-le-Lez par la D17 et la D68 — au cœur de ma zone d'intervention. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+
+    quartiersTypiques: [
+      'Noyau villageois ancien (bâti en pierre)',
+      'Lotissements pavillonnaires (années 1970-2000)',
+      'Hameaux et habitat diffus de garrigue',
+    ],
+
+    communesLimitrophes: ['Saint-Mathieu-de-Tréviers', 'Saint-Jean-de-Cuculles', 'Sainte-Croix-de-Quintillargues', 'Les Matelles'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre au Triadou ?",
+        a: "Pour toute vente au Triadou, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le bâti ancien du village), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire en quelques questions.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison au Triadou ?",
+        a: "Au Triadou, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Aucun frais de déplacement n'est appliqué : la commune est au cœur de ma zone, à dix minutes de Prades-le-Lez.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous au Triadou ?",
+        a: "Le Triadou est à une dizaine de minutes de Prades-le-Lez par la D17. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Ma maison est-elle concernée par le risque feu de forêt au Triadou ?",
+        a: "C'est probable : au pied du Pic Saint-Loup, de nombreuses parcelles du Triadou sont en zone de garrigue soumise à l'obligation légale de débroussaillement. L'État des Risques et Pollutions (ERP) que je réalise précise les risques naturels applicables à votre adresse, dont le feu de forêt et l'inondation.",
+      },
+    ],
+  },
+  {
+    slug: 'vic-la-gardiole',
+    name: 'Vic-la-Gardiole',
+    nameSeo: 'Vic-la-Gardiole (34)',
+    codePostal: '34110',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/vic-la-gardiole.webp',
+      alt: 'Vue de Vic-la-Gardiole, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Vic-la-Gardiole_(29).jpg',
+    },
+
+    coords: { lat: 43.4838, lng: 3.8046 },
+    distanceFromBaseKm: 28,
+    travelTimeMin: 30,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 3428,
+    nbLogements: 1900,
+    pctResidencesSecondaires: 18,
+    pctMaisons: 70,
+    pctAppartements: 30,
+    surfaceMoyenne: 80,
+    surfaceMoyenneAppartement: 55,
+    surfaceMoyenneMaison: 100,
+    prixM2Moyen: 3900,
+    prixM2Maison: 4200,
+    prixM2Appartement: 3500,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 26,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: 'Lagunes — étang de Vic',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        'Vic-la-Gardiole, entre le massif de la Gardiole et les étangs littoraux, est exposée à l’inondation, à la submersion marine et au feu de forêt.',
+      ],
+    },
+
+    intro:
+      "Vic-la-Gardiole, entre le massif de la Gardiole et les étangs littoraux, séduit par sa situation à mi-chemin de Montpellier et de Sète. Son marché immobilier mêle maisons de village, lotissements pavillonnaires et résidences proches du littoral, avec une part notable de résidences secondaires.",
+
+    parcImmoNote:
+      "Le parc vicois est majoritairement pavillonnaire (70 % de maisons) avec une part d'appartements en hausse et près d'un logement sur cinq en résidence secondaire. Le cœur ancien autour de l'abbatiale Sainte-Léocadie concentre un bâti antérieur à 1949 (plomb possible). Les lotissements des années 1970-2000 déclenchent fréquemment les diagnostics électricité et gaz. La proximité des étangs et du littoral rend l'État des Risques particulièrement important.",
+
+    enjeuxLocaux:
+      "Adossée au massif boisé de la Gardiole et bordée par les étangs littoraux, Vic-la-Gardiole cumule plusieurs risques : inondation (crue torrentielle, remontées de nappe), submersion marine sur les secteurs bas proches des lagunes, et feu de forêt sur les franges du massif. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions est systématique et déterminant lors des transactions. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Vic-la-Gardiole est à une trentaine de minutes de Prades-le-Lez par l'A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+
+    quartiersTypiques: [
+      'Cœur ancien (abbatiale Sainte-Léocadie, bâti pré-1949)',
+      'Lotissements pavillonnaires (années 1970-2000)',
+      'Secteurs résidentiels proches des étangs',
+      'Franges du massif de la Gardiole (zone feu de forêt)',
+    ],
+
+    communesLimitrophes: ['Mireval', 'Frontignan', 'Villeneuve-lès-Maguelone', 'Fabrègues'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Vic-la-Gardiole ?",
+        a: "Pour toute vente à Vic-la-Gardiole, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge et la nature du bien : amiante (avant 1997), plomb (avant 1949, sur le cœur ancien), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Vic-la-Gardiole ?",
+        a: "À Vic-la-Gardiole, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC, et le pack vente appartement à 290 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Vic-la-Gardiole ?",
+        a: "Vic-la-Gardiole est à une trentaine de minutes de Prades-le-Lez par l'A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable ou de submersion à Vic-la-Gardiole ?",
+        a: "C'est possible selon le secteur : entre le massif de la Gardiole et les étangs, la commune est exposée à l'inondation et, sur les secteurs bas proches des lagunes, à la submersion marine. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'montarnaud',
+    name: 'Montarnaud',
+    nameSeo: 'Montarnaud (34)',
+    codePostal: '34570',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/montarnaud.webp',
+      alt: 'Vue de Montarnaud, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Montarnaud_(5).jpg',
+    },
+
+    coords: { lat: 43.648, lng: 3.7053 },
+    distanceFromBaseKm: 18,
+    travelTimeMin: 22,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 4208,
+    nbLogements: 1800,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 85,
+    pctAppartements: 15,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 3400,
+    prixM2Maison: 3500,
+    prixM2Appartement: 3100,
+    dpeMoyenKwh: 180,
+    dpeMoyenCo2: 25,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        'Montarnaud est exposée au feu de forêt (garrigues et bois) et à l’inondation par crue torrentielle de la Mosson et de ses affluents.',
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Commune en forte croissance à l'ouest de Montpellier, Montarnaud est composée à 85 % de maisons, dominées par des lotissements récents et des constructions pavillonnaires des années 1990-2010. Le DPE est un argument central sur ce marché familial, où les acheteurs scrutent la performance énergétique.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le cœur de village ancien et les maisons construites avant 1997 déclenchent le repérage amiante en vente. Même sur une commune au parc plutôt récent, ce diagnostic reste fréquent sur le bâti d'avant la fin des années 1990.",
+      },
+      {
+        slug: 'termites',
+        whyHere:
+          "L'Hérault est intégralement classé en zone termites par arrêté préfectoral : le diagnostic est obligatoire pour toute vente à Montarnaud, sans exception.",
+      },
+    ],
+
+    intro:
+      "Montarnaud, commune dynamique de l'ouest montpelliérain, connaît une croissance résidentielle soutenue. Son marché immobilier, très majoritairement pavillonnaire, attire de jeunes ménages en quête de maisons avec jardin à proximité de Montpellier — un profil où les diagnostics de vente sont fréquents.",
+
+    parcImmoNote:
+      "Le parc montarnéen est dominé par la maison individuelle (85 % des logements) et compte très peu de résidences secondaires. Autour du cœur de village ancien (bâti pré-1949, plomb possible), les lotissements des années 1990-2010 forment l'essentiel de l'offre : un parc plutôt récent, en classe énergétique correcte, mais dont les installations électriques et gaz dépassent souvent les 15 ans. Les surfaces sont généreuses, typiques d'un habitat familial.",
+
+    enjeuxLocaux:
+      "Implantée dans un environnement de garrigue et de bois, Montarnaud est exposée au risque feu de forêt (obligation de débroussaillement sur de nombreuses parcelles) et à l'inondation par crue torrentielle de la Mosson et de ses affluents. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Montarnaud est à une vingtaine de minutes de Prades-le-Lez via la D986 et l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+
+    quartiersTypiques: [
+      'Cœur de village ancien (bâti pré-1949)',
+      'Lotissements pavillonnaires (années 1990-2010)',
+      'Quartiers résidentiels récents en extension',
+      'Habitat diffus de garrigue (zone feu de forêt)',
+    ],
+
+    communesLimitrophes: ['Vailhauquès', 'Saint-Paul-et-Valmalle', 'Murviel-lès-Montpellier', 'Combaillaux'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Montarnaud ?",
+        a: "Pour toute vente à Montarnaud, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le cœur ancien), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Montarnaud ?",
+        a: "À Montarnaud, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Aucun frais de déplacement n'est appliqué sur la commune. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Montarnaud ?",
+        a: "Montarnaud est à une vingtaine de minutes de Prades-le-Lez via la D986 et l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Ma maison est-elle concernée par le risque feu de forêt à Montarnaud ?",
+        a: "C'est probable selon le secteur : entourée de garrigue et de bois, Montarnaud compte de nombreuses parcelles soumises à l'obligation légale de débroussaillement. L'État des Risques et Pollutions (ERP) que je réalise précise les risques naturels applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'saint-paul-et-valmalle',
+    name: 'Saint-Paul-et-Valmalle',
+    nameSeo: 'Saint-Paul-et-Valmalle (34)',
+    codePostal: '34570',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/saint-paul-et-valmalle.webp',
+      alt: 'Vue de Saint-Paul-et-Valmalle, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Saint-Paul-et-Valmalle_(19).jpg',
+    },
+
+    coords: { lat: 43.6152, lng: 3.6843 },
+    distanceFromBaseKm: 22,
+    travelTimeMin: 25,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1394,
+    nbLogements: 620,
+    pctResidencesSecondaires: 5,
+    pctMaisons: 90,
+    pctAppartements: 10,
+    surfaceMoyenne: 100,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 110,
+    prixM2Moyen: 3300,
+    prixM2Maison: 3400,
+    prixM2Appartement: 2900,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: false,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        'Saint-Paul-et-Valmalle est principalement exposée au risque feu de forêt (garrigues et bois) et au retrait-gonflement des argiles.',
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village de garrigue et de vignes à l'ouest de Montpellier, Saint-Paul-et-Valmalle est composé à 90 % de maisons individuelles. Le bâti ancien en pierre et les maisons des années 1980-2010 affichent des classes énergétiques variables : le DPE oriente la vente et les éventuels travaux.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Les maisons antérieures à 1997 — bien représentées dans le village et ses hameaux — déclenchent le repérage amiante en vente. Indispensable sur ce parc pavillonnaire et rural.",
+      },
+      {
+        slug: 'termites',
+        whyHere:
+          "L'Hérault est classé intégralement en zone termites par arrêté préfectoral : le diagnostic est obligatoire pour toute vente à Saint-Paul-et-Valmalle, sans exception.",
+      },
+    ],
+
+    intro:
+      "Saint-Paul-et-Valmalle, paisible village viticole de l'ouest héraultais, conjugue cadre de garrigue et proximité de l'axe Montpellier-Gignac. Son marché immobilier, presque exclusivement composé de maisons, attire les amateurs de calme à distance raisonnable de la métropole.",
+
+    parcImmoNote:
+      "Le parc de Saint-Paul-et-Valmalle est très majoritairement pavillonnaire (90 % de maisons). Le noyau villageois ancien en pierre (plomb possible sur le bâti pré-1949) côtoie des maisons des années 1980-2010 en lotissement et en habitat diffus. Les installations électriques et gaz de plus de 15 ans y sont fréquentes. Les grandes surfaces et terrains sont caractéristiques de ce secteur rural et viticole.",
+
+    enjeuxLocaux:
+      "Entourée de garrigue, de bois et de vignes, Saint-Paul-et-Valmalle est principalement exposée au risque feu de forêt — l'obligation légale de débroussaillement concerne de nombreuses parcelles. Le retrait-gonflement des argiles (mouvement de terrain) peut affecter les constructions, et la commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Saint-Paul-et-Valmalle est à environ vingt-cinq minutes de Prades-le-Lez via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+
+    quartiersTypiques: [
+      'Noyau villageois ancien (bâti en pierre)',
+      'Lotissements pavillonnaires (années 1980-2010)',
+      'Hameau de Valmalle',
+      'Habitat diffus de garrigue et de vignes',
+    ],
+
+    communesLimitrophes: ['Montarnaud', 'Murviel-lès-Montpellier', 'Vailhauquès', 'Aumelas'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Paul-et-Valmalle ?",
+        a: "Pour toute vente à Saint-Paul-et-Valmalle, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le bâti ancien), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Saint-Paul-et-Valmalle ?",
+        a: "À Saint-Paul-et-Valmalle, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Paul-et-Valmalle ?",
+        a: "Saint-Paul-et-Valmalle est à environ vingt-cinq minutes de Prades-le-Lez via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Ma maison est-elle concernée par le risque feu de forêt à Saint-Paul-et-Valmalle ?",
+        a: "C'est très probable : entourée de garrigue et de bois, la commune compte de nombreuses parcelles soumises à l'obligation légale de débroussaillement. L'État des Risques et Pollutions (ERP) que je réalise précise les risques naturels applicables à votre adresse, dont le feu de forêt et le retrait-gonflement des argiles.",
+      },
+    ],
+  },
+  {
+    slug: 'beauvoisin',
+    name: 'Beauvoisin',
+    nameSeo: 'Beauvoisin (30)',
+    codePostal: '30640',
+    departement: 'Gard',
+    departementCode: '30',
+    departementSlug: 'gard',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/beauvoisin.webp',
+      alt: 'Vue de Beauvoisin, Gard',
+      credit: 'Wikimedia Commons — CC BY-SA 3.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Beauvoisin_064.JPG',
+    },
+
+    coords: { lat: 43.6896, lng: 4.3222 },
+    distanceFromBaseKm: 45,
+    travelTimeMin: 42,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 6066,
+    nbLogements: 2600,
+    pctResidencesSecondaires: 4,
+    pctMaisons: 88,
+    pctAppartements: 12,
+    surfaceMoyenne: 95,
+    surfaceMoyenneAppartement: 60,
+    surfaceMoyenneMaison: 105,
+    prixM2Moyen: 2700,
+    prixM2Maison: 2800,
+    prixM2Appartement: 2400,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: 'Vistre',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        'Beauvoisin est exposée à l’inondation (bassin du Vistre), au feu de forêt et à des aléas liés à d’anciennes exploitations minières du secteur.',
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Commune résidentielle du sud du Gard, aux portes de la Camargue, Beauvoisin est composée à 88 % de maisons. Entre cœur de village ancien et lotissements récents, le DPE est un point clé du marché — un parc accessible où les acheteurs sont attentifs à la performance énergétique.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Les maisons construites avant 1997 — nombreuses à Beauvoisin et dans son hameau de Franquevaux — déclenchent le repérage amiante en vente (fibrociment, conduits, sols). Indispensable sur ce parc pavillonnaire.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Située dans le bassin du Vistre, Beauvoisin est exposée à l'inondation. L'État des Risques et Pollutions, particulièrement scruté dans le sud du Gard sujet aux épisodes cévenols, précise l'exposition exacte du bien.",
+      },
+    ],
+
+    intro:
+      "Beauvoisin, commune résidentielle du sud du Gard aux portes de la Camargue, offre un marché immobilier accessible dominé par la maison individuelle. Entre village ancien, hameau de Franquevaux et lotissements récents, les diagnostics de vente y sont fréquents sur un parc en partie antérieur à 1997.",
+
+    parcImmoNote:
+      "Le parc de Beauvoisin est très majoritairement pavillonnaire (88 % de maisons), avec peu de résidences secondaires. Le cœur de village ancien (bâti pré-1949, plomb possible) et le hameau de Franquevaux côtoient d'importants lotissements des années 1980-2010. Les installations électriques et gaz dépassant 15 ans y sont courantes. Les prix, plus accessibles que dans l'agglomération montpelliéraine, en font un secteur prisé des primo-accédants.",
+
+    enjeuxLocaux:
+      "Beauvoisin, dans le bassin du Vistre et aux franges de la Camargue, est exposée au risque inondation (crue torrentielle, épisodes cévenols), au feu de forêt sur ses secteurs boisés, ainsi qu'à des aléas liés à d'anciennes exploitations minières du secteur. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions est systématique et déterminant lors des transactions. Comme ses communes voisines du sud du Gard, Beauvoisin est classée en zone termites par arrêté préfectoral : le diagnostic est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Beauvoisin est à une quarantaine de minutes de Prades-le-Lez via l'A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, rapport remis sous 24 h ouvrées.",
+
+    quartiersTypiques: [
+      'Cœur de village ancien (bâti pré-1949)',
+      'Hameau de Franquevaux',
+      'Lotissements pavillonnaires (années 1980-2010)',
+      'Habitat diffus en frange de Camargue',
+    ],
+
+    communesLimitrophes: ['Vauvert', 'Générac', 'Aimargues', 'Le Cailar'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Beauvoisin ?",
+        a: "Pour toute vente à Beauvoisin, le DPE, l'ERP et le diagnostic termites sont systématiques (commune classée en zone termites du Gard). Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le cœur ancien), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Beauvoisin ?",
+        a: "À Beauvoisin, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Beauvoisin ?",
+        a: "Beauvoisin est à une quarantaine de minutes de Prades-le-Lez via l'A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Beauvoisin ?",
+        a: "C'est possible : Beauvoisin se situe dans le bassin du Vistre, exposé aux crues et aux épisodes cévenols du sud du Gard. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
 ]
 
 export function getVilleBySlug(slug) {

@@ -2,9 +2,9 @@
 // Généré automatiquement par scripts/build-dpe-stats.mjs — NE PAS éditer à la main.
 // Pour rafraîchir : npm run build:dpe-stats
 //
-// Dernière génération : 2026-06-24
+// Dernière génération : 2026-06-28
 
-export const DPE_STATS_GENERATED_AT = '2026-06-24'
+export const DPE_STATS_GENERATED_AT = '2026-06-28'
 
 export const VILLE_DPE_STATS = {
   "montpellier": {
@@ -3964,6 +3964,276 @@ export const VILLE_DPE_STATS = {
         "label": "G",
         "count": 1,
         "pct": 0.4
+      }
+    ]
+  },
+  "la-grande-motte": {
+    "insee": "34344",
+    "total": 5176,
+    "fgCount": 197,
+    "fgPct": 3.8,
+    "efgCount": 720,
+    "efgPct": 13.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 35,
+        "pct": 0.7
+      },
+      {
+        "label": "B",
+        "count": 395,
+        "pct": 7.6
+      },
+      {
+        "label": "C",
+        "count": 2649,
+        "pct": 51.2
+      },
+      {
+        "label": "D",
+        "count": 1377,
+        "pct": 26.6
+      },
+      {
+        "label": "E",
+        "count": 523,
+        "pct": 10.1
+      },
+      {
+        "label": "F",
+        "count": 140,
+        "pct": 2.7
+      },
+      {
+        "label": "G",
+        "count": 57,
+        "pct": 1.1
+      }
+    ]
+  },
+  "le-triadou": {
+    "insee": "34314",
+    "total": 41,
+    "fgCount": 3,
+    "fgPct": 7.3,
+    "efgCount": 6,
+    "efgPct": 14.6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 10,
+        "pct": 24.4
+      },
+      {
+        "label": "B",
+        "count": 4,
+        "pct": 9.8
+      },
+      {
+        "label": "C",
+        "count": 13,
+        "pct": 31.7
+      },
+      {
+        "label": "D",
+        "count": 8,
+        "pct": 19.5
+      },
+      {
+        "label": "E",
+        "count": 3,
+        "pct": 7.3
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 4.9
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 2.4
+      }
+    ]
+  },
+  "vic-la-gardiole": {
+    "insee": "34333",
+    "total": 552,
+    "fgCount": 5,
+    "fgPct": 0.9,
+    "efgCount": 18,
+    "efgPct": 3.3,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 33,
+        "pct": 6
+      },
+      {
+        "label": "B",
+        "count": 87,
+        "pct": 15.8
+      },
+      {
+        "label": "C",
+        "count": 314,
+        "pct": 56.9
+      },
+      {
+        "label": "D",
+        "count": 100,
+        "pct": 18.1
+      },
+      {
+        "label": "E",
+        "count": 13,
+        "pct": 2.4
+      },
+      {
+        "label": "F",
+        "count": 5,
+        "pct": 0.9
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "montarnaud": {
+    "insee": "34163",
+    "total": 399,
+    "fgCount": 5,
+    "fgPct": 1.3,
+    "efgCount": 24,
+    "efgPct": 6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 81,
+        "pct": 20.3
+      },
+      {
+        "label": "B",
+        "count": 86,
+        "pct": 21.6
+      },
+      {
+        "label": "C",
+        "count": 153,
+        "pct": 38.3
+      },
+      {
+        "label": "D",
+        "count": 55,
+        "pct": 13.8
+      },
+      {
+        "label": "E",
+        "count": 19,
+        "pct": 4.8
+      },
+      {
+        "label": "F",
+        "count": 5,
+        "pct": 1.3
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "saint-paul-et-valmalle": {
+    "insee": "34282",
+    "total": 146,
+    "fgCount": 0,
+    "fgPct": 0,
+    "efgCount": 10,
+    "efgPct": 6.8,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 23,
+        "pct": 15.8
+      },
+      {
+        "label": "B",
+        "count": 27,
+        "pct": 18.5
+      },
+      {
+        "label": "C",
+        "count": 68,
+        "pct": 46.6
+      },
+      {
+        "label": "D",
+        "count": 18,
+        "pct": 12.3
+      },
+      {
+        "label": "E",
+        "count": 10,
+        "pct": 6.8
+      },
+      {
+        "label": "F",
+        "count": 0,
+        "pct": 0
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "beauvoisin": {
+    "insee": "30033",
+    "total": 653,
+    "fgCount": 15,
+    "fgPct": 2.3,
+    "efgCount": 32,
+    "efgPct": 4.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 98,
+        "pct": 15
+      },
+      {
+        "label": "B",
+        "count": 121,
+        "pct": 18.5
+      },
+      {
+        "label": "C",
+        "count": 316,
+        "pct": 48.4
+      },
+      {
+        "label": "D",
+        "count": 86,
+        "pct": 13.2
+      },
+      {
+        "label": "E",
+        "count": 17,
+        "pct": 2.6
+      },
+      {
+        "label": "F",
+        "count": 10,
+        "pct": 1.5
+      },
+      {
+        "label": "G",
+        "count": 5,
+        "pct": 0.8
       }
     ]
   }
