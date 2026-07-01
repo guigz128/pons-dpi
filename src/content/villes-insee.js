@@ -24,7 +24,7 @@ export const VILLE_INSEE = {
   'juvignac': '34123',
   'pignan': '34202',
   'fabregues': '34095',
-  'saint-georges-d-orques': '34254',
+  'saint-georges-d-orques': '34259',
   'cournonterral': '34088',
   'vendargues': '34327',
   'saint-aunes': '34240',

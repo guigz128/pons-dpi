@@ -1133,47 +1133,47 @@ export const VILLE_DPE_STATS = {
     ]
   },
   "saint-georges-d-orques": {
-    "insee": "34254",
-    "total": 140,
-    "fgCount": 2,
-    "fgPct": 1.4,
-    "efgCount": 9,
-    "efgPct": 6.4,
+    "insee": "34259",
+    "total": 896,
+    "fgCount": 16,
+    "fgPct": 1.8,
+    "efgCount": 72,
+    "efgPct": 8,
     "distribution": [
       {
         "label": "A",
-        "count": 11,
-        "pct": 7.9
+        "count": 21,
+        "pct": 2.3
       },
       {
         "label": "B",
-        "count": 36,
-        "pct": 25.7
+        "count": 107,
+        "pct": 11.9
       },
       {
         "label": "C",
-        "count": 62,
-        "pct": 44.3
+        "count": 555,
+        "pct": 61.9
       },
       {
         "label": "D",
-        "count": 22,
+        "count": 141,
         "pct": 15.7
       },
       {
         "label": "E",
-        "count": 7,
-        "pct": 5
+        "count": 56,
+        "pct": 6.3
       },
       {
         "label": "F",
-        "count": 2,
-        "pct": 1.4
+        "count": 13,
+        "pct": 1.5
       },
       {
         "label": "G",
-        "count": 0,
-        "pct": 0
+        "count": 3,
+        "pct": 0.3
       }
     ]
   },
