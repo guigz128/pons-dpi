@@ -349,7 +349,11 @@ bash scripts/cf.sh index-bing --from-sitemap   # IndexNow / Bing
 
 ## Design system
 
-> **Palette « Vert santé »** (juin 2026). Source de vérité : [src/index.css](src/index.css) `@theme` (site React) + [pons-dpi-blog/src/styles/global.css](../../../blogs/pons-dpi-blog/src/styles/global.css) (blog, synchronisé). Direction : confiance, santé du bâtiment, clarté. Remplace l'ancien teal `#3FB8B5` (lui-même ex-bleu).
+> **Palette « Vert santé »** (juin 2026). Direction : confiance, santé du bâtiment, clarté. Remplace l'ancien teal `#3FB8B5` (lui-même ex-bleu).
+
+> **Source de vérité unique : [theme/themes.mjs](theme/themes.mjs)** (registre de palettes nommées + `ACTIVE`). Pour changer une couleur ou de thème : éditer `themes.mjs` puis `npm run theme:sync` — [scripts/sync-theme.mjs](scripts/sync-theme.mjs) écrit le bloc `@theme { … }` entre les marqueurs `/* THEME:START */ … /* THEME:END */` dans les **3 surfaces** : [src/index.css](src/index.css) (vitrine), `pons-dpi-app/src/index.css` (app carnet), [pons-dpi-blog/src/styles/global.css](../../../blogs/pons-dpi-blog/src/styles/global.css) (blog).
+>
+> ⚠️ **Ne jamais éditer les `--color-*` directement dans ces 3 CSS** (entre les marqueurs) : c'est généré, écrasé au prochain sync. Tout passe par `themes.mjs`. Les 3 surfaces partagent la même convention de tokens (`--color-accent`, `--color-bg`, `--color-text`, `--color-text-secondary`, `--color-text-muted`…).
 
 | Token | Valeur | Notes |
 |-------|--------|-------|
