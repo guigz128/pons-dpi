@@ -11011,6 +11011,866 @@ export const villes = [
       },
     ],
   },
+  {
+    slug: 'clermont-l-herault',
+    name: "Clermont-l'Hérault",
+    nameSeo: "Clermont-l'Hérault (34)",
+    codePostal: '34800',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/clermont-l-herault.webp',
+      alt: 'Vue de Clermont-l\'Hérault, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Coll%C3%A9giale_Saint-Paul_de_Clermont-l%27H%C3%A9rault_(2).jpg',
+    },
+
+    coords: { lat: 43.6323, lng: 3.4017 },
+    distanceFromBaseKm: 45,
+    travelTimeMin: 40,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 9461,
+    nbLogements: 5207,
+    pctResidencesSecondaires: 4.4,
+    pctMaisons: 49.7,
+    pctAppartements: 50.1,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 2450,
+    prixM2Maison: 3014,
+    prixM2Appartement: 1991,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 3,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Sous-préfecture du Cœur d'Hérault, Clermont-l'Hérault est soumise au risque inondation (bassins de la Lergue, du Rhônel et du Salagou, PPRi approuvé), au feu de forêt, au retrait-gonflement des argiles et à la rupture de barrage (Salagou). La commune est classée en potentiel radon de catégorie 3 (élevé).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Chef-lieu du Cœur d'Hérault, Clermont-l'Hérault a un parc équilibré entre maisons et appartements (environ 50/50), rare pour l'arrière-pays. Le DPE est déterminant à la vente comme en location, du centre médiéval aux lotissements de l'A750.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le centre médiéval dense, organisé autour de l'église fortifiée Saint-Paul, concentre un bâti ancien (immeubles pré-1949 et constructions d'avant 1997) qui déclenche fréquemment le repérage amiante en vente. Quasi-systématique sur ce cœur ancien.",
+      },
+      {
+        slug: 'plomb',
+        whyHere:
+          "Le cœur médiéval rassemble de nombreux immeubles antérieurs à 1949 : les logements concernés imposent le CREP (constat de risque d'exposition au plomb), fréquent sur les peintures anciennes du centre-ville.",
+      },
+    ],
+
+    intro:
+      "Clermont-l'Hérault, sous-préfecture du Cœur d'Hérault entre le lac du Salagou et la vallée de l'Hérault, est le chef-lieu commerçant et administratif de l'arrière-pays ouest. Son marché immobilier, équilibré entre maisons et appartements, s'étend d'un dense centre médiéval aux extensions pavillonnaires de l'A750.",
+
+    parcImmoNote:
+      "Le parc clermontais est atypique pour l'arrière-pays : la part d'appartements (environ 50 %) est aussi importante que celle des maisons, reflet du bâti collectif ancien du centre médiéval organisé autour de l'église fortifiée Saint-Paul. Ce cœur ancien (immeubles pré-1949) concentre plomb et amiante, tandis que les vastes extensions pavillonnaires le long de l'A750 sont plus récentes. Les installations électriques et gaz de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Clermont-l'Hérault cumule plusieurs risques : inondation (bassins de la Lergue, du Rhônel et du Salagou, PPRi approuvé), feu de forêt, retrait-gonflement des argiles et rupture de barrage (Salagou). La commune est classée en potentiel radon de catégorie 3 (élevé) — un gaz radioactif naturel dont il faut tenir compte, et en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Clermont-l'Hérault est à une quarantaine de minutes de Prades-le-Lez (45 km) via l'A750 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre médiéval aux lotissements de l'A750.",
+
+    quartiersTypiques: [
+      "Centre médiéval historique (église fortifiée Saint-Paul)",
+      "Faubourgs anciens",
+      "Lotissements pavillonnaires périphériques",
+      "Zones d'activités (secteur A750)",
+    ],
+
+    communesLimitrophes: ['Nébian', 'Canet', 'Ceyras', 'Saint-Félix-de-Lodez', 'Aspiran', 'Paulhan'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Clermont-l'Hérault ?",
+        a: "Pour toute vente à Clermont-l'Hérault, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon le bien : amiante (avant 1997, très fréquent au centre), plomb (avant 1949, sur le cœur médiéval), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez pour les nombreuses copropriétés du centre. Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Clermont-l'Hérault ?",
+        a: "À Clermont-l'Hérault, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez) démarre à 290 € TTC et le pack vente maison à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Clermont-l'Hérault ?",
+        a: "Clermont-l'Hérault est à une quarantaine de minutes de Prades-le-Lez via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Faut-il se préoccuper du radon à Clermont-l'Hérault ?",
+        a: "Clermont-l'Hérault est classée en potentiel radon de catégorie 3 (le niveau le plus élevé). Le radon n'est pas un diagnostic obligatoire à la vente, mais il est signalé dans l'État des Risques et Pollutions (ERP) que je réalise. Une simple mesure et une bonne ventilation suffisent généralement à maîtriser ce risque.",
+      },
+    ],
+  },
+  {
+    slug: 'canet',
+    name: 'Canet',
+    nameSeo: 'Canet (34)',
+    codePostal: '34800',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/canet.webp',
+      alt: 'Vue de Canet, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Canet_(9).jpg',
+    },
+
+    coords: { lat: 43.5992, lng: 3.4821 },
+    distanceFromBaseKm: 51,
+    travelTimeMin: 45,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 3619,
+    nbLogements: 1644,
+    pctResidencesSecondaires: 3.2,
+    pctMaisons: 89.8,
+    pctAppartements: 9.3,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 2830,
+    prixM2Maison: 3026,
+    prixM2Appartement: 2400,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Canet est exposée au risque inondation du fleuve Hérault (Atlas des zones inondables de la moyenne et basse vallée de l'Hérault) et intégrée au PAPI du bassin de l'Hérault, dans le périmètre du PPRi de la vallée de l'Hérault. Le retrait-gonflement des argiles concerne une partie du bâti.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village de la moyenne vallée de l'Hérault en forte croissance, Canet est très majoritairement pavillonnaire (près de 90 % de maisons) avec de nombreux lotissements récents. Le DPE est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le centre ancien et les constructions entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les premiers lotissements et le noyau villageois.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "En bordure du fleuve Hérault, Canet est exposée à l'inondation (Atlas des zones inondables, PAPI du bassin de l'Hérault). L'État des Risques et Pollutions est systématique et déterminant sur les secteurs proches du fleuve.",
+      },
+    ],
+
+    intro:
+      "Canet, village viticole de la moyenne vallée de l'Hérault entre Clermont-l'Hérault et Gignac, profite de l'axe A750 pour attirer de nouveaux résidents. Son marché immobilier, très majoritairement composé de maisons, s'appuie sur de nombreux lotissements pavillonnaires récents.",
+
+    parcImmoNote:
+      "Le parc de Canet est très pavillonnaire (près de 90 % de maisons), fruit d'une forte croissance démographique portée par de nombreux lotissements récents autour du noyau villageois. La part de résidences secondaires est faible (environ 3 %), commune résidentielle à l'année. Le bâti d'avant 1997 appelle amiante ; les installations électriques et gaz de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "En bordure du fleuve Hérault, Canet est exposée au risque inondation (Atlas des zones inondables de la moyenne et basse vallée, PAPI du bassin de l'Hérault, PPRi de la vallée de l'Hérault) et au retrait-gonflement des argiles. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Canet est à environ 45 minutes de Prades-le-Lez (51 km) via l'A750 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux lotissements de la vallée de l'Hérault.",
+
+    quartiersTypiques: [
+      "Centre village ancien",
+      "Lotissements pavillonnaires récents",
+      "Abords du fleuve Hérault",
+      "Plaine viticole",
+    ],
+
+    communesLimitrophes: ['Aspiran', 'Brignac', 'Clermont-l\'Hérault', 'Nébian', 'Le Pouget', 'Saint-André-de-Sangonis'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Canet ?",
+        a: "Pour toute vente à Canet, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), électricité et gaz (installations de plus de 15 ans, plus rares sur les lotissements récents). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Canet ?",
+        a: "À Canet, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Canet ?",
+        a: "Canet est à environ 45 minutes de Prades-le-Lez via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Canet ?",
+        a: "C'est possible près du fleuve : Canet est exposée à l'inondation de la moyenne vallée de l'Hérault (Atlas des zones inondables, PAPI du bassin de l'Hérault). L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'paulhan',
+    name: 'Paulhan',
+    nameSeo: 'Paulhan (34)',
+    codePostal: '34230',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/paulhan.webp',
+      alt: 'Vue de Paulhan, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Paulhan_ND_Vertus_fa%C3%A7ade_occidentale.JPG',
+    },
+
+    coords: { lat: 43.5378, lng: 3.4599 },
+    distanceFromBaseKm: 48,
+    travelTimeMin: 45,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 4039,
+    nbLogements: 2026,
+    pctResidencesSecondaires: 4.8,
+    pctMaisons: 86.4,
+    pctAppartements: 13.1,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 2474,
+    prixM2Maison: 2381,
+    prixM2Appartement: 1667,
+    dpeMoyenKwh: 205,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Paulhan est exposée au risque inondation par les débordements du fleuve Hérault (basse vallée), avec de nombreux arrêtés de catastrophe naturelle depuis 1982 et un PPRi de la vallée de l'Hérault applicable. Le retrait-gonflement des argiles concerne l'ensemble du bâti.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Bourg viticole ancien du Cœur d'Hérault organisé autour d'une circulade médiévale, Paulhan est très majoritairement pavillonnaire (86 % de maisons). Le DPE est déterminant à la vente comme en location et oriente les travaux sur le bâti ancien.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau médiéval circulaire et les constructions entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur le centre ancien comme sur les lotissements.",
+      },
+      {
+        slug: 'plomb',
+        whyHere:
+          "Le cœur médiéval en circulade (village de l'an mille autour de l'église Notre-Dame-des-Vertus) rassemble un bâti pré-1949 : les logements concernés imposent le CREP (constat de risque d'exposition au plomb).",
+      },
+    ],
+
+    intro:
+      "Paulhan, bourg viticole ancien du Cœur d'Hérault au sud de Clermont-l'Hérault, occupe un carrefour entre la vallée de l'Hérault et la plaine de Pézenas. Son marché immobilier, dominé par la maison individuelle, s'organise autour d'un noyau médiéval circulaire étendu par des lotissements récents.",
+
+    parcImmoNote:
+      "Le parc de Paulhan est majoritairement pavillonnaire (86 % de maisons), organisé autour d'un noyau médiéval circulaire (village de l'an mille, église Notre-Dame-des-Vertus classée) au bâti pré-1949 — plomb et amiante fréquents. La croissance récente s'est traduite par des extensions pavillonnaires dans une plaine restée fortement viticole. Les installations électriques et gaz de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Paulhan est exposée au risque inondation par les débordements du fleuve Hérault (basse vallée), avec de nombreux arrêtés de catastrophe naturelle depuis 1982 et un PPRi de la vallée de l'Hérault applicable. Le retrait-gonflement des argiles concerne l'ensemble du bâti et la commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Paulhan est à environ 45 minutes de Prades-le-Lez (48 km) via l'A750 et la N109 — intervention sous 48 h garantie dès l'ouverture de l'activité, de la circulade médiévale aux lotissements de la plaine.",
+
+    quartiersTypiques: [
+      "Centre-bourg médiéval circulaire (circulade)",
+      "Lotissements pavillonnaires périphériques",
+      "Plaine viticole",
+      "Abords du fleuve Hérault",
+    ],
+
+    communesLimitrophes: ['Aspiran', 'Adissan', "Usclas-d'Hérault", 'Bélarga', "Cazouls-d'Hérault"],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Paulhan ?",
+        a: "Pour toute vente à Paulhan, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur la circulade médiévale), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Paulhan ?",
+        a: "À Paulhan, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Paulhan ?",
+        a: "Paulhan est à environ 45 minutes de Prades-le-Lez via l'A750 et la N109. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Paulhan ?",
+        a: "C'est possible : Paulhan est exposée aux débordements du fleuve Hérault, avec de nombreux arrêtés de catastrophe naturelle et un PPRi de la vallée de l'Hérault. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'aspiran',
+    name: 'Aspiran',
+    nameSeo: 'Aspiran (34)',
+    codePostal: '34800',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/aspiran.webp',
+      alt: 'Vue de Aspiran, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Aspiran_(5).jpg',
+    },
+
+    coords: { lat: 43.5654, lng: 3.4499 },
+    distanceFromBaseKm: 55,
+    travelTimeMin: 50,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1672,
+    nbLogements: 911,
+    pctResidencesSecondaires: 8.2,
+    pctMaisons: 87.3,
+    pctAppartements: 11.1,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 1810,
+    prixM2Maison: 1820,
+    prixM2Appartement: null,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Aspiran est exposée au risque inondation (crues du fleuve Hérault et des ruisseaux de la Carrièrasse et de la Candaurade), avec des arrêtés de catastrophe naturelle répétés de 1982 à 2019. Le retrait-gonflement des argiles est très présent (près de 96 % du territoire en aléa moyen ou fort).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village viticole médiéval du Cœur d'Hérault, Aspiran est très majoritairement pavillonnaire (87 % de maisons) avec un habitat ancien marqué (plus de la moitié du parc antérieur à 1971). Le DPE est déterminant à la vente et oriente les travaux d'amélioration.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau médiéval et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur ce parc à dominante ancienne.",
+      },
+      {
+        slug: 'plomb',
+        whyHere:
+          "Le cœur ancien du village (maisons des XIe-XVIIe siècles, anciennes portes des remparts) rassemble un bâti pré-1949 : les logements concernés imposent le CREP (constat de risque d'exposition au plomb).",
+      },
+    ],
+
+    intro:
+      "Aspiran, village viticole d'origine médiévale du Cœur d'Hérault entre Clermont-l'Hérault et Paulhan, conserve un noyau ancien remarquable. Son marché immobilier, très majoritairement composé de maisons et parmi les plus abordables du secteur, séduit par son cadre viticole préservé.",
+
+    parcImmoNote:
+      "Le parc d'Aspiran est très pavillonnaire (87 % de maisons) et marqué par un habitat ancien : plus de la moitié des logements sont antérieurs à 1971, avec un noyau médiéval (maisons des XIe-XVIIe siècles, portes des remparts) où plomb et amiante sont fréquents. Autour, des lotissements pavillonnaires récents dans la plaine viticole. Les installations électriques et gaz de plus de 15 ans y sont très fréquentes.",
+
+    enjeuxLocaux:
+      "Aspiran est exposée au risque inondation (crues du fleuve Hérault et des ruisseaux de la Carrièrasse et de la Candaurade), avec des arrêtés de catastrophe naturelle répétés de 1982 à 2019. Le retrait-gonflement des argiles y est très présent (près de 96 % du territoire en aléa moyen ou fort) et la commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Aspiran est à une cinquantaine de minutes de Prades-le-Lez (55 km) via l'A750 — intervention sous 48 h garantie dès l'ouverture de l'activité, du noyau médiéval aux lotissements de la plaine viticole.",
+
+    quartiersTypiques: [
+      "Centre village médiéval (portes des remparts)",
+      "Lotissements pavillonnaires récents",
+      "Plaine viticole et mas isolés",
+    ],
+
+    communesLimitrophes: ['Paulhan', 'Adissan', 'Tressan', 'Fontès', 'Péret', 'Canet', 'Nébian'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Aspiran ?",
+        a: "Pour toute vente à Aspiran, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, fréquent sur le noyau médiéval), électricité et gaz (installations de plus de 15 ans, courantes sur ce parc ancien). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Aspiran ?",
+        a: "À Aspiran, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Aspiran ?",
+        a: "Aspiran est à une cinquantaine de minutes de Prades-le-Lez via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Ma maison est-elle exposée aux fissures liées aux argiles à Aspiran ?",
+        a: "C'est très probable : près de 96 % du territoire d'Aspiran est en aléa moyen ou fort de retrait-gonflement des argiles, avec plusieurs sécheresses reconnues en catastrophe naturelle. L'État des Risques et Pollutions (ERP) que je réalise précise l'exposition applicable à votre adresse, aux côtés du risque inondation.",
+      },
+    ],
+  },
+  {
+    slug: 'ceyras',
+    name: 'Ceyras',
+    nameSeo: 'Ceyras (34)',
+    codePostal: '34800',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/ceyras.webp',
+      alt: 'Vue de Ceyras, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Ceyras_mairie.JPG',
+    },
+
+    coords: { lat: 43.6512, lng: 3.4628 },
+    distanceFromBaseKm: 48,
+    travelTimeMin: 40,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1404,
+    nbLogements: 676,
+    pctResidencesSecondaires: 6.0,
+    pctMaisons: 89.9,
+    pctAppartements: 10.1,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 2583,
+    prixM2Maison: 2370,
+    prixM2Appartement: 1740,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 3,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Village au bord de la Lergue, Ceyras est inscrite à l'Atlas des zones inondables de l'Hérault (bassin de la Lergue) et exposée au risque inondation par débordement. La commune est classée en potentiel radon de catégorie 3 (élevé, socle géologique).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village viticole du Cœur d'Hérault aux portes de Clermont-l'Hérault, Ceyras est très majoritairement pavillonnaire (près de 90 % de maisons). Le DPE est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau villageois ancien et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les lotissements des années 1970-2000.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Sur la rive gauche de la Lergue, Ceyras est exposée à l'inondation par débordement (Atlas des zones inondables). L'État des Risques et Pollutions est systématique et signale aussi le potentiel radon de catégorie 3 de la commune.",
+      },
+    ],
+
+    intro:
+      "Ceyras, village viticole du Cœur d'Hérault installé sur la rive gauche de la Lergue aux portes de Clermont-l'Hérault, a vu sa population fortement croître en soixante ans. Son marché immobilier, très majoritairement composé de maisons, mêle noyau ancien et lotissements pavillonnaires.",
+
+    parcImmoNote:
+      "Le parc de Ceyras est très pavillonnaire (près de 90 % de maisons) : un noyau villageois ancien complété par une large ceinture de lotissements postérieurs à 1970, la population ayant été multipliée par 2,7 en soixante ans. Le bâti ancien appelle amiante et plomb ; les installations électriques et gaz de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Sur la rive gauche de la Lergue, Ceyras est exposée à l'inondation par débordement (Atlas des zones inondables de l'Hérault) et classée en potentiel radon de catégorie 3 (élevé), lié au socle géologique. La commune est également concernée par le retrait-gonflement des argiles et classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Ceyras est à une quarantaine de minutes de Prades-le-Lez (48 km) via l'A750 — intervention sous 48 h garantie dès l'ouverture de l'activité, du noyau villageois aux lotissements des coteaux.",
+
+    quartiersTypiques: [
+      "Centre village ancien",
+      "Lotissements pavillonnaires récents",
+      "Coteaux viticoles et bords de la Lergue",
+    ],
+
+    communesLimitrophes: ['Clermont-l\'Hérault', 'Lacoste', 'Saint-Félix-de-Lodez', 'Brignac'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Ceyras ?",
+        a: "Pour toute vente à Ceyras, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le noyau ancien), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Ceyras ?",
+        a: "À Ceyras, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Ceyras ?",
+        a: "Ceyras est à une quarantaine de minutes de Prades-le-Lez via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Ma maison est-elle en zone inondable à Ceyras ?",
+        a: "C'est possible sur les secteurs bas : Ceyras, sur la rive gauche de la Lergue, est inscrite à l'Atlas des zones inondables de l'Hérault. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse, dont le potentiel radon élevé de la commune.",
+      },
+    ],
+  },
+  {
+    slug: 'nebian',
+    name: 'Nébian',
+    nameSeo: 'Nébian (34)',
+    codePostal: '34800',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/nebian.webp',
+      alt: 'Vue de Nébian, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Nebian_(40).jpg',
+    },
+
+    coords: { lat: 43.5999, lng: 3.4357 },
+    distanceFromBaseKm: 48,
+    travelTimeMin: 40,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1634,
+    nbLogements: 823,
+    pctResidencesSecondaires: 9,
+    pctMaisons: 91,
+    pctAppartements: 8,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 2030,
+    prixM2Maison: 2070,
+    prixM2Appartement: 1700,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 2,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "Nébian est exposée au risque inondation (trois Atlas des zones inondables, cinq arrêtés de catastrophe naturelle inondation depuis 1982), sans PPRi en vigueur à ce jour. La commune est classée en potentiel radon de catégorie 2.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village viticole du Cœur d'Hérault entre plaine et abords du lac du Salagou, Nébian est très majoritairement pavillonnaire (91 % de maisons). Le DPE est déterminant à la vente comme en location, sur un marché parmi les plus abordables du secteur.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau villageois ancien et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les lotissements comme sur le centre ancien.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Nébian est exposée au risque inondation (trois Atlas des zones inondables, cinq arrêtés de catastrophe naturelle depuis 1982). L'État des Risques et Pollutions est systématique et signale aussi le potentiel radon de catégorie 2 de la commune.",
+      },
+    ],
+
+    intro:
+      "Nébian, village viticole du Cœur d'Hérault entre la plaine et les abords du lac du Salagou, offre un cadre rural à quelques minutes de Clermont-l'Hérault. Son marché immobilier, très majoritairement composé de maisons, compte parmi les plus abordables du secteur.",
+
+    parcImmoNote:
+      "Le parc de Nébian est très pavillonnaire (91 % de maisons) : un noyau ancien resserré complété par une couronne de lotissements pavillonnaires plus récents, occupés en résidence principale. Le bâti d'avant 1997 appelle amiante ; les installations électriques et gaz de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Nébian est exposée au risque inondation (trois Atlas des zones inondables, cinq arrêtés de catastrophe naturelle inondation depuis 1982), sans PPRi en vigueur à ce jour. La commune est classée en potentiel radon de catégorie 2 et en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Nébian est à une quarantaine de minutes de Prades-le-Lez (48 km) via l'A750 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux lotissements de la plaine.",
+
+    quartiersTypiques: [
+      "Centre village ancien",
+      "Lotissements pavillonnaires périphériques",
+      "Plaine viticole et abords du Salagou",
+    ],
+
+    communesLimitrophes: ['Clermont-l\'Hérault', 'Canet', 'Aspiran', 'Ceyras', 'Villeneuvette', 'Salasc'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Nébian ?",
+        a: "Pour toute vente à Nébian, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Nébian ?",
+        a: "À Nébian, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Nébian ?",
+        a: "Nébian est à une quarantaine de minutes de Prades-le-Lez via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Nébian ?",
+        a: "C'est possible : Nébian est exposée à l'inondation (trois Atlas des zones inondables, cinq arrêtés de catastrophe naturelle depuis 1982). L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'saint-felix-de-lodez',
+    name: 'Saint-Félix-de-Lodez',
+    nameSeo: 'Saint-Félix-de-Lodez (34)',
+    codePostal: '34725',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/saint-felix-de-lodez.webp',
+      alt: 'Vue de Saint-Félix-de-Lodez, Hérault',
+      credit: 'Wikimedia Commons — CC0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Saint-F%C3%A9lix-de-Lodez_(H%C3%A9rault%2C_Fr)_mairie.JPG',
+    },
+
+    coords: { lat: 43.6595, lng: 3.4682 },
+    distanceFromBaseKm: 42,
+    travelTimeMin: 40,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1135,
+    nbLogements: 592,
+    pctResidencesSecondaires: 3.4,
+    pctMaisons: 85.6,
+    pctAppartements: 14.0,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 2665,
+    prixM2Maison: 2490,
+    prixM2Appartement: 2577,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Saint-Félix-de-Lodez est inscrite à l'Atlas des zones inondables du bassin versant de l'Hérault (depuis le 31/07/2007) et rattachée au périmètre du PPRi de la vallée de l'Hérault (secteur Gignac). Le retrait-gonflement des argiles est reconnu (sécheresses en catastrophe naturelle 2016, 2018, 2023).",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village viticole de la vallée de l'Hérault connu pour sa cave coopérative, Saint-Félix-de-Lodez est très majoritairement pavillonnaire (86 % de maisons). Le DPE est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau ancien autour de l'église et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les lotissements récents comme sur le centre.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Dans la vallée de l'Hérault, Saint-Félix-de-Lodez est exposée à l'inondation (Atlas des zones inondables, PPRi de la vallée de l'Hérault) et au retrait-gonflement des argiles. L'État des Risques et Pollutions est systématique et précise l'exposition du bien.",
+      },
+    ],
+
+    intro:
+      "Saint-Félix-de-Lodez, village viticole de la vallée de l'Hérault entre Clermont-l'Hérault et Gignac, est réputé pour sa cave coopérative. Son marché immobilier, très majoritairement composé de maisons, a fortement crû depuis les années 1990 avec des lotissements pavillonnaires.",
+
+    parcImmoNote:
+      "Le parc de Saint-Félix-de-Lodez est très pavillonnaire (86 % de maisons) : un noyau ancien de village autour de l'église, complété par une forte extension pavillonnaire récente (population presque doublée depuis 1990). La part de résidences secondaires est faible (3,4 %). Le bâti d'avant 1997 appelle amiante ; les installations électriques et gaz de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Dans la vallée de l'Hérault, Saint-Félix-de-Lodez est inscrite à l'Atlas des zones inondables du bassin versant de l'Hérault (depuis 2007) et rattachée au PPRi de la vallée de l'Hérault (secteur Gignac). Le retrait-gonflement des argiles y est reconnu (sécheresses en catastrophe naturelle 2016, 2018, 2023) et la commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Saint-Félix-de-Lodez est à environ 40 minutes de Prades-le-Lez (42 km) via l'A750 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux lotissements de la plaine viticole.",
+
+    quartiersTypiques: [
+      "Centre village ancien (autour de l'église)",
+      "Lotissements pavillonnaires récents",
+      "Plaine viticole",
+    ],
+
+    communesLimitrophes: ['Ceyras', 'Saint-Guiraud', 'Jonquières', 'Lagamas', 'Aspiran'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Félix-de-Lodez ?",
+        a: "Pour toute vente à Saint-Félix-de-Lodez, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Saint-Félix-de-Lodez ?",
+        a: "À Saint-Félix-de-Lodez, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Félix-de-Lodez ?",
+        a: "Saint-Félix-de-Lodez est à environ 40 minutes de Prades-le-Lez via l'A750. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Saint-Félix-de-Lodez ?",
+        a: "C'est possible : la commune est inscrite à l'Atlas des zones inondables du bassin de l'Hérault et rattachée au PPRi de la vallée de l'Hérault. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'pezenas',
+    name: 'Pézenas',
+    nameSeo: 'Pézenas (34)',
+    codePostal: '34120',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/pezenas.webp',
+      alt: 'Vue de Pézenas, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Cours_Jean_Jaures_in_Pezenas.jpg',
+    },
+
+    coords: { lat: 43.4616, lng: 3.418 },
+    distanceFromBaseKm: 58,
+    travelTimeMin: 50,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 7797,
+    nbLogements: 5287,
+    pctResidencesSecondaires: 10.9,
+    pctMaisons: 48.4,
+    pctAppartements: 51.1,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 2772,
+    prixM2Maison: 2770,
+    prixM2Appartement: 2100,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Pézenas est couverte par un PPRi approuvé le 18/05/2021 au titre des débordements de l'Hérault, de la Peyne et du ruisseau de Rièges. La commune est située à l'aval des barrages du Salagou et des Olivettes (risque de rupture) et concernée par le retrait-gonflement des argiles.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'amiante',
+        whyHere:
+          "Pézenas possède l'un des plus anciens secteurs sauvegardés de France : un centre historique au bâti majoritairement pré-1949 (hôtels particuliers Renaissance et classiques) où le repérage amiante est quasi-systématique en vente sur les biens d'après 1949, et le plomb très fréquent sur les plus anciens.",
+      },
+      {
+        slug: 'plomb',
+        whyHere:
+          "Le secteur sauvegardé concentre un bâti antérieur à 1949 exceptionnel (cité de Molière) : les logements concernés imposent le CREP (constat de risque d'exposition au plomb), très fréquent sur les peintures anciennes des hôtels particuliers et maisons de ville.",
+      },
+      {
+        slug: 'dpe',
+        whyHere:
+          "Ville d'art et d'histoire au parc composé pour moitié d'appartements, Pézenas voit son bâti ancien tirer les consommations vers le haut. Le DPE est déterminant à la vente comme en location, du centre historique aux extensions pavillonnaires.",
+      },
+    ],
+
+    intro:
+      "Pézenas, cité de Molière et ville d'art et d'histoire, déploie l'un des plus riches centres historiques de l'Hérault, classé secteur sauvegardé depuis 1965. Son marché immobilier, composé pour moitié d'appartements, mêle hôtels particuliers Renaissance, maisons de ville anciennes et extensions pavillonnaires dans la plaine viticole.",
+
+    parcImmoNote:
+      "Le parc de Pézenas est marqué par son exceptionnel centre historique (secteur sauvegardé de 1965) au bâti majoritairement pré-1949 : hôtels particuliers, maisons de ville, immeubles anciens où plomb et amiante sont quasi-systématiques. La part d'appartements (environ 51 %) est élevée, reflet de ce bâti collectif ancien, et les résidences secondaires (près de 11 %) traduisent l'attrait touristique. Autour, des faubourgs et des extensions pavillonnaires plus récentes.",
+
+    enjeuxLocaux:
+      "Pézenas est couverte par un PPRi approuvé le 18/05/2021 au titre des débordements de l'Hérault, de la Peyne et du ruisseau de Rièges, et située à l'aval des barrages du Salagou et des Olivettes (risque de rupture). Le retrait-gonflement des argiles y est présent et la commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Pézenas est à une cinquantaine de minutes de Prades-le-Lez (58 km) via l'A750/A75 et l'A9 — intervention garantie sous 48 h après validation du devis dès l'ouverture de l'activité, du centre historique classé aux extensions pavillonnaires.",
+
+    quartiersTypiques: [
+      "Centre historique classé (secteur sauvegardé, hôtels particuliers XVIe-XVIIe)",
+      "Faubourgs et cœur de ville ancien",
+      "Extensions pavillonnaires périphériques",
+      "Zones d'activités",
+    ],
+
+    communesLimitrophes: ['Montagnac', 'Saint-Thibéry', "Nézignan-l'Évêque", 'Caux', 'Tourbes', 'Lézignan-la-Cèbe'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Pézenas ?",
+        a: "Pour toute vente à Pézenas, le DPE, l'ERP et le diagnostic termites sont systématiques. Dans le centre historique : amiante (avant 1997, très fréquent), plomb (avant 1949, quasi-systématique sur les hôtels particuliers et maisons de ville), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Pézenas ?",
+        a: "À Pézenas, le pack vente appartement (DPE + amiante + électricité + gaz + ERP + Carrez), typique du centre historique, démarre à 290 € TTC ; le pack vente maison à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Pézenas ?",
+        a: "Pézenas est à une cinquantaine de minutes de Prades-le-Lez via l'A750/A75 et l'A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "J'ai un bien ancien dans le centre de Pézenas : quels diagnostics prévoir ?",
+        a: "Le centre historique de Pézenas étant majoritairement antérieur à 1949, le CREP (plomb) est quasi-systématique et l'amiante très fréquent, en plus du DPE, de l'ERP, du Carrez en copropriété et, selon l'installation, de l'électricité et du gaz. Sur ces biens de caractère, un repérage soigné est essentiel : le devis en ligne établit la liste exacte selon l'année et la nature du bien.",
+      },
+    ],
+  },
 ]
 
 export function getVilleBySlug(slug) {

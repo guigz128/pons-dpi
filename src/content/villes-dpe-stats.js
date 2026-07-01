@@ -4596,6 +4596,366 @@ export const VILLE_DPE_STATS = {
         "pct": 0
       }
     ]
+  },
+  "clermont-l-herault": {
+    "insee": "34079",
+    "total": 2514,
+    "fgCount": 46,
+    "fgPct": 1.8,
+    "efgCount": 243,
+    "efgPct": 9.7,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 140,
+        "pct": 5.6
+      },
+      {
+        "label": "B",
+        "count": 385,
+        "pct": 15.3
+      },
+      {
+        "label": "C",
+        "count": 1227,
+        "pct": 48.8
+      },
+      {
+        "label": "D",
+        "count": 519,
+        "pct": 20.6
+      },
+      {
+        "label": "E",
+        "count": 197,
+        "pct": 7.8
+      },
+      {
+        "label": "F",
+        "count": 34,
+        "pct": 1.4
+      },
+      {
+        "label": "G",
+        "count": 12,
+        "pct": 0.5
+      }
+    ]
+  },
+  "canet": {
+    "insee": "34051",
+    "total": 363,
+    "fgCount": 5,
+    "fgPct": 1.4,
+    "efgCount": 27,
+    "efgPct": 7.4,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 28,
+        "pct": 7.7
+      },
+      {
+        "label": "B",
+        "count": 87,
+        "pct": 24
+      },
+      {
+        "label": "C",
+        "count": 144,
+        "pct": 39.7
+      },
+      {
+        "label": "D",
+        "count": 77,
+        "pct": 21.2
+      },
+      {
+        "label": "E",
+        "count": 22,
+        "pct": 6.1
+      },
+      {
+        "label": "F",
+        "count": 5,
+        "pct": 1.4
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "paulhan": {
+    "insee": "34194",
+    "total": 849,
+    "fgCount": 15,
+    "fgPct": 1.8,
+    "efgCount": 96,
+    "efgPct": 11.3,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 42,
+        "pct": 4.9
+      },
+      {
+        "label": "B",
+        "count": 81,
+        "pct": 9.5
+      },
+      {
+        "label": "C",
+        "count": 266,
+        "pct": 31.3
+      },
+      {
+        "label": "D",
+        "count": 364,
+        "pct": 42.9
+      },
+      {
+        "label": "E",
+        "count": 81,
+        "pct": 9.5
+      },
+      {
+        "label": "F",
+        "count": 14,
+        "pct": 1.6
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "aspiran": {
+    "insee": "34013",
+    "total": 253,
+    "fgCount": 11,
+    "fgPct": 4.3,
+    "efgCount": 43,
+    "efgPct": 17,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 10,
+        "pct": 4
+      },
+      {
+        "label": "B",
+        "count": 36,
+        "pct": 14.2
+      },
+      {
+        "label": "C",
+        "count": 87,
+        "pct": 34.4
+      },
+      {
+        "label": "D",
+        "count": 77,
+        "pct": 30.4
+      },
+      {
+        "label": "E",
+        "count": 32,
+        "pct": 12.6
+      },
+      {
+        "label": "F",
+        "count": 11,
+        "pct": 4.3
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "ceyras": {
+    "insee": "34076",
+    "total": 177,
+    "fgCount": 8,
+    "fgPct": 4.5,
+    "efgCount": 24,
+    "efgPct": 13.6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 12,
+        "pct": 6.8
+      },
+      {
+        "label": "B",
+        "count": 34,
+        "pct": 19.2
+      },
+      {
+        "label": "C",
+        "count": 79,
+        "pct": 44.6
+      },
+      {
+        "label": "D",
+        "count": 28,
+        "pct": 15.8
+      },
+      {
+        "label": "E",
+        "count": 16,
+        "pct": 9
+      },
+      {
+        "label": "F",
+        "count": 6,
+        "pct": 3.4
+      },
+      {
+        "label": "G",
+        "count": 2,
+        "pct": 1.1
+      }
+    ]
+  },
+  "nebian": {
+    "insee": "34180",
+    "total": 162,
+    "fgCount": 7,
+    "fgPct": 4.3,
+    "efgCount": 22,
+    "efgPct": 13.6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 17,
+        "pct": 10.5
+      },
+      {
+        "label": "B",
+        "count": 31,
+        "pct": 19.1
+      },
+      {
+        "label": "C",
+        "count": 60,
+        "pct": 37
+      },
+      {
+        "label": "D",
+        "count": 32,
+        "pct": 19.8
+      },
+      {
+        "label": "E",
+        "count": 15,
+        "pct": 9.3
+      },
+      {
+        "label": "F",
+        "count": 6,
+        "pct": 3.7
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.6
+      }
+    ]
+  },
+  "saint-felix-de-lodez": {
+    "insee": "34254",
+    "total": 140,
+    "fgCount": 2,
+    "fgPct": 1.4,
+    "efgCount": 9,
+    "efgPct": 6.4,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 11,
+        "pct": 7.9
+      },
+      {
+        "label": "B",
+        "count": 36,
+        "pct": 25.7
+      },
+      {
+        "label": "C",
+        "count": 62,
+        "pct": 44.3
+      },
+      {
+        "label": "D",
+        "count": 22,
+        "pct": 15.7
+      },
+      {
+        "label": "E",
+        "count": 7,
+        "pct": 5
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 1.4
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "pezenas": {
+    "insee": "34199",
+    "total": 3442,
+    "fgCount": 110,
+    "fgPct": 3.2,
+    "efgCount": 425,
+    "efgPct": 12.3,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 64,
+        "pct": 1.9
+      },
+      {
+        "label": "B",
+        "count": 252,
+        "pct": 7.3
+      },
+      {
+        "label": "C",
+        "count": 1993,
+        "pct": 57.9
+      },
+      {
+        "label": "D",
+        "count": 708,
+        "pct": 20.6
+      },
+      {
+        "label": "E",
+        "count": 315,
+        "pct": 9.2
+      },
+      {
+        "label": "F",
+        "count": 92,
+        "pct": 2.7
+      },
+      {
+        "label": "G",
+        "count": 18,
+        "pct": 0.5
+      }
+    ]
   }
 }
 

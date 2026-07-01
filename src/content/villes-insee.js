@@ -101,6 +101,14 @@ export const VILLE_INSEE = {
   'saussines': '34296',
   'villetelle': '34340',
   'saint-series': '34288',
+  'clermont-l-herault': '34079',
+  'canet': '34051',
+  'paulhan': '34194',
+  'aspiran': '34013',
+  'ceyras': '34076',
+  'nebian': '34180',
+  'saint-felix-de-lodez': '34254',
+  'pezenas': '34199',
 }
 
 export function getInseeBySlug(slug) {

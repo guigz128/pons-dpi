@@ -1,62 +1,66 @@
 [
   {
-    "slug": "mireval",
-    "title": "Mireval",
-    "fname": "Mireval_(13).jpg",
+    "slug": "clermont-l-herault",
+    "title": "Clermont-l'Hérault",
+    "fname": "Collégiale_Saint-Paul_de_Clermont-l'Hérault_(2).jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Selmoval",
+    "hasCoords": true
+  },
+  {
+    "slug": "canet",
+    "title": "Canet (Hérault)",
+    "fname": "Canet_(9).jpg",
     "license": "CC BY-SA 4.0",
     "artist": "Archives départementales de l'Hérault (France) DAASI",
     "hasCoords": true
   },
   {
-    "slug": "candillargues",
-    "title": "Candillargues",
-    "fname": "Candillargues_eglise_07082009.JPG",
-    "license": "CC BY-SA 3.0",
-    "artist": "Sebjarod",
+    "slug": "paulhan",
+    "title": "Paulhan (Hérault)",
+    "fname": "Paulhan_ND_Vertus_façade_occidentale.JPG",
+    "license": "CC BY-SA 4.0",
+    "artist": "Fagairolles 34",
     "hasCoords": true
   },
   {
-    "slug": "mudaison",
-    "title": "Mudaison",
-    "fname": "Mudaison_(1).jpg",
+    "slug": "aspiran",
+    "title": "Aspiran",
+    "fname": "Aspiran_(5).jpg",
     "license": "CC BY-SA 4.0",
     "artist": "Archives départementales de l'Hérault (France) DAASI",
     "hasCoords": true
   },
   {
-    "slug": "valergues",
-    "title": "Valergues",
-    "fname": "Valergues_-_chevet_d03.JPG",
-    "license": "CC BY-SA 3.0",
-    "artist": "EmDee",
-    "hasCoords": true
-  },
-  {
-    "slug": "saint-nazaire-de-pezan",
-    "title": "Saint-Nazaire-de-Pézan",
-    "fname": "Saint-Nazaire-de-Pézan_vue_aerienne.jpg",
+    "slug": "ceyras",
+    "title": "Ceyras",
+    "fname": "Ceyras_mairie.JPG",
     "license": "CC BY-SA 4.0",
-    "artist": "Eddy Circhirello",
+    "artist": "Fagairolles 34",
     "hasCoords": true
   },
   {
-    "slug": "saussines",
-    "title": "Saussines",
-    "fname": "Église_Saint-Étienne_de_Saussines_01.JPG",
-    "license": "CC BY-SA 3.0",
-    "artist": "EmDee",
-    "hasCoords": true
-  },
-  {
-    "slug": "villetelle",
-    "status": "no-image"
-  },
-  {
-    "slug": "saint-series",
-    "title": "Saint-Sériès",
-    "fname": "Saint_Sériés_-_Mairie_et_beffroi.jpg",
+    "slug": "nebian",
+    "title": "Nébian",
+    "fname": "Nebian_(40).jpg",
     "license": "CC BY-SA 4.0",
-    "artist": "Marianne Casamance",
+    "artist": "Archives départementales de l'Hérault (France) DAASI",
+    "hasCoords": true
+  },
+  {
+    "slug": "saint-felix-de-lodez",
+    "title": "Saint-Félix-de-Lodez",
+    "fname": "Saint-Félix-de-Lodez_(Hérault,_Fr)_mairie.JPG",
+    "license": "CC0",
+    "artist": "Havang(nl)",
+    "hasCoords": true
+  },
+  {
+    "slug": "pezenas",
+    "title": "Pézenas",
+    "fname": "Cours_Jean_Jaures_in_Pezenas.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
     "hasCoords": true
   }
 ]
