@@ -1,50 +1,62 @@
 [
   {
-    "slug": "la-grande-motte",
-    "title": "La Grande-Motte",
-    "fname": "Ville-architecturale-de-la-Grande-Motte.JPG",
+    "slug": "mireval",
+    "title": "Mireval",
+    "fname": "Mireval_(13).jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Archives départementales de l'Hérault (France) DAASI",
+    "hasCoords": true
+  },
+  {
+    "slug": "candillargues",
+    "title": "Candillargues",
+    "fname": "Candillargues_eglise_07082009.JPG",
     "license": "CC BY-SA 3.0",
-    "artist": "Jjoulie",
+    "artist": "Sebjarod",
     "hasCoords": true
   },
   {
-    "slug": "le-triadou",
-    "title": "Le Triadou",
-    "fname": "Le_Triadou_(25).jpg",
+    "slug": "mudaison",
+    "title": "Mudaison",
+    "fname": "Mudaison_(1).jpg",
     "license": "CC BY-SA 4.0",
     "artist": "Archives départementales de l'Hérault (France) DAASI",
     "hasCoords": true
   },
   {
-    "slug": "vic-la-gardiole",
-    "title": "Vic-la-Gardiole",
-    "fname": "Vic-la-Gardiole_(29).jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Archives départementales de l'Hérault (France) DAASI",
-    "hasCoords": true
-  },
-  {
-    "slug": "montarnaud",
-    "title": "Montarnaud",
-    "fname": "Montarnaud_(5).jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Archives départementales de l'Hérault (France) DAASI",
-    "hasCoords": true
-  },
-  {
-    "slug": "saint-paul-et-valmalle",
-    "title": "Saint-Paul-et-Valmalle",
-    "fname": "Saint-Paul-et-Valmalle_(19).jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Archives départementales de l'Hérault (France) DAASI",
-    "hasCoords": true
-  },
-  {
-    "slug": "beauvoisin",
-    "title": "Beauvoisin (Gard)",
-    "fname": "Beauvoisin_064.JPG",
+    "slug": "valergues",
+    "title": "Valergues",
+    "fname": "Valergues_-_chevet_d03.JPG",
     "license": "CC BY-SA 3.0",
-    "artist": "R. BENEZET",
+    "artist": "EmDee",
+    "hasCoords": true
+  },
+  {
+    "slug": "saint-nazaire-de-pezan",
+    "title": "Saint-Nazaire-de-Pézan",
+    "fname": "Saint-Nazaire-de-Pézan_vue_aerienne.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Eddy Circhirello",
+    "hasCoords": true
+  },
+  {
+    "slug": "saussines",
+    "title": "Saussines",
+    "fname": "Église_Saint-Étienne_de_Saussines_01.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "EmDee",
+    "hasCoords": true
+  },
+  {
+    "slug": "villetelle",
+    "status": "no-image"
+  },
+  {
+    "slug": "saint-series",
+    "title": "Saint-Sériès",
+    "fname": "Saint_Sériés_-_Mairie_et_beffroi.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Marianne Casamance",
     "hasCoords": true
   }
 ]

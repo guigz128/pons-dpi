@@ -93,6 +93,14 @@ export const VILLE_INSEE = {
   'montarnaud': '34163',
   'saint-paul-et-valmalle': '34282',
   'beauvoisin': '30033',
+  'mireval': '34159',
+  'candillargues': '34050',
+  'mudaison': '34176',
+  'valergues': '34321',
+  'saint-nazaire-de-pezan': '34280',
+  'saussines': '34296',
+  'villetelle': '34340',
+  'saint-series': '34288',
 }
 
 export function getInseeBySlug(slug) {

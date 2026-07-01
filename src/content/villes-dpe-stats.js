@@ -4236,6 +4236,366 @@ export const VILLE_DPE_STATS = {
         "pct": 0.8
       }
     ]
+  },
+  "mireval": {
+    "insee": "34159",
+    "total": 403,
+    "fgCount": 7,
+    "fgPct": 1.7,
+    "efgCount": 35,
+    "efgPct": 8.7,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 29,
+        "pct": 7.2
+      },
+      {
+        "label": "B",
+        "count": 68,
+        "pct": 16.9
+      },
+      {
+        "label": "C",
+        "count": 199,
+        "pct": 49.4
+      },
+      {
+        "label": "D",
+        "count": 72,
+        "pct": 17.9
+      },
+      {
+        "label": "E",
+        "count": 28,
+        "pct": 6.9
+      },
+      {
+        "label": "F",
+        "count": 6,
+        "pct": 1.5
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "candillargues": {
+    "insee": "34050",
+    "total": 200,
+    "fgCount": 2,
+    "fgPct": 1,
+    "efgCount": 12,
+    "efgPct": 6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 29,
+        "pct": 14.5
+      },
+      {
+        "label": "B",
+        "count": 51,
+        "pct": 25.5
+      },
+      {
+        "label": "C",
+        "count": 85,
+        "pct": 42.5
+      },
+      {
+        "label": "D",
+        "count": 23,
+        "pct": 11.5
+      },
+      {
+        "label": "E",
+        "count": 10,
+        "pct": 5
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 1
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "mudaison": {
+    "insee": "34176",
+    "total": 346,
+    "fgCount": 3,
+    "fgPct": 0.9,
+    "efgCount": 17,
+    "efgPct": 4.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 92,
+        "pct": 26.6
+      },
+      {
+        "label": "B",
+        "count": 34,
+        "pct": 9.8
+      },
+      {
+        "label": "C",
+        "count": 147,
+        "pct": 42.5
+      },
+      {
+        "label": "D",
+        "count": 56,
+        "pct": 16.2
+      },
+      {
+        "label": "E",
+        "count": 14,
+        "pct": 4
+      },
+      {
+        "label": "F",
+        "count": 3,
+        "pct": 0.9
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "valergues": {
+    "insee": "34321",
+    "total": 203,
+    "fgCount": 4,
+    "fgPct": 2,
+    "efgCount": 17,
+    "efgPct": 8.4,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 14,
+        "pct": 6.9
+      },
+      {
+        "label": "B",
+        "count": 48,
+        "pct": 23.6
+      },
+      {
+        "label": "C",
+        "count": 98,
+        "pct": 48.3
+      },
+      {
+        "label": "D",
+        "count": 26,
+        "pct": 12.8
+      },
+      {
+        "label": "E",
+        "count": 13,
+        "pct": 6.4
+      },
+      {
+        "label": "F",
+        "count": 1,
+        "pct": 0.5
+      },
+      {
+        "label": "G",
+        "count": 3,
+        "pct": 1.5
+      }
+    ]
+  },
+  "saint-nazaire-de-pezan": {
+    "insee": "34280",
+    "total": 73,
+    "fgCount": 2,
+    "fgPct": 2.7,
+    "efgCount": 6,
+    "efgPct": 8.2,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 10,
+        "pct": 13.7
+      },
+      {
+        "label": "B",
+        "count": 11,
+        "pct": 15.1
+      },
+      {
+        "label": "C",
+        "count": 29,
+        "pct": 39.7
+      },
+      {
+        "label": "D",
+        "count": 17,
+        "pct": 23.3
+      },
+      {
+        "label": "E",
+        "count": 4,
+        "pct": 5.5
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 2.7
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "saussines": {
+    "insee": "34296",
+    "total": 98,
+    "fgCount": 2,
+    "fgPct": 2,
+    "efgCount": 8,
+    "efgPct": 8.2,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 9,
+        "pct": 9.2
+      },
+      {
+        "label": "B",
+        "count": 11,
+        "pct": 11.2
+      },
+      {
+        "label": "C",
+        "count": 44,
+        "pct": 44.9
+      },
+      {
+        "label": "D",
+        "count": 26,
+        "pct": 26.5
+      },
+      {
+        "label": "E",
+        "count": 6,
+        "pct": 6.1
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 2
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "villetelle": {
+    "insee": "34340",
+    "total": 143,
+    "fgCount": 2,
+    "fgPct": 1.4,
+    "efgCount": 5,
+    "efgPct": 3.5,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 30,
+        "pct": 21
+      },
+      {
+        "label": "B",
+        "count": 33,
+        "pct": 23.1
+      },
+      {
+        "label": "C",
+        "count": 60,
+        "pct": 42
+      },
+      {
+        "label": "D",
+        "count": 15,
+        "pct": 10.5
+      },
+      {
+        "label": "E",
+        "count": 3,
+        "pct": 2.1
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 1.4
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "saint-series": {
+    "insee": "34288",
+    "total": 146,
+    "fgCount": 4,
+    "fgPct": 2.7,
+    "efgCount": 17,
+    "efgPct": 11.6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 9,
+        "pct": 6.2
+      },
+      {
+        "label": "B",
+        "count": 44,
+        "pct": 30.1
+      },
+      {
+        "label": "C",
+        "count": 60,
+        "pct": 41.1
+      },
+      {
+        "label": "D",
+        "count": 16,
+        "pct": 11
+      },
+      {
+        "label": "E",
+        "count": 13,
+        "pct": 8.9
+      },
+      {
+        "label": "F",
+        "count": 4,
+        "pct": 2.7
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
   }
 }
 

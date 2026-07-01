@@ -10150,6 +10150,867 @@ export const villes = [
       },
     ],
   },
+  {
+    slug: 'mireval',
+    name: 'Mireval',
+    nameSeo: 'Mireval (34)',
+    codePostal: '34110',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/mireval.webp',
+      alt: 'Vue de Mireval, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Mireval_(13).jpg',
+    },
+
+    coords: { lat: 43.5158, lng: 3.8022 },
+    distanceFromBaseKm: 27,
+    travelTimeMin: 30,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 3301,
+    nbLogements: 1600,
+    pctResidencesSecondaires: 3.8,
+    pctMaisons: 84.5,
+    pctAppartements: 15.5,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3600,
+    prixM2Maison: 3786,
+    prixM2Appartement: 2900,
+    dpeMoyenKwh: 180,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: 'Montpellier-Lunel-Mauguio-Palavas',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Au pied du massif de la Gardiole, entre l'étang de Vic et la Méditerranée, Mireval cumule le risque de submersion marine sur les secteurs bas proches de l'étang, le risque inondation et le risque feu de forêt sur les coteaux boisés. La commune est intégrée au TRI de Montpellier-Lunel-Mauguio-Palavas.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village viticole du muscat de Mireval, la commune est très majoritairement pavillonnaire (près de 85 % de maisons) autour d'un centre ancien étendu par des lotissements. Le DPE est déterminant à la vente comme en location et oriente les travaux sur le bâti d'avant 2000.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Entre l'étang de Vic et la Gardiole, Mireval est exposée à la submersion marine sur les secteurs bas et au feu de forêt sur les coteaux, dans le périmètre du TRI de Montpellier-Lunel-Mauguio-Palavas. L'État des Risques et Pollutions est systématique et déterminant selon l'implantation du bien.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures fibrociment, conduits, sols). Fréquent sur les lotissements comme sur les extensions du village viticole.",
+      },
+    ],
+
+    intro:
+      "Mireval, village viticole du muscat au pied du massif de la Gardiole, s'étire entre l'étang de Vic et la Méditerranée. Son marché immobilier, très majoritairement composé de maisons occupées à l'année, séduit par son cadre entre garrigue et lagune, à quelques minutes de Montpellier et de Sète.",
+
+    parcImmoNote:
+      "Le parc de Mireval est très pavillonnaire (près de 85 % de maisons), organisé autour d'un centre ancien viticole étendu par des lotissements successifs. Les résidences principales dominent largement (plus de 91 %), avec peu de résidences secondaires. Le bâti d'avant 1997 appelle amiante et, sur le noyau ancien, plomb ; les installations électriques et gaz de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Mireval cumule plusieurs expositions : submersion marine sur les secteurs bas proches de l'étang de Vic, inondation, et feu de forêt sur les coteaux boisés de la Gardiole (obligation de débroussaillement). La commune appartient au TRI de Montpellier-Lunel-Mauguio-Palavas et est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Mireval est à une trentaine de minutes de Prades-le-Lez (27 km) via l'A709/A9 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre viticole aux lotissements et aux abords de l'étang de Vic.",
+
+    quartiersTypiques: [
+      "Centre village viticole",
+      "Lotissements pavillonnaires récents",
+      "Coteaux du massif de la Gardiole",
+      "Abords de l'étang de Vic",
+    ],
+
+    communesLimitrophes: ['Vic-la-Gardiole', 'Villeneuve-lès-Maguelone', 'Fabrègues'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Mireval ?",
+        a: "Pour toute vente à Mireval, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le noyau ancien), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Mireval ?",
+        a: "À Mireval, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Mireval ?",
+        a: "Mireval est à une trentaine de minutes de Prades-le-Lez via l'A709/A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il exposé à la submersion ou au feu de forêt à Mireval ?",
+        a: "C'est possible selon son implantation : les secteurs bas proches de l'étang de Vic sont exposés à la submersion marine, et les coteaux de la Gardiole au feu de forêt (obligation de débroussaillement). La commune appartient au TRI de Montpellier-Lunel-Mauguio-Palavas. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'candillargues',
+    name: 'Candillargues',
+    nameSeo: 'Candillargues (34)',
+    codePostal: '34130',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/candillargues.webp',
+      alt: 'Vue de Candillargues, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 3.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Candillargues_eglise_07082009.JPG',
+    },
+
+    coords: { lat: 43.6184, lng: 4.0641 },
+    distanceFromBaseKm: 28,
+    travelTimeMin: 32,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2091,
+    nbLogements: 888,
+    pctResidencesSecondaires: 1.5,
+    pctMaisons: 73.5,
+    pctAppartements: 25.5,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3760,
+    prixM2Maison: 4135,
+    prixM2Appartement: 3902,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: 'Montpellier-Lunel-Mauguio-Palavas',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Commune de la plaine du bassin Sud de l'étang de l'Or, Candillargues est exposée à l'inondation par débordement lent de cours d'eau et à la submersion marine, et couverte par le PAPI du bassin de l'Or (approuvé le 04/07/2018). Plusieurs arrêtés de catastrophe naturelle inondation ont été pris depuis 1982.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village de la plaine de l'étang de l'Or dominé par la maison individuelle (près de 74 %), Candillargues a connu un fort développement pavillonnaire récent. Le DPE est déterminant à la vente comme en location, avec un parc globalement récent.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "En bordure de l'étang de l'Or (Petite Camargue), Candillargues est exposée à l'inondation de plaine et à la submersion marine, dans le périmètre du TRI de Montpellier-Lunel-Mauguio-Palavas et du PAPI de l'Or. L'État des Risques et Pollutions est systématique et déterminant.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le centre ancien et les constructions antérieures à 1997 déclenchent le repérage amiante en vente. À doser selon l'âge du bien, plus rare sur les lotissements récents mais systématique sur le bâti ancien.",
+      },
+    ],
+
+    intro:
+      "Candillargues, village de la plaine littorale du Pays de l'Or entre Mauguio et Lansargues, borde l'étang de l'Or en Petite Camargue. Son marché immobilier, dominé par la maison individuelle, a fortement crû avec des lotissements pavillonnaires récents dans un environnement resté agricole et viticole.",
+
+    parcImmoNote:
+      "Le parc de Candillargues est majoritairement pavillonnaire (près de 74 % de maisons) et récent, fruit d'un fort développement depuis les années 2000. Les résidences principales dominent très largement (plus de 95 %), avec très peu de résidences secondaires. Sur ce parc récent, les DPE sont globalement corrects et les installations souvent aux normes, mais DPE et ERP restent systématiques à la vente.",
+
+    enjeuxLocaux:
+      "Candillargues appartient au bassin Sud de l'étang de l'Or, exposé à l'inondation par débordement lent de cours d'eau et à la submersion marine, et couvert par le PAPI de l'Or (approuvé le 04/07/2018). La commune est intégrée au TRI de Montpellier-Lunel-Mauguio-Palavas et classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Candillargues est à une trentaine de minutes de Prades-le-Lez (28 km) via l'A709/A9 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux lotissements de la plaine.",
+
+    quartiersTypiques: [
+      "Centre village ancien",
+      "Lotissements pavillonnaires récents",
+      "Plaine agricole et viticole",
+      "Abords de l'étang de l'Or",
+    ],
+
+    communesLimitrophes: ['Mauguio', 'Lansargues', 'Mudaison'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Candillargues ?",
+        a: "Pour toute vente à Candillargues, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), électricité et gaz (installations de plus de 15 ans, plus rares sur les lotissements récents). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Candillargues ?",
+        a: "À Candillargues, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Sur une construction récente, la liste obligatoire est souvent plus courte : le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Candillargues ?",
+        a: "Candillargues est à une trentaine de minutes de Prades-le-Lez via l'A709/A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Candillargues ?",
+        a: "C'est possible : Candillargues est dans le bassin Sud de l'étang de l'Or, exposé à l'inondation et à la submersion marine, et couvert par le PAPI de l'Or. La commune appartient au TRI de Montpellier-Lunel-Mauguio-Palavas. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'mudaison',
+    name: 'Mudaison',
+    nameSeo: 'Mudaison (34)',
+    codePostal: '34130',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/mudaison.webp',
+      alt: 'Vue de Mudaison, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Mudaison_(1).jpg',
+    },
+
+    coords: { lat: 43.6406, lng: 4.037 },
+    distanceFromBaseKm: 24,
+    travelTimeMin: 23,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 3009,
+    nbLogements: 1358,
+    pctResidencesSecondaires: 3.0,
+    pctMaisons: 77.2,
+    pctAppartements: 22.7,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3680,
+    prixM2Maison: 3779,
+    prixM2Appartement: 2983,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Mudaison est exposée au risque inondation par ses cours d'eau (Cadoule, Bérange) et le canal du Bas-Rhône Languedoc, avec cinq arrêtés de catastrophe naturelle inondation depuis 1982 (1982, 1994, 2003, 2014). Le retrait-gonflement des argiles concerne une partie du bâti.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village résidentiel périurbain de la plaine de l'étang de l'Or, Mudaison est très majoritairement pavillonnaire (près de 77 % de maisons) autour d'un noyau ancien étendu par des lotissements récents. Le DPE est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le centre ancien et les constructions entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les extensions pavillonnaires d'avant 1997.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Mudaison est exposée à l'inondation par la Cadoule, le Bérange et le canal du Bas-Rhône, avec plusieurs arrêtés de catastrophe naturelle. L'État des Risques et Pollutions est systématique et précise l'exposition du bien.",
+      },
+    ],
+
+    intro:
+      "Mudaison, village résidentiel périurbain de la plaine de l'étang de l'Or entre Mauguio et Baillargues, conserve un caractère semi-rural au cœur de Montpellier Méditerranée Métropole. Son marché immobilier, dominé par la maison individuelle, s'appuie sur un fort développement pavillonnaire récent.",
+
+    parcImmoNote:
+      "Le parc de Mudaison est majoritairement pavillonnaire (près de 77 % de maisons), fruit d'un développement pavillonnaire soutenu autour du noyau villageois ancien. Les résidences principales dominent largement (plus de 92 %), avec peu de résidences secondaires. Le vaste espace agricole (près de 87 % du territoire) préserve le caractère semi-rural. Les installations électriques et gaz de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Mudaison est exposée au risque inondation par ses cours d'eau (Cadoule, Bérange) et le canal du Bas-Rhône Languedoc — cinq arrêtés de catastrophe naturelle depuis 1982 — ainsi qu'au retrait-gonflement des argiles sur une partie du bâti. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Mudaison est à une vingtaine de minutes de Prades-le-Lez (24 km) via le LIEN et la M17 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux lotissements de la plaine.",
+
+    quartiersTypiques: [
+      "Centre village ancien",
+      "Lotissements pavillonnaires récents",
+      "Plaine agricole (zones viticoles et maraîchères)",
+    ],
+
+    communesLimitrophes: ['Baillargues', 'Candillargues', 'Lansargues', 'Mauguio', 'Saint-Brès'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Mudaison ?",
+        a: "Pour toute vente à Mudaison, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Mudaison ?",
+        a: "À Mudaison, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Mudaison ?",
+        a: "Mudaison est à une vingtaine de minutes de Prades-le-Lez via le LIEN. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Ma maison est-elle en zone inondable à Mudaison ?",
+        a: "C'est possible : Mudaison est exposée à l'inondation par la Cadoule, le Bérange et le canal du Bas-Rhône, avec plusieurs arrêtés de catastrophe naturelle depuis 1982. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'valergues',
+    name: 'Valergues',
+    nameSeo: 'Valergues (34)',
+    codePostal: '34130',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/valergues.webp',
+      alt: 'Vue de Valergues, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 3.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Valergues_-_chevet_d03.JPG',
+    },
+
+    coords: { lat: 43.6718, lng: 4.0572 },
+    distanceFromBaseKm: 25,
+    travelTimeMin: 25,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2238,
+    nbLogements: 858,
+    pctResidencesSecondaires: 3,
+    pctMaisons: 88,
+    pctAppartements: 10,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3500,
+    prixM2Maison: 3500,
+    prixM2Appartement: null,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Valergues est couverte par un Plan de Prévention du Risque Inondation (PPRI) approuvé le 26/08/2010, au titre des débordements lents des cours d'eau du bassin de l'étang de l'Or (Salaison, Bérange, Viredonne). Le retrait-gonflement des argiles est également présent.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village résidentiel de la plaine à l'est de Montpellier, Valergues est très majoritairement pavillonnaire (près de 88 % de maisons) autour d'un noyau ancien étendu par des lotissements. Le DPE est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures fibrociment, conduits, sols). Fréquent sur les extensions pavillonnaires d'avant 1997.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Valergues est couverte par un PPRI approuvé le 26/08/2010 au titre des débordements des cours d'eau du bassin de l'étang de l'Or (Salaison, Bérange, Viredonne). L'État des Risques et Pollutions est systématique et déterminant sur les secteurs concernés.",
+      },
+    ],
+
+    intro:
+      "Valergues, village résidentiel de la plaine à l'est de Montpellier, appartient à l'arrière-pays de l'étang de l'Or. Son marché immobilier, très majoritairement composé de maisons habitées à l'année, s'organise autour d'un noyau villageois ancien étendu par des lotissements pavillonnaires.",
+
+    parcImmoNote:
+      "Le parc de Valergues est très pavillonnaire (près de 88 % de maisons), avec un noyau villageois ancien complété par des lotissements récents. Les résidences principales dominent très largement (environ 95 %), signe d'une commune habitée à l'année, avec un marché quasi exclusivement tourné vers la maison individuelle. Les installations électriques et gaz de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Valergues est couverte par un PPRI approuvé le 26/08/2010 au titre des débordements lents des cours d'eau du bassin de l'étang de l'Or (Salaison, Bérange, Viredonne), et concernée par le retrait-gonflement des argiles. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Valergues est à environ 25 minutes de Prades-le-Lez (25 km) via le LIEN et la M110 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux lotissements de la plaine.",
+
+    quartiersTypiques: [
+      "Centre du village ancien",
+      "Lotissements pavillonnaires",
+      "Plaine viticole et agricole",
+    ],
+
+    communesLimitrophes: ['Lansargues', 'Mudaison', 'Saint-Brès', 'Saint-Geniès-des-Mourgues', 'Lunel-Viel', 'Baillargues'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Valergues ?",
+        a: "Pour toute vente à Valergues, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Valergues ?",
+        a: "À Valergues, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Valergues ?",
+        a: "Valergues est à environ 25 minutes de Prades-le-Lez via le LIEN. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Ma maison est-elle en zone inondable à Valergues ?",
+        a: "C'est possible : Valergues est couverte par un PPRI approuvé le 26/08/2010 au titre des débordements des cours d'eau du bassin de l'étang de l'Or. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'saint-nazaire-de-pezan',
+    name: 'Saint-Nazaire-de-Pézan',
+    nameSeo: 'Saint-Nazaire-de-Pézan (34)',
+    codePostal: '34400',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/saint-nazaire-de-pezan.webp',
+      alt: 'Vue de Saint-Nazaire-de-Pézan, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Saint-Nazaire-de-P%C3%A9zan_vue_aerienne.jpg',
+    },
+
+    coords: { lat: 43.6348, lng: 4.1177 },
+    distanceFromBaseKm: 38,
+    travelTimeMin: 40,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 625,
+    nbLogements: 288,
+    pctResidencesSecondaires: 0.4,
+    pctMaisons: 84.4,
+    pctAppartements: 14.9,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 2684,
+    prixM2Maison: 2813,
+    prixM2Appartement: 2528,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: true,
+      tri: 'Montpellier-Lunel-Mauguio-Palavas',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Petit village de la Petite Camargue au bord du Dardaillon, Saint-Nazaire-de-Pézan est couverte par le PPRI du bassin Sud de l'étang de l'Or et concernée par l'Atlas des zones inondables du bassin du Vidourle (approuvé le 26/07/2004). La commune est intégrée au TRI de Montpellier-Lunel-Mauguio-Palavas et exposée à la submersion marine.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'erp',
+        whyHere:
+          "Village de la Petite Camargue entre Lunel et l'étang de l'Or, Saint-Nazaire-de-Pézan est fortement exposée à l'inondation (Dardaillon, bassin de l'Or) et à la submersion marine, dans le périmètre du TRI de Montpellier-Lunel-Mauguio-Palavas. L'État des Risques et Pollutions est systématique et déterminant.",
+      },
+      {
+        slug: 'dpe',
+        whyHere:
+          "Le parc est modeste et quasi exclusivement composé de maisons individuelles (plus de 84 %), majoritairement postérieures à 1970 et de grande taille. Le DPE est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau villageois ancien et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). À doser selon l'âge du bien.",
+      },
+    ],
+
+    intro:
+      "Saint-Nazaire-de-Pézan, petit village de la Petite Camargue niché entre Lunel et l'étang de l'Or, au bord du Dardaillon, cultive un cadre agricole et résidentiel. Son marché immobilier, modeste et quasi exclusivement composé de maisons, séduit par sa tranquillité aux portes du Pays de Lunel.",
+
+    parcImmoNote:
+      "Le parc de Saint-Nazaire-de-Pézan est modeste (environ 288 logements) et quasi exclusivement pavillonnaire (plus de 84 % de maisons), majoritairement construites après 1970 et de grande taille. Les résidences principales dominent très largement (plus de 90 %), avec presque aucune résidence secondaire. Habitat mixte agricole et résidentiel autour d'un noyau villageois ancien, où amiante et plomb concernent le bâti le plus ancien.",
+
+    enjeuxLocaux:
+      "Au bord du Dardaillon, Saint-Nazaire-de-Pézan est fortement exposée à l'inondation (PPRI du bassin Sud de l'étang de l'Or, Atlas des zones inondables du Vidourle approuvé le 26/07/2004) et à la submersion marine, dans le périmètre du TRI de Montpellier-Lunel-Mauguio-Palavas. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Saint-Nazaire-de-Pézan est à une quarantaine de minutes de Prades-le-Lez (38 km) via l'A9 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux abords du Dardaillon.",
+
+    quartiersTypiques: [
+      "Centre village autour de l'église Saint-Nazaire",
+      "Secteur du Dardaillon",
+      "Lotissements pavillonnaires",
+      "Plaine agricole camarguaise",
+    ],
+
+    communesLimitrophes: ['Lunel', 'Saint-Just', 'Lansargues', 'Marsillargues'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Nazaire-de-Pézan ?",
+        a: "Pour toute vente à Saint-Nazaire-de-Pézan, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le noyau ancien), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Saint-Nazaire-de-Pézan ?",
+        a: "À Saint-Nazaire-de-Pézan, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Nazaire-de-Pézan ?",
+        a: "Saint-Nazaire-de-Pézan est à une quarantaine de minutes de Prades-le-Lez via l'A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Saint-Nazaire-de-Pézan ?",
+        a: "C'est très probable : le village, au bord du Dardaillon, est couvert par le PPRI du bassin Sud de l'étang de l'Or et exposé à la submersion marine, dans le TRI de Montpellier-Lunel-Mauguio-Palavas. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'saussines',
+    name: 'Saussines',
+    nameSeo: 'Saussines (34)',
+    codePostal: '34160',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/saussines.webp',
+      alt: 'Vue de Saussines, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 3.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:%C3%89glise_Saint-%C3%89tienne_de_Saussines_01.JPG',
+    },
+
+    coords: { lat: 43.7581, lng: 4.05 },
+    distanceFromBaseKm: 30,
+    travelTimeMin: 32,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1001,
+    nbLogements: 475,
+    pctResidencesSecondaires: 7,
+    pctMaisons: 89,
+    pctAppartements: 11,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 2684,
+    prixM2Maison: 2813,
+    prixM2Appartement: 2528,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Village de la vallée du Vidourle, Saussines est inscrite à l'Atlas des zones inondables du bassin du Vidourle (2004) et concernée par le risque inondation lié aux crues cévenoles (Bénovie, haut Vidourle), ainsi que par le retrait-gonflement des argiles.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Petit village viticole de garrigue de l'arrière-pays de Lunel, Saussines est très majoritairement pavillonnaire (près de 90 % de maisons) autour d'un noyau ancien. Le DPE est déterminant à la vente comme en location et oriente les travaux sur le bâti ancien.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Dans la vallée du Vidourle, Saussines est exposée au risque inondation par crues cévenoles (Bénovie, haut Vidourle), inscrite à l'Atlas des zones inondables. L'État des Risques et Pollutions est systématique et déterminant sur les secteurs bas.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau villageois ancien et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les lotissements des années 1970-1990.",
+      },
+    ],
+
+    intro:
+      "Saussines, petit village viticole de garrigue de l'arrière-pays de Lunel dans la vallée du Vidourle, offre un cadre rural préservé près de Boisseron et Sommières. Son marché immobilier, très majoritairement composé de maisons, s'organise autour d'un noyau ancien complété par des lotissements pavillonnaires.",
+
+    parcImmoNote:
+      "Le parc de Saussines est très pavillonnaire (près de 90 % de maisons), organisé autour d'un noyau villageois ancien complété par des lotissements développés depuis les années 1970. Les appartements sont rares et la part de résidences secondaires reste modérée. Le bâti ancien appelle amiante et, sur le cœur du village, plomb ; les installations de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Dans la vallée du Vidourle, Saussines est exposée au risque inondation par crues cévenoles (Bénovie, haut Vidourle) et inscrite à l'Atlas des zones inondables du bassin du Vidourle (2004). Le retrait-gonflement des argiles concerne une partie du bâti. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Saussines est à une trentaine de minutes de Prades-le-Lez (30 km) — intervention sous 48 h garantie dès l'ouverture de l'activité, du noyau villageois aux lotissements de garrigue.",
+
+    quartiersTypiques: [
+      "Centre village ancien",
+      "Lotissements pavillonnaires récents",
+      "Garrigue et coteaux viticoles",
+      "Abords de la Bénovie",
+    ],
+
+    communesLimitrophes: ['Boisseron', 'Saint-Sériès', 'Galargues', 'Saint-Hilaire-de-Beauvoir', 'Campagne', 'Buzignargues'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saussines ?",
+        a: "Pour toute vente à Saussines, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le noyau ancien), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Saussines ?",
+        a: "À Saussines, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saussines ?",
+        a: "Saussines est à une trentaine de minutes de Prades-le-Lez. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Ma maison est-elle en zone inondable à Saussines ?",
+        a: "C'est possible sur les secteurs bas : Saussines est dans la vallée du Vidourle, exposée aux crues cévenoles (Bénovie, haut Vidourle) et inscrite à l'Atlas des zones inondables. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'villetelle',
+    name: 'Villetelle',
+    nameSeo: 'Villetelle (34)',
+    codePostal: '34400',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/villetelle.webp',
+      alt: "Le Pont Ambroix et le site antique d'Ambrussum à Villetelle, Hérault",
+      credit: 'Wikimedia Commons — CC BY 3.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Pont_Ambroix_0408.JPG',
+    },
+
+    coords: { lat: 43.7248, lng: 4.1381 },
+    distanceFromBaseKm: 35,
+    travelTimeMin: 35,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1768,
+    nbLogements: 743,
+    pctResidencesSecondaires: 3.5,
+    pctMaisons: 89,
+    pctAppartements: 10.3,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3280,
+    prixM2Maison: 3368,
+    prixM2Appartement: 2076,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: 'Montpellier-Lunel-Mauguio-Palavas',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Sur la rive droite du Vidourle à la limite du Gard, Villetelle est couverte par le PPRi du bassin du Vidourle, inscrite à l'Atlas des zones inondables et concernée par le PAPI Vidourle depuis 2012, face au risque de crues cévenoles.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'erp',
+        whyHere:
+          "Sur la rive droite du Vidourle, Villetelle est exposée au risque inondation par crues cévenoles, couverte par le PPRi du bassin du Vidourle et le PAPI Vidourle. L'État des Risques et Pollutions est systématique et déterminant, particulièrement près du fleuve.",
+      },
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village de la plaine du Vidourle très majoritairement pavillonnaire (89 % de maisons), Villetelle associe un noyau ancien et d'importants lotissements récents. Le DPE est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau villageois ancien et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les lotissements des années 1970-2000.",
+      },
+    ],
+
+    intro:
+      "Villetelle, village de la plaine du Vidourle sur la rive droite du fleuve à la limite du Gard, est connue pour le site antique d'Ambrussum. Son marché immobilier, très majoritairement composé de maisons, associe un noyau ancien et d'importants lotissements pavillonnaires, aux portes de Lunel.",
+
+    parcImmoNote:
+      "Le parc de Villetelle est très pavillonnaire (89 % de maisons), avec un noyau villageois ancien complété par d'importants lotissements développés depuis les années 1970-2000. Les résidences principales dominent largement (plus de 91 %), avec peu de résidences secondaires. Le bâti d'avant 1997 appelle amiante ; les installations électriques et gaz de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Sur la rive droite du Vidourle, Villetelle est exposée au risque inondation par crues cévenoles, couverte par le PPRi du bassin du Vidourle, inscrite à l'Atlas des zones inondables et concernée par le PAPI Vidourle depuis 2012. La commune appartient au TRI de Montpellier-Lunel-Mauguio-Palavas et est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Villetelle est à environ 35 minutes de Prades-le-Lez (35 km) via l'A709/A9 et Lunel — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux lotissements et aux bords du Vidourle.",
+
+    quartiersTypiques: [
+      "Centre village (Le Village)",
+      "Lotissements pavillonnaires",
+      "Bords du Vidourle",
+      "Site archéologique d'Ambrussum",
+    ],
+
+    communesLimitrophes: ['Lunel', 'Saint-Sériès', 'Saturargues', 'Aubais', 'Gallargues-le-Montueux'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Villetelle ?",
+        a: "Pour toute vente à Villetelle, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Villetelle ?",
+        a: "À Villetelle, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Villetelle ?",
+        a: "Villetelle est à environ 35 minutes de Prades-le-Lez via l'A709/A9 et Lunel. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Ma maison est-elle en zone inondable à Villetelle ?",
+        a: "C'est possible près du fleuve : Villetelle, sur la rive droite du Vidourle, est couverte par le PPRi du bassin du Vidourle et exposée aux crues cévenoles. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'saint-series',
+    name: 'Saint-Sériès',
+    nameSeo: 'Saint-Sériès (34)',
+    codePostal: '34400',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/saint-series.webp',
+      alt: 'Vue de Saint-Sériès, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Saint_S%C3%A9ri%C3%A9s_-_Mairie_et_beffroi.jpg',
+    },
+
+    coords: { lat: 43.7365, lng: 4.1069 },
+    distanceFromBaseKm: 36,
+    travelTimeMin: 35,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 972,
+    nbLogements: 440,
+    pctResidencesSecondaires: 4.5,
+    pctMaisons: 85.5,
+    pctAppartements: 14.5,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3100,
+    prixM2Maison: 3150,
+    prixM2Appartement: 2350,
+    dpeMoyenKwh: 210,
+    dpeMoyenCo2: 30,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: false,
+      pprApproves: [
+        "Village de la vallée du Vidourle, Saint-Sériès est concernée par le risque inondation du bassin du Vidourle (inscrite à deux atlas des zones inondables), avec onze arrêtés de catastrophe naturelle inondation depuis 1982. Aucun PPRi n'est en vigueur à ce jour sur la commune.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village viticole de l'arrière-pays de Lunel dans la vallée du Vidourle, Saint-Sériès est très majoritairement pavillonnaire (près de 86 % de maisons). Le DPE est déterminant à la vente comme en location et oriente les travaux sur le bâti ancien en pierre.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau ancien en pierre et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les lotissements des années 1970-2000.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Dans la vallée du Vidourle, Saint-Sériès est exposée au risque inondation (onze arrêtés de catastrophe naturelle depuis 1982) et inscrite aux atlas des zones inondables. L'État des Risques et Pollutions est systématique et précise l'exposition du bien.",
+      },
+    ],
+
+    intro:
+      "Saint-Sériès, village viticole de l'arrière-pays de Lunel dans la vallée du Vidourle, cultive un cadre de vignes et de garrigue près de Boisseron et Sommières. Son marché immobilier, très majoritairement composé de maisons, associe un noyau ancien en pierre et des lotissements pavillonnaires.",
+
+    parcImmoNote:
+      "Le parc de Saint-Sériès est très pavillonnaire (près de 86 % de maisons) : un noyau ancien en pierre autour de l'église et de la mairie, entouré de lotissements construits depuis les années 2000. Les résidences principales dominent largement (près de 90 %), avec très peu de résidences secondaires. Le bâti ancien appelle amiante et plomb ; les installations de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Dans la vallée du Vidourle, Saint-Sériès est exposée au risque inondation du bassin du Vidourle (inscrite à deux atlas des zones inondables), avec onze arrêtés de catastrophe naturelle inondation depuis 1982 — aucun PPRi n'étant toutefois en vigueur à ce jour. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Saint-Sériès est à environ 35 minutes de Prades-le-Lez (36 km) via l'A709/A9 et Lunel — intervention sous 48 h garantie dès l'ouverture de l'activité, du noyau villageois aux lotissements de la vallée du Vidourle.",
+
+    quartiersTypiques: [
+      "Noyau villageois viticole ancien (pierre)",
+      "Lotissements pavillonnaires récents",
+      "Vignes et garrigue de la vallée du Vidourle",
+    ],
+
+    communesLimitrophes: ['Saussines', 'Villetelle', 'Boisseron', 'Buzignargues', 'Galargues', 'Campagne'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Sériès ?",
+        a: "Pour toute vente à Saint-Sériès, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le noyau ancien en pierre), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Saint-Sériès ?",
+        a: "À Saint-Sériès, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Sériès ?",
+        a: "Saint-Sériès est à environ 35 minutes de Prades-le-Lez via l'A709/A9 et Lunel. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Ma maison est-elle en zone inondable à Saint-Sériès ?",
+        a: "C'est possible sur les secteurs bas : Saint-Sériès, dans la vallée du Vidourle, a connu onze arrêtés de catastrophe naturelle inondation depuis 1982 et est inscrite aux atlas des zones inondables. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
 ]
 
 export function getVilleBySlug(slug) {
