@@ -16,6 +16,7 @@ import {
   ExternalLink,
 } from 'lucide-react'
 import { getVilleBySlug, villes, getNearestVilles } from '../content/villes'
+import { getZoneOfVille } from '../content/zones'
 import { getRessourcesOfficielles } from '../lib/ressourcesOfficielles'
 import { allServices } from '../content/services'
 import Badge from '../components/ui/Badge'
@@ -82,6 +83,7 @@ export default function VilleDetail() {
   const SITE = 'https://www.pons-dpi.fr'
 
   const ressourcesOfficielles = getRessourcesOfficielles(ville)
+  const zone = getZoneOfVille(slug)
 
   const dpeSentence =
     dpeStats.stats?.fgPct != null
@@ -148,7 +150,10 @@ export default function VilleDetail() {
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Accueil', item: `${SITE}/` },
           { '@type': 'ListItem', position: 2, name: "Zones d'intervention", item: `${SITE}/diagnostic-immobilier` },
-          { '@type': 'ListItem', position: 3, name, item: url },
+          ...(zone
+            ? [{ '@type': 'ListItem', position: 3, name: zone.name, item: `${SITE}/diagnostic-immobilier/zone/${zone.slug}` }]
+            : []),
+          { '@type': 'ListItem', position: zone ? 4 : 3, name, item: url },
         ],
       },
     ],
@@ -549,10 +554,18 @@ export default function VilleDetail() {
               <ScrollReveal>
                 <div className="text-center max-w-2xl mx-auto mb-10">
                   <h2 className="font-display text-3xl sm:text-4xl text-text">
-                    Pons DPI dans le département
+                    {zone ? <>Pons DPI dans le secteur <span className="text-highlight">{zone.shortName}</span></> : 'Pons DPI dans votre secteur'}
                   </h2>
                   <p className="mt-3 text-text-secondary">
                     Pages dédiées par commune — marché local, risques, diagnostics prioritaires.
+                    {zone && (
+                      <>
+                        {' '}
+                        <Link to={`/diagnostic-immobilier/zone/${zone.slug}`} className="text-accent font-semibold hover:text-accent-hover">
+                          Voir tout le secteur {zone.shortName} →
+                        </Link>
+                      </>
+                    )}
                   </p>
                 </div>
               </ScrollReveal>

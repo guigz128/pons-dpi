@@ -1,6 +1,21 @@
 {
   "redirects": [
     {
+      "source": "/diagnostic-immobilier/herault",
+      "destination": "https://www.pons-dpi.fr/diagnostic-immobilier",
+      "permanent": true
+    },
+    {
+      "source": "/diagnostic-immobilier/gard",
+      "destination": "https://www.pons-dpi.fr/diagnostic-immobilier",
+      "permanent": true
+    },
+    {
+      "source": "/diagnostic-immobilier/aude",
+      "destination": "https://www.pons-dpi.fr/diagnostic-immobilier",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "pons-dpi.fr" }],
       "destination": "https://www.pons-dpi.fr/$1",

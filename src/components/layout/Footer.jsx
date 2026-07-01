@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react'
-import { villes, getCoreVilles } from '../../content/villes'
+import { villes } from '../../content/villes'
+import { zones } from '../../content/zones'
 
 export default function Footer() {
   return (
@@ -82,25 +83,21 @@ export default function Footer() {
               Zone d'intervention
             </h3>
             <ul className="space-y-2 text-sm">
-              {getCoreVilles(6).map((v) => (
-                <li key={v.slug}>
+              {zones.map((z) => (
+                <li key={z.slug}>
                   <Link
-                    to={`/diagnostic-immobilier/${v.slug}`}
+                    to={`/diagnostic-immobilier/zone/${z.slug}`}
                     className="hover:text-white transition-colors"
                   >
-                    {v.name}
+                    {z.shortName}
                   </Link>
                 </li>
               ))}
-              {villes.length > 6 ? (
+              {villes.length > 6 && (
                 <li className="pt-1">
                   <Link to="/diagnostic-immobilier" className="text-xs text-stone-400 hover:text-white transition-colors">
-                    Voir toutes les zones →
+                    Voir toutes les communes →
                   </Link>
-                </li>
-              ) : (
-                <li className="text-stone-500 italic text-xs pt-1">
-                  Et l'ensemble de la métropole de Montpellier.
                 </li>
               )}
             </ul>

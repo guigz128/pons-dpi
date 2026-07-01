@@ -61,17 +61,42 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/herault</loc>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/zone/montpellier-couronne</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/gard</loc>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/zone/grand-pic-saint-loup</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/aude</loc>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/zone/pays-de-l-or</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/zone/pays-de-lunel</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/zone/bassin-de-thau</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/zone/coeur-d-herault</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/zone/gard-rhodanien</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pons-dpi.fr/diagnostic-immobilier/zone/petite-camargue</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

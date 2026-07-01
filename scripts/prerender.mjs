@@ -3,6 +3,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { villes } from '../src/content/villes.js'
+import { zones, getVillesByZone } from '../src/content/zones.js'
 
 // Snapshot DPE optionnel — si absent (jamais généré), on retombe sur les
 // descriptions génériques sans casser le build.
@@ -109,21 +110,15 @@ const routes = [
     title: "Zones d'intervention — Diagnostic immobilier Hérault, Gard, Aude | Pons DPI",
     description: `Pages dédiées par commune en Hérault (34), Gard (30) et Aude (11) : marché immobilier local, risques PPRi, diagnostics prioritaires. Diagnostiqueur indépendant — activité dès mars 2027.`,
   },
-  {
-    path: '/diagnostic-immobilier/herault',
-    title: 'Diagnostic immobilier Hérault (34) — DPE, amiante, termites | Pons DPI',
-    description: `Diagnostic immobilier dans l'Hérault : ${villes.filter((v) => v.departementCode === '34').length} communes avec page dédiée (Montpellier, Castelnau, Lattes, Sète, Lunel...). Diagnostiqueur indépendant — activité dès mars 2027.`,
-  },
-  {
-    path: '/diagnostic-immobilier/gard',
-    title: 'Diagnostic immobilier Gard (30) — DPE, amiante, termites | Pons DPI',
-    description: `Diagnostic immobilier dans le Gard : ${villes.filter((v) => v.departementCode === '30').length} communes avec page dédiée (Aigues-Mortes, Le Grau-du-Roi, Nîmes Métropole, Bagnols-sur-Cèze...). Diagnostiqueur indépendant — activité dès mars 2027.`,
-  },
-  {
-    path: '/diagnostic-immobilier/aude',
-    title: 'Diagnostic immobilier Aude (11) — DPE, amiante, termites | Pons DPI',
-    description: `Diagnostic immobilier dans l'Aude : Narbonne et son agglomération. Diagnostiqueur indépendant — activité dès mars 2027.`,
-  },
+  ...zones.map((z) => {
+    const vz = getVillesByZone(z.slug)
+    const noms = vz.slice(0, 4).map((v) => v.name).join(', ')
+    return {
+      path: `/diagnostic-immobilier/zone/${z.slug}`,
+      title: `Diagnostic immobilier — ${z.name} | Pons DPI`,
+      description: `Diagnostic immobilier dans le secteur ${z.name} : ${vz.length} communes avec page dédiée (${noms}…). DPE, amiante, plomb, électricité, gaz, termites. Activité dès mars 2027.`,
+    }
+  }),
   ...villes.map((v) => ({
     path: `/diagnostic-immobilier/${v.slug}`,
     title: `Diagnostic immobilier à ${v.name} (${v.codePostal}) — DPE, amiante | Pons DPI`,
@@ -180,7 +175,7 @@ function sitemapMeta(p) {
   if (p === '/') return { priority: '1.0', freq: 'weekly' }
   if (p === '/mentions-legales') return { priority: '0.3', freq: 'yearly' }
   if (/^\/services\/[^/]+$/.test(p)) return { priority: '0.8', freq: 'monthly' }
-  if (/^\/diagnostic-immobilier\/(herault|gard|aude)$/.test(p)) return { priority: '0.8', freq: 'monthly' }
+  if (/^\/diagnostic-immobilier\/zone\/[^/]+$/.test(p)) return { priority: '0.8', freq: 'monthly' }
   if (/^\/diagnostic-immobilier\/[^/]+$/.test(p)) return { priority: '0.7', freq: 'monthly' }
   if (/^\/dpe-existant\/[^/]+$/.test(p)) return { priority: '0.6', freq: 'monthly' }
   if (['/services', '/devis', '/diagnostic-immobilier', '/dpe-existant', '/audit-energetique'].includes(p))

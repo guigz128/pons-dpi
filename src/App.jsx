@@ -12,7 +12,7 @@ import ServicesPage from './pages/Services'
 import ServiceDetail from './pages/ServiceDetail'
 import VilleDetail from './pages/VilleDetail'
 import AllVilles from './pages/AllVilles'
-import DepartementDetail from './pages/DepartementDetail'
+import ZoneDetail from './pages/ZoneDetail'
 import AuditEnergetique from './pages/AuditEnergetique'
 import RapportExemple from './pages/RapportExemple'
 import RapportClient from './pages/RapportClient'
@@ -51,9 +51,7 @@ export default function App() {
           <Route path="/rapport/:slug" element={<RapportClient />} />
           <Route path="/generer-rapport" element={<GenererRapport />} />
           <Route path="/diagnostic-immobilier" element={<AllVilles />} />
-          <Route path="/diagnostic-immobilier/herault" element={<DepartementDetail deptCode="34" />} />
-          <Route path="/diagnostic-immobilier/gard" element={<DepartementDetail deptCode="30" />} />
-          <Route path="/diagnostic-immobilier/aude" element={<DepartementDetail deptCode="11" />} />
+          <Route path="/diagnostic-immobilier/zone/:zone" element={<ZoneDetail />} />
           <Route path="/diagnostic-immobilier/:ville" element={<VilleDetail />} />
           <Route path="/devis" element={<Devis />} />
           <Route path="/dpe-existant" element={<DpeExistant />} />
