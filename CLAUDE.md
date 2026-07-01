@@ -21,6 +21,10 @@ Quand Guillaume écrit **`@context`** en début de message (seul, ou suivi d'un 
 3. Croiser avec la mémoire projet (`MEMORY.md`) déjà en contexte.
 4. Si `@context <focus>`, cibler ce sujet (ex. `blog`, `carnet`, `seo`, `devis`).
 
+**Variantes :**
+- `@context` (défaut) = **léger et rapide** : git + docs uniquement.
+- `@context full` = ajoute l'état des **déploiements** (Vercel vitrine/app, Cloudflare blog) et les **vraies requêtes Search Console** (`bash scripts/cf.sh queries --days 30`). Plus lent (GSC bufferisé ~min) — à réserver aux revues de fond, pas à l'échauffement quotidien.
+
 **Restituer un briefing court** (≤ 12 lignes) : état de chaque repo (branché/à jour, non-commité, derniers changements), travail en cours, et **le prochain pas logique**. Puis attendre la consigne — `@context` prépare le terrain, il ne lance pas de tâche.
 
 ---
