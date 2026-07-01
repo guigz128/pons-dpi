@@ -4,6 +4,27 @@
 
 ---
 
+## Trigger `@context` — Warmup / briefing à chaud de l'écosystème Pons DPI
+
+`@context` = **warmup** : un rituel d'échauffement pour se remettre dans le bain, pas une tâche à exécuter.
+
+Quand Guillaume écrit **`@context`** en début de message (seul, ou suivi d'un focus : `@context blog`), **avant toute autre chose**, relire l'état réel des repos Pons DPI pour repartir avec de l'info fraîche — ne pas se fier à la mémoire seule.
+
+**Les 3 repos de l'écosystème :**
+- `Sites/pons-dpi` (vitrine React) — repo courant
+- `Sites/pons-dpi-app` (carnet de santé, app Supabase)
+- `../../../blogs/pons-dpi-blog` (blog Astro → Cloudflare)
+
+**Routine (rapide, synthétique — ne PAS dumper les fichiers) :**
+1. Pour chaque repo : `git -C <path> log --oneline -6`, `git -C <path> status --short`, branche courante.
+2. Balayer les docs de pilotage : `Sites/pons-dpi/local-docs/` (LAUNCH_checklist, PLAN, TODO*), et la section « Checklist de lancement » de ce fichier.
+3. Croiser avec la mémoire projet (`MEMORY.md`) déjà en contexte.
+4. Si `@context <focus>`, cibler ce sujet (ex. `blog`, `carnet`, `seo`, `devis`).
+
+**Restituer un briefing court** (≤ 12 lignes) : état de chaque repo (branché/à jour, non-commité, derniers changements), travail en cours, et **le prochain pas logique**. Puis attendre la consigne — `@context` prépare le terrain, il ne lance pas de tâche.
+
+---
+
 ## Projet
 
 | Champ | Valeur |
