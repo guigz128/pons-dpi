@@ -4956,6 +4956,366 @@ export const VILLE_DPE_STATS = {
         "pct": 0.5
       }
     ]
+  },
+  "montferrier-sur-lez": {
+    "insee": "34169",
+    "total": 494,
+    "fgCount": 14,
+    "fgPct": 2.8,
+    "efgCount": 44,
+    "efgPct": 8.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 46,
+        "pct": 9.3
+      },
+      {
+        "label": "B",
+        "count": 78,
+        "pct": 15.8
+      },
+      {
+        "label": "C",
+        "count": 250,
+        "pct": 50.6
+      },
+      {
+        "label": "D",
+        "count": 76,
+        "pct": 15.4
+      },
+      {
+        "label": "E",
+        "count": 30,
+        "pct": 6.1
+      },
+      {
+        "label": "F",
+        "count": 14,
+        "pct": 2.8
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "saint-drezery": {
+    "insee": "34249",
+    "total": 240,
+    "fgCount": 3,
+    "fgPct": 1.3,
+    "efgCount": 14,
+    "efgPct": 5.8,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 66,
+        "pct": 27.5
+      },
+      {
+        "label": "B",
+        "count": 35,
+        "pct": 14.6
+      },
+      {
+        "label": "C",
+        "count": 85,
+        "pct": 35.4
+      },
+      {
+        "label": "D",
+        "count": 40,
+        "pct": 16.7
+      },
+      {
+        "label": "E",
+        "count": 11,
+        "pct": 4.6
+      },
+      {
+        "label": "F",
+        "count": 2,
+        "pct": 0.8
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.4
+      }
+    ]
+  },
+  "saint-martin-de-londres": {
+    "insee": "34274",
+    "total": 324,
+    "fgCount": 6,
+    "fgPct": 1.9,
+    "efgCount": 37,
+    "efgPct": 11.4,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 25,
+        "pct": 7.7
+      },
+      {
+        "label": "B",
+        "count": 37,
+        "pct": 11.4
+      },
+      {
+        "label": "C",
+        "count": 156,
+        "pct": 48.1
+      },
+      {
+        "label": "D",
+        "count": 69,
+        "pct": 21.3
+      },
+      {
+        "label": "E",
+        "count": 31,
+        "pct": 9.6
+      },
+      {
+        "label": "F",
+        "count": 6,
+        "pct": 1.9
+      },
+      {
+        "label": "G",
+        "count": 0,
+        "pct": 0
+      }
+    ]
+  },
+  "claret": {
+    "insee": "34078",
+    "total": 181,
+    "fgCount": 7,
+    "fgPct": 3.9,
+    "efgCount": 26,
+    "efgPct": 14.4,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 16,
+        "pct": 8.8
+      },
+      {
+        "label": "B",
+        "count": 29,
+        "pct": 16
+      },
+      {
+        "label": "C",
+        "count": 60,
+        "pct": 33.1
+      },
+      {
+        "label": "D",
+        "count": 50,
+        "pct": 27.6
+      },
+      {
+        "label": "E",
+        "count": 19,
+        "pct": 10.5
+      },
+      {
+        "label": "F",
+        "count": 6,
+        "pct": 3.3
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.6
+      }
+    ]
+  },
+  "entre-vignes": {
+    "insee": "34246",
+    "total": 237,
+    "fgCount": 8,
+    "fgPct": 3.4,
+    "efgCount": 21,
+    "efgPct": 8.9,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 13,
+        "pct": 5.5
+      },
+      {
+        "label": "B",
+        "count": 50,
+        "pct": 21.1
+      },
+      {
+        "label": "C",
+        "count": 95,
+        "pct": 40.1
+      },
+      {
+        "label": "D",
+        "count": 58,
+        "pct": 24.5
+      },
+      {
+        "label": "E",
+        "count": 13,
+        "pct": 5.5
+      },
+      {
+        "label": "F",
+        "count": 6,
+        "pct": 2.5
+      },
+      {
+        "label": "G",
+        "count": 2,
+        "pct": 0.8
+      }
+    ]
+  },
+  "gallargues-le-montueux": {
+    "insee": "30123",
+    "total": 670,
+    "fgCount": 9,
+    "fgPct": 1.3,
+    "efgCount": 51,
+    "efgPct": 7.6,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 34,
+        "pct": 5.1
+      },
+      {
+        "label": "B",
+        "count": 79,
+        "pct": 11.8
+      },
+      {
+        "label": "C",
+        "count": 397,
+        "pct": 59.3
+      },
+      {
+        "label": "D",
+        "count": 109,
+        "pct": 16.3
+      },
+      {
+        "label": "E",
+        "count": 42,
+        "pct": 6.3
+      },
+      {
+        "label": "F",
+        "count": 8,
+        "pct": 1.2
+      },
+      {
+        "label": "G",
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "aubais": {
+    "insee": "30019",
+    "total": 360,
+    "fgCount": 16,
+    "fgPct": 4.4,
+    "efgCount": 53,
+    "efgPct": 14.7,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 28,
+        "pct": 7.8
+      },
+      {
+        "label": "B",
+        "count": 57,
+        "pct": 15.8
+      },
+      {
+        "label": "C",
+        "count": 143,
+        "pct": 39.7
+      },
+      {
+        "label": "D",
+        "count": 79,
+        "pct": 21.9
+      },
+      {
+        "label": "E",
+        "count": 37,
+        "pct": 10.3
+      },
+      {
+        "label": "F",
+        "count": 10,
+        "pct": 2.8
+      },
+      {
+        "label": "G",
+        "count": 6,
+        "pct": 1.7
+      }
+    ]
+  },
+  "montagnac": {
+    "insee": "34162",
+    "total": 896,
+    "fgCount": 30,
+    "fgPct": 3.3,
+    "efgCount": 121,
+    "efgPct": 13.5,
+    "distribution": [
+      {
+        "label": "A",
+        "count": 49,
+        "pct": 5.5
+      },
+      {
+        "label": "B",
+        "count": 152,
+        "pct": 17
+      },
+      {
+        "label": "C",
+        "count": 396,
+        "pct": 44.2
+      },
+      {
+        "label": "D",
+        "count": 178,
+        "pct": 19.9
+      },
+      {
+        "label": "E",
+        "count": 91,
+        "pct": 10.2
+      },
+      {
+        "label": "F",
+        "count": 26,
+        "pct": 2.9
+      },
+      {
+        "label": "G",
+        "count": 4,
+        "pct": 0.4
+      }
+    ]
   }
 }
 

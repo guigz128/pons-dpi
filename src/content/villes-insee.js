@@ -109,6 +109,14 @@ export const VILLE_INSEE = {
   'nebian': '34180',
   'saint-felix-de-lodez': '34254',
   'pezenas': '34199',
+  'montferrier-sur-lez': '34169',
+  'saint-drezery': '34249',
+  'saint-martin-de-londres': '34274',
+  'claret': '34078',
+  'entre-vignes': '34246',
+  'gallargues-le-montueux': '30123',
+  'aubais': '30019',
+  'montagnac': '34162',
 }
 
 export function getInseeBySlug(slug) {

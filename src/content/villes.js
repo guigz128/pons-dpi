@@ -11871,6 +11871,866 @@ export const villes = [
       },
     ],
   },
+  {
+    slug: 'montferrier-sur-lez',
+    name: 'Montferrier-sur-Lez',
+    nameSeo: 'Montferrier-sur-Lez (34)',
+    codePostal: '34980',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/montferrier-sur-lez.webp',
+      alt: 'Vue de Montferrier-sur-Lez, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 3.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Montferrier-sur-Lez.jpg',
+    },
+
+    coords: { lat: 43.6677, lng: 3.8621 },
+    distanceFromBaseKm: 5,
+    travelTimeMin: 8,
+    inCoreZone: true,
+    inOuterZone: false,
+
+    population: 4135,
+    nbLogements: 1926,
+    pctResidencesSecondaires: 2.1,
+    pctMaisons: 78.7,
+    pctAppartements: 21.1,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 5000,
+    prixM2Maison: 5250,
+    prixM2Appartement: 4050,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: 'Montpellier-Lunel-Mauguio-Palavas',
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "PPRi du bassin du Lez approuvé le 28/02/2013, couvrant le risque d'inondation lié au Lez et à ses affluents. Le retrait-gonflement des argiles est également présent.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Commune résidentielle aisée des bords du Lez, à trois kilomètres de Montpellier, Montferrier-sur-Lez a l'un des marchés les plus chers de la première couronne. Sur ces villas et propriétés de standing, le DPE pèse dans la valeur et oriente les travaux d'amélioration.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Montferrier-sur-Lez est couverte par le PPRi du bassin du Lez (approuvé le 28/02/2013) : les secteurs proches du fleuve sont exposés à l'inondation. L'État des Risques et Pollutions est systématique et déterminant selon l'implantation du bien.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Les villas et maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur ce parc pavillonnaire de coteau.",
+      },
+    ],
+
+    intro:
+      "Montferrier-sur-Lez, commune résidentielle aisée sur les bords du Lez à trois kilomètres au nord de Montpellier, offre l'un des cadres les plus prisés de la première couronne. Son marché immobilier haut de gamme est dominé par les villas et propriétés de standing des coteaux, dans un environnement verdoyant.",
+
+    parcImmoNote:
+      "Le parc de Montferrier-sur-Lez est dominé par la maison individuelle (près de 79 %), avec de nombreuses villas et propriétés de standing sur les coteaux du Lez, et une part notable d'appartements en résidences. Marché parmi les plus chers de la première couronne montpelliéraine. Le bâti d'avant 1997 appelle amiante, et les installations de plus de 15 ans restent fréquentes sur les villas des années 1970-1990.",
+
+    enjeuxLocaux:
+      "Montferrier-sur-Lez est couverte par le PPRi du bassin du Lez (approuvé le 28/02/2013) : les abords du fleuve et de ses affluents sont exposés à l'inondation. Le retrait-gonflement des argiles concerne une partie du bâti et la commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Montferrier-sur-Lez est à moins de 10 minutes de Prades-le-Lez (5 km) par la D17/D112 — au cœur de ma zone d'intervention. Intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux villas des coteaux.",
+
+    quartiersTypiques: [
+      "Centre village historique",
+      "Domaine de l'Observatoire",
+      "Bords du Lez",
+      "Lotissements résidentiels des coteaux",
+    ],
+
+    communesLimitrophes: ['Montpellier', 'Clapiers', 'Prades-le-Lez', 'Saint-Clément-de-Rivière', 'Grabels'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Montferrier-sur-Lez ?",
+        a: "Pour toute vente à Montferrier-sur-Lez, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon le bien : amiante (avant 1997), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Montferrier-sur-Lez ?",
+        a: "À Montferrier-sur-Lez, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Sur une villa de grande surface, le devis en ligne donne le montant exact selon le bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Montferrier-sur-Lez ?",
+        a: "Montferrier-sur-Lez est à moins de 10 minutes de Prades-le-Lez. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Montferrier-sur-Lez ?",
+        a: "C'est possible près du fleuve : Montferrier-sur-Lez est couverte par le PPRi du bassin du Lez (approuvé le 28/02/2013). L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'saint-drezery',
+    name: 'Saint-Drézéry',
+    nameSeo: 'Saint-Drézéry (34)',
+    codePostal: '34160',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/saint-drezery.webp',
+      alt: 'Vue de Saint-Drézéry, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 3.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Photo_Saint-Dr%C3%A9z%C3%A9ry.jpg',
+    },
+
+    coords: { lat: 43.7308, lng: 3.9764 },
+    distanceFromBaseKm: 18,
+    travelTimeMin: 22,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 3006,
+    nbLogements: 1264,
+    pctResidencesSecondaires: 1.5,
+    pctMaisons: 84.3,
+    pctAppartements: 15.5,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3620,
+    prixM2Maison: 3630,
+    prixM2Appartement: 2930,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Saint-Drézéry est exposée au risque inondation par débordement du Bérange (cinq arrêtés de catastrophe naturelle depuis 1982), dans le périmètre du PAPI du bassin Rhône-Méditerranée. Le retrait-gonflement des argiles concerne une partie du bâti.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village viticole de garrigue à l'est de Montpellier (AOC Languedoc Saint-Drézéry), très majoritairement pavillonnaire (84 % de maisons) et en forte croissance. Le DPE est déterminant à la vente comme en location, sur un parc majoritairement postérieur à 1970.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau villageois ancien et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les premiers lotissements.",
+      },
+      {
+        slug: 'termites',
+        whyHere:
+          "L'Hérault est classé intégralement en zone termites par arrêté préfectoral : le diagnostic est obligatoire pour toute vente à Saint-Drézéry, surveillé sur les charpentes et menuiseries.",
+      },
+    ],
+
+    intro:
+      "Saint-Drézéry, village viticole de garrigue à l'est de Montpellier, cultive son terroir en AOC Languedoc (domaine du Château Puech-Haut) dans un cadre où la vigne couvre près des deux tiers du territoire. Son marché immobilier, très majoritairement composé de maisons, connaît une forte croissance résidentielle.",
+
+    parcImmoNote:
+      "Le parc de Saint-Drézéry est dominé par la maison individuelle (plus de 84 %), avec un noyau villageois ancien complété par de nombreux lotissements pavillonnaires récents (parc à 80 % postérieur à 1970). La part de résidences secondaires est très faible : commune résidentielle habitée à l'année. Le bâti d'avant 1997 appelle amiante ; les installations de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Saint-Drézéry est exposée au risque inondation par débordement du Bérange (cinq arrêtés de catastrophe naturelle depuis 1982), dans le périmètre du PAPI Rhône-Méditerranée, ainsi qu'au retrait-gonflement des argiles. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Saint-Drézéry est à une vingtaine de minutes de Prades-le-Lez (18 km) par la D17/D610 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux lotissements et domaines viticoles.",
+
+    quartiersTypiques: [
+      "Centre village ancien",
+      "Lotissements pavillonnaires récents",
+      "Domaines viticoles et garrigue (Château Puech-Haut)",
+    ],
+
+    communesLimitrophes: ['Beaulieu', 'Castries', 'Montaud', 'Saint-Jean-de-Cornies', 'Sussargues'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Drézéry ?",
+        a: "Pour toute vente à Saint-Drézéry, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Saint-Drézéry ?",
+        a: "À Saint-Drézéry, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Drézéry ?",
+        a: "Saint-Drézéry est à une vingtaine de minutes de Prades-le-Lez. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Saint-Drézéry ?",
+        a: "C'est possible : Saint-Drézéry est exposée au débordement du Bérange, avec cinq arrêtés de catastrophe naturelle depuis 1982. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'saint-martin-de-londres',
+    name: 'Saint-Martin-de-Londres',
+    nameSeo: 'Saint-Martin-de-Londres (34)',
+    codePostal: '34380',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/saint-martin-de-londres.webp',
+      alt: 'Vue de Saint-Martin-de-Londres, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:133_Saint-Martin-de-Londres_La_place_des_platanes.JPG',
+    },
+
+    coords: { lat: 43.7953, lng: 3.7119 },
+    distanceFromBaseKm: 22,
+    travelTimeMin: 28,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2696,
+    nbLogements: 1292,
+    pctResidencesSecondaires: 5.7,
+    pctMaisons: 85.5,
+    pctAppartements: 14.1,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3592,
+    prixM2Maison: 3647,
+    prixM2Appartement: 3321,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 3,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Bourg de garrigue au cœur du Grand Pic Saint-Loup, Saint-Martin-de-Londres est exposée au feu de forêt (garrigues et causses boisés), à l'inondation (vallée des Londres) et au retrait-gonflement des argiles. Le potentiel radon y est élevé (catégorie 3), lié aux massifs calcaires karstiques du Pic Saint-Loup et de l'Hortus.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Bourg de garrigue du Grand Pic Saint-Loup, Saint-Martin-de-Londres associe un noyau médiéval en pierre et des lotissements récents (parc à 76 % postérieur à 1970). Très majoritairement pavillonnaire (85 % de maisons), le DPE y est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "La commune cumule feu de forêt (garrigues et causses, obligation de débroussaillement) et un potentiel radon élevé (catégorie 3) lié aux massifs calcaires karstiques. L'État des Risques et Pollutions est systématique et signale ces expositions selon l'adresse.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau médiéval en pierre et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les lotissements des années 1970-2000.",
+      },
+    ],
+
+    intro:
+      "Saint-Martin-de-Londres, bourg médiéval au cœur du Grand Pic Saint-Loup, s'étend sur les causses calcaires entre le Pic Saint-Loup et l'Hortus, au nord de Montpellier. Son marché immobilier, très majoritairement composé de maisons, séduit par un cadre de garrigue et un patrimoine roman remarquable.",
+
+    parcImmoNote:
+      "Le parc de Saint-Martin-de-Londres est très pavillonnaire (85 % de maisons) : un noyau médiéval en pierre (remparts du XIVe siècle, église romane, tour de l'Horloge) et des lotissements récents (76 % du parc postérieur à 1970). Commune résidentielle et de tourisme vert. Le bâti ancien appelle amiante et, sur le cœur historique, plomb ; les installations de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Saint-Martin-de-Londres cumule le risque feu de forêt (garrigues et causses boisés, obligation de débroussaillement), l'inondation (vallée des Londres) et le retrait-gonflement des argiles. Le potentiel radon y est élevé (catégorie 3), lié aux massifs calcaires karstiques du Pic Saint-Loup et de l'Hortus, et la commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Saint-Martin-de-Londres est à une trentaine de minutes de Prades-le-Lez (22 km) par la D986 via Les Matelles — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre médiéval aux hameaux de garrigue.",
+
+    quartiersTypiques: [
+      "Centre médiéval (place des Platanes, remparts, église romane)",
+      "Lotissements pavillonnaires périphériques",
+      "Hameaux et mas de garrigue",
+    ],
+
+    communesLimitrophes: ['Notre-Dame-de-Londres', 'Viols-en-Laval', 'Viols-le-Fort', 'Argelliers', 'Causse-de-la-Selle', 'Mas-de-Londres'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Saint-Martin-de-Londres ?",
+        a: "Pour toute vente à Saint-Martin-de-Londres, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le noyau médiéval), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Saint-Martin-de-Londres ?",
+        a: "À Saint-Martin-de-Londres, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Saint-Martin-de-Londres ?",
+        a: "Saint-Martin-de-Londres est à une trentaine de minutes de Prades-le-Lez par la D986. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Faut-il se préoccuper du radon à Saint-Martin-de-Londres ?",
+        a: "Oui : la commune est classée en potentiel radon de catégorie 3 (le niveau le plus élevé), en raison des massifs calcaires karstiques du secteur. Le radon n'est pas un diagnostic obligatoire à la vente mais il est signalé dans l'État des Risques et Pollutions (ERP) que je réalise ; une mesure et une bonne ventilation suffisent généralement à le maîtriser.",
+      },
+    ],
+  },
+  {
+    slug: 'claret',
+    name: 'Claret',
+    nameSeo: 'Claret (34)',
+    codePostal: '34270',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/claret.webp',
+      alt: 'Vue de Claret, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 3.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Claret_34_entr%C3%A9e.jpg',
+    },
+
+    coords: { lat: 43.8554, lng: 3.8764 },
+    distanceFromBaseKm: 21,
+    travelTimeMin: 22,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 1745,
+    nbLogements: 774,
+    pctResidencesSecondaires: 4.4,
+    pctMaisons: 92.1,
+    pctAppartements: 7.7,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3400,
+    prixM2Maison: 3400,
+    prixM2Appartement: null,
+    dpeMoyenKwh: 210,
+    dpeMoyenCo2: 30,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Village viticole du Grand Pic Saint-Loup, Claret est exposé au feu de forêt (garrigues) et à l'inondation (commune inscrite à l'Atlas des zones inondables du bassin du Vidourle, 26/07/2004). Le retrait-gonflement des argiles y est également présent.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village viticole au cœur de l'AOC Pic Saint-Loup, Claret est presque exclusivement pavillonnaire (92 % de maisons), entre noyau ancien et lotissements récents. Le DPE est déterminant à la vente et oriente les travaux sur le bâti ancien.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau villageois ancien et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les lotissements comme sur le centre.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Claret est exposé au feu de forêt (garrigues du Pic Saint-Loup, obligation de débroussaillement) et inscrit à l'Atlas des zones inondables du Vidourle. L'État des Risques et Pollutions est systématique et précise l'exposition du bien.",
+      },
+    ],
+
+    intro:
+      "Claret, village viticole au cœur de l'AOC Pic Saint-Loup, déploie ses vignes et sa garrigue au nord de Montpellier, à la limite du Gard. Son marché immobilier, presque exclusivement composé de maisons, séduit par un cadre nature très recherché et une forte croissance démographique.",
+
+    parcImmoNote:
+      "Le parc de Claret est presque exclusivement pavillonnaire (92 % de maisons) : un noyau villageois ancien complété par des lotissements récents portés par une croissance démographique soutenue. La part de résidences secondaires reste faible : commune habitée à l'année. Le bâti d'avant 1997 appelle amiante ; les installations de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Claret est exposé au feu de forêt (garrigues du Pic Saint-Loup, obligation de débroussaillement), à l'inondation (inscription à l'Atlas des zones inondables du bassin du Vidourle, 26/07/2004) et au retrait-gonflement des argiles. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Claret est à une vingtaine de minutes de Prades-le-Lez (21 km) par la D17 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre village aux domaines viticoles et lotissements de garrigue.",
+
+    quartiersTypiques: [
+      "Centre village ancien (noyau médiéval)",
+      "Lotissements pavillonnaires récents",
+      "Domaines et vignes AOC Pic Saint-Loup",
+    ],
+
+    communesLimitrophes: ['Sauteyrargues', 'Lauret', 'Vacquières', 'Corconne', 'Pompignan'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Claret ?",
+        a: "Pour toute vente à Claret, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le noyau ancien), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Claret ?",
+        a: "À Claret, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Claret ?",
+        a: "Claret est à une vingtaine de minutes de Prades-le-Lez par la D17. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Ma maison est-elle concernée par le feu de forêt à Claret ?",
+        a: "C'est probable en lisière de garrigue : de nombreuses parcelles de Claret sont soumises à l'obligation légale de débroussaillement. L'État des Risques et Pollutions (ERP) que je réalise précise les risques naturels applicables à votre adresse, dont le feu de forêt et l'inondation.",
+      },
+    ],
+  },
+  {
+    slug: 'entre-vignes',
+    name: 'Entre-Vignes',
+    nameSeo: 'Entre-Vignes (34)',
+    codePostal: '34400',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/entre-vignes.webp',
+      alt: 'Vue de Entre-Vignes, Hérault',
+      credit: 'Wikimedia Commons — CC BY 3.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:From_the_vineyard_looking_up_to_the_panorama_of_Viirargues_-_panoramio.jpg',
+    },
+
+    coords: { lat: 43.7193, lng: 4.081 },
+    distanceFromBaseKm: 31,
+    travelTimeMin: 32,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2200,
+    nbLogements: 1043,
+    pctResidencesSecondaires: 10.7,
+    pctMaisons: 86.6,
+    pctAppartements: 13.0,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3400,
+    prixM2Maison: 3350,
+    prixM2Appartement: 3450,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Commune nouvelle créée en 2019 (Saint-Christol + Vérargues), Entre-Vignes est exposée au risque inondation du bassin du Vidourle, inscrite à l'Atlas des zones inondables (26/07/2004) et couverte par un PPRi. Le retrait-gonflement des argiles concerne une partie du bâti.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Commune nouvelle née de la fusion de Saint-Christol et Vérargues, dans l'arrière-pays viticole de Lunel (muscat de Saint-Christol AOC), Entre-Vignes est très majoritairement pavillonnaire (87 % de maisons). Le DPE est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Les deux noyaux villageois anciens et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les lotissements récents comme sur le bâti ancien.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Entre-Vignes est exposée au risque inondation du bassin du Vidourle (Atlas des zones inondables, PPRi). L'État des Risques et Pollutions est systématique et précise l'exposition du bien.",
+      },
+    ],
+
+    intro:
+      "Entre-Vignes, commune nouvelle née en 2019 de la fusion de Saint-Christol et Vérargues, cultive le muscat de Saint-Christol (AOC) dans l'arrière-pays viticole de Lunel. Son marché immobilier, très majoritairement composé de maisons, s'organise autour de deux noyaux villageois anciens et de lotissements récents.",
+
+    parcImmoNote:
+      "Le parc d'Entre-Vignes (environ 1 043 logements) est très pavillonnaire (87 % de maisons), réparti sur les deux villages délégués de Saint-Christol et Vérargues — noyaux anciens complétés par des lotissements récents. La part de résidences secondaires est notable (près de 11 %), liée à l'attrait du terroir viticole. Le bâti d'avant 1997 appelle amiante ; les installations de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Entre-Vignes est exposée au risque inondation du bassin du Vidourle, inscrite à l'Atlas des zones inondables (26/07/2004) et couverte par un PPRi, ainsi qu'au retrait-gonflement des argiles. La commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Entre-Vignes est à une trentaine de minutes de Prades-le-Lez (31 km) via la D610 et l'A9 — intervention sous 48 h garantie dès l'ouverture de l'activité, des villages de Saint-Christol et Vérargues aux lotissements et domaines viticoles.",
+
+    quartiersTypiques: [
+      "Saint-Christol (village délégué)",
+      "Vérargues (village délégué)",
+      "Lotissements pavillonnaires périphériques",
+      "Domaines viticoles (muscat de Saint-Christol AOC)",
+    ],
+
+    communesLimitrophes: ['Lunel', 'Saint-Sériès', 'Boisseron', 'Restinclières', 'Beaulieu', 'Sussargues', 'Saint-Drézéry'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Entre-Vignes (Saint-Christol / Vérargues) ?",
+        a: "Pour toute vente à Entre-Vignes, le DPE, l'ERP et le diagnostic termites sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur les noyaux anciens), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Entre-Vignes ?",
+        a: "À Entre-Vignes, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Entre-Vignes ?",
+        a: "Entre-Vignes est à une trentaine de minutes de Prades-le-Lez via la D610 et l'A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Entre-Vignes ?",
+        a: "C'est possible : Entre-Vignes est exposée au risque inondation du bassin du Vidourle (Atlas des zones inondables, PPRi). L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'gallargues-le-montueux',
+    name: 'Gallargues-le-Montueux',
+    nameSeo: 'Gallargues-le-Montueux (30)',
+    codePostal: '30660',
+    departement: 'Gard',
+    departementCode: '30',
+    departementSlug: 'gard',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/gallargues-le-montueux.webp',
+      alt: 'Vue de Gallargues-le-Montueux, Gard',
+      credit: 'Wikimedia Commons — CC0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Gallargues-le-Montueux_(Gard%2C_Fr)_mairie.JPG',
+    },
+
+    coords: { lat: 43.7137, lng: 4.1708 },
+    distanceFromBaseKm: 42,
+    travelTimeMin: 40,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 3659,
+    nbLogements: 1964,
+    pctResidencesSecondaires: 14,
+    pctMaisons: 85,
+    pctAppartements: 15,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3067,
+    prixM2Maison: 3204,
+    prixM2Appartement: 2618,
+    dpeMoyenKwh: 200,
+    dpeMoyenCo2: 28,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Gallargues-le-Montueux est couverte par le PPRi de la Basse Plaine du Vidourle – Camargue gardoise, approuvé le 18/03/2013, élaboré à la suite de la crue catastrophique du Vidourle de septembre 2002. Le retrait-gonflement des argiles est également présent.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'erp',
+        whyHere:
+          "Bourg de la basse plaine du Vidourle profondément marqué par la crue de septembre 2002, Gallargues-le-Montueux est couverte par le PPRi de la Basse Plaine du Vidourle (approuvé le 18/03/2013). L'État des Risques et Pollutions est systématique et déterminant, particulièrement près du fleuve.",
+      },
+      {
+        slug: 'dpe',
+        whyHere:
+          "Bourg viticole en croissance à la limite Gard/Hérault, Gallargues-le-Montueux est très majoritairement pavillonnaire (85 % de maisons). Le DPE est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le noyau ancien et les maisons construites entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur les lotissements développés depuis les années 1980.",
+      },
+    ],
+
+    intro:
+      "Gallargues-le-Montueux, bourg viticole de la basse plaine du Vidourle à la limite Gard/Hérault, reste profondément marqué par la crue dévastatrice du Vidourle de septembre 2002. Son marché immobilier, en croissance et très majoritairement composé de maisons, s'organise autour d'un noyau ancien et de lotissements récents.",
+
+    parcImmoNote:
+      "Le parc de Gallargues-le-Montueux est très majoritairement pavillonnaire (85 % de maisons) : un noyau ancien resserré entouré de lotissements développés depuis les années 1980, avec une part notable de résidences secondaires (14 %). Le bâti d'avant 1997 appelle amiante ; les installations de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Gallargues-le-Montueux est couverte par le PPRi de la Basse Plaine du Vidourle – Camargue gardoise (approuvé le 18/03/2013), élaboré après la « Vidourlade » catastrophique de septembre 2002 ; les digues ont depuis été renforcées. Le retrait-gonflement des argiles est également présent et la commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions est central dans toute transaction. Le diagnostic termites est obligatoire dans les zones du Gard classées par arrêté préfectoral.",
+
+    accessibilityNote:
+      "Gallargues-le-Montueux est à une quarantaine de minutes de Prades-le-Lez (42 km) via l'A709/A9 — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre ancien aux lotissements de la plaine du Vidourle.",
+
+    quartiersTypiques: [
+      "Centre ancien (noyau villageois)",
+      "Lotissements pavillonnaires périphériques",
+      "Bords du Vidourle",
+      "Plaine viticole",
+    ],
+
+    communesLimitrophes: ['Aubais', 'Aigues-Vives', 'Lunel', 'Aimargues', 'Villetelle', 'Codognan'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Gallargues-le-Montueux ?",
+        a: "Pour toute vente à Gallargues-le-Montueux, le DPE, l'ERP (central ici) et le diagnostic termites (zone classée) sont systématiques. Selon l'âge du bien : amiante (avant 1997), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Gallargues-le-Montueux ?",
+        a: "À Gallargues-le-Montueux, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Gallargues-le-Montueux ?",
+        a: "Gallargues-le-Montueux est à une quarantaine de minutes de Prades-le-Lez via l'A709/A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Gallargues-le-Montueux ?",
+        a: "C'est très probable dans la plaine : la commune est couverte par le PPRi de la Basse Plaine du Vidourle (approuvé le 18/03/2013 après la crue de 2002). L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'aubais',
+    name: 'Aubais',
+    nameSeo: 'Aubais (30)',
+    codePostal: '30250',
+    departement: 'Gard',
+    departementCode: '30',
+    departementSlug: 'gard',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/aubais.webp',
+      alt: 'Vue de Aubais, Gard',
+      credit: 'Wikimedia Commons — Public domain',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Aubais_1.JPG',
+    },
+
+    coords: { lat: 43.7498, lng: 4.1422 },
+    distanceFromBaseKm: 35,
+    travelTimeMin: 35,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 2925,
+    nbLogements: 1465,
+    pctResidencesSecondaires: 9.0,
+    pctMaisons: 88.9,
+    pctAppartements: 11.1,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 3400,
+    prixM2Maison: 3440,
+    prixM2Appartement: 2720,
+    dpeMoyenKwh: 190,
+    dpeMoyenCo2: 27,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Aubais est couverte par le PPRi Moyen Vidourle (crue à débordement lent du Vidourle), le bassin étant inscrit à l'Atlas des zones inondables avec plusieurs arrêtés de catastrophe naturelle depuis 1982. Le retrait-gonflement des argiles est également présent.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Village viticole de caractère de la Vaunage, entre Sommières et Gallargues-le-Montueux, Aubais est très majoritairement pavillonnaire (89 % de maisons) autour d'un noyau ancien en pierre. Le DPE est déterminant à la vente comme en location.",
+      },
+      {
+        slug: 'plomb',
+        whyHere:
+          "Le noyau ancien organisé autour du château rassemble un bâti antérieur à 1949 : les logements concernés imposent le CREP (constat de risque d'exposition au plomb), fréquent sur les peintures des maisons de village en pierre.",
+      },
+      {
+        slug: 'erp',
+        whyHere:
+          "Aubais est couverte par le PPRi Moyen Vidourle et exposée aux crues à débordement lent du fleuve. L'État des Risques et Pollutions est systématique et précise l'exposition du bien.",
+      },
+    ],
+
+    intro:
+      "Aubais, village viticole de caractère de la Vaunage dans la vallée du Vidourle, entre Sommières et Gallargues-le-Montueux, séduit par son noyau ancien organisé autour du château. Son marché immobilier, très majoritairement composé de maisons, mêle bâti traditionnel en pierre et lotissements récents.",
+
+    parcImmoNote:
+      "Le parc d'Aubais est très pavillonnaire (près de 89 % de maisons) : un noyau ancien en pierre autour du château (bâti pré-1949, plomb fréquent) et des lotissements pavillonnaires en périphérie. La part de résidences secondaires est notable (9 %). Le bâti d'avant 1997 appelle amiante ; les installations de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Aubais est couverte par le PPRi Moyen Vidourle et exposée aux crues à débordement lent du fleuve, le bassin étant inscrit à l'Atlas des zones inondables avec plusieurs arrêtés de catastrophe naturelle depuis 1982. Le retrait-gonflement des argiles est également présent et la commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Le diagnostic termites est obligatoire dans les zones du Gard classées par arrêté préfectoral.",
+
+    accessibilityNote:
+      "Aubais est à environ 35 minutes de Prades-le-Lez (35 km) via l'A9 et Sommières — intervention sous 48 h garantie dès l'ouverture de l'activité, du centre ancien aux lotissements de la Vaunage.",
+
+    quartiersTypiques: [
+      "Centre ancien (château, ruelles en pierre)",
+      "Lotissements pavillonnaires récents",
+      "Vignes et garrigue en périphérie",
+    ],
+
+    communesLimitrophes: ['Sommières', 'Gallargues-le-Montueux', 'Villetelle', 'Junas', 'Aigues-Vives', 'Congénies'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Aubais ?",
+        a: "Pour toute vente à Aubais, le DPE, l'ERP et le diagnostic termites (zone classée) sont systématiques. Selon l'âge du bien : amiante (avant 1997), plomb (avant 1949, sur le noyau ancien en pierre), électricité et gaz (installations de plus de 15 ans). Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente maison à Aubais ?",
+        a: "À Aubais, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Aubais ?",
+        a: "Aubais est à environ 35 minutes de Prades-le-Lez via l'A9 et Sommières. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "Mon bien est-il en zone inondable à Aubais ?",
+        a: "C'est possible : Aubais est couverte par le PPRi Moyen Vidourle et exposée aux crues du fleuve. L'État des Risques et Pollutions (ERP) que je réalise précise exactement les risques applicables à votre adresse.",
+      },
+    ],
+  },
+  {
+    slug: 'montagnac',
+    name: 'Montagnac',
+    nameSeo: 'Montagnac (34)',
+    codePostal: '34530',
+    departement: 'Hérault',
+    departementCode: '34',
+    departementSlug: 'herault',
+    region: 'Occitanie',
+
+    image: {
+      url: '/images/villes/montagnac.webp',
+      alt: 'Vue de Montagnac, Hérault',
+      credit: 'Wikimedia Commons — CC BY-SA 4.0',
+      attribution_url: 'https://commons.wikimedia.org/wiki/File:Montagnac_(20).jpg',
+    },
+
+    coords: { lat: 43.4709, lng: 3.5067 },
+    distanceFromBaseKm: 49,
+    travelTimeMin: 55,
+    inCoreZone: false,
+    inOuterZone: true,
+
+    population: 4515,
+    nbLogements: 2327,
+    pctResidencesSecondaires: 7,
+    pctMaisons: 80,
+    pctAppartements: 20,
+    surfaceMoyenne: null,
+    surfaceMoyenneAppartement: null,
+    surfaceMoyenneMaison: null,
+    prixM2Moyen: 2645,
+    prixM2Maison: 2638,
+    prixM2Appartement: 2681,
+    dpeMoyenKwh: 210,
+    dpeMoyenCo2: 30,
+
+    risques: {
+      termites: true,
+      inondation: true,
+      submersionMarine: false,
+      tri: null,
+      radon: 1,
+      sismique: 2,
+      mouvementTerrain: true,
+      pprApproves: [
+        "Montagnac est exposée au risque inondation par les ruisseaux affluents de l'Hérault : la commune est inscrite à trois atlas des zones inondables et a connu treize arrêtés de catastrophe naturelle inondation depuis 1982 (pas de PPRi approuvé à ce jour). Le retrait-gonflement des argiles concerne une partie du bâti.",
+      ],
+    },
+
+    diagnosticsPrioritaires: [
+      {
+        slug: 'dpe',
+        whyHere:
+          "Gros bourg viticole entre Pézenas et le bassin de Thau, Montagnac associe un riche centre médiéval et des extensions pavillonnaires (80 % de maisons). Le DPE est déterminant à la vente comme en location, avec un enjeu travaux marqué sur le bâti ancien.",
+      },
+      {
+        slug: 'amiante',
+        whyHere:
+          "Le centre médiéval et les constructions entre 1949 et 1997 déclenchent le repérage amiante en vente (toitures, conduits, sols). Fréquent sur le noyau ancien comme sur les lotissements.",
+      },
+      {
+        slug: 'plomb',
+        whyHere:
+          "Le riche centre historique médiéval rassemble un bâti majoritairement antérieur à 1949 : les logements concernés imposent le CREP (constat de risque d'exposition au plomb), fréquent sur les peintures anciennes des maisons de vigneron et du cœur ancien.",
+      },
+    ],
+
+    intro:
+      "Montagnac, gros bourg viticole entre Pézenas et le bassin de Thau, déploie un riche centre historique médiéval au cœur d'une plaine de vignes. Son marché immobilier, accessible et majoritairement composé de maisons, mêle bâti ancien de caractère et extensions pavillonnaires.",
+
+    parcImmoNote:
+      "Le parc de Montagnac est majoritairement pavillonnaire (80 % de maisons) mais marqué par un riche centre historique médiéval au bâti majoritairement antérieur à 1949 (fort enjeu plomb et amiante), avec d'anciennes maisons de vigneron dans les faubourgs. Les extensions pavillonnaires récentes et les domaines de la plaine viticole complètent le tissu. Les installations de plus de 15 ans y sont fréquentes.",
+
+    enjeuxLocaux:
+      "Montagnac est exposée au risque inondation par les ruisseaux affluents de l'Hérault : la commune est inscrite à trois atlas des zones inondables et a connu treize arrêtés de catastrophe naturelle inondation depuis 1982 (aucun PPRi approuvé à ce jour). Le retrait-gonflement des argiles concerne une partie du bâti et la commune est classée en sismicité faible (zone 2). L'État des Risques et Pollutions précise l'exposition exacte du bien. Comme partout en Hérault, le diagnostic termites est obligatoire pour toute vente.",
+
+    accessibilityNote:
+      "Montagnac est à une cinquantaine de minutes de Prades-le-Lez (49 km) via l'A750/A9 — intervention garantie sous 48 h après validation du devis dès l'ouverture de l'activité, du centre médiéval aux lotissements et domaines viticoles.",
+
+    quartiersTypiques: [
+      "Centre médiéval ancien (bâti pré-1949)",
+      "Faubourgs et maisons de vigneron",
+      "Lotissements pavillonnaires périphériques",
+      "Plaine et domaines viticoles",
+    ],
+
+    communesLimitrophes: ['Pézenas', 'Mèze', 'Villeveyrac', 'Aumes', 'Castelnau-de-Guers', 'Adissan'],
+
+    faqLocale: [
+      {
+        q: "Quels diagnostics sont obligatoires pour vendre à Montagnac ?",
+        a: "Pour toute vente à Montagnac, le DPE, l'ERP et le diagnostic termites sont systématiques. Dans le centre ancien : amiante (avant 1997, très fréquent), plomb (avant 1949, quasi-systématique sur le cœur médiéval), électricité et gaz (installations de plus de 15 ans), et le mesurage Carrez en copropriété. Le devis en ligne identifie automatiquement la liste obligatoire.",
+      },
+      {
+        q: "Combien coûte un pack diagnostic vente à Montagnac ?",
+        a: "À Montagnac, le pack vente maison (DPE + amiante + électricité + gaz + ERP + termites) démarre à 380 € TTC ; le pack vente appartement à 290 € TTC. Le devis en ligne donne le montant exact selon votre bien.",
+      },
+      {
+        q: "Sous quel délai intervenez-vous à Montagnac ?",
+        a: "Montagnac est à une cinquantaine de minutes de Prades-le-Lez via l'A750/A9. L'intervention sera garantie sous 48 h après validation du devis dès l'ouverture de l'activité, et le rapport remis sous 24 h ouvrées après l'intervention.",
+      },
+      {
+        q: "J'ai un bien ancien dans le centre de Montagnac : quels diagnostics prévoir ?",
+        a: "Le centre historique de Montagnac étant majoritairement antérieur à 1949, le CREP (plomb) est fréquent et l'amiante courant, en plus du DPE, de l'ERP, du termites et, selon l'installation, de l'électricité et du gaz. Le devis en ligne établit la liste exacte selon l'année et la nature du bien.",
+      },
+    ],
+  },
 ]
 
 export function getVilleBySlug(slug) {

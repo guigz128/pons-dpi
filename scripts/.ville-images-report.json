@@ -1,66 +1,66 @@
 [
   {
-    "slug": "clermont-l-herault",
-    "title": "Clermont-l'Hérault",
-    "fname": "Collégiale_Saint-Paul_de_Clermont-l'Hérault_(2).jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Selmoval",
+    "slug": "montferrier-sur-lez",
+    "title": "Montferrier-sur-Lez",
+    "fname": "Montferrier-sur-Lez.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Sapin88",
     "hasCoords": true
   },
   {
-    "slug": "canet",
-    "title": "Canet (Hérault)",
-    "fname": "Canet_(9).jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Archives départementales de l'Hérault (France) DAASI",
+    "slug": "saint-drezery",
+    "title": "Saint-Drézéry",
+    "fname": "Photo_Saint-Drézéry.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Saint-Drézéry (AOC)",
     "hasCoords": true
   },
   {
-    "slug": "paulhan",
-    "title": "Paulhan (Hérault)",
-    "fname": "Paulhan_ND_Vertus_façade_occidentale.JPG",
+    "slug": "saint-martin-de-londres",
+    "title": "Saint-Martin-de-Londres",
+    "fname": "133_Saint-Martin-de-Londres_La_place_des_platanes.JPG",
     "license": "CC BY-SA 4.0",
-    "artist": "Fagairolles 34",
+    "artist": "Henri MOREAU",
     "hasCoords": true
   },
   {
-    "slug": "aspiran",
-    "title": "Aspiran",
-    "fname": "Aspiran_(5).jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Archives départementales de l'Hérault (France) DAASI",
+    "slug": "claret",
+    "title": "Claret (Hérault)",
+    "fname": "Claret_34_entrée.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Rgimilio",
     "hasCoords": true
   },
   {
-    "slug": "ceyras",
-    "title": "Ceyras",
-    "fname": "Ceyras_mairie.JPG",
-    "license": "CC BY-SA 4.0",
-    "artist": "Fagairolles 34",
+    "slug": "entre-vignes",
+    "title": "Entre-Vignes",
+    "fname": "From_the_vineyard_looking_up_to_the_panorama_of_Viirargues_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Henk Monster",
     "hasCoords": true
   },
   {
-    "slug": "nebian",
-    "title": "Nébian",
-    "fname": "Nebian_(40).jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Archives départementales de l'Hérault (France) DAASI",
-    "hasCoords": true
-  },
-  {
-    "slug": "saint-felix-de-lodez",
-    "title": "Saint-Félix-de-Lodez",
-    "fname": "Saint-Félix-de-Lodez_(Hérault,_Fr)_mairie.JPG",
+    "slug": "gallargues-le-montueux",
+    "title": "Gallargues-le-Montueux",
+    "fname": "Gallargues-le-Montueux_(Gard,_Fr)_mairie.JPG",
     "license": "CC0",
     "artist": "Havang(nl)",
     "hasCoords": true
   },
   {
-    "slug": "pezenas",
-    "title": "Pézenas",
-    "fname": "Cours_Jean_Jaures_in_Pezenas.jpg",
+    "slug": "aubais",
+    "title": "Aubais",
+    "fname": "Aubais_1.JPG",
+    "license": "Public domain",
+    "artist": "Jenli",
+    "hasCoords": true
+  },
+  {
+    "slug": "montagnac",
+    "title": "Montagnac (Hérault)",
+    "fname": "Montagnac_(20).jpg",
     "license": "CC BY-SA 4.0",
-    "artist": "Krzysztof Golik",
+    "artist": "Archives départementales de l'Hérault (France) DAASI",
     "hasCoords": true
   }
 ]
